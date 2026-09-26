@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-27",
-    "note": "Выполнен системный sweep Московской консерватории до 31.12.2026: добавлены подтверждённые пропуски БЗК, МЗК, Рахманиновского и зала Мясковского; учтены переносы и уточнены программы.",
+    "note": "Расширено покрытие Консерватории без автоматического вкусового отсева; primary source_url ведёт на официальный источник, агрегаторы используются только для discovery.",
     "source_schema_version": 2
   },
   "events": [
@@ -93,13 +93,14 @@
       "details_label": "Даты / постановка",
       "details": "26 сентября, 19:00–21:00, Покровка, 27.",
       "source_label": "КЦ «Покровские ворота»",
-      "source_url": "",
+      "source_url": "https://pokrovka27.com/",
       "verified": true,
       "start": "2026-09-26T19:00:00+03:00",
       "organizer": "КЦ Покровские ворота",
       "monitor_entities": [
         "КЦ Покровские ворота"
-      ]
+      ],
+      "source_scope": "venue"
     },
     {
       "id": "phil-laul-mozart-2026-09-27",
@@ -1628,9 +1629,10 @@
       "details_label": "Даты / постановка",
       "details": "3 октября, 20:00. Время подтверждено афишным анонсом; официальный билетный URL требует дальнейшей сверки.",
       "source_label": "Île Thélème",
-      "source_url": "",
+      "source_url": "https://ile-theleme.com/",
       "verified": false,
-      "start": "2026-10-03T20:00:00+03:00"
+      "start": "2026-10-03T20:00:00+03:00",
+      "source_scope": "venue"
     },
     {
       "id": "maly-cinderella-oct26",
@@ -1747,9 +1749,10 @@
       "details_label": "Полная программа / описание",
       "details": "Полная официальная программа будет храниться здесь целиком после следующей сверки источника. В рабочей версии карточка уже отделена от интерфейса и живёт в events.json.",
       "source_label": "ГЭС-2",
-      "source_url": "",
+      "source_url": "https://ges-2.org/",
       "verified": false,
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "source_scope": "venue"
     },
     {
       "id": "maly-white-guard-oct26",
@@ -4906,9 +4909,9 @@
       "details_label": "Программа",
       "details": "И. С. Бах — Л. Стоковский: Komm, süßer Tod.\\nД. Д. Шостакович — Симфония № 8 до минор, соч. 65.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://www.afisha.ru/concert/f-chizhevskiy-gaso-rossii-im-e-f-svetlanova-6049086/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-15/",
       "verified": true,
-      "organizer": "Афиша",
+      "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
       ],
@@ -4921,7 +4924,8 @@
         "Стоковский / Шостакович № 8",
         "Л. Стоковский: Komm, süßer Tod.\\nД. Д. Шостакович — Симфония № 8 до минор, соч. 65."
       ],
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "discovery_url": "https://www.afisha.ru/concert/f-chizhevskiy-gaso-rossii-im-e-f-svetlanova-6049086/"
     },
     {
       "id": "maly-little-tragedies-oct26",
@@ -6557,7 +6561,7 @@
       "details_label": "Программа",
       "details": "Бах, Бетховен, Бриттен.",
       "source_label": "Дом музыки",
-      "source_url": "https://www.afisha.ru/msk/concerthall/dom-muzyki-4759/concert/na-oktyabr/",
+      "source_url": "https://www.mmdm.ru/event/virtuozy-moskvy-contrapunctus-bah-bethoven-britten?event_pk=6928",
       "verified": true,
       "monitor_entities": [
         "Московский Дом музыки"
@@ -6566,7 +6570,9 @@
         "И. С. Бах",
         "Бетховен"
       ],
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "discovery_url": "https://www.afisha.ru/msk/concerthall/dom-muzyki-4759/concert/na-oktyabr/",
+      "organizer": "Московский международный Дом музыки"
     },
     {
       "id": "rassvet-butsko-2026-10-21",
@@ -7496,10 +7502,11 @@
       "details_label": "Даты / постановка",
       "details": "25 октября, 19:00. Второй вечер фестиваля «Пять вечеров».",
       "source_label": "Île Thélème",
-      "source_url": "",
+      "source_url": "https://ile-theleme.com/",
       "verified": true,
       "start": "2026-10-25T19:00:00+03:00",
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "source_scope": "venue"
     },
     {
       "id": "nikitskie-morphine-2026-10-25",
@@ -23383,6 +23390,126 @@
       "sales_status": "событие подтверждено; статус продажи проверить",
       "card_schema_version": 2,
       "program_status": "Абонемент «Московская консерватория и Денис Мацуев представляют новые имена»; программа не опубликована."
+    },
+    {
+      "id": "consv-bzk-bel-suono-2026-10-09",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-09T20:00:00+03:00",
+      "title": "Трио Bel Suono",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано",
+        "кроссовер"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "Кирилл Гущин · Антон Мосенков · Никита Хабин, фортепиано",
+      "price": "проверить актуально",
+      "why": "Крупный фортепианный кроссоверный концерт в БЗК; не отсекаем заранее и оставляем решение пользователю.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "На официальной карточке состав произведений пока не опубликован.",
+      "source_label": "Большой зал Московской консерватории",
+      "source_url": "https://i1.mosconsv.ru/ru/concert/203484",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "venue_short": "БЗК",
+      "program_status": "Программа на официальной странице события не опубликована.",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
+      "id": "consv-bzk-strauss-gala-2026-11-28",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-11-28T19:00:00+03:00",
+      "title": "Штраус-гала / Чайковский — вальсы из балетов",
+      "tags": [],
+      "visible_tags": [
+        "Штраус",
+        "Чайковский",
+        "оперетта"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "ГСО «Новая Россия» · Алессандро Д’Агостини · солисты Большого театра России",
+      "price": "проверить актуально",
+      "why": "Праздничная оркестровая программа в БЗК; оставляем в общей базе без предварительного вкусового отсева.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Чайковский — вальсы из балетов; И. Штраус (сын) — вальсы и оперетта; И. Штраус (отец) — «Марш Радецкого»; Оффенбах — канкан; Легар — арии и дуэты.",
+      "source_label": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204461",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Чайковский",
+        "И. Штраус (сын)",
+        "И. Штраус (отец)",
+        "Оффенбах",
+        "Легар"
+      ],
+      "works": [
+        "Чайковский — вальсы из балетов «Щелкунчик», «Лебединое озеро», «Спящая красавица»",
+        "И. Штраус (сын) — «На прекрасном голубом Дунае», «Сказки Венского леса», «Вино, женщины и песни»",
+        "Арии и дуэты из «Летучей мыши» и «Цыганского барона»",
+        "И. Штраус (отец) — «Марш Радецкого»",
+        "Оффенбах — канкан из «Орфея в аду»",
+        "Легар — арии и дуэты из «Весёлой вдовы»"
+      ],
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
+      "id": "consv-bzk-three-tenors-christmas-2026-12-12",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-12T14:00:00+03:00",
+      "title": "«Три тенора. Рождественский гала»",
+      "tags": [],
+      "visible_tags": [
+        "тенор",
+        "рождественская программа"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "Маттео Меззаро · Джан Лука Пазолини · Паоло Лардицоне · ГСО «Новая Россия» · Алессандро Д’Агостини",
+      "price": "проверить актуально",
+      "why": "Праздничный вокально-симфонический концерт в БЗК; включаем в календарь и оставляем решение о релевантности пользователю.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Официальная карточка публикует состав исполнителей; детальная программа пока не указана.",
+      "source_label": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204459",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "venue_short": "БЗК",
+      "program_status": "Детальная программа на официальной странице события пока не опубликована.",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
     }
   ]
 }
