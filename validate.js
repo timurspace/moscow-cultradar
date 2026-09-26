@@ -2,102 +2,82 @@ const fs = require('fs');
 const path = require('path');
 
 const root = __dirname;
-const eventsPath = path.join(root, 'events.json');
-const sourcesPath = path.join(root, 'sources.json');
 const markdownMode = process.argv.includes('--md');
 
 function loadJson(file) {
-  if (!fs.existsSync(file)) return null;
-  return JSON.parse(fs.readFileSync(file, 'utf8'));
+  return JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 }
 
-function add(map, key, value) {
-  if (!map[key]) map[key] = [];
+function push(map, key, value) {
   map[key].push(value);
 }
 
-const eventsData = loadJson(eventsPath);
-const sourcesData = loadJson(sourcesPath);
-
-if (!eventsData) {
-  console.error('events.json not found');
-  process.exit(1);
-}
-
+const eventsData = loadJson('events.json');
+const sourcesData = loadJson('sources.json');
 const events = Array.isArray(eventsData) ? eventsData : eventsData.events || [];
-const sources = sourcesData
-  ? (Array.isArray(sourcesData) ? sourcesData : sourcesData.sources || [])
-  : [];
+const sources = Array.isArray(sourcesData) ? sourcesData : sourcesData.sources || [];
 
 const report = {
   total: events.length,
-  duplicate_ids: [],
-  missing_fields: {},
-  empty_source_url: [],
-  invalid_dates: [],
-  categories: {},
-  venues_not_in_sources: [],
-  music_without_context: []
+  errors: { duplicate_ids: [], missing_fields: [] },
+  warnings: {
+    empty_source_url: [],
+    invalid_dates: [],
+    venues_not_in_sources: [],
+    weak_music_context: [],
+    missing_editorial_why: []
+  },
+  categories: {}
 };
 
-const ids = new Map();
+const ids = new Set();
 const sourceNames = new Set(sources.map(s => s.name || s.venue || s.source_label).filter(Boolean));
 
-for (const event of events) {
-  const id = event.id || '(no id)';
-
-  if (ids.has(id)) report.duplicate_ids.push(id);
-  ids.set(id, true);
-
-  const category = event.category || 'unknown';
-  report.categories[category] = (report.categories[category] || 0) + 1;
+for (const e of events) {
+  const id = e.id || '(no id)';
+  if (ids.has(id)) push(report.errors, 'duplicate_ids', id);
+  ids.add(id);
 
   for (const field of ['id', 'title', 'category', 'venue']) {
-    if (!event[field]) add(report.missing_fields, field, id);
+    if (!e[field]) push(report.errors, 'missing_fields', { id, field });
   }
 
-  if ('source_url' in event && !event.source_url) {
-    report.empty_source_url.push(id);
+  const category = e.category || 'unknown';
+  report.categories[category] = (report.categories[category] || 0) + 1;
+
+  if (e.source_url === '') push(report.warnings, 'empty_source_url', id);
+  if (e.start && Number.isNaN(Date.parse(e.start))) push(report.warnings, 'invalid_dates', id);
+  if (e.venue && sourceNames.size && !sourceNames.has(e.venue)) push(report.warnings, 'venues_not_in_sources', { id, venue: e.venue });
+
+  if ((category === 'music' || category === 'opera') && !e.composers && !e.works && !e.program_status && !e.program && !e.description && !e.performers) {
+    push(report.warnings, 'weak_music_context', id);
   }
 
-  if (event.start && Number.isNaN(Date.parse(event.start))) {
-    report.invalid_dates.push(id);
-  }
-
-  if (sourceNames.size && event.venue && !sourceNames.has(event.venue)) {
-    report.venues_not_in_sources.push({ id, venue: event.venue });
-  }
-
-  if ((category === 'music' || category === 'opera') && !event.composers && !event.works && !event.program_status) {
-    report.music_without_context.push(id);
-  }
+  if (e.featured && !e.why) push(report.warnings, 'missing_editorial_why', id);
 }
 
-function markdown(report) {
+function markdown(r) {
   return [
     '# Культрадар — аудит данных',
     '',
-    `Всего событий: ${report.total}`,
+    `Всего событий: ${r.total}`,
     '',
     '## Категории',
-    ...Object.entries(report.categories).map(([k,v]) => `- ${k}: ${v}`),
+    ...Object.entries(r.categories).map(([k,v]) => `- ${k}: ${v}`),
     '',
-    `## Дубли id: ${report.duplicate_ids.length}`,
-    ...report.duplicate_ids.map(x => `- ${x}`),
+    '## Ошибки',
+    `Дубли id: ${r.errors.duplicate_ids.length}`,
+    `Пропущенные обязательные поля: ${r.errors.missing_fields.length}`,
     '',
-    `## Пустые source_url: ${report.empty_source_url.length}`,
-    ...report.empty_source_url.slice(0,50).map(x => `- ${x}`),
-    '',
-    `## Music/opera без контекста программы: ${report.music_without_context.length}`,
-    ...report.music_without_context.slice(0,50).map(x => `- ${x}`),
-    '',
-    `## Площадки не найдены в sources: ${report.venues_not_in_sources.length}`,
+    '## Предупреждения',
+    `Пустые source_url: ${r.warnings.empty_source_url.length}`,
+    `Слабый музыкальный контекст: ${r.warnings.weak_music_context.length}`,
+    `Нет редакционного why у featured: ${r.warnings.missing_editorial_why.length}`,
+    `Площадки не найдены: ${r.warnings.venues_not_in_sources.length}`
   ].join('\n');
 }
 
 const output = markdownMode ? markdown(report) : JSON.stringify(report, null, 2);
 console.log(output);
 
-if (markdownMode) {
-  fs.writeFileSync(path.join(root, 'audit-report.md'), output);
-}
+if (markdownMode) fs.writeFileSync(path.join(root, 'audit-report.md'), output);
