@@ -101,7 +101,13 @@ function renderCard(e){
 function renderMain(){
   const host = document.getElementById('mainContent');
   host.innerHTML = ['near','buy','far'].map(h=>{
-    const list = events.filter(e=>e.horizon===h && !isPast(e));
+    const list = events.filter(e=>e.horizon===h && !isPast(e)).sort((a,b)=>{
+      const da=dateObj(a), db=dateObj(b);
+      if(!da&&!db) return (a.title||'').localeCompare(b.title||'','ru');
+      if(!da) return 1;
+      if(!db) return -1;
+      return da-db;
+    });
     return `<section data-horizon="${h}"><div class="section-head"><div><h2>${horizonMeta[h].title}</h2><p>${horizonMeta[h].text}</p></div></div><div class="grid">${list.length?list.map(renderCard).join(''):'<div class="empty-section">Пока пусто.</div>'}</div></section>`;
   }).join('');
   populateVenues(); applyFilters(); renderPlans();
