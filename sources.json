@@ -3,7 +3,8 @@
     "updated": "2026-09-26",
     "schema_version": 2,
     "rule": "Для role=venue поле name обязано буквально совпадать с events[].venue. СМИ, агрегаторы, ансамбли и другие discovery-сущности хранятся отдельно и не используются как название площадки.",
-    "audit_horizon_end": "2026-12-31"
+    "audit_horizon_end": "2027-06-30",
+    "season_horizon": "2026/27"
   },
   "venues": [
     {
@@ -12,13 +13,22 @@
       "parent_org": "Зал Зарядье",
       "url": "https://zaryadyehall.ru/events/",
       "last_checked": "2026-09-26",
-      "event_count": 15,
+      "event_count": 19,
       "coverage_2026": {
         "october": 9,
         "november": 0,
         "december": 6
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 0,
+        "february": 1,
+        "march": 1,
+        "april": 1,
+        "may": 0,
+        "june": 1
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованной афише; отменённые события исключены, переносы учтены по новой дате."
     },
     {
       "name": "Большой зал Московской консерватории",
@@ -26,13 +36,22 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 35,
+      "event_count": 42,
       "coverage_2026": {
         "october": 23,
         "november": 7,
         "december": 4
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 0,
+        "february": 3,
+        "march": 2,
+        "april": 1,
+        "may": 1,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
     },
     {
       "name": "Большой зал Музыкального училища имени Гнесиных",
@@ -250,13 +269,22 @@
       "parent_org": "Московская филармония",
       "url": "https://meloman.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 57,
+      "event_count": 63,
       "coverage_2026": {
         "october": 20,
         "november": 26,
         "december": 6
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 0,
+        "february": 2,
+        "march": 2,
+        "april": 1,
+        "may": 1,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным абонементам и отдельным билетным страницам; доступность абонемента и отдельных билетов хранится раздельно в событиях."
     },
     {
       "name": "Концертный зал имени Н.Я. Мясковского",
@@ -270,7 +298,16 @@
         "november": 0,
         "december": 1
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 0,
+        "february": 0,
+        "march": 0,
+        "april": 0,
+        "may": 0,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
     },
     {
       "name": "Концертный зал имени П. И. Чайковского",
@@ -278,13 +315,22 @@
       "parent_org": "Московская филармония",
       "url": "https://meloman.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 54,
+      "event_count": 70,
       "coverage_2026": {
         "october": 20,
         "november": 24,
         "december": 9
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 4,
+        "february": 3,
+        "march": 6,
+        "april": 1,
+        "may": 2,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным абонементам и отдельным билетным страницам; доступность абонемента и отдельных билетов хранится раздельно в событиях."
     },
     {
       "name": "Концертный зал РАМ имени Гнесиных",
@@ -320,13 +366,22 @@
       "parent_org": "Зал Зарядье",
       "url": "https://zaryadyehall.ru/events/",
       "last_checked": "2026-09-26",
-      "event_count": 13,
+      "event_count": 18,
       "coverage_2026": {
         "october": 5,
         "november": 2,
         "december": 4
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 2,
+        "february": 3,
+        "march": 2,
+        "april": 0,
+        "may": 0,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованной афише; отменённые события исключены, переносы учтены по новой дате."
     },
     {
       "name": "Малый зал Московской консерватории",
@@ -334,13 +389,22 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 30,
+      "event_count": 57,
       "coverage_2026": {
         "october": 7,
         "november": 13,
         "december": 10
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 2,
+        "february": 8,
+        "march": 5,
+        "april": 9,
+        "may": 3,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
     },
     {
       "name": "Малый театр — Историческая сцена",
@@ -532,13 +596,22 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 16,
+      "event_count": 20,
       "coverage_2026": {
         "october": 10,
         "november": 5,
         "december": 1
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 0,
+        "february": 2,
+        "march": 0,
+        "april": 1,
+        "may": 1,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
     },
     {
       "name": "Руфъ",
@@ -893,6 +966,24 @@
         "december": 0
       },
       "coverage_status": "active"
+    },
+    {
+      "name": "Новое концертное пространство «Зарядья»",
+      "role": "venue",
+      "parent_org": "Зарядье",
+      "url": "https://zaryadyehall.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_status": "active",
+      "coverage_2027": {
+        "january": 1,
+        "february": 0,
+        "march": 0,
+        "april": 0,
+        "may": 0,
+        "june": 0
+      },
+      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованной афише; отменённые события исключены, переносы учтены по новой дате."
     }
   ],
   "discovery_sources": [
