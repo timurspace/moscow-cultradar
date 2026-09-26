@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Системный sweep продолжается: добавлены недопредставленные ГЭС‑2, Прове–Калиш, Студия новой музыки, Дом музыки, Дом композиторов, Новая Опера, Геликон, Центр Вишневской, Электротеатр и L’Appartement 83."
+    "note": "Театральный sweep: добавлены конкретные постановки Большого, МАМТ, Малого, Малой Бронной, Театра Наций, Маяковского, Практики, Театра.doc, Места/Внутри и Сферы; у карточек фиксируются постановщик и подтверждённая длительность, а при отсутствии точной длительности она не выдумывается."
   },
   "events": [
     {
@@ -383,6 +383,37 @@
       "verified": true
     },
     {
+      "id": "nations-ordinary-death-2026-10-01",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-01T20:00:00+03:00",
+      "end": "2026-10-01T21:40:00+03:00",
+      "title": "Толстой — «Обыкновенная смерть»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Валерий Фокин",
+        "1 ч 40 мин",
+        "sold out"
+      ],
+      "venue": "Театр Наций — Малая сцена",
+      "place": "Петровский пер., 3",
+      "location": "Театр Наций, Москва",
+      "people": "режиссёр Валерий Фокин · Евгений Миронов",
+      "price": "билеты проданы",
+      "why": "«Смерть Ивана Ильича» в постановке Фокина — сильный психологический кандидат; sold out полезно видеть как факт, а не как повод искать серый рынок.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Даты",
+      "details": "1 и 2 октября; следующие показы 20–21 ноября. 1 час 40 минут без антракта.",
+      "source_label": "Театр Наций",
+      "source_url": "https://theatreofnations.ru/performances/obyiknovennaya-smert",
+      "verified": true
+    },
+    {
       "id": "zaryadye-michiels-organ-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -469,6 +500,66 @@
       "verified": true
     },
     {
+      "id": "bolshoi-knyaz-igor-2026-10-02",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T22:45:00+03:00",
+      "title": "Бородин — «Князь Игорь»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Большой",
+        "опера",
+        "3 ч 45 мин"
+      ],
+      "venue": "Большой театр — Историческая сцена",
+      "place": "Театральная пл., 1",
+      "location": "Большой театр, Историческая сцена, Москва",
+      "people": "классическая постановка Евгения Соковнина · новая версия Иркина Габитова · музыкальный руководитель Валерий Гергиев",
+      "price": "проверить актуально",
+      "why": "Возвращённая в репертуар Большого масштабная классическая постановка; отдельная причина следить, а не просто стандартное название.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Постановка",
+      "details": "Опера Александра Бородина. Историческая постановка Евгения Соковнина (1954), новая версия Иркина Габитова. Ориентир по продолжительности версии — 3 часа 45 минут с антрактом.",
+      "source_label": "Большой театр",
+      "source_url": "https://bolshoi.ru/",
+      "verified": true
+    },
+    {
+      "id": "bronnaya-new-optimistic-2026-10-02",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T22:25:00+03:00",
+      "title": "«Новая оптимистическая»",
+      "tags": [
+        "long"
+      ],
+      "visible_tags": [
+        "Богомолов",
+        "3 ч 25 мин"
+      ],
+      "venue": "Театр на Малой Бронной",
+      "place": "Малая Бронная, 4",
+      "location": "Театр на Малой Бронной, Москва",
+      "people": "автор текста и режиссёр-постановщик Константин Богомолов",
+      "price": "проверить актуально",
+      "why": "Длинная сатирическая трагикомедия с самостоятельной режиссёрской концепцией; не автоматический приоритет, но явно заслуживает присутствия.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "2 и 10 октября. 3 часа 25 минут, два антракта.",
+      "source_label": "Театр на Малой Бронной",
+      "source_url": "https://mbronnaya.ru/performances/novaya-optimisticheskaya/",
+      "verified": true
+    },
+    {
       "id": "rassvet-stravinsky-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -495,6 +586,36 @@
       "details": "Программа «Игорь Стравинский. Превращения».",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mesto-eto-ne-ya-2026-10-02",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-02T20:00:00+03:00",
+      "end": "2026-10-02T21:30:00+03:00",
+      "title": "«Это не я»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Антон Фёдоров",
+        "1 ч 30 мин"
+      ],
+      "venue": "Внутри",
+      "place": "Казакова, 8, стр. 3",
+      "location": "Пространство Внутри, Москва",
+      "people": "режиссёр и художник Антон Фёдоров · драматург Арсений Фарятьев",
+      "price": "проверить актуально",
+      "why": "Камерная работа Фёдорова о невротическом герое и шаблонах повседневности — прямое попадание в психологический профиль.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "2 октября, 20:00. 1 час 30 минут без антракта.",
+      "source_label": "Театр «Место»",
+      "source_url": "https://teatrmesto.ru/etoneya",
       "verified": true
     },
     {
@@ -643,6 +764,37 @@
       "verified": true
     },
     {
+      "id": "praktika-black-blizzard-2026-10-03",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-03T20:00:00+03:00",
+      "end": "2026-10-03T21:30:00+03:00",
+      "title": "Анастасия Букреева — «Чёрная пурга»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "премьера",
+        "абсурдистский хоррор",
+        "1 ч 30 мин"
+      ],
+      "venue": "Практика",
+      "place": "Большой Козихинский пер., 30",
+      "location": "Театр Практика, Москва",
+      "people": "режиссёр Сергей Щедрин · Практика × Мастерская Брусникина",
+      "price": "проверить актуально",
+      "why": "Современная драматургия, абсурд и психологическая история в одной работе; сильный экспериментальный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "3 октября 20:00; 4 октября 16:00 и 20:00. 1 час 30 минут.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/events/purga",
+      "verified": true
+    },
+    {
       "id": "zaryadye-popov-choir-2026-10-04",
       "category": "music",
       "horizon": "near",
@@ -699,6 +851,35 @@
       "verified": false
     },
     {
+      "id": "bolshoi-jewels-2026-10-04",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-04T19:00:00+03:00",
+      "end": null,
+      "title": "Джордж Баланчин — «Драгоценности»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "балет",
+        "Баланчин"
+      ],
+      "venue": "Большой театр — Историческая сцена",
+      "place": "Театральная пл., 1",
+      "location": "Большой театр, Историческая сцена, Москва",
+      "people": "хореография Джорджа Баланчина",
+      "price": "проверить актуально",
+      "why": "Полнометражный бессюжетный Баланчин — самостоятельный балетный кандидат, а не просто очередная классика Большого.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "Серия показов 4–6 октября 2026. Время 19:00 подтверждено официальным каналом театра. Точную продолжительность в текущем источнике не удалось подтвердить — не подставляем её.",
+      "source_label": "Большой театр",
+      "source_url": "https://bolshoi.ru/",
+      "verified": true
+    },
+    {
       "id": "rassvet-gongs-2026-10-04",
       "category": "music",
       "horizon": "near",
@@ -750,6 +931,36 @@
       "details": "Перенесён с 21 сентября на 5 октября 2026.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/reschedules-and-cancellations/",
+      "verified": true
+    },
+    {
+      "id": "bronnaya-sobytie-2026-10-05",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-05T19:00:00+03:00",
+      "end": null,
+      "title": "Набоков — «Событие»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Набоков",
+        "премьера 2026"
+      ],
+      "venue": "Театр на Малой Бронной",
+      "place": "Малая Бронная, 4",
+      "location": "Театр на Малой Бронной, Москва",
+      "people": "режиссёр-постановщик Константин Богомолов",
+      "price": "проверить актуально",
+      "why": "Свежая постановка Набокова с гротескно-абсурдной рамкой; кандидат, но точную продолжительность официальный материал, который мы нашли, не показывает.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "5, 9 и 27 октября. Премьера состоялась 3 сентября 2026. Продолжительность в доступной официальной карточке не указана — не подставляем агрегаторное значение.",
+      "source_label": "Театр на Малой Бронной",
+      "source_url": "https://mbronnaya.ru/performances/sobytie/",
       "verified": true
     },
     {
@@ -806,6 +1017,36 @@
       "details": "Концерт «Мастера фагота».",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "maly-zashchita-luzhina-2026-10-06",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-06T18:30:00+03:00",
+      "end": "2026-10-06T20:45:00+03:00",
+      "title": "Набоков — «Защита Лужина»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Набоков",
+        "2 ч 15 мин"
+      ],
+      "venue": "Малый театр — Малая сцена на Ордынке",
+      "place": "Большая Ордынка, 69",
+      "location": "Малый театр, Малая сцена на Ордынке, Москва",
+      "people": "режиссёр Владимир Данай",
+      "price": "проверить актуально",
+      "why": "Набоков и психологическая история шахматиста на малой сцене; гораздо ближе к профилю радара, чем массовая «классика для галочки».",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "Ближайшие показы: 6, 14 и 25 октября; 8 ноября; 19 декабря. 2 часа 15 минут с одним антрактом.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
       "verified": true
     },
     {
@@ -922,6 +1163,66 @@
       "details": "Цикл «Оперы мира».",
       "source_label": "L’Appartement 83",
       "source_url": "https://lappartement83.com/shop",
+      "verified": true
+    },
+    {
+      "id": "bolshoi-maddalena-spanish-hour-2026-10-06",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": null,
+      "title": "Прокофьев / Равель — «Маддалена. Испанский час»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Прокофьев",
+        "Равель",
+        "две одноактные оперы"
+      ],
+      "venue": "Большой театр — Камерная сцена",
+      "place": "Никольская, 17/1",
+      "location": "Большой театр, Камерная сцена, Москва",
+      "people": "режиссёр, сценограф и художник по костюмам — Владиславс Наставшевс",
+      "price": "проверить актуально",
+      "why": "Редкая пара одноактных опер начала XX века в одной режиссёрской конструкции; заметно интереснее стандартного репертуарного вечера.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты / формат",
+      "details": "Показы 6–9 октября 2026. «Маддалена» длится около часа; точную суммарную продолжительность вечера текущий официальный анонс не даёт.",
+      "source_label": "Большой театр",
+      "source_url": "https://bolshoi.ru/",
+      "verified": true
+    },
+    {
+      "id": "sfera-bernarda-alba-2026-10-07",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-07T19:00:00+03:00",
+      "end": "2026-10-07T21:20:00+03:00",
+      "title": "Лорка — «Дом Бернарды Альбы»",
+      "tags": [
+        "psych"
+      ],
+      "visible_tags": [
+        "Лорка",
+        "2 ч 20 мин"
+      ],
+      "venue": "Театр «Сфера»",
+      "place": "Каретный Ряд, 3, сад «Эрмитаж»",
+      "location": "Театр Сфера, сад Эрмитаж, Москва",
+      "people": "режиссёр-постановщик Иван Рубцов",
+      "price": "проверить актуально",
+      "why": "Психологическая семейная драма с ясным конфликтом внешнего и внутреннего суда — хороший профильный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "7 октября, 19:00. 2 часа 20 минут с одним антрактом.",
+      "source_label": "Театр «Сфера»",
+      "source_url": "https://spheratheatre.nakaretnom3.ru/performances/dom-bernardy-alby/",
       "verified": true
     },
     {
@@ -1162,28 +1463,58 @@
       "horizon": "near",
       "featured": false,
       "start": "2026-10-09T19:00:00+03:00",
-      "end": "2026-10-09T21:30:00+03:00",
-      "title": "«Марьино поле» — премьера",
+      "end": "2026-10-09T21:10:00+03:00",
+      "title": "Олег Богаев — «Марьино поле»",
       "tags": [
         "psych",
         "rare"
       ],
       "visible_tags": [
-        "премьера",
-        "Олег Богаев"
+        "фантасмагория",
+        "2 ч 10 мин"
       ],
       "venue": "Электротеатр Станиславский",
       "place": "Тверская, 23",
       "location": "Электротеатр Станиславский, Москва",
-      "people": "по пьесе Олега Богаева",
+      "people": "режиссёр Роман Дробот",
       "price": "проверить актуально",
-      "why": "Новая постановка современной драматургии на основной сцене; до отзывов — только «обратить внимание».",
-      "editorial_status": "attention",
+      "why": "Фантасмагория о памяти, ожидании и утрате; современная драматургия с уже существующей критической историей.",
+      "editorial_status": "candidate",
       "ticket_urgency": "watch",
       "details_label": "Даты",
-      "details": "Премьерные показы 9 и 10 октября.",
+      "details": "9 и 10 октября 2026. 2 часа 10 минут без антракта. Премьера постановки состоялась 12 декабря 2025 года.",
       "source_label": "Электротеатр Станиславский",
-      "source_url": "https://www.electrotheatre.ru/playbill/?month=2026-10",
+      "source_url": "https://www.electrotheatre.ru/repertoire/spectacle/1270",
+      "verified": true
+    },
+    {
+      "id": "nations-boris-godunov-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T21:10:00+03:00",
+      "title": "Пушкин — «Борис Годунов»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Пётр Шерешевский",
+        "2 ч 10 мин"
+      ],
+      "venue": "Театр Наций — Основная сцена",
+      "place": "Петровский пер., 3",
+      "location": "Театр Наций, Москва",
+      "people": "режиссёр Пётр Шерешевский · Игорь Гордин",
+      "price": "проверить актуально",
+      "why": "Не школьная иллюстрация Пушкина, а самостоятельная режиссёрская версия — ровно тип классики, который имеет смысл отслеживать.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "2 часа 10 минут без антракта.",
+      "source_label": "Театр Наций",
+      "source_url": "https://theatreofnations.ru/performances/boris-godunov",
       "verified": true
     },
     {
@@ -1211,6 +1542,36 @@
       "details": "Камерная вокальная программа из репертуара Вишневской.",
       "source_label": "Центр Вишневской",
       "source_url": "https://opera-centre.ru/poster/",
+      "verified": true
+    },
+    {
+      "id": "maly-anna-karenina-2026-10-10",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-10T18:00:00+03:00",
+      "end": "2026-10-10T21:30:00+03:00",
+      "title": "Толстой — «Анна Каренина»",
+      "tags": [
+        "psych",
+        "long"
+      ],
+      "visible_tags": [
+        "Андрей Прикотенко",
+        "3 ч 30 мин"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Театральный пр., 1",
+      "location": "Малый театр, Историческая сцена, Москва",
+      "people": "режиссёр-постановщик и автор сценической версии Андрей Прикотенко",
+      "price": "проверить актуально",
+      "why": "Современная режиссёрская работа внутри академической сцены; есть отдельная причина смотреть не из-за одного названия Толстого.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "10 и 11 октября; далее 14–15 ноября, 17–18 декабря. 3 часа 30 минут с одним антрактом.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/spectacle/view?name=annakarenina",
       "verified": true
     },
     {
@@ -1425,6 +1786,65 @@
       "verified": true
     },
     {
+      "id": "praktika-podolsk-2026-10-12",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-12T19:00:00+03:00",
+      "end": "2026-10-12T21:30:00+03:00",
+      "title": "Дмитрий Данилов — «Человек из Подольска Серёжа очень тупой»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Данилов",
+        "2 ч 30 мин"
+      ],
+      "venue": "Практика",
+      "place": "Большой Козихинский пер., 30",
+      "location": "Театр Практика, Москва",
+      "people": "режиссёр Марина Брусникина · Практика × Мастерская Брусникина",
+      "price": "проверить актуально",
+      "why": "Две пьесы Данилова как психологическая инсталляция сразу в двух сценах — характерная сильная работа этой площадки.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "12 и 13 октября. 2 часа 30 минут с одним антрактом.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/events/chelovek-iz-podolska",
+      "verified": true
+    },
+    {
+      "id": "teatrdoc-eisenstein-2026-10-12",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-12T20:00:00+03:00",
+      "end": "2026-10-12T21:40:00+03:00",
+      "title": "Михаил Дурненков — «Эйзенштейн»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Театр.doc",
+        "1 ч 40 мин"
+      ],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Лесная, 59, стр. 1",
+      "location": "Театр.doc, Док на Лесной, Москва",
+      "people": "режиссёр Ира Волкова · драматург Михаил Дурненков",
+      "price": "проверить актуально",
+      "why": "Спектакль о художнике под давлением государственного заказа; минималистичный доковский формат и сильный материал.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "1 час 40 минут без антракта.",
+      "source_label": "Театр.doc",
+      "source_url": "https://teatrdoc.ru/schedule/1422/",
+      "verified": true
+    },
+    {
       "id": "1948-prove-kalish",
       "category": "music",
       "horizon": "near",
@@ -1545,6 +1965,36 @@
       "verified": true
     },
     {
+      "id": "nations-ghosts-2026-10-13",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-13T20:00:00+03:00",
+      "end": "2026-10-13T21:40:00+03:00",
+      "title": "Ибсен — «Призраки»",
+      "tags": [
+        "psych"
+      ],
+      "visible_tags": [
+        "Ибсен",
+        "Денис Азаров",
+        "1 ч 40 мин"
+      ],
+      "venue": "Театр Наций — Малая сцена",
+      "place": "Петровский пер., 3",
+      "location": "Театр Наций, Москва",
+      "people": "режиссёр Денис Азаров · Сати Спивакова · Равиль Батыров",
+      "price": "проверить актуально",
+      "why": "Психологическая драма о распаде семьи — прямое попадание в театральный профиль.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "13 и 14 октября. 1 час 40 минут без антракта.",
+      "source_label": "Театр Наций",
+      "source_url": "https://theatreofnations.ru/performances/prizraki",
+      "verified": true
+    },
+    {
       "id": "composers-moscow-autumn-snm-2026-10-14",
       "category": "music",
       "horizon": "near",
@@ -1602,6 +2052,95 @@
       "verified": true
     },
     {
+      "id": "bolshoi-player-ballet-2026-10-14",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": null,
+      "title": "«Игрок» — балет по Достоевскому",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "балет",
+        "Достоевский",
+        "гастроли"
+      ],
+      "venue": "Большой театр — Новая сцена",
+      "place": "Театральная пл., 1",
+      "location": "Большой театр, Новая сцена, Москва",
+      "people": "Севастопольский театр оперы и балета · хореограф Джона Пол Кук · музыкальный руководитель Артём Абашев",
+      "price": "проверить актуально",
+      "why": "Балетная работа по Достоевскому и гастрольная постановка — хороший discovery-кандидат Большого.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Проверка",
+      "details": "Дата и постановочная команда подтверждены афишей премьера Большого Владислава Лантратова. Точная продолжительность требует отдельной сверки.",
+      "source_label": "Афиша Владислава Лантратова / Большой театр",
+      "source_url": "https://vladislavlantratov.com/afisha",
+      "verified": true
+    },
+    {
+      "id": "bronnaya-besy-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": "2026-10-14T22:10:00+03:00",
+      "title": "Достоевский — «Бесы Достоевского»",
+      "tags": [
+        "psych",
+        "long"
+      ],
+      "visible_tags": [
+        "Достоевский",
+        "3 ч 10 мин"
+      ],
+      "venue": "Театр на Малой Бронной",
+      "place": "Малая Бронная, 4",
+      "location": "Театр на Малой Бронной, Москва",
+      "people": "режиссёр Константин Богомолов",
+      "price": "проверить актуально",
+      "why": "Длинное современное прочтение «Бесов» с полемической рамкой; один из очевидных кандидатов площадки.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "3 часа 10 минут с двумя антрактами.",
+      "source_label": "Театр на Малой Бронной",
+      "source_url": "https://mbronnaya.ru/performances/besy-dostoevskogo/",
+      "verified": true
+    },
+    {
+      "id": "mayakovsky-onegin-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": "2026-10-14T22:00:00+03:00",
+      "title": "Пушкин — «Евгений Онегин»",
+      "tags": [
+        "psych"
+      ],
+      "visible_tags": [
+        "Егор Перегудов",
+        "3 часа"
+      ],
+      "venue": "Театр Маяковского",
+      "place": "Большая Никитская, 19/13, стр. 1",
+      "location": "Театр Маяковского, Москва",
+      "people": "постановка Егора Перегудова",
+      "price": "проверить актуально",
+      "why": "Перегудов и классический текст без требования «музейности» — один из профильных театральных узлов.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "14 и 26 октября. 3 часа с одним антрактом.",
+      "source_label": "Театр Маяковского",
+      "source_url": "https://www.mayakovsky.ru/performance/evgeniy-onegin/",
+      "verified": true
+    },
+    {
       "id": "rassvet-satie-2026-10-14",
       "category": "music",
       "horizon": "near",
@@ -1628,6 +2167,36 @@
       "details": "Творческое объединение mader nort.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mesto-chuvak-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-14T20:00:00+03:00",
+      "end": "2026-10-14T21:30:00+03:00",
+      "title": "«Где ты был так долго, чувак?»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Антон Фёдоров",
+        "1 ч 30 мин"
+      ],
+      "venue": "Внутри",
+      "place": "Казакова, 8, стр. 3",
+      "location": "Пространство Внутри, Москва",
+      "people": "режиссёр и художник Антон Фёдоров · Роза Хайруллина · Сергей Шайдаков · Дмитрий Куличков",
+      "price": "проверить актуально",
+      "why": "Фёдоровская условность и сильный ансамбль; независимый театр, который легко пропустить вне площадочного радара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "14 октября, 20:00. 1 час 30 минут без антракта.",
+      "source_label": "Театр «Место»",
+      "source_url": "https://teatrmesto.ru/chuvak",
       "verified": true
     },
     {
@@ -1770,6 +2339,35 @@
       "verified": true
     },
     {
+      "id": "maly-night-tender-2026-10-16",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-16T18:30:00+03:00",
+      "end": "2026-10-16T20:20:00+03:00",
+      "title": "Фицджеральд — «Ночь нежна. Дик и Николь»",
+      "tags": [
+        "psych"
+      ],
+      "visible_tags": [
+        "Фицджеральд",
+        "1 ч 50 мин"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр, Камерная сцена, Москва",
+      "people": "постановка Владимира Драгунова",
+      "price": "проверить актуально",
+      "why": "Камерная психологическая работа по Фицджеральду; лучше соответствует профилю, чем большая часть репертуарной классики Малого.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "16 и 25 октября; 17 и 26 ноября; 16 декабря. 1 час 50 минут без антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/spectacle/view?name=noch_nezhna",
+      "verified": true
+    },
+    {
       "id": "mm-golovanov-rachmaninov-2026-10-16",
       "category": "music",
       "horizon": "near",
@@ -1822,6 +2420,36 @@
       "details": "Хоровой концерт.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
+      "verified": true
+    },
+    {
+      "id": "mamt-cherry-orchard-2026-10-16",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": null,
+      "title": "«Вишнёвый сад. Сад вишнёвый» — мировая премьера балета",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "балет",
+        "премьера",
+        "Чехов"
+      ],
+      "venue": "МАМТ",
+      "place": "Большая Дмитровка, 17",
+      "location": "МАМТ, Москва",
+      "people": "хореография Павла Глухова и Максима Севагина · музыка Александра Чайковского",
+      "price": "проверить актуально",
+      "why": "Мировая премьера и двойная хореографическая оптика на Чехова; до отзывов — только «обратить внимание».",
+      "editorial_status": "attention",
+      "ticket_urgency": "buy",
+      "details_label": "Премьерный блок",
+      "details": "Премьерные показы 16–19 октября 2026. Диана Вишнёва и примы МАМТ заявлены в партии Раневской. Точную продолжительность нужно дочитать на карточке постановки.",
+      "source_label": "МАМТ",
+      "source_url": "https://www.stanmus.ru/",
       "verified": true
     },
     {
@@ -1936,6 +2564,65 @@
       "details": "Концертная программа вокруг «Тристана и Изольды».",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
+      "id": "nations-field-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-17T20:00:00+03:00",
+      "end": "2026-10-17T22:00:00+03:00",
+      "title": "Павел Пряжко — «Поле» / фестиваль TERRITORIЯ",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "новая драма",
+        "Волкострелов",
+        "2 ч"
+      ],
+      "venue": "Театр Наций — Малая сцена",
+      "place": "Петровский пер., 3",
+      "location": "Театр Наций, Москва",
+      "people": "режиссёр Дмитрий Волкострелов",
+      "price": "у организатора фестиваля",
+      "why": "Пряжко + Волкострелов — отдельная линия современного театра, которую массовая афиша легко растворяет.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "17 и 18 октября. 2 часа без антракта.",
+      "source_label": "Театр Наций",
+      "source_url": "https://theatreofnations.ru/performances/pole-festival-territoriya",
+      "verified": true
+    },
+    {
+      "id": "teatrdoc-buried-stalin-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-17T20:00:00+03:00",
+      "end": "2026-10-17T21:10:00+03:00",
+      "title": "Артур Соломонов — «Как мы хоронили Иосифа Виссарионовича»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "трагифарс",
+        "1 ч 10 мин"
+      ],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Лесная, 59, стр. 1",
+      "location": "Театр.doc, Док на Лесной, Москва",
+      "people": "режиссёр Юрий Муравицкий",
+      "price": "проверить актуально",
+      "why": "Содержательный трагифарс о механизмах воспроизводства культа и конформизма; профильная работа Театра.doc.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "17 и 27 октября. 1 час 10 минут.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/1109/",
       "verified": true
     },
     {
@@ -2473,16 +3160,16 @@
       "venue": "Театр Маяковского",
       "place": "Москва",
       "location": "Театр Маяковского, Москва",
-      "people": "Режиссёр — Егор Перегудов",
+      "people": "режиссёр — Егор Перегудов",
       "price": "проверить диапазон",
       "why": "Масштабная психологическая работа со второй половиной романа; тот случай, когда длина — часть замысла.",
       "editorial_status": "candidate",
       "ticket_urgency": "watch",
       "details_label": "Описание / критика",
-      "details": "Для театра здесь будет не рекламная аннотация, а короткое редакционное резюме плюс ссылки на содержательные рецензии. Перед покупкой цену и доступность надо перепроверить.",
+      "details": "24 и 25 октября 2026; далее 14 и 15 ноября. Продолжительность 5 часов 30 минут с двумя антрактами.",
       "source_label": "Театр Маяковского",
-      "source_url": "",
-      "verified": false
+      "source_url": "https://www.mayakovsky.ru/",
+      "verified": true
     },
     {
       "id": "mm-golovanov-two-geniuses-2026-10-24",
@@ -2509,6 +3196,66 @@
       "details": "75 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/dva-geniya-russkoj-muzyiki-chajkovskij-i-raxmaninov.html",
+      "verified": true
+    },
+    {
+      "id": "sfera-ordinary-story-2026-10-24",
+      "category": "theatre",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-24T18:00:00+03:00",
+      "end": "2026-10-24T21:40:00+03:00",
+      "title": "Гончаров — «Обыкновенная история»",
+      "tags": [
+        "psych",
+        "long"
+      ],
+      "visible_tags": [
+        "Александр Коршунов",
+        "3 ч 40 мин"
+      ],
+      "venue": "Театр «Сфера»",
+      "place": "Каретный Ряд, 3, сад «Эрмитаж»",
+      "location": "Театр Сфера, сад Эрмитаж, Москва",
+      "people": "постановка Александра Коршунова",
+      "price": "проверить актуально",
+      "why": "Длинная психологическая версия Гончарова, где сама продолжительность оправдана работой с развитием героя.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "24 октября, 18:00. 3 часа 40 минут с одним антрактом.",
+      "source_label": "Театр «Сфера»",
+      "source_url": "https://spheratheatre.nakaretnom3.ru/performances/obyknovennaya-istoriya/",
+      "verified": true
+    },
+    {
+      "id": "mamt-straussiana-2026-10-25",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-25T19:00:00+03:00",
+      "end": "2026-10-25T19:40:00+03:00",
+      "title": "«Штраусиана» — возобновление балета Владимира Бурмейстера",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "балет",
+        "40 мин",
+        "возобновление"
+      ],
+      "venue": "МАМТ",
+      "place": "Большая Дмитровка, 17",
+      "location": "МАМТ, Москва",
+      "people": "хореография Владимира Бурмейстера · музыка Иоганна Штрауса-младшего",
+      "price": "800–900 ₽ бельэтаж по текущей странице",
+      "why": "Историческая постановка 1941 года возвращается ровно к юбилею мировой премьеры.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "40 минут без антракта. 25 октября идут три показа — 12:00, 15:00 и 19:00; карточка заведена на вечерний.",
+      "source_label": "МАМТ",
+      "source_url": "https://stanmus.ru/shows/shtrausiana/?date=25.10.26-12%3A00",
       "verified": true
     },
     {
@@ -2596,6 +3343,37 @@
       "verified": true
     },
     {
+      "id": "praktika-prekrasno-2026-10-26",
+      "category": "theatre",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-26T19:00:00+03:00",
+      "end": "2026-10-26T21:30:00+03:00",
+      "title": "Ирина Васьковская — «Чтобы нам всем было хорошо и прекрасно»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "премьера",
+        "Марина Брусникина",
+        "2 ч 30 мин"
+      ],
+      "venue": "Практика",
+      "place": "Большой Козихинский пер., 30",
+      "location": "Театр Практика, Москва",
+      "people": "режиссёр Марина Брусникина",
+      "price": "проверить актуально",
+      "why": "Новая работа по современной драматургии с одновременным действием в нескольких пространствах; до отзывов — аккуратный кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "26 и 27 октября. 2 часа 30 минут с антрактом.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/events/prekrasno",
+      "verified": true
+    },
+    {
       "id": "rassvet-arm-percussion-2026-10-26",
       "category": "music",
       "horizon": "buy",
@@ -2626,6 +3404,36 @@
       "verified": true
     },
     {
+      "id": "nations-quiet-don-2026-10-27",
+      "category": "theatre",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-27T19:00:00+03:00",
+      "end": "2026-10-28T00:00:00+03:00",
+      "title": "Шолохов — «Тихий Дон» · премьера",
+      "tags": [
+        "long",
+        "rare"
+      ],
+      "visible_tags": [
+        "премьера",
+        "5 часов"
+      ],
+      "venue": "Театр Наций — Основная сцена",
+      "place": "Петровский пер., 3",
+      "location": "Театр Наций, Москва",
+      "people": "режиссёры Моу Сэн и Мурат Абулкатинов",
+      "price": "проверить актуально",
+      "why": "Пятичасовая масштабная премьера заслуживает дальнего наблюдения, но до появления критики не превращаем интерес к замыслу в рекомендацию качества.",
+      "editorial_status": "attention",
+      "ticket_urgency": "buy",
+      "details_label": "Премьерный блок",
+      "details": "Премьера 27 октября; показы 27–30 октября. 5 часов, два антракта.",
+      "source_label": "Театр Наций",
+      "source_url": "https://theatreofnations.ru/performances/tihij-don",
+      "verified": true
+    },
+    {
       "id": "phil-fiesta-madrigal-2026-10-28",
       "category": "music",
       "horizon": "buy",
@@ -2652,6 +3460,37 @@
       "details": "Музыка Испании и Латинской Америки XV–XVIII вв.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzf-2026-10-28/",
+      "verified": true
+    },
+    {
+      "id": "mamt-orleanskaya-deva-2026-10-28",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-28T19:00:00+03:00",
+      "end": "2026-10-28T22:20:00+03:00",
+      "title": "Чайковский — «Орлеанская дева»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "редкая опера",
+        "Чайковский",
+        "3 ч 20 мин"
+      ],
+      "venue": "МАМТ",
+      "place": "Большая Дмитровка, 17",
+      "location": "МАМТ, Москва",
+      "people": "режиссёр Александр Титель · музыкальный руководитель и дирижёр-постановщик Кристиан Кнапп",
+      "price": "1500–5500 ₽ по текущей странице",
+      "why": "Редко ставящаяся большая опера Чайковского; постановка уже прошла премьерный период и имеет содержательную критическую историю.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "28 и 29 октября. 3 часа 20 минут с одним антрактом.",
+      "source_label": "МАМТ",
+      "source_url": "https://stanmus.ru/shows/orleanskaya-deva/?date=29.10.26-19%3A00",
       "verified": true
     },
     {
