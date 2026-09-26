@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Культрадар — лира и маска</title>
-  <rect width="64" height="64" rx="12" fill="#f4f1ea"/>
-  <path d="M10 38C15 16 40 8 55 19" fill="none" stroke="#b27a2d" stroke-width="4" stroke-linecap="round"/>
-  <path d="M53 14l2.2 5.1L60 21l-4.8 1.9L53 28l-2.2-5.1L46 21l4.8-1.9z" fill="#b27a2d"/>
-  <path d="M15 13c4 0 7 3 7 7v24c0 5-3 8-7 8" fill="none" stroke="#202428" stroke-width="6" stroke-linecap="round"/>
-  <path d="M39 13c-4 0-7 3-7 7v24c0 5 3 8 7 8" fill="none" stroke="#202428" stroke-width="6" stroke-linecap="round"/>
-  <path d="M24 19v29M29 17v32M34 19v29" fill="none" stroke="#202428" stroke-width="3.4" stroke-linecap="round"/>
-  <path d="M36 23c7-3 14 0 16 6 3 9-2 19-11 24-6-4-8-10-7-16 0-5 1-10 2-14z" fill="#202428"/>
-  <path d="M39 32c2-2 5-2 7 0-2 2-5 2-7 0z" fill="#f4f1ea"/>
-  <path d="M44 43c2 0 4-.5 5-1.5-1 2-3 3-5 3z" fill="#f4f1ea"/>
+  <title id="title">Культрадар</title>
+  <rect width="64" height="64" rx="10" fill="#f4f1ea"/>
+  <path d="M9 14c6-5 12-1 12 5v23c0 6-3 10-8 12M35 14c-6-5-12-1-12 5v23c0 6 3 10 8 12" fill="none" stroke="#202428" stroke-width="6" stroke-linecap="round"/>
+  <path d="M16 22v25M22 19v29M28 22v25" stroke="#202428" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M34 22c10-4 20 2 22 12 2 9-3 18-13 24-7-5-10-12-9-20 0-6 0-11 0-16z" fill="#202428"/>
+  <path d="M38 33c3-2 6-2 9 0-3 3-6 3-9 0zM47 33c3-2 6-2 8 0-2 3-5 3-8 0z" fill="#f4f1ea"/>
+  <path d="M53 6l2.2 5.8L61 14l-5.8 2.2L53 22l-2.2-5.8L45 14l5.8-2.2z" fill="#b88428"/>
 </svg>
