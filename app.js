@@ -114,13 +114,26 @@ function populateVenues(){
   if([...select.options].some(o=>o.value===current)) select.value=current;
 }
 function applyFilters(){
-  document.querySelectorAll('.event').forEach(c=>{
-    const catOk=category==='all'||c.dataset.category===category;
-    const ctags=(c.dataset.tags||'').split(',').filter(Boolean);
-    const tagOk=[...tags].every(t=>ctags.includes(t));
-    const venueOk=venue==='all'||c.dataset.venue===venue;
-    c.classList.toggle('hidden',!(catOk&&tagOk&&venueOk));
+  let visible = 0;
+  document.querySelectorAll('section[data-horizon]').forEach(section=>{
+    let sectionVisible = 0;
+    section.querySelectorAll('.event').forEach(c=>{
+      const catOk=category==='all'||c.dataset.category===category;
+      const ctags=(c.dataset.tags||'').split(',').filter(Boolean);
+      const tagOk=[...tags].every(t=>ctags.includes(t));
+      const venueOk=venue==='all'||c.dataset.venue===venue;
+      const match=catOk&&tagOk&&venueOk;
+      c.classList.toggle('hidden',!match);
+      c.style.display=match?'':'none';
+      if(match){visible++;sectionVisible++;}
+    });
+    section.classList.toggle('section-filter-empty',sectionVisible===0);
   });
+  const summary=document.getElementById('filterSummary');
+  if(summary){
+    const venueText=venue==='all'?'все площадки':venue;
+    summary.textContent=`Показано: ${visible} · ${venueText}`;
+  }
 }
 function countRange(days){
   const now=new Date(), until=new Date(now.getTime()+days*86400000);
