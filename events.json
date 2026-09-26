@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Расширенная рабочая выборка. Проверенные события имеют прямой источник; рабочие карточки всё ещё требуют повторной сверки перед покупкой."
+    "note": "Расширенный календарь кандидатов: теперь сохраняем всё релевантное, кроме явной ерунды; редакционный статус показывает приоритет, а не право события существовать."
   },
   "events": [
     {
@@ -101,6 +101,35 @@
       "verified": true
     },
     {
+      "id": "helikon-birds-2026",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T22:00:00+03:00",
+      "title": "Вальтер Браунфельс — «Птицы»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "редкая опера",
+        "Видеть музыку"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "в рамках фестиваля «Видеть музыку»",
+      "price": "проверить актуально",
+      "why": "Редкий Браунфельс — именно тот случай, когда стандартный фильтр должен уступить место discovery.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Опера «Птицы» в рамках фестиваля «Видеть музыку».",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
       "id": "shostakovich-quartets-1",
       "category": "music",
       "horizon": "near",
@@ -129,6 +158,36 @@
       "details": "Шостакович — Струнные квартеты № 1 до мажор, ор. 49; № 2 ля мажор, ор. 68; № 3 фа мажор, ор. 73.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "verified": true
+    },
+    {
+      "id": "kzch-korchak-2026",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-10T19:00:00+03:00",
+      "end": "2026-10-10T21:30:00+03:00",
+      "title": "Фестиваль камерной вокальной музыки — Дмитрий Корчак / Филипп Копачевский",
+      "tags": [
+        "bach",
+        "early"
+      ],
+      "visible_tags": [
+        "камерная вокальная",
+        "Бах"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Дмитрий Корчак, тенор · Филипп Копачевский, фортепиано",
+      "price": "проверить актуально",
+      "why": "Большая камерная вокальная программа от барокко до русской романтики; не обязана быть топом, но точно должна быть видна.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бонончини, Дуранте, К. Ф. Э. Бах, Кальдара, И. С. Бах, Глюк, А. и Д. Скарлатти, Страделла, Глинка, Чайковский, Варламов, Даргомыжский и др.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-10/",
       "verified": true
     },
     {
@@ -253,6 +312,64 @@
       "verified": true
     },
     {
+      "id": "bzk-iolanta-2026",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-19T19:00:00+03:00",
+      "end": "2026-10-19T21:30:00+03:00",
+      "title": "Чайковский — «Иоланта»",
+      "tags": [],
+      "visible_tags": [
+        "опера",
+        "Оперный театр консерватории"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "Оперный театр Московской консерватории",
+      "price": "проверить актуально",
+      "why": "Оперная линия самой Консерватории должна быть представлена, даже если это не редчайший репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "П. И. Чайковский — «Иоланта».",
+      "source_label": "Московская консерватория",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
+      "verified": true
+    },
+    {
+      "id": "helikon-coffee-bach-2026",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-21T19:00:00+03:00",
+      "end": "2026-10-21T20:30:00+03:00",
+      "title": "И. С. Бах — «Кофейная кантата»",
+      "tags": [
+        "bach",
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Бах",
+        "камерная сцена"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "Белоколонный зал княгини Шаховской",
+      "price": "проверить актуально",
+      "why": "Бах на камерной оперной сцене — не надо пропускать только потому, что это не «большая опера».",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "«Кофейная кантата» И. С. Баха.",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
       "id": "karennina",
       "category": "theatre",
       "horizon": "buy",
@@ -285,6 +402,62 @@
       "verified": false
     },
     {
+      "id": "kzch-young-2026",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-26T19:00:00+03:00",
+      "end": "2026-10-26T21:30:00+03:00",
+      "title": "«Молодые таланты»: Элгар / Рахманинов / Шоссон / Прокофьев",
+      "tags": [],
+      "visible_tags": [
+        "оркестр",
+        "солисты"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Данила Владыко · Филипп Руденко · Арсен Ивлев · Фёдор Орлов · Госоркестр России",
+      "price": "проверить актуально",
+      "why": "Насыщенная программа с четырьмя молодыми солистами; широкий пул должен такое показывать.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Элгар — виолончельный концерт; Рахманинов — Рапсодия на тему Паганини; Шоссон — Поэма; Прокофьев — Фортепианный концерт № 3.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-26/",
+      "verified": true
+    },
+    {
+      "id": "bzk-aleko-2026",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-26T19:00:00+03:00",
+      "end": "2026-10-26T21:00:00+03:00",
+      "title": "Рахманинов — «Алеко»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "опера",
+        "Рахманинов"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "Оперный театр Московской консерватории",
+      "price": "проверить актуально",
+      "why": "Компактная ранняя опера Рахманинова в БЗК — гораздо интереснее для радара, чем очередной стандартный гала-концерт.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "С. В. Рахманинов — «Алеко».",
+      "source_label": "Московская консерватория",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
+      "verified": true
+    },
+    {
       "id": "martynov-requiem",
       "category": "music",
       "horizon": "buy",
@@ -313,6 +486,67 @@
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/",
       "verified": false
+    },
+    {
+      "id": "helikon-maddalena-2026",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-11-11T19:00:00+03:00",
+      "end": "2026-11-11T20:30:00+03:00",
+      "title": "Прокофьев — «Маддалена»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Прокофьев",
+        "редкая опера"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "Белоколонный зал княгини Шаховской",
+      "price": "проверить актуально",
+      "why": "Редкая ранняя опера Прокофьева — обязательный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "С. С. Прокофьев — «Маддалена».",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
+      "id": "mzk-filidor-satie-2026",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-11-14T19:00:00+03:00",
+      "end": "2026-11-14T21:00:00+03:00",
+      "title": "Филидор — Сати. «Двойные портреты»",
+      "tags": [
+        "rare",
+        "early",
+        "modern"
+      ],
+      "visible_tags": [
+        "Филидор",
+        "Сати"
+      ],
+      "venue": "Рахманиновский зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Рахманиновский зал Московской консерватории, Москва",
+      "people": "Абонемент «Двойные портреты»",
+      "price": "проверить актуально",
+      "why": "Неочевидная пара Филидор–Сати — как раз то, ради чего нужен радар.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Абонемент № 24 «Двойные портреты».",
+      "source_label": "Московская консерватория",
+      "source_url": "https://i1.mosconsv.ru/afisha/2026-11-14",
+      "verified": true
     },
     {
       "id": "shostakovich-quartets-2",
@@ -345,6 +579,121 @@
       "verified": true
     },
     {
+      "id": "mzk-papoyan-2026",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-11-24T19:00:00+03:00",
+      "end": "2026-11-24T21:00:00+03:00",
+      "title": "Илья Папоян — фортепианный вечер",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано"
+      ],
+      "venue": "Малый зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Малый зал Московской консерватории, Москва",
+      "people": "Илья Папоян, фортепиано",
+      "price": "проверить актуально",
+      "why": "Сильный молодой пианист; в широком календаре такой вечер точно должен быть.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Фортепианный вечер с Ильёй Папояном.",
+      "source_label": "Московская консерватория",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
+      "verified": true
+    },
+    {
+      "id": "helikon-norma-premiere",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-25T19:00:00+03:00",
+      "end": "2026-11-25T22:00:00+03:00",
+      "title": "Беллини — «Норма» · премьера",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "премьера",
+        "Беллини"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "премьерный блок 25–29 ноября",
+      "price": "проверить актуально",
+      "why": "Премьера большой белькантовой оперы; пока статус «обратить внимание», качество оценивать после отзывов.",
+      "editorial_status": "attention",
+      "ticket_urgency": "buy",
+      "details_label": "Даты",
+      "details": "Премьера идёт 25, 26, 27, 28 и 29 ноября 2026.",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-winter-open-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": true,
+      "start": "2026-12-03T19:00:00+03:00",
+      "end": "2026-12-03T21:30:00+03:00",
+      "title": "Открытие Зимнего фестиваля «Зарядье»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Зимний фестиваль",
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Марсело Альварес, Алексей Татаринцев, Игорь Морозов · МГСО · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Открытие декабрьского Зимнего фестиваля; само наличие фестивального кластера важно для дальнего радара.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Фестиваль",
+      "details": "Открытие Зимнего фестиваля Зала Зарядье. Три тенора, Московский государственный симфонический оркестр, дирижёр Иван Рудин.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-neobarocco-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": true,
+      "start": "2026-12-04T19:00:00+03:00",
+      "end": "2026-12-04T21:00:00+03:00",
+      "title": "NeoBarocco — «Зачарованный остров. Музыка Англии эпохи Реставрации»",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "барокко",
+        "NeoBarocco",
+        "Зимний фестиваль"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Екатерина Тугаринова · Мила Фраёнова · Руст Позюмский · Ольга Филиппова",
+      "price": "проверить актуально",
+      "why": "Прямое попадание в раннюю музыку и discovery-граф: NeoBarocco + Руст Позюмский.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Состав",
+      "details": "Ансамбль NeoBarocco: флейта, скрипка/вокал, виола да гамба, клавесин. Программа английской музыки эпохи Реставрации.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "verified": true
+    },
+    {
       "id": "shostakovich-quartets-3",
       "category": "music",
       "horizon": "buy",
@@ -372,6 +721,300 @@
       "details": "Шостакович — Струнные квартеты № 7 фа-диез минор, ор. 108; № 8 до минор, ор. 110; № 9 ми-бемоль мажор, ор. 117.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-vishnevsky-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-07T19:00:00+03:00",
+      "end": "2026-12-07T21:30:00+03:00",
+      "title": "Владимир Вишневский / «Виртуозы Москвы» / Фёдор Безносиков",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Зимний фестиваль"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Владимир Вишневский, фортепиано · «Виртуозы Москвы» · Фёдор Безносиков",
+      "price": "проверить актуально",
+      "why": "Сильный пианист и Безносиков в фестивальном контексте; стоит держать в широком пуле.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Событие Зимнего фестиваля Зарядья.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-cellos-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-08T19:00:00+03:00",
+      "end": "2026-12-08T21:00:00+03:00",
+      "title": "Ансамбль виолончелистов НФОР",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Зимний фестиваль",
+        "камерная"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Ансамбль виолончелистов Национального филармонического оркестра России",
+      "price": "проверить актуально",
+      "why": "Необычный камерный состав; в широком пуле такой формат должен быть виден.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Событие Зимнего фестиваля Зарядья.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-masleev-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-09T19:00:00+03:00",
+      "end": "2026-12-09T21:30:00+03:00",
+      "title": "Дмитрий Маслеев / РНО / Иван Никифорчин",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Зимний фестиваль",
+        "Шостакович"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Дмитрий Маслеев · Российский национальный оркестр · Иван Никифорчин",
+      "price": "проверить актуально",
+      "why": "Гершвин, Цфасман, Шостакович в фестивальной программе; хороший широкий кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Гершвин, Цфасман, Шостакович.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "verified": true
+    },
+    {
+      "id": "newopera-magic-flute-12",
+      "category": "opera",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-12T19:00:00+03:00",
+      "end": "2026-12-12T21:50:00+03:00",
+      "title": "Моцарт — «Волшебная флейта» (концертное исполнение)",
+      "tags": [],
+      "visible_tags": [
+        "Моцарт",
+        "концертная опера"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "концертное исполнение",
+      "price": "проверить актуально",
+      "why": "Концертная опера — отдельная линия радара; не редчайшая вещь, но формат заслуживает места.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "2 часа 50 минут с одним антрактом.",
+      "source_label": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
+      "id": "newopera-tristan-13",
+      "category": "opera",
+      "horizon": "far",
+      "featured": true,
+      "start": "2026-12-13T18:00:00+03:00",
+      "end": "2026-12-13T22:40:00+03:00",
+      "title": "Вагнер — «Тристан и Изольда»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Вагнер",
+        "4 ч 40 мин"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "музыкальная драма в трёх действиях",
+      "price": "проверить актуально",
+      "why": "Полный «Тристан» — событие, которое надо видеть за месяцы, а не за неделю.",
+      "editorial_status": "decide",
+      "ticket_urgency": "buy",
+      "details_label": "Формат",
+      "details": "Продолжительность 4 часа 40 минут с двумя антрактами.",
+      "source_label": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-lohengrin-19",
+      "category": "opera",
+      "horizon": "far",
+      "featured": true,
+      "start": "2026-12-19T17:00:00+03:00",
+      "end": "2026-12-19T22:00:00+03:00",
+      "title": "Вагнер — «Лоэнгрин»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Вагнер",
+        "опера"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "концертное/сценическое событие — состав перепроверить",
+      "price": "от 3500 ₽ по агрегатору · перепроверить",
+      "why": "Вагнер в Зарядье — событие длинного горизонта, которое нельзя оставлять за пределами оперного радара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Проверка",
+      "details": "Дата и наличие события подтверждаются декабрьской афишей; состав и формат перед покупкой нужно сверить на официальной странице.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": false
+    },
+    {
+      "id": "zaryadye-lohengrin-20",
+      "category": "opera",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-20T17:00:00+03:00",
+      "end": "2026-12-20T22:00:00+03:00",
+      "title": "Вагнер — «Лоэнгрин»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Вагнер",
+        "опера"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "повторный показ",
+      "price": "от 2000 ₽ по агрегатору · перепроверить",
+      "why": "Вторая дата важна для выбора и билетов.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Проверка",
+      "details": "Повторный показ 20 декабря.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": false
+    },
+    {
+      "id": "zaryadye-pratum-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-22T19:00:00+03:00",
+      "end": "2026-12-22T21:00:00+03:00",
+      "title": "Pratum Integrum — «Соперники Бетховена»",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "историческое исполнительство",
+        "Pratum Integrum"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Квартет Pratum Integrum",
+      "price": "от 500 ₽ по агрегатору · перепроверить",
+      "why": "Исторически информированное исполнение и небанальный репертуар вокруг Бетховена.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Квартет Pratum Integrum. Программа «Соперники Бетховена».",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": false
+    },
+    {
+      "id": "zaryadye-cherevichki-2026",
+      "category": "opera",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-24T19:00:00+03:00",
+      "end": "2026-12-24T22:00:00+03:00",
+      "title": "Чайковский — опера «Черевички»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "опера",
+        "Чайковский"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "ГАСК · состав перепроверить",
+      "price": "от 500 ₽ по агрегатору · перепроверить",
+      "why": "Не самый часто встречающийся Чайковский; хороший кандидат для отдельного оперного слоя.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Опера «Черевички» в Большом зале Зарядья.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": false
+    },
+    {
+      "id": "newopera-cabaret-2026",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-29T19:00:00+03:00",
+      "end": "2026-12-29T21:00:00+03:00",
+      "title": "«Кабаре в Новой Опере»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Вайль",
+        "Шёнберг",
+        "Бриттен",
+        "Сати"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "Александр Гиндин · солисты Новой Оперы",
+      "price": "проверить актуально",
+      "why": "Вайль, Шёнберг, Бриттен и Сати в новогодней афише — содержательно сильнее большинства сезонного шума.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Песни Курта Вайля, Арнольда Шёнберга, Бенджамина Бриттена, Эрика Сати и других.",
+      "source_label": "Новая Опера",
+      "source_url": "https://www.novayaopera.ru/presscenter/news/otkryta-prodazha-biletov-na-noyabr-i-dekabr-2026/",
       "verified": true
     },
     {
