@@ -2,9 +2,183 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Расширенный календарь кандидатов: теперь сохраняем всё релевантное, кроме явной ерунды; редакционный статус показывает приоритет, а не право события существовать."
+    "note": "Широкий календарь: добавлены плотный блок ДК Рассвет, сегодняшняя афиша БЗК, площадки Музея музыки и Другое Дело. Время не выдумывается: если общий официальный список даёт только дату, карточка показывает дату без часов."
   },
   "events": [
+    {
+      "id": "bzk-papoyan-malinin-2026-09-26",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-26T19:00:00+03:00",
+      "end": "2026-09-26T21:30:00+03:00",
+      "title": "Илья Папоян, Валентин Малинин / «Академия Русской Музыки»",
+      "tags": [],
+      "visible_tags": [
+        "БЗК",
+        "фортепиано",
+        "оркестр"
+      ],
+      "venue": "Большой зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Большой зал Московской консерватории, Москва",
+      "people": "Илья Папоян, Валентин Малинин · Симфонический оркестр «Академия Русской Музыки» · Иван Никифорчин",
+      "price": "проверить актуально",
+      "why": "Сегодняшний концерт базовой площадки — именно такие события радар не должен пропускать.",
+      "editorial_status": "attention",
+      "ticket_urgency": "buy",
+      "details_label": "Официальная афиша",
+      "details": "26 сентября 2026, 19:00. Большой зал Московской консерватории.",
+      "source_label": "Московская консерватория",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-09-26",
+      "verified": true
+    },
+    {
+      "id": "rassvet-duo-inspiro-2026-09-28",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-28T19:30:00+03:00",
+      "end": "2026-09-28T21:30:00+03:00",
+      "title": "Duo Inspiro — «Сонаты эпохи войны»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Вайнберг",
+        "Хиндемит",
+        "Прокофьев"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Duo Inspiro",
+      "price": "проверить актуально",
+      "why": "Вайнберг, Хиндемит и Прокофьев в камерной программе — ровно профиль радара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Сонаты эпохи войны: Вайнберг, Хиндемит, Прокофьев.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-batagov-dreamer-2026-09-29",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-29T19:30:00+03:00",
+      "end": "2026-09-29T21:30:00+03:00",
+      "title": "Антон Батагов — «Мечтатель»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Батагов"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Антон Батагов",
+      "price": "проверить актуально",
+      "why": "Watchlist-исполнитель и программа из 12 пьес, написанных для театра, кино и телевидения.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "12 пьес, когда-то написанных для театра, кино и телевидения.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-golovanov-blagovest-2026-10-01",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T20:15:00+03:00",
+      "title": "«Благовест судьбы»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Голованов",
+        "лекция с музыкой"
+      ],
+      "venue": "Музей-квартира Н.С. Голованова",
+      "place": "Брюсов пер., 7, кв. 10",
+      "location": "Музей-квартира Н.С. Голованова, Москва",
+      "people": "авторская лекция с музыкальными иллюстрациями",
+      "price": "проверить",
+      "why": "Биография Голованова в его собственной квартире с живой музыкой.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Описание",
+      "details": "75 минут; история становления Николая Голованова с фортепианными иллюстрациями.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/events/serious-lecture/blagovest-sudbyi.html",
+      "verified": true
+    },
+    {
+      "id": "rassvet-stravinsky-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:30:00+03:00",
+      "end": "2026-10-02T21:30:00+03:00",
+      "title": "Škola Crew — «Игорь Стравинский. Превращения»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Стравинский"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Škola Crew",
+      "price": "проверить актуально",
+      "why": "Стравинский в концептуальной программе — широкий пул обязан это показывать.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Программа «Игорь Стравинский. Превращения».",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-golden-royali-2026-10-03",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-03",
+      "title": "«Рояли дома на улице Горького»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Гольденвейзер",
+        "лекция"
+      ],
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "place": "Тверская, 17, кв. 109–110",
+      "location": "Музей-квартира А.Б. Гольденвейзера, Москва",
+      "people": "лекция",
+      "price": "проверить",
+      "why": "История самого пространства и его инструментов; логичная точка для нового музейного контура.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Лекция в музее-квартире Гольденвейзера.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
     {
       "id": "musica-stricta-2026",
       "category": "music",
@@ -70,6 +244,90 @@
       "verified": false
     },
     {
+      "id": "rassvet-gongs-2026-10-04",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-04T19:30:00+03:00",
+      "end": "2026-10-04T21:30:00+03:00",
+      "title": "Николай Льговский, Карл Ангерер — «Музыка гонгов»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "перкуссия"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Николай Льговский · Карл Ангерер",
+      "price": "проверить актуально",
+      "why": "Необычный инструментальный формат; как минимум «обратить внимание».",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Музыка гонгов.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-listening-club-2026-10-05",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-05T19:30:00+03:00",
+      "end": "2026-10-05T21:30:00+03:00",
+      "title": "The Listening Club — «Музыка в соавторстве»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "коллективные сочинения"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "The Listening Club",
+      "price": "проверить актуально",
+      "why": "Коллективные сочинения разных эпох — нестандартная кураторская тема.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Коллективные сочинения разных эпох.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-prokofiev-bassoon-2026-10-06",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-06",
+      "title": "«Мастера фагота»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "фагот"
+      ],
+      "venue": "Музей С.С. Прокофьева",
+      "place": "Большая Дмитровка, 5/6, стр. 3",
+      "location": "Музей С.С. Прокофьева, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Редкий инструментальный фокус; музейная камерность здесь плюс.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт «Мастера фагота».",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
       "id": "utopia",
       "category": "music",
       "horizon": "near",
@@ -101,6 +359,66 @@
       "verified": true
     },
     {
+      "id": "rassvet-picasso-2026-10-07",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-07T19:30:00+03:00",
+      "end": "2026-10-07T21:30:00+03:00",
+      "title": "«Три музыканта: четыре взгляда на картину Пикассо»",
+      "tags": [
+        "early",
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "средневековая",
+        "современная"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "три музыканта",
+      "price": "проверить актуально",
+      "why": "Связка средневековой и современной музыки вокруг Пикассо — сильный межэпохальный проект.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Средневековая и современная музыка.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-golden-svoe-prostranstvo-2026-10-08",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T20:15:00+03:00",
+      "title": "«Своё пространство»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Гольденвейзер",
+        "Московская консерватория"
+      ],
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "place": "Тверская, 17, кв. 109–110",
+      "location": "Музей-квартира А.Б. Гольденвейзера, Москва",
+      "people": "цикл «Музыкальные четверги с Московской консерваторией»",
+      "price": "проверить",
+      "why": "Камерный концерт в историческом фортепианном салоне — отдельная ценность пространства.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "75 минут без антракта.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/svoyo-prostranstvo.html",
+      "verified": true
+    },
+    {
       "id": "helikon-birds-2026",
       "category": "opera",
       "horizon": "near",
@@ -127,6 +445,33 @@
       "details": "Опера «Птицы» в рамках фестиваля «Видеть музыку».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
+      "id": "drugoe-jazz-century-2026-10-09",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T21:00:00+03:00",
+      "title": "«Век джаза» — от свинга 1920-х до нео-соула",
+      "tags": [],
+      "visible_tags": [
+        "джаз",
+        "усадьба"
+      ],
+      "venue": "Галерея «Другое Дело»",
+      "place": "Старая Басманная, 15Ас4 · сад Баумана",
+      "location": "Галерея Другое Дело, Москва",
+      "people": "Jazzplay · Маргарита Симанова",
+      "price": "проверить актуально",
+      "why": "Не академическая музыка, но содержательный исторический маршрут по джазу; оставляем в широком пуле.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "Концерт-путешествие от свинга 1920-х до актуальной сцены.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4204341/",
       "verified": true
     },
     {
@@ -191,6 +536,36 @@
       "verified": true
     },
     {
+      "id": "drugoe-tango-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-10T19:00:00+03:00",
+      "end": "2026-10-10T21:00:00+03:00",
+      "title": "«Анатомия страсти» — от Шнитке до Пьяццоллы",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Шнитке",
+        "Десятников",
+        "Пьяццолла"
+      ],
+      "venue": "Галерея «Другое Дело»",
+      "place": "Старая Басманная, 15Ас4 · сад Баумана",
+      "location": "Галерея Другое Дело, Москва",
+      "people": "ансамбль «Трагиком»",
+      "price": "от 2750 ₽",
+      "why": "Шнитке и Десятников делают этот вечер содержательно сильнее обычного «танго при свечах».",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Пьяццолла, Шнитке, Десятников, Латенас.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4203627/",
+      "verified": true
+    },
+    {
       "id": "wtc2",
       "category": "music",
       "horizon": "near",
@@ -249,6 +624,88 @@
       "details": "Дмитрий Шостакович — «Антиформалистический раёк» для баса, хора и фортепиано; вокальный цикл «Из еврейской народной поэзии» для сопрано, контральто и тенора. Концерт в двух отделениях.",
       "source_label": "Хор Минина",
       "source_url": "https://choir.ru/",
+      "verified": true
+    },
+    {
+      "id": "drugoe-italy-2026-10-14",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": "2026-10-14T21:30:00+03:00",
+      "title": "«Влюблённые в Италию» — культурный салон Георгия Гусева",
+      "tags": [],
+      "visible_tags": [
+        "кино",
+        "литература",
+        "музыка"
+      ],
+      "venue": "Галерея «Другое Дело»",
+      "place": "Старая Басманная, 15Ас4 · сад Баумана",
+      "location": "Галерея Другое Дело, Москва",
+      "people": "Георгий Гусев",
+      "price": "проверить актуально",
+      "why": "Смешанный салонный формат — кино, музыка, литература и разговор; вполне в рамке нового раздела.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "Кинопоказ, концерт и презентация книги.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4187813/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-satie-2026-10-14",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-14T19:30:00+03:00",
+      "end": "2026-10-14T21:30:00+03:00",
+      "title": "mader nort — «Вокруг Сати. Краткая история странной музыки»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Сати"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "mader nort",
+      "price": "проверить актуально",
+      "why": "Сати и история «странной музыки» — прямой профиль Культрадара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Творческое объединение mader nort.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-prokofiev-love-dialogue-2026-10-15",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-15",
+      "title": "«Диалог о любви: она и он»",
+      "tags": [],
+      "visible_tags": [
+        "камерная"
+      ],
+      "venue": "Музей С.С. Прокофьева",
+      "place": "Большая Дмитровка, 5/6, стр. 3",
+      "location": "Музей С.С. Прокофьева, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Камерная музейная программа; оставляем как кандидат широкого пула.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true
     },
     {
@@ -312,6 +769,198 @@
       "verified": true
     },
     {
+      "id": "mm-prokofiev-shostakovich-teachers-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "date_only": "2026-10-16",
+      "title": "«Шостакович и его учителя»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович"
+      ],
+      "venue": "Музей С.С. Прокофьева",
+      "place": "Большая Дмитровка, 5/6, стр. 3",
+      "location": "Музей С.С. Прокофьева, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Тематическая линия вокруг Шостаковича, а не очередной сборный концерт.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концерт «Шостакович и его учителя».",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "mm-tchaikovsky-feelings-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-16",
+      "title": "«Время чувств: Чайковский и Шуберт»",
+      "tags": [],
+      "visible_tags": [
+        "Чайковский",
+        "Шуберт"
+      ],
+      "venue": "Музей П.И. Чайковского в Москве",
+      "place": "Кудринская пл., 46/54",
+      "location": "Музей П.И. Чайковского в Москве",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Нормальная камерная программа для музейного контура.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "mm-golovanov-rachmaninov-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": "2026-10-16T20:15:00+03:00",
+      "title": "Рахманинов — «В молчаньи ночи тайной»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Рахманинов",
+        "вокальная"
+      ],
+      "venue": "Музей-квартира Н.С. Голованова",
+      "place": "Брюсов пер., 7, кв. 10",
+      "location": "Музей-квартира Н.С. Голованова, Москва",
+      "people": "вокально-инструментальная программа",
+      "price": "проверить",
+      "why": "Рахманинов в пространстве, напрямую связанном с Головановым и Неждановой.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "75 минут без антракта.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/sergej-raxmaninov.-v-molchani-nochi-tajnoj.html",
+      "verified": true
+    },
+    {
+      "id": "mm-golden-rodnik-2026-10-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-17",
+      "title": "«Родник души»",
+      "tags": [],
+      "visible_tags": [
+        "Гольденвейзер"
+      ],
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "place": "Тверская, 17, кв. 109–110",
+      "location": "Музей-квартира А.Б. Гольденвейзера, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Камерное музейное событие; сохраняем в широком пуле.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт на площадке музея-квартиры.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-euphoria-mozart-2026-10-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-17T19:30:00+03:00",
+      "end": "2026-10-17T21:30:00+03:00",
+      "title": "Euphoria Orchestra — «Mozart Decomposed»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "My Euphoria Orchestra",
+        "Моцарт"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Euphoria Orchestra",
+      "price": "проверить актуально",
+      "why": "Watchlist-ансамбль; декомпозиция Моцарта вместо стандартной классической подачи.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Mozart Decomposed.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-main-voice-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-18",
+      "title": "«Голос вне времени»",
+      "tags": [],
+      "visible_tags": [
+        "орган",
+        "вокал"
+      ],
+      "venue": "Музей Музыки",
+      "place": "Фадеева, 4",
+      "location": "Российский национальный музей музыки, Фадеева, 4, Москва",
+      "people": "Анастасия Сидельникова, орган · Елизавета Канаузова, сопрано",
+      "price": "1200 ₽ по агрегатору",
+      "why": "Орган и сопрано в самом Музее музыки; широкий пул должен это показывать.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Глинка, Римский-Корсаков, Чайковский, Кюи, Рахманинов, Глиэр и др.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-janacek-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-18T19:30:00+03:00",
+      "end": "2026-10-18T21:30:00+03:00",
+      "title": "Леош Яначек — музыка для струнных и фортепиано",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Яначек",
+        "камерная"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "камерная программа",
+      "price": "проверить актуально",
+      "why": "Яначек в камерном формате — достаточно редкий и содержательный вечер.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Интимные письма о любви и истории.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
       "id": "bzk-iolanta-2026",
       "category": "opera",
       "horizon": "near",
@@ -370,6 +1019,173 @@
       "verified": true
     },
     {
+      "id": "rassvet-butsko-2026-10-21",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-21T19:30:00+03:00",
+      "end": "2026-10-21T21:30:00+03:00",
+      "title": "Юрий Буцко — «Безмолвие осени»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Буцко",
+        "Prometheus"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Камерный оркестр Prometheus",
+      "price": "проверить актуально",
+      "why": "Редкий Буцко и камерный оркестр — один из самых очевидных кандидатов месяца.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Камерный оркестр Prometheus.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-golden-old-salon-2026-10-22",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-22",
+      "title": "«Мелодии старой гостиной»",
+      "tags": [],
+      "visible_tags": [
+        "Гольденвейзер",
+        "салон"
+      ],
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "place": "Тверская, 17, кв. 109–110",
+      "location": "Музей-квартира А.Б. Гольденвейзера, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Формат салонного концерта органично связан с самой квартирой.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт «Мелодии старой гостиной».",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "drugoe-house-memory-2026-10-22",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-22T19:00:00+03:00",
+      "end": "2026-10-22T21:00:00+03:00",
+      "title": "«Дом, который помнит»",
+      "tags": [],
+      "visible_tags": [
+        "лекция",
+        "предметная культура"
+      ],
+      "venue": "Галерея «Другое Дело»",
+      "place": "Старая Басманная, 15Ас4 · сад Баумана",
+      "location": "Галерея Другое Дело, Москва",
+      "people": "Владислава и Полина Марковы",
+      "price": "проверить актуально",
+      "why": "Камерная лекция о вещах с историей и памяти пространства — не массовый edutainment.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "Лекция-беседа с основателями галереи.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
+      "verified": true
+    },
+    {
+      "id": "mm-main-piano-keys-2026-10-23",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "date_only": "2026-10-23",
+      "title": "«Рояль и клавиши»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "клавишные"
+      ],
+      "venue": "Музей Музыки",
+      "place": "Фадеева, 4",
+      "location": "Российский национальный музей музыки, Фадеева, 4, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Инструментальная тема органична для коллекции музея.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Концерт.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-exotique-2026-10-23",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-23T19:30:00+03:00",
+      "end": "2026-10-23T21:30:00+03:00",
+      "title": "Exotique — Дебюсси, Равель, Заваро, Коннессон",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "французская музыка"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Exotique",
+      "price": "проверить актуально",
+      "why": "Ориентализм во французской музыке и современное продолжение линии.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Дебюсси, Равель, Заваро, Коннессон.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "mm-prokofiev-architects-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "date_only": "2026-10-24",
+      "title": "«Архитекторы звука: Прокофьев, Гедике, Регер»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Прокофьев",
+        "Регер"
+      ],
+      "venue": "Музей С.С. Прокофьева",
+      "place": "Большая Дмитровка, 5/6, стр. 3",
+      "location": "Музей С.С. Прокофьева, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Неочевидное соседство Прокофьева, Гедике и Регера — хороший музейный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концерт.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
       "id": "karennina",
       "category": "theatre",
       "horizon": "buy",
@@ -400,6 +1216,33 @@
       "source_label": "Театр Маяковского",
       "source_url": "",
       "verified": false
+    },
+    {
+      "id": "mm-golovanov-two-geniuses-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-24T17:00:00+03:00",
+      "end": "2026-10-24T18:15:00+03:00",
+      "title": "«Два гения русской музыки: Чайковский и Рахманинов»",
+      "tags": [],
+      "visible_tags": [
+        "Чайковский",
+        "Рахманинов"
+      ],
+      "venue": "Музей-квартира Н.С. Голованова",
+      "place": "Брюсов пер., 7, кв. 10",
+      "location": "Музей-квартира Н.С. Голованова, Москва",
+      "people": "вокальная и фортепианная музыка",
+      "price": "проверить",
+      "why": "Камерная вокально-фортепианная программа в исторической квартире.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Описание",
+      "details": "75 минут без антракта.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/dva-geniya-russkoj-muzyiki-chajkovskij-i-raxmaninov.html",
+      "verified": true
     },
     {
       "id": "kzch-young-2026",
@@ -458,6 +1301,95 @@
       "verified": true
     },
     {
+      "id": "rassvet-arm-percussion-2026-10-26",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-26T19:30:00+03:00",
+      "end": "2026-10-26T21:30:00+03:00",
+      "title": "ARM Percussion — «Театр и танец»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "новая музыка",
+        "перкуссия"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "ARM Percussion",
+      "price": "проверить актуально",
+      "why": "Новая музыка для перкуссии; профильная современная сцена.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Новая музыка для перкуссии.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-popov-radugadesign-2026-10-29",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-29T19:00:00+03:00",
+      "end": "2026-10-29T22:30:00+03:00",
+      "title": "ЦЭАМ × ДК Рассвет — «Грохот эпох»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "ЦЭАМ",
+        "аудиовизуальное"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Николай Попов · radugadesign",
+      "price": "2000 ₽",
+      "why": "Аудиовизуальная пьеса для оркестра баянов/аккордеонов, электроники и live-видео; сильный современный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "Два показа: 19:00 и 21:00.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/popov/",
+      "verified": true
+    },
+    {
+      "id": "mm-main-akhmatova-requiem-2026-10-30",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "date_only": "2026-10-30",
+      "title": "«Реквием Анны Ахматовой. Голоса памяти»",
+      "tags": [
+        "rare",
+        "modern"
+      ],
+      "visible_tags": [
+        "Ахматова",
+        "память"
+      ],
+      "venue": "Музей Музыки",
+      "place": "Фадеева, 4",
+      "location": "Российский национальный музей музыки, Фадеева, 4, Москва",
+      "people": "концерт",
+      "price": "проверить",
+      "why": "Литературно-музыкальная программа с явной содержательной рамкой.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концерт «Реквием Анны Ахматовой. Голоса памяти».",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
       "id": "martynov-requiem",
       "category": "music",
       "horizon": "buy",
@@ -488,6 +1420,93 @@
       "verified": false
     },
     {
+      "id": "mm-tchaikovsky-grechaninov-2026-10-30",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-30T19:00:00+03:00",
+      "end": "2026-10-30T20:20:00+03:00",
+      "title": "«Жизнь прожита недаром…» — Александр Гречанинов",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Гречанинов"
+      ],
+      "venue": "Музей П.И. Чайковского в Москве",
+      "place": "Кудринская пл., 46/54",
+      "location": "Музей П.И. Чайковского в Москве",
+      "people": "концерт-посвящение",
+      "price": "проверить",
+      "why": "Гречанинов звучит значительно реже, чем заслуживает; хороший кандидат дальнего радара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "80 минут без антракта.",
+      "source_label": "Музей музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/zhizn-prozhita-nedarom.html",
+      "verified": true
+    },
+    {
+      "id": "rassvet-sonus-verus-2026-11-01",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-11-01T19:30:00+03:00",
+      "end": "2026-11-01T21:30:00+03:00",
+      "title": "Sonus Verus — «Работать, чтобы ничего не слышать»",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Дебюсси",
+        "Равель"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Trio Sonus Verus",
+      "price": "проверить актуально",
+      "why": "Дебюсси и Равель в камерном трио; хороший широкий кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Дебюсси и Равель.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "rassvet-hodila-izba-2026-11-03",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-03T19:30:00+03:00",
+      "end": "2026-11-03T21:30:00+03:00",
+      "title": "Hodíla Ízba × Хор Свешникова — «У бела моря»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "опера",
+        "новая музыка"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Hodíla Ízba · Хор Свешникова",
+      "price": "проверить актуально",
+      "why": "Опера Варвары Чураковой и необычное соединение коллективов.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Опера Варвары Чураковой.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
       "id": "helikon-maddalena-2026",
       "category": "opera",
       "horizon": "buy",
@@ -515,6 +1534,37 @@
       "details": "С. С. Прокофьев — «Маддалена».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
+      "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-11T19:30:00+03:00",
+      "end": "2026-11-11T21:30:00+03:00",
+      "title": "«Четверо»: Пярт, Пелецис, Мансурян, Сильвестров",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Пярт",
+        "Мансурян",
+        "Сильвестров"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Александр Рудин · Сергей Каспров · Musica Viva",
+      "price": "проверить актуально",
+      "why": "Одна из самых сильных программ дальнего горизонта.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Пярт, Пелецис, Мансурян, Сильвестров.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
       "verified": true
     },
     {
@@ -576,6 +1626,37 @@
       "details": "Шостакович — Струнные квартеты № 4 ре мажор, ор. 83; № 5 си-бемоль мажор, ор. 92; № 6 соль мажор, ор. 101.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "verified": true
+    },
+    {
+      "id": "rassvet-xenakis-reich-2026-11-21",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-21T19:30:00+03:00",
+      "end": "2026-11-21T21:30:00+03:00",
+      "title": "Ксенакис | Райх — перкуссия и клавесин",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Ксенакис",
+        "Райх",
+        "перкуссия"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3к15",
+      "location": "ДК Рассвет, Москва",
+      "people": "новая музыка для перкуссии и клавесина",
+      "price": "проверить актуально",
+      "why": "Ксенакис и Райх в необычном инструментальном сочетании — обязательный дальний кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Новая музыка для перкуссии и клавесина.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/",
       "verified": true
     },
     {
