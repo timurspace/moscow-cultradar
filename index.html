@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>Культрадар — музыка, театр, опера и разговоры в Москве</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260926b">
 </head>
 <body>
   <div class="shell">
@@ -33,6 +33,7 @@
         <select id="venueFilter" aria-label="Фильтр по площадке">
           <option value="all">Площадка: все</option>
         </select>
+        <span id="filterSummary" class="filter-summary"></span>
       </div>
 
       <div class="privatebar">
@@ -67,6 +68,6 @@
       Публичные события хранятся в <code>events.json</code>. Личные статусы и заметки — только в Вашем браузере. «Что осталось?» — не рейтинг и не отзыв, а короткий след события.
     </footer>
   </div>
-  <script src="app.js" defer></script>
+  <script src="app.js?v=20260926b" defer></script>
 </body>
 </html>
