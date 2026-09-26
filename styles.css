@@ -56,3 +56,8 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .editorial-filter{border:0;cursor:pointer;font-family:inherit;color:inherit}
 .editorial-filter:hover{outline:1px solid #b9b1a4;transform:translateY(-1px)}
 .editorial-filter.selected-filter{box-shadow:0 0 0 2px var(--ink);outline:none}
+
+/* Personal status colors in "Мои планы" */
+.plan-item.plan-want{border:2px solid #b88428}
+.plan-item.plan-bought{border:2px solid #3f7258;box-shadow:0 0 0 2px rgba(63,114,88,.08)}
+.plan-item.plan-later{border:2px solid #9b968d}
