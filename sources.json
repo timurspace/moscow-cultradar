@@ -96,10 +96,10 @@
       "parent_org": null,
       "url": "https://vnutri.moscow/",
       "last_checked": "2026-09-26",
-      "event_count": 2,
+      "event_count": 4,
       "coverage_2026": {
         "october": 2,
-        "november": 0,
+        "november": 2,
         "december": 0
       },
       "coverage_status": "active"
@@ -560,9 +560,9 @@
       "parent_org": null,
       "url": "https://spheratheatre.nakaretnom3.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 2,
+      "event_count": 10,
       "coverage_2026": {
-        "october": 2,
+        "october": 10,
         "november": 0,
         "december": 0
       },
@@ -574,9 +574,9 @@
       "parent_org": null,
       "url": "https://www.mayakovsky.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 2,
+      "event_count": 4,
       "coverage_2026": {
-        "october": 2,
+        "october": 4,
         "november": 0,
         "december": 0
       },
@@ -602,10 +602,10 @@
       "parent_org": "Театр Наций",
       "url": "https://theatreofnations.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 3,
+      "event_count": 10,
       "coverage_2026": {
         "october": 3,
-        "november": 0,
+        "november": 7,
         "december": 0
       },
       "coverage_status": "active"
@@ -616,10 +616,10 @@
       "parent_org": "Театр Наций",
       "url": "https://theatreofnations.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 2,
+      "event_count": 7,
       "coverage_2026": {
         "october": 2,
-        "november": 0,
+        "november": 5,
         "december": 0
       },
       "coverage_status": "active"
@@ -728,9 +728,9 @@
       "parent_org": null,
       "url": "https://www.electrotheatre.ru/repertoire/spectacle/1270",
       "last_checked": "2026-09-26",
-      "event_count": 1,
+      "event_count": 9,
       "coverage_2026": {
-        "october": 1,
+        "october": 9,
         "november": 0,
         "december": 0
       },
@@ -763,6 +763,51 @@
         "december": 0
       },
       "coverage_status": "active"
+    },
+    {
+      "name": "Театр «Современник» — Основная сцена",
+      "role": "venue",
+      "parent_org": "Театр «Современник»",
+      "url": "https://sovremennik.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active",
+      "coverage_note": "На момент проверки опубликована октябрьская афиша; ноябрь–декабрь добирать после публикации."
+    },
+    {
+      "name": "Театр «Современник» — Другая сцена",
+      "role": "venue",
+      "parent_org": "Театр «Современник»",
+      "url": "https://sovremennik.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 6,
+      "coverage_2026": {
+        "october": 6,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active",
+      "coverage_note": "На момент проверки опубликована октябрьская афиша; ноябрь–декабрь добирать после публикации."
+    },
+    {
+      "name": "Театр «Около дома Станиславского»",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://www.okolo.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 9,
+      "coverage_2026": {
+        "october": 9,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active",
+      "coverage_note": "На момент проверки доступна октябрьская афиша; последующие месяцы добирать после публикации."
     }
   ],
   "discovery_sources": [
@@ -809,7 +854,7 @@
     },
     {
       "name": "Мастерская Брусникина",
-      "url": "https://brusnikin.work/",
+      "url": "https://www.masterbrus.com/",
       "role": "theatre",
       "last_checked": "2026-09-26"
     },
@@ -900,6 +945,14 @@
         "Музей С.С. Прокофьева",
         "Музей-квартира А.Б. Гольденвейзера",
         "Музей-квартира Н.С. Голованова"
+      ]
+    },
+    {
+      "name": "Театр «Современник»",
+      "url": "https://sovremennik.ru/",
+      "member_venues": [
+        "Театр «Современник» — Основная сцена",
+        "Театр «Современник» — Другая сцена"
       ]
     }
   ]
