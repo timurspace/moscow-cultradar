@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Репертуарный sweep: Малый театр разнесён по четырём московским сценам; добавлены почти полный октябрь Практики и Театра.doc, Центр Вознесенского, Гнесинка, Île Thélème и Покровские ворота. Для театров принцип — широкий репертуар, не только рекомендации."
+    "note": "sources.json теперь имеет фактическое покрытие. Добавлен полный доступный октябрь Театра у Никитских ворот, цикл Руфъ, октябрь Ельцин Центра и юбилей Центра Вишневской; source_group/source_groups связывают события с организаторами и площадками."
   },
   "events": [
     {
@@ -331,6 +331,33 @@
       "source_group": "Московская филармония"
     },
     {
+      "id": "yeltsin-sharova-artists-2026-10-01",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Елена Шарова — «Жизнь других: учёба, работа, быт художников в Российской империи»",
+      "tags": [],
+      "visible_tags": [
+        "лекция"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Москва",
+      "location": "Ельцин Центр в Москве, Москва",
+      "people": "Елена Шарова",
+      "price": "проверить",
+      "why": "Содержательная лекция московского филиала Ельцин Центра.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "1 октября, 18:00–20:00.",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/platform/moskovskij-filial-elcin-centra/",
+      "verified": true,
+      "source_group": "Ельцин Центр в Москве",
+      "start": "2026-10-01T18:00:00+03:00",
+      "end": "2026-10-01T17:00:00.000Z"
+    },
+    {
       "id": "mm-golovanov-blagovest-2026-10-01",
       "category": "talks",
       "horizon": "near",
@@ -476,6 +503,33 @@
       "end": "2026-10-01T18:35:00.000Z"
     },
     {
+      "id": "nikitskie-skameyka-2026-10-01",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Скамейка»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "режиссёр Юрий Голубцов",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T17:30:00.000Z"
+    },
+    {
       "id": "voz-punk-2026-10-01",
       "category": "talks",
       "horizon": "near",
@@ -530,7 +584,8 @@
       "details": "1 и 2 октября; следующие показы 20–21 ноября. 1 час 40 минут без антракта.",
       "source_label": "Театр Наций",
       "source_url": "https://theatreofnations.ru/performances/obyiknovennaya-smert",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Наций"
     },
     {
       "id": "maly-sandman-oct26",
@@ -707,7 +762,8 @@
       "details": "2 и 10 октября. 3 часа 25 минут, два антракта.",
       "source_label": "Театр на Малой Бронной",
       "source_url": "https://mbronnaya.ru/performances/novaya-optimisticheskaya/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр на Малой Бронной"
     },
     {
       "id": "maly-mysterious-box-oct26",
@@ -762,6 +818,32 @@
       "source_group": "Малый театр",
       "start": "2026-10-02T19:00:00+03:00",
       "end": "2026-10-02T18:30:00.000Z"
+    },
+    {
+      "id": "nikitskie-three-musketeers-2026-10-02",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Три мушкетера»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-02T19:00:00+03:00"
     },
     {
       "id": "rassvet-stravinsky-2026-10-02",
@@ -848,7 +930,11 @@
       "source_label": "Театр «Место»",
       "source_url": "https://teatrmesto.ru/etoneya",
       "verified": true,
-      "source_group": "Место / Антон Фёдоров"
+      "source_group": "Место / Антон Фёдоров",
+      "source_groups": [
+        "Внутри",
+        "Место / Антон Фёдоров"
+      ]
     },
     {
       "id": "praktika-natashas-dream-2026-10-02",
@@ -900,6 +986,33 @@
       "source_group": "Театр.doc",
       "start": "2026-10-02T20:00:00+03:00",
       "end": "2026-10-02T18:40:00.000Z"
+    },
+    {
+      "id": "yeltsin-night-baroque-rock-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Ночной концерт «От барокко до рока»",
+      "tags": [],
+      "visible_tags": [
+        "барокко / кроссовер"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Москва",
+      "location": "Ельцин Центр в Москве, Москва",
+      "people": "",
+      "price": "1500–3000 ₽",
+      "why": "Пограничная программа обязательной площадки; оставляем в широком пуле.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "2 октября, 21:00–22:30, Бальный зал усадьбы.",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "verified": true,
+      "source_group": "Ельцин Центр в Москве",
+      "start": "2026-10-02T21:00:00+03:00",
+      "end": "2026-10-02T19:30:00.000Z"
     },
     {
       "id": "mm-golden-royali-2026-10-03",
@@ -1071,7 +1184,10 @@
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~oct/",
       "verified": true,
-      "source_group": "Московская филармония"
+      "source_group": "Московская филармония",
+      "source_groups": [
+        "Île Thélème Ensemble"
+      ]
     },
     {
       "id": "zaryadye-esenin-musica-viva-2026-10-03",
@@ -1160,6 +1276,32 @@
       "source_group": "Московский Дом музыки"
     },
     {
+      "id": "nikitskie-wedding-2026-10-03",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Свадьба»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-03T19:00:00+03:00"
+    },
+    {
       "id": "praktika-black-blizzard-2026-10-03",
       "category": "theatre",
       "horizon": "near",
@@ -1244,6 +1386,33 @@
       "source_group": "Малый театр",
       "start": "2026-10-04T11:00:00+03:00",
       "end": "2026-10-04T09:40:00.000Z"
+    },
+    {
+      "id": "ruf-eucharist-2026-10-04",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Живые встречи на Трёх Горах. Евхаристия»",
+      "tags": [],
+      "visible_tags": [
+        "12+",
+        "цикл"
+      ],
+      "venue": "Руфъ",
+      "place": "Москва",
+      "location": "Руфъ, Москва",
+      "people": "священник Евгений Мороз",
+      "price": "вход/регистрация — проверить",
+      "why": "Подтверждённый цикл разговоров на обязательной площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Цикл из четырёх встреч: 4, 11, 18 и 25 октября в 12:15. Нововаганьковский пер., 9.",
+      "source_label": "Руфъ",
+      "source_url": "https://hramtrigory.ru/17104-2/",
+      "verified": true,
+      "source_group": "Руфъ",
+      "start": "2026-10-04T12:15:00+03:00"
     },
     {
       "id": "zaryadye-popov-choir-2026-10-04",
@@ -1466,6 +1635,32 @@
       "source_group": "Большой театр"
     },
     {
+      "id": "nikitskie-lolita-2026-10-04",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Набоков — «Лолита»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-04T19:00:00+03:00"
+    },
+    {
       "id": "rassvet-gongs-2026-10-04",
       "category": "music",
       "horizon": "near",
@@ -1549,7 +1744,8 @@
       "details": "5, 9 и 27 октября. Премьера состоялась 3 сентября 2026. Продолжительность в доступной официальной карточке не указана — не подставляем агрегаторное значение.",
       "source_label": "Театр на Малой Бронной",
       "source_url": "https://mbronnaya.ru/performances/sobytie/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр на Малой Бронной"
     },
     {
       "id": "rassvet-listening-club-2026-10-05",
@@ -1664,7 +1860,10 @@
       "source_label": "Студия новой музыки",
       "source_url": "https://studionewmusic.ru/?tribe_events=%D0%B2-%D0%BF%D0%BB%D0%B5%D0%BD%D1%83-%D1%83%D1%82%D0%BE%D0%BF%D0%B8%D0%B8",
       "verified": true,
-      "source_group": "Московская филармония"
+      "source_group": "Московская филармония",
+      "source_groups": [
+        "Студия новой музыки"
+      ]
     },
     {
       "id": "ges2-music-unbound-papoyan-2026-10-06",
@@ -1723,7 +1922,8 @@
       "details": "Штраус-гала.",
       "source_label": "Центр Вишневской",
       "source_url": "https://opera-centre.ru/poster/",
-      "verified": true
+      "verified": true,
+      "source_group": "Центр оперного пения Галины Вишневской"
     },
     {
       "id": "lapp83-opera-carmen-2026-10-06",
@@ -1750,7 +1950,8 @@
       "details": "Цикл «Оперы мира».",
       "source_label": "L’Appartement 83",
       "source_url": "https://lappartement83.com/shop",
-      "verified": true
+      "verified": true,
+      "source_group": "L’Appartement 83"
     },
     {
       "id": "bolshoi-maddalena-spanish-hour-2026-10-06",
@@ -1839,6 +2040,32 @@
       "end": "2026-10-06T18:30:00.000Z"
     },
     {
+      "id": "nikitskie-captains-daughter-2026-10-06",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Капитанская дочка»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "мюзикл",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-06T19:00:00+03:00"
+    },
+    {
       "id": "praktika-foreign-letters-2026-10-06",
       "category": "theatre",
       "horizon": "near",
@@ -1916,7 +2143,11 @@
       "details": "7 октября, 19:00. 2 часа 20 минут с одним антрактом.",
       "source_label": "Театр «Сфера»",
       "source_url": "https://spheratheatre.nakaretnom3.ru/performances/dom-bernardy-alby/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр «Сфера»",
+      "source_groups": [
+        "Театр «Сфера»"
+      ]
     },
     {
       "id": "maly-guiltless-oct26",
@@ -1971,6 +2202,32 @@
       "source_group": "Малый театр",
       "start": "2026-10-07T19:00:00+03:00",
       "end": "2026-10-07T18:40:00.000Z"
+    },
+    {
+      "id": "nikitskie-romeo-juliet-2026-10-07",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шекспир — «Ромео и Джульетта»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-07T19:00:00+03:00"
     },
     {
       "id": "rassvet-picasso-2026-10-07",
@@ -2151,6 +2408,87 @@
       "end": "2026-10-08T17:40:00.000Z"
     },
     {
+      "id": "nikitskie-free-butterflies-2026-10-08",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Эти свободные бабочки»",
+      "tags": [],
+      "visible_tags": [
+        "18+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-08T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-communal-songs-2026-10-08",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Песни нашей коммуналки»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-08T19:00:00+03:00"
+    },
+    {
+      "id": "yeltsin-berlinsky-tchaikovsky-bartok-2026-10-08",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Квартет им. В. А. Берлинского — «Два мира: Чайковский и Барток»",
+      "tags": [],
+      "visible_tags": [
+        "Чайковский",
+        "Барток",
+        "квартет"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Москва",
+      "location": "Ельцин Центр в Москве, Москва",
+      "people": "",
+      "price": "1500–3000 ₽",
+      "why": "Камерный квартетный вечер с сильной программой.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты / детали",
+      "details": "8 октября, 19:00–20:15. Чайковский — Квартет №2; Барток — Квартет №4.",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "verified": true,
+      "source_group": "Ельцин Центр в Москве",
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T17:15:00.000Z"
+    },
+    {
       "id": "voz-spiritual-travel-2026-10-08",
       "category": "talks",
       "horizon": "near",
@@ -2256,7 +2594,11 @@
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4204341/",
       "verified": true,
-      "source_group": "Другое Дело"
+      "source_group": "Другое дело",
+      "source_groups": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
     },
     {
       "id": "zaryadye-coltrane-2026-10-09",
@@ -2344,7 +2686,8 @@
       "details": "9 и 10 октября 2026. 2 часа 10 минут без антракта. Премьера постановки состоялась 12 декабря 2025 года.",
       "source_label": "Электротеатр Станиславский",
       "source_url": "https://www.electrotheatre.ru/repertoire/spectacle/1270",
-      "verified": true
+      "verified": true,
+      "source_group": "Электротеатр Станиславский"
     },
     {
       "id": "nations-boris-godunov-2026-10-09",
@@ -2374,7 +2717,8 @@
       "details": "2 часа 10 минут без антракта.",
       "source_label": "Театр Наций",
       "source_url": "https://theatreofnations.ru/performances/boris-godunov",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Наций"
     },
     {
       "id": "maly-inspector-oct26",
@@ -2456,6 +2800,58 @@
       "end": "2026-10-09T17:15:00.000Z"
     },
     {
+      "id": "nikitskie-korzhavin-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Коржавин»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "литературно-театральный вечер",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-09T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-horse-story-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Толстой — «История лошади»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "мюзикл",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-09T19:00:00+03:00"
+    },
+    {
       "id": "doc-dead-wave-2026-10-09",
       "category": "theatre",
       "horizon": "near",
@@ -2532,7 +2928,8 @@
       "details": "Камерная вокальная программа из репертуара Вишневской.",
       "source_label": "Центр Вишневской",
       "source_url": "https://opera-centre.ru/poster/",
-      "verified": true
+      "verified": true,
+      "source_group": "Центр оперного пения Галины Вишневской"
     },
     {
       "id": "maly-anna-karenina-2026-10-10",
@@ -2684,7 +3081,11 @@
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4203627/",
       "verified": true,
-      "source_group": "Другое Дело"
+      "source_group": "Другое дело",
+      "source_groups": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
     },
     {
       "id": "prove-shostakovich-chamber-2026-10-10",
@@ -2741,6 +3142,85 @@
       "source_group": "Театр.doc",
       "start": "2026-10-10T19:00:00+03:00",
       "end": "2026-10-10T17:30:00.000Z"
+    },
+    {
+      "id": "nikitskie-sixties-2026-10-10",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Шестидесятники»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "Марк Розовский · Евтушенко, Рождественский, Вознесенский, Ахмадулина",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-10T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-rur-2026-10-10",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Карел Чапек — «R.U.R.»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "режиссёр Марк Розовский",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-10T19:00:00+03:00"
+    },
+    {
+      "id": "ruf-eucharist-2026-10-11",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Живые встречи на Трёх Горах. Евхаристия»",
+      "tags": [],
+      "visible_tags": [
+        "12+",
+        "цикл"
+      ],
+      "venue": "Руфъ",
+      "place": "Москва",
+      "location": "Руфъ, Москва",
+      "people": "священник Евгений Мороз",
+      "price": "вход/регистрация — проверить",
+      "why": "Подтверждённый цикл разговоров на обязательной площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Цикл из четырёх встреч: 4, 11, 18 и 25 октября в 12:15. Нововаганьковский пер., 9.",
+      "source_label": "Руфъ",
+      "source_url": "https://hramtrigory.ru/17104-2/",
+      "verified": true,
+      "source_group": "Руфъ",
+      "start": "2026-10-11T12:15:00+03:00"
     },
     {
       "id": "doc-toni-garden-2026-10-11",
@@ -2826,6 +3306,58 @@
       "source_url": "https://www.mosconsv.ru/",
       "verified": false,
       "source_group": "Московская консерватория"
+    },
+    {
+      "id": "nikitskie-rubalskaya-2026-10-11",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Рубальская»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "литературно-театральный вечер",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-11T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-amadeus-2026-10-11",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Амадей»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-11T19:00:00+03:00"
     },
     {
       "id": "phil-rachmaninoff-bells-2026-10-11",
@@ -2945,6 +3477,33 @@
       "verified": true,
       "source_group": "Малый театр",
       "start": "2026-10-12T19:00:00+03:00"
+    },
+    {
+      "id": "yeltsin-sharova-2026-10-12",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Елена Шарова — «Жизнь других: учёба, работа, быт художников в Российской империи»",
+      "tags": [],
+      "visible_tags": [
+        "лекция"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Москва",
+      "location": "Ельцин Центр в Москве, Москва",
+      "people": "",
+      "price": "бесплатно, по регистрации",
+      "why": "Содержательная культурно-историческая лекция.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "12 октября, 19:00–20:00; официальный календарь показывает эту дату в цикле.",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "verified": true,
+      "source_group": "Ельцин Центр в Москве",
+      "start": "2026-10-12T19:00:00+03:00",
+      "end": "2026-10-12T17:00:00.000Z"
     },
     {
       "id": "teatrdoc-eisenstein-2026-10-12",
@@ -3101,6 +3660,32 @@
       "source_group": "Новая Опера"
     },
     {
+      "id": "nikitskie-dear-elena-2026-10-13",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Дорогая Елена Сергеевна»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-13T19:00:00+03:00"
+    },
+    {
       "id": "nations-ghosts-2026-10-13",
       "category": "theatre",
       "horizon": "near",
@@ -3128,7 +3713,8 @@
       "details": "13 и 14 октября. 1 час 40 минут без антракта.",
       "source_label": "Театр Наций",
       "source_url": "https://theatreofnations.ru/performances/prizraki",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Наций"
     },
     {
       "id": "doc-magritte-2026-10-13",
@@ -3182,7 +3768,11 @@
       "details": "Программа фестиваля «Московская осень».",
       "source_label": "Союз московских композиторов",
       "source_url": "https://mosunicom.ru/mo26/program",
-      "verified": true
+      "verified": true,
+      "source_group": "Дом композиторов",
+      "source_groups": [
+        "Студия новой музыки"
+      ]
     },
     {
       "id": "maly-zashchita-luzhina-2026-10-06",
@@ -3242,7 +3832,11 @@
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4187813/",
       "verified": true,
-      "source_group": "Другое Дело"
+      "source_group": "Другое дело",
+      "source_groups": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
     },
     {
       "id": "bolshoi-player-ballet-2026-10-14",
@@ -3303,7 +3897,8 @@
       "details": "3 часа 10 минут с двумя антрактами.",
       "source_label": "Театр на Малой Бронной",
       "source_url": "https://mbronnaya.ru/performances/besy-dostoevskogo/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр на Малой Бронной"
     },
     {
       "id": "mayakovsky-onegin-2026-10-14",
@@ -3332,7 +3927,11 @@
       "details": "14 и 26 октября. 3 часа с одним антрактом.",
       "source_label": "Театр Маяковского",
       "source_url": "https://www.mayakovsky.ru/performance/evgeniy-onegin/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Маяковского",
+      "source_groups": [
+        "Театр Маяковского"
+      ]
     },
     {
       "id": "maly-balzaminov-oct26",
@@ -3387,6 +3986,32 @@
       "source_group": "Малый театр",
       "start": "2026-10-14T19:00:00+03:00",
       "end": "2026-10-14T18:30:00.000Z"
+    },
+    {
+      "id": "nikitskie-jobs-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Джобс»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-14T19:00:00+03:00"
     },
     {
       "id": "rassvet-satie-2026-10-14",
@@ -3447,7 +4072,11 @@
       "source_label": "Театр «Место»",
       "source_url": "https://teatrmesto.ru/chuvak",
       "verified": true,
-      "source_group": "Место / Антон Фёдоров"
+      "source_group": "Место / Антон Фёдоров",
+      "source_groups": [
+        "Внутри",
+        "Место / Антон Фёдоров"
+      ]
     },
     {
       "id": "doc-life-fucked-2026-10-14",
@@ -3640,6 +4269,58 @@
       "source_group": "Малый театр",
       "start": "2026-10-15T19:00:00+03:00",
       "end": "2026-10-15T18:30:00.000Z"
+    },
+    {
+      "id": "nikitskie-morphine-2026-10-15",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Морфий»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-15T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-dancing-men-2026-10-15",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Пляшущие человечки»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-15T19:00:00+03:00"
     },
     {
       "id": "doc-exit-2026-10-15",
@@ -3919,6 +4600,58 @@
       "end": "2026-10-16T18:40:00.000Z"
     },
     {
+      "id": "nikitskie-yesenin-2026-10-16",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Есенин»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-16T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-karenina-lecture-2026-10-16",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Анна Каренина. Лекция»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-16T19:00:00+03:00"
+    },
+    {
       "id": "voz-kharms-2026-10-16",
       "category": "talks",
       "horizon": "near",
@@ -4073,7 +4806,60 @@
       "details": "Кокжаев, Николаев, Раева, Поспелов, Подгайц.",
       "source_label": "Союз московских композиторов",
       "source_url": "https://mosunicom.ru/mo26/program",
-      "verified": true
+      "verified": true,
+      "source_group": "Дом композиторов"
+    },
+    {
+      "id": "nikitskie-capdaughter-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Капитанская дочка»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "мюзикл; повторный показ",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-17T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-yunna-morits-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Юнна Мориц»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-17T19:00:00+03:00"
     },
     {
       "id": "rassvet-euphoria-mozart-2026-10-17",
@@ -4103,7 +4889,10 @@
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
       "verified": true,
-      "source_group": "ДК Рассвет"
+      "source_group": "ДК Рассвет",
+      "source_groups": [
+        "My Euphoria Orchestra"
+      ]
     },
     {
       "id": "newopera-tristan-concert-2026-10-17",
@@ -4164,7 +4953,8 @@
       "details": "17 и 18 октября. 2 часа без антракта.",
       "source_label": "Театр Наций",
       "source_url": "https://theatreofnations.ru/performances/pole-festival-territoriya",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Наций"
     },
     {
       "id": "teatrdoc-buried-stalin-2026-10-17",
@@ -4251,6 +5041,59 @@
       "source_group": "Музей Музыки"
     },
     {
+      "id": "nikitskie-miracle-worker-2026-10-18",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Сотворившая чудо»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-18T12:00:00+03:00"
+    },
+    {
+      "id": "ruf-eucharist-2026-10-18",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Живые встречи на Трёх Горах. Евхаристия»",
+      "tags": [],
+      "visible_tags": [
+        "12+",
+        "цикл"
+      ],
+      "venue": "Руфъ",
+      "place": "Москва",
+      "location": "Руфъ, Москва",
+      "people": "священник Евгений Мороз",
+      "price": "вход/регистрация — проверить",
+      "why": "Подтверждённый цикл разговоров на обязательной площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Цикл из четырёх встреч: 4, 11, 18 и 25 октября в 12:15. Нововаганьковский пер., 9.",
+      "source_label": "Руфъ",
+      "source_url": "https://hramtrigory.ru/17104-2/",
+      "verified": true,
+      "source_group": "Руфъ",
+      "start": "2026-10-18T12:15:00+03:00"
+    },
+    {
       "id": "zaryadye-liszt-missa-2026-10-18",
       "category": "music",
       "horizon": "near",
@@ -4334,6 +5177,32 @@
       "source_group": "Малый театр",
       "start": "2026-10-18T18:00:00+03:00",
       "end": "2026-10-18T17:10:00.000Z"
+    },
+    {
+      "id": "nikitskie-cornet-elagin-2026-10-18",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Дело корнета Елагина»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-18T19:00:00+03:00"
     },
     {
       "id": "rassvet-janacek-2026-10-18",
@@ -4497,7 +5366,10 @@
       "source_label": "Студия новой музыки",
       "source_url": "https://studionewmusic.ru/events_list/",
       "verified": true,
-      "source_group": "Московская консерватория"
+      "source_group": "Московская консерватория",
+      "source_groups": [
+        "Студия новой музыки"
+      ]
     },
     {
       "id": "maly-truth-happiness-oct26",
@@ -4552,6 +5424,32 @@
       "source_group": "Практика",
       "start": "2026-10-20T19:00:00+03:00",
       "end": "2026-10-20T17:20:00.000Z"
+    },
+    {
+      "id": "nikitskie-moral-dulskaya-2026-10-20",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Мораль Пани Дульской»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-20T19:00:00+03:00"
     },
     {
       "id": "doc-utopia-2026-10-20",
@@ -4782,7 +5680,11 @@
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
       "verified": true,
-      "source_group": "Другое Дело"
+      "source_group": "Другое дело",
+      "source_groups": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
     },
     {
       "id": "newopera-postillon-2026-10-22",
@@ -4867,6 +5769,32 @@
       "source_group": "Малый театр",
       "start": "2026-10-22T19:00:00+03:00",
       "end": "2026-10-22T18:50:00.000Z"
+    },
+    {
+      "id": "nikitskie-samoylov-2026-10-22",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Самойлов»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-22T19:00:00+03:00"
     },
     {
       "id": "doc-greeks-oedipus-medea-2026-10-22",
@@ -4979,6 +5907,32 @@
       "source_url": "https://www.mmdm.ru/",
       "verified": true,
       "source_group": "Московский Дом музыки"
+    },
+    {
+      "id": "nikitskie-chekhov-jokes-2026-10-23",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Шутки Чехова»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-23T19:00:00+03:00"
     },
     {
       "id": "rassvet-exotique-2026-10-23",
@@ -5153,7 +6107,11 @@
       "details": "24 и 25 октября 2026; далее 14 и 15 ноября. Продолжительность 5 часов 30 минут с двумя антрактами.",
       "source_label": "Театр Маяковского",
       "source_url": "https://www.mayakovsky.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Маяковского",
+      "source_groups": [
+        "Театр Маяковского"
+      ]
     },
     {
       "id": "mm-golovanov-two-geniuses-2026-10-24",
@@ -5211,7 +6169,11 @@
       "details": "24 октября, 18:00. 3 часа 40 минут с одним антрактом.",
       "source_label": "Театр «Сфера»",
       "source_url": "https://spheratheatre.nakaretnom3.ru/performances/obyknovennaya-istoriya/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр «Сфера»",
+      "source_groups": [
+        "Театр «Сфера»"
+      ]
     },
     {
       "id": "maly-lev-gurych-oct26",
@@ -5241,6 +6203,58 @@
       "end": "2026-10-24T17:20:00.000Z"
     },
     {
+      "id": "nikitskie-paraphrase-2026-10-24",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Парафраз — шведская семья»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2000 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2000 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-24T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-ya-maya-2026-10-24",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Я — Майя»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-24T19:00:00+03:00"
+    },
+    {
       "id": "gnesin-shpiller-gala-2026-10-25",
       "category": "music",
       "horizon": "near",
@@ -5265,6 +6279,60 @@
       "verified": true,
       "source_group": "Гнесинка",
       "date_only": "2026-10-25"
+    },
+    {
+      "id": "vishnevskaya-centenary-2026-10-25",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "title": "К 100-летию со дня рождения Галины Вишневской",
+      "tags": [],
+      "visible_tags": [
+        "вокальная",
+        "юбилей"
+      ],
+      "venue": "Центр оперного пения Галины Вишневской",
+      "place": "Москва",
+      "location": "Центр оперного пения Галины Вишневской, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Центральное юбилейное событие профильной оперной площадки.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты / детали",
+      "details": "25 октября. Точное время и программа — на официальной афише Центра.",
+      "source_label": "Центр оперного пения Галины Вишневской",
+      "source_url": "https://opera-centre.ru/",
+      "verified": true,
+      "source_group": "Центр оперного пения Галины Вишневской",
+      "date_only": "2026-10-25"
+    },
+    {
+      "id": "ruf-eucharist-2026-10-25",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Живые встречи на Трёх Горах. Евхаристия»",
+      "tags": [],
+      "visible_tags": [
+        "12+",
+        "цикл"
+      ],
+      "venue": "Руфъ",
+      "place": "Москва",
+      "location": "Руфъ, Москва",
+      "people": "священник Евгений Мороз",
+      "price": "вход/регистрация — проверить",
+      "why": "Подтверждённый цикл разговоров на обязательной площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Цикл из четырёх встреч: 4, 11, 18 и 25 октября в 12:15. Нововаганьковский пер., 9.",
+      "source_label": "Руфъ",
+      "source_url": "https://hramtrigory.ru/17104-2/",
+      "verified": true,
+      "source_group": "Руфъ",
+      "start": "2026-10-25T12:15:00+03:00"
     },
     {
       "id": "mamt-straussiana-2026-10-25",
@@ -5322,6 +6390,32 @@
       "source_url": "",
       "verified": true,
       "source_group": "Île Thélème",
+      "start": "2026-10-25T19:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-morphine-2026-10-25",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Морфий»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "повторный показ",
+      "price": "от 2500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
       "start": "2026-10-25T19:00:00+03:00"
     },
     {
@@ -5527,7 +6621,8 @@
       "details": "Премьера 27 октября; показы 27–30 октября. 5 часов, два антракта.",
       "source_label": "Театр Наций",
       "source_url": "https://theatreofnations.ru/performances/tihij-don",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр Наций"
     },
     {
       "id": "gnesin-forum-siberia-2026-10-28",
@@ -5731,6 +6826,32 @@
       "end": "2026-10-29T18:20:00.000Z"
     },
     {
+      "id": "nikitskie-brodsky-2026-10-29",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Бродский»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 2500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 2500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-29T19:00:00+03:00"
+    },
+    {
       "id": "voz-letov-prishvin-2026-10-29",
       "category": "talks",
       "horizon": "near",
@@ -5925,6 +7046,32 @@
       "end": "2026-10-30T17:30:00.000Z"
     },
     {
+      "id": "nikitskie-drinking-alone-2026-10-30",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Выпивая в одиночестве»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 750 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 750 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-30T19:00:00+03:00"
+    },
+    {
       "id": "praktika-tsvetaeva-2026-10-31",
       "category": "theatre",
       "horizon": "near",
@@ -5997,6 +7144,32 @@
       "verified": true,
       "source_group": "Малый театр",
       "start": "2026-10-31T18:00:00+03:00"
+    },
+    {
+      "id": "nikitskie-baratynsky-2026-10-31",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Лента поэзии. Баратынский»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Театр у Никитских ворот",
+      "place": "Москва",
+      "location": "Театр у Никитских ворот, Москва",
+      "people": "",
+      "price": "от 1500 ₽",
+      "why": "Репертуарная карточка: по театрам сохраняем практически весь доступный октябрьский репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / детали",
+      "details": "Октябрьская афиша театра. Билеты от 1500 ₽ по текущему агрегатору.",
+      "source_label": "Театр у Никитских ворот",
+      "source_url": "https://burocultura.ru/venues/teatr-u-nikitskih-vorot-moscow/afisha/2026-10",
+      "verified": true,
+      "source_group": "Театр у Никитских ворот",
+      "start": "2026-10-31T19:00:00+03:00"
     },
     {
       "id": "praktika-mamleev-2026-10-31",
