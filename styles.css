@@ -34,3 +34,20 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .meta .tag.card-category.music{background:#e8efe9}.meta .tag.card-category.theatre{background:#efe7e3}.meta .tag.card-category.opera{background:#ece7f2}
 .meta .tag.card-tag:hover,.meta .tag.card-category:hover{outline:1px solid #b9b1a4;transform:translateY(-1px)}
 .meta .tag.card-tag.on{background:var(--ink);color:#fff;outline:1px solid var(--ink)}
+
+/* Grouped multi-venue filter */
+.venue-filter-box{position:relative}
+.venue-filter-box>summary{list-style:none;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:9px 13px;font-size:14px;cursor:pointer;max-width:min(520px,90vw);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.venue-filter-box>summary::-webkit-details-marker{display:none}
+.venue-filter-box[open]>summary{background:var(--chip)}
+.venue-filter-panel{position:absolute;z-index:20;top:calc(100% + 8px);left:0;width:min(520px,calc(100vw - 28px));max-height:70vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:0 14px 36px rgba(0,0,0,.14);padding:12px}
+.venue-groups{display:grid;gap:8px;margin-top:8px}
+.venue-group{border-top:1px solid var(--line);padding-top:8px}
+.venue-check{display:flex;align-items:flex-start;gap:8px;font-size:13px;line-height:1.35;cursor:pointer;padding:5px 4px;border-radius:8px}
+.venue-check:hover{background:var(--chip)}
+.venue-check input{margin-top:2px;accent-color:var(--accent);flex:0 0 auto}
+.venue-all{font-weight:700}
+.venue-parent{font-size:13px}
+.venue-children{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;padding-left:18px}
+.venue-other-title{padding:5px 4px;font-size:13px}
+@media (max-width:780px){.venue-filter-box{width:100%}.venue-filter-box>summary{max-width:100%;width:100%}.venue-filter-panel{position:fixed;left:14px;right:14px;top:120px;width:auto;max-height:70vh}.venue-children{grid-template-columns:1fr}}
