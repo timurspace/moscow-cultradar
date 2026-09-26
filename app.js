@@ -49,6 +49,7 @@ function privateLabel(r){
   if(r.state==='want') return 'Собираюсь';
   if(r.state==='later') return 'Решить позже';
   if(r.state==='skip') return 'Пропустить';
+  if(r.state==='visited') return 'Был';
   return '';
 }
 function urgencyClass(v){ return ['buy','low','soldout'].includes(v) ? 'urgent' : v==='no_rush' ? 'calm' : 'watch'; }
@@ -95,6 +96,7 @@ function renderCard(e){
         <button data-state="bought" class="${r.state==='bought'?'selected':''}">Куплено</button>
         <button data-state="later" class="${r.state==='later'?'selected':''}">Позже</button>
         <button data-state="timofey" class="${r.timofey?'selected':''}">С Тимофеем</button>
+        <button data-state="visited" class="${r.state==='visited'?'selected':''}">Был</button>
         <button data-state="skip" class="${r.state==='skip'?'selected':''}">Пропустить</button>
       </div>
     </div>`;
@@ -112,7 +114,7 @@ function renderMain(){
     });
     return `<section data-horizon="${h}"><div class="section-head"><div><h2>${horizonMeta[h].title}</h2><p>${horizonMeta[h].text}</p></div></div><div class="grid">${list.length?list.map(renderCard).join(''):'<div class="empty-section">Пока пусто.</div>'}</div></section>`;
   }).join('');
-  populateVenues(); applyFilters(); renderPlans();
+  populateVenues(); applyFilters(); renderPlans(); renderVisited();
 }
 function populateVenues(){
   const host=document.getElementById('venueFilters');
@@ -228,21 +230,95 @@ function countRange(days){
 }
 function renderPlans(){
   const host=document.getElementById('plansList');
-  const rows=events.filter(e=>{const r=personal[e.id]||{}; return (r.state&&r.state!=='skip')||r.timofey||r.calendar||r.noteBefore||r.noteAfter;}).sort((a,b)=>{
+  const rows=events.filter(e=>{
+    const r=personal[e.id]||{};
+    return ((r.state&&r.state!=='skip'&&r.state!=='visited')||r.timofey||r.calendar||r.noteBefore||r.noteAfter);
+  }).sort((a,b)=>{
     const da=dateObj(a), db=dateObj(b); if(!da&&!db)return a.title.localeCompare(b.title,'ru'); if(!da)return 1;if(!db)return -1;return da-db;
   });
-  host.innerHTML=rows.length?rows.map(e=>{const r=personal[e.id]||{};const d=formatDate(e);const stateClass=r.state?` plan-${esc(r.state)}`:'';return `<div class="plan-item${stateClass}" data-jump="${esc(e.id)}"><strong>${esc(e.title)}</strong><div class="mini">${esc(d.date)} · ${esc(privateLabel(r)||'есть личная заметка')}${r.timofey?' · с Тимофеем':''}${r.noteAfter?' · есть «Что осталось?»':''}</div></div>`;}).join(''):'<span class="plan-empty">Пока ничего не отмечено.</span>';
+  host.innerHTML=rows.length?rows.map(e=>{
+    const r=personal[e.id]||{}; const d=formatDate(e); const stateClass=r.state?` plan-${esc(r.state)}`:'';
+    const visitAction=isPast(e)?`<button type="button" class="plan-visited-btn" data-mark-visited="${esc(e.id)}">Был</button>`:'';
+    return `<div class="plan-item${stateClass}" data-jump="${esc(e.id)}"><div class="plan-main"><strong>${esc(e.title)}</strong><div class="mini">${esc(d.date)} · ${esc(privateLabel(r)||'есть личная заметка')}${r.timofey?' · с Тимофеем':''}${r.noteAfter?' · есть «Что осталось?»':''}</div></div>${visitAction}</div>`;
+  }).join(''):'<span class="plan-empty">Пока ничего не отмечено.</span>';
   const w=countRange(7), m=countRange(30);
   document.getElementById('loadSummary').textContent=`Следующие 7 дней: ${w.bought} куплено · ${w.want} собираюсь. Следующие 30 дней: ${m.bought} куплено · ${m.want} собираюсь.`;
 }
+function snapshotEvent(e){
+  if(!e)return null;
+  return {
+    id:e.id,
+    title:e.title||'',
+    display_title:e.display_title||'',
+    category:e.category||'',
+    start:e.start||'',
+    date_only:e.date_only||'',
+    venue:e.venue||'',
+    place:e.place||'',
+    location:e.location||'',
+    people:e.people||'',
+    details:e.details||'',
+    details_label:e.details_label||'',
+    source_url:e.source_url||'',
+    source_label:e.source_label||'',
+    visible_tags:Array.isArray(e.visible_tags)?[...e.visible_tags]:[]
+  };
+}
+function renderVisited(){
+  const host=document.getElementById('visitedList');
+  const count=document.getElementById('visitedCount');
+  if(!host)return;
+  const rows=Object.entries(personal)
+    .filter(([,r])=>r?.state==='visited'&&r?.snapshot)
+    .map(([id,r])=>({id,r,s:r.snapshot}))
+    .sort((a,b)=>{
+      const da=dateObj(a.s), db=dateObj(b.s);
+      if(!da&&!db)return (a.s.title||'').localeCompare(b.s.title||'','ru');
+      if(!da)return 1;if(!db)return -1;return db-da;
+    });
+  if(count)count.textContent=rows.length?String(rows.length):'';
+  host.innerHTML=rows.length?rows.map(({id,r,s})=>{
+    const d=formatDate(s);
+    const tags=(s.visible_tags||[]).slice(0,4).map(t=>`<span class="visited-tag">${esc(t)}</span>`).join('');
+    return `<article class="visited-item">
+      <div class="visited-head">
+        <div>
+          <div class="visited-date">${esc(d.date)}${d.dow&&d.dow!=='watchlist'?` · ${esc(d.dow)}`:''}</div>
+          <strong>${esc(s.display_title||s.title||id)}</strong>
+          <div class="visited-venue">${esc(s.venue||'')}${s.place?` · ${esc(s.place)}`:''}</div>
+        </div>
+        <button type="button" class="visited-remove" data-unvisit="${esc(id)}">Убрать отметку</button>
+      </div>
+      ${tags?`<div class="visited-tags">${tags}</div>`:''}
+      ${s.people?`<div class="visited-people">${esc(s.people)}</div>`:''}
+      <label class="visited-note-label" for="visited-after-${esc(id)}">Что осталось?</label>
+      <textarea id="visited-after-${esc(id)}" data-note="after" data-id="${esc(id)}" placeholder="Мысль, образ, музыкальная фраза, раздражение, вопрос…">${esc(r.noteAfter||'')}</textarea>
+    </article>`;
+  }).join(''):'<span class="plan-empty">Здесь появятся события, которые Вы отметите «Был».</span>';
+}
 function updatePersonalState(id,state){
   personal[id]=personal[id]||{};
-  if(state==='timofey') personal[id].timofey=!personal[id].timofey;
-  else personal[id].state=personal[id].state===state?null:state;
+  if(state==='timofey'){
+    personal[id].timofey=!personal[id].timofey;
+  }else if(state==='visited'){
+    if(personal[id].state==='visited'){
+      personal[id].state=null;
+      delete personal[id].snapshot;
+      delete personal[id].visitedAt;
+    }else{
+      const e=eventById(id);
+      personal[id].state='visited';
+      personal[id].snapshot=snapshotEvent(e)||personal[id].snapshot||{id,title:id};
+      personal[id].visitedAt=new Date().toISOString();
+    }
+  }else{
+    personal[id].state=personal[id].state===state?null:state;
+  }
   cleanRecord(id); savePersonal(); renderMain();
 }
 function cleanRecord(id){
   const r=personal[id]; if(!r)return;
+  if(r.state!=='visited'&&r.snapshot)delete r.snapshot;
   if(!r.state&&!r.timofey&&!r.calendar&&!r.noteBefore&&!r.noteAfter) delete personal[id];
 }
 function saveNote(id,kind,value){
@@ -271,9 +347,10 @@ function setupStaticControls(){
   }));
   document.querySelectorAll('#tagFilters button').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.tag;tags.has(t)?tags.delete(t):tags.add(t);b.classList.toggle('on',tags.has(t));applyFilters();}));
   document.getElementById('venueFilters').addEventListener('change',handleVenueFilterChange);
-  document.getElementById('exportBtn').addEventListener('click',()=>{const payload={schema_version:3,exported_at:new Date().toISOString(),personal};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cultradar-private.json';a.click();URL.revokeObjectURL(a.href);});
+  document.getElementById('exportBtn').addEventListener('click',()=>{const payload={schema_version:4,exported_at:new Date().toISOString(),personal};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cultradar-private.json';a.click();URL.revokeObjectURL(a.href);});
   document.getElementById('importInput').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());personal=(data&&data.personal)||data||{};savePersonal();renderMain();alert('Личные данные импортированы.');}catch{alert('Не удалось прочитать JSON.');}e.target.value='';});
   document.getElementById('togglePlans').addEventListener('click',e=>{const body=document.getElementById('plansBody');const hidden=body.hidden=!body.hidden;e.target.textContent=hidden?'Развернуть':'Свернуть';e.target.setAttribute('aria-expanded',String(!hidden));});
+  document.getElementById('toggleVisited').addEventListener('click',e=>{const body=document.getElementById('visitedBody');const hidden=body.hidden=!body.hidden;e.target.textContent=hidden?'Развернуть':'Свернуть';e.target.setAttribute('aria-expanded',String(!hidden));});
 }
 function setupDelegation(){
   document.addEventListener('click',e=>{
@@ -297,6 +374,8 @@ function setupDelegation(){
     const stateBtn=e.target.closest('[data-private] button'); if(stateBtn){updatePersonalState(stateBtn.closest('[data-private]').dataset.private,stateBtn.dataset.state);return;}
     const ics=e.target.closest('.calendarBtn'); if(ics){const ev=eventById(ics.dataset.id);if(ev)downloadICS(ev);return;}
     const g=e.target.closest('.googleBtn'); if(g){const ev=eventById(g.dataset.id);if(ev)googleCalendar(ev);return;}
+    const markVisited=e.target.closest('[data-mark-visited]'); if(markVisited){updatePersonalState(markVisited.dataset.markVisited,'visited');return;}
+    const unvisit=e.target.closest('[data-unvisit]'); if(unvisit){updatePersonalState(unvisit.dataset.unvisit,'visited');return;}
     const jump=e.target.closest('[data-jump]'); if(jump){document.getElementById(`event-${jump.dataset.jump}`)?.scrollIntoView({behavior:'smooth',block:'center'});}
   });
   document.addEventListener('input',e=>{const ta=e.target.closest('textarea[data-note]');if(!ta)return;saveNote(ta.dataset.id,ta.dataset.note,ta.value);});
