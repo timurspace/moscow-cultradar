@@ -6,6 +6,7 @@ let category = 'all';
 let tags = new Set();
 let selectedVenues = new Set();
 let venueGroups = [];
+let venueUrls = {};
 let rangeDays = 'all';
 let cardTag = 'all';
 let editorialFilter = 'all';
@@ -52,6 +53,7 @@ function setDensity(value){
 }
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function eventById(id){ return events.find(e => e.id === id); }
+function eventLink(e){ return e?.source_url || venueUrls[e?.venue] || ''; }
 function dateObj(e){ if(e.start) return new Date(e.start); if(e.date_only) return new Date(e.date_only+'T12:00:00+03:00'); return null; }
 function isPast(e){ const d = e.end ? new Date(e.end) : dateObj(e); return d ? d < new Date() : false; }
 function formatDate(e){
@@ -76,12 +78,14 @@ function renderCard(e){
   const timofey = r.timofey ? `<span class="timofey-badge">с Тимофеем</span>` : '';
   const visibleTags = (e.visible_tags||[]).map(t=>`<button type="button" class="tag card-tag" data-card-tag="${esc(t)}" title="Показать события с меткой «${esc(t)}»">${esc(t)}</button>`).join('');
   const urgency = urgencyLabels[e.ticket_urgency] || '';
-  const source = e.source_url ? `<a class="button" href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_label||'Источник')}</a>` : '';
+  const sourceHref = eventLink(e);
+  const sourceIsVenue = e.source_scope==='venue' || (!e.source_url && Boolean(venueUrls[e.venue]));
+  const source = sourceHref ? `<a class="button event-source" href="${esc(sourceHref)}" target="_blank" rel="noopener" title="${esc(e.source_label||e.venue||'Источник')}">${sourceIsVenue?'Сайт площадки ↗':'Открыть событие ↗'}</a>` : '';
   const price = e.price ? `<span class="price">${esc(e.price)}</span>` : '';
   const calendarHint = r.state==='bought' && !r.calendar ? `<span class="calendar-added">билет куплен — добавьте событие в календарь</span>` : (r.calendar ? `<span class="calendar-added">календарь отмечен</span>` : '');
   const inner = `
     ${timofey}
-    <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${e.venue_short?`<span class="tag venue-short">${esc(e.venue_short)}</span>`:''}${visibleTags}</div>
+    <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${e.venue_short?`<button type="button" class="tag venue-short card-venue" data-card-venue="${esc(e.venue)}" title="Показать события этой площадки">${esc(e.venue_short)}</button>`:''}${visibleTags}</div>
     <button type="button" class="editorial editorial-filter ${esc(e.editorial_status)}" data-editorial="${esc(e.editorial_status)}" title="Фильтровать по редакционному статусу">${esc(editorialLabels[e.editorial_status]||'')}</button>
     <div class="title">${esc(e.display_title||e.title)}</div>
     ${Array.isArray(e.composers)&&e.composers.length?`<div class="composer-line"><strong>Композиторы:</strong> ${esc(e.composers.join(' · '))}</div>`:''}
@@ -180,6 +184,7 @@ function updateVenueFilterUI(){
     else if(selectedVenues.size===1)label.textContent=`Площадка: ${[...selectedVenues][0]}`;
     else label.textContent=`Площадки: выбрано ${selectedVenues.size}`;
   }
+  document.querySelectorAll('.card-venue').forEach(b=>b.classList.toggle('on',selectedVenues.size===1&&selectedVenues.has(b.dataset.cardVenue)));
   if(selectedVenues.size>eventVenues.length){
     selectedVenues=new Set([...selectedVenues].filter(v=>eventVenues.includes(v)));
   }
@@ -347,10 +352,10 @@ function saveNote(id,kind,value){
 }
 function icsEscape(s=''){return String(s).replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');}
 function fmtICS(dt){if(!dt)return '';const d=new Date(dt);const p=n=>String(n).padStart(2,'0');return d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+'T'+p(d.getUTCHours())+p(d.getUTCMinutes())+p(d.getUTCSeconds())+'Z';}
-function descriptionFor(e){return [e.details,e.why,e.source_url?`Источник: ${e.source_url}`:''].filter(Boolean).join('\n\n');}
+function descriptionFor(e){const url=eventLink(e);return [e.details,e.why,url?`Источник: ${url}`:''].filter(Boolean).join('\n\n');}
 function markCalendar(id){personal[id]=personal[id]||{}; personal[id].calendar=true; savePersonal(); renderMain();}
 function downloadICS(e){
-  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Cultradar//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${e.id}@cultradar`,`DTSTART:${fmtICS(e.start)}`,`DTEND:${fmtICS(e.end||e.start)}`,`SUMMARY:${icsEscape(e.title)}`,`LOCATION:${icsEscape(e.location||e.venue||'')}`,`DESCRIPTION:${icsEscape(descriptionFor(e))}`,e.source_url?`URL:${e.source_url}`:'','END:VEVENT','END:VCALENDAR'].filter(Boolean);
+  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Cultradar//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${e.id}@cultradar`,`DTSTART:${fmtICS(e.start)}`,`DTEND:${fmtICS(e.end||e.start)}`,`SUMMARY:${icsEscape(e.title)}`,`LOCATION:${icsEscape(e.location||e.venue||'')}`,`DESCRIPTION:${icsEscape(descriptionFor(e))}`,eventLink(e)?`URL:${eventLink(e)}`:'','END:VEVENT','END:VCALENDAR'].filter(Boolean);
   const blob=new Blob([lines.join('\r\n')],{type:'text/calendar;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${e.id}.ics`;a.click();URL.revokeObjectURL(a.href);markCalendar(e.id);
 }
 function googleCalendar(e){
@@ -378,6 +383,12 @@ function setupDelegation(){
       category=cardCategory.dataset.cardCategory;
       document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x.dataset.category===category));
       applyFilters(); return;
+    }
+    const cardVenueBtn=e.target.closest('.card-venue'); if(cardVenueBtn){
+      const value=cardVenueBtn.dataset.cardVenue;
+      if(selectedVenues.size===1&&selectedVenues.has(value))selectedVenues.clear();
+      else selectedVenues=new Set([value]);
+      updateVenueFilterUI(); applyFilters(); return;
     }
     const cardTagBtn=e.target.closest('.card-tag'); if(cardTagBtn){
       const value=cardTagBtn.dataset.cardTag;
@@ -414,8 +425,10 @@ async function init(){
     if(sourcesRes.ok){
       const sourceData=await sourcesRes.json();
       venueGroups=sourceData.monitor_groups||[];
+      venueUrls=Object.fromEntries((sourceData.venues||[]).filter(v=>v.name&&v.url).map(v=>[v.name,v.url]));
     }else{
       venueGroups=[];
+      venueUrls={};
     }
     if(data.meta?.updated){const n=document.getElementById('dataNote');const d=new Date(`${data.meta.updated}T12:00:00+03:00`);const label=new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Moscow'}).format(d);n.textContent=`Афиша обновлена ${label}.`;n.hidden=false;}
     renderMain();
