@@ -32,12 +32,12 @@ function loadPersonal(){
 function savePersonal(){ localStorage.setItem(stateKey, JSON.stringify(personal)); }
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function eventById(id){ return events.find(e => e.id === id); }
-function dateObj(e){ return e.start ? new Date(e.start) : null; }
+function dateObj(e){ if(e.start) return new Date(e.start); if(e.date_only) return new Date(e.date_only+'T12:00:00+03:00'); return null; }
 function isPast(e){ const d = e.end ? new Date(e.end) : dateObj(e); return d ? d < new Date() : false; }
 function formatDate(e){
   const d = dateObj(e); if(!d) return {date:'дата не объявлена', dow:'watchlist'};
   const date = new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'short',timeZone:'Europe/Moscow'}).format(d).replace('.','');
-  const dow = new Intl.DateTimeFormat('ru-RU',{weekday:'short',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Moscow'}).format(d).replace(',',' ·');
+  const dow = e.start ? new Intl.DateTimeFormat('ru-RU',{weekday:'short',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Moscow'}).format(d).replace(',',' ·') : new Intl.DateTimeFormat('ru-RU',{weekday:'short',timeZone:'Europe/Moscow'}).format(d);
   return {date, dow};
 }
 function privateLabel(r){
