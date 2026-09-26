@@ -231,7 +231,7 @@ function renderPlans(){
   const rows=events.filter(e=>{const r=personal[e.id]||{}; return (r.state&&r.state!=='skip')||r.timofey||r.calendar||r.noteBefore||r.noteAfter;}).sort((a,b)=>{
     const da=dateObj(a), db=dateObj(b); if(!da&&!db)return a.title.localeCompare(b.title,'ru'); if(!da)return 1;if(!db)return -1;return da-db;
   });
-  host.innerHTML=rows.length?rows.map(e=>{const r=personal[e.id]||{};const d=formatDate(e);return `<div class="plan-item" data-jump="${esc(e.id)}"><strong>${esc(e.title)}</strong><div class="mini">${esc(d.date)} · ${esc(privateLabel(r)||'есть личная заметка')}${r.timofey?' · с Тимофеем':''}${r.noteAfter?' · есть «Что осталось?»':''}</div></div>`;}).join(''):'<span class="plan-empty">Пока ничего не отмечено.</span>';
+  host.innerHTML=rows.length?rows.map(e=>{const r=personal[e.id]||{};const d=formatDate(e);const stateClass=r.state?` plan-${esc(r.state)}`:'';return `<div class="plan-item${stateClass}" data-jump="${esc(e.id)}"><strong>${esc(e.title)}</strong><div class="mini">${esc(d.date)} · ${esc(privateLabel(r)||'есть личная заметка')}${r.timofey?' · с Тимофеем':''}${r.noteAfter?' · есть «Что осталось?»':''}</div></div>`;}).join(''):'<span class="plan-empty">Пока ничего не отмечено.</span>';
   const w=countRange(7), m=countRange(30);
   document.getElementById('loadSummary').textContent=`Следующие 7 дней: ${w.bought} куплено · ${w.want} собираюсь. Следующие 30 дней: ${m.bought} куплено · ${m.want} собираюсь.`;
 }
@@ -318,7 +318,7 @@ async function init(){
     }else{
       venueGroups=[];
     }
-    if(data.meta?.note){const n=document.getElementById('dataNote');n.textContent=`Обновлено ${data.meta.updated||''}. ${data.meta.note}`;n.hidden=false;}
+    if(data.meta?.updated){const n=document.getElementById('dataNote');const d=new Date(`${data.meta.updated}T12:00:00+03:00`);const label=new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Moscow'}).format(d);n.textContent=`Афиша обновлена ${label}.`;n.hidden=false;}
     renderMain();
   }catch(err){document.getElementById('mainContent').innerHTML=`<div class="loading">Не удалось загрузить events.json: ${esc(err.message)}</div>`;}
 }
