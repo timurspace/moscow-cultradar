@@ -81,14 +81,16 @@ function renderCard(e){
   const calendarHint = r.state==='bought' && !r.calendar ? `<span class="calendar-added">билет куплен — добавьте событие в календарь</span>` : (r.calendar ? `<span class="calendar-added">календарь отмечен</span>` : '');
   const inner = `
     ${timofey}
-    <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${visibleTags}</div>
+    <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${e.venue_short?`<span class="tag venue-short">${esc(e.venue_short)}</span>`:''}${visibleTags}</div>
     <button type="button" class="editorial editorial-filter ${esc(e.editorial_status)}" data-editorial="${esc(e.editorial_status)}" title="Фильтровать по редакционному статусу">${esc(editorialLabels[e.editorial_status]||'')}</button>
     <div class="title">${esc(e.display_title||e.title)}</div>
+    ${Array.isArray(e.composers)&&e.composers.length?`<div class="composer-line"><strong>Композиторы:</strong> ${esc(e.composers.join(' · '))}</div>`:''}
+    ${Array.isArray(e.works)&&e.works.length?`<div class="works-line"><strong>Программа:</strong> ${esc(e.works.slice(0,3).join(' · '))}${e.works.length>3?` <span class="works-more">+ ещё ${e.works.length-3}</span>`:''}</div>`:''}
     <div class="venue">${esc(e.venue)}</div>
     <div class="place">${esc(e.place||'')}</div>
     ${(e.people||price) ? `<div class="line">${esc(e.people||'')}${e.people&&price?' · ':''}${price}</div>` : ''}
     <div class="why"><strong>Почему попало:</strong> ${esc(e.why||'')}</div>
-    ${urgency ? `<div class="statusline"><span class="status ${urgencyClass(e.ticket_urgency)}">Билеты: ${esc(urgency)}</span></div>` : ''}
+    ${urgency ? `<div class="statusline"><span class="status ${urgencyClass(e.ticket_urgency)}">Билеты: ${esc(urgency)}</span>${e.sales_status?`<span class="status sales-status">${esc(e.sales_status)}</span>`:''}</div>` : (e.sales_status?`<div class="statusline"><span class="status sales-status">${esc(e.sales_status)}</span></div>`:'')}
     ${e.verified===false ? `<div class="unverified">Рабочая карточка: дату/цену/ссылку нужно перепроверить перед покупкой.</div>` : ''}
     ${e.details ? `<div class="details"><details><summary>${esc(e.details_label||'Подробнее')}</summary><div class="full">${esc(e.details)}</div></details></div>` : ''}
     <details class="private-notes">
