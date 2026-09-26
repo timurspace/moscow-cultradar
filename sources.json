@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-09-26",
+    "updated": "2026-09-27",
     "schema_version": 2,
-    "rule": "Для role=venue поле name обязано буквально совпадать с events[].venue. СМИ, агрегаторы, ансамбли и другие discovery-сущности хранятся отдельно и не используются как название площадки.",
+    "rule": "Для role=venue поле name обязано буквально совпадать с events[].venue. source_url события по возможности ведёт на первичную официальную страницу события; агрегаторы используются только для discovery и могут сохраняться в discovery_url.",
     "audit_horizon_end": "2027-06-30",
     "season_horizon": "2026/27"
   },
@@ -35,12 +35,12 @@
       "role": "venue",
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
-      "last_checked": "2026-09-26",
-      "event_count": 42,
+      "last_checked": "2026-09-27",
+      "event_count": 68,
       "coverage_2026": {
-        "october": 23,
-        "november": 7,
-        "december": 4
+        "october": 32,
+        "november": 17,
+        "december": 7
       },
       "coverage_status": "active",
       "coverage_2027": {
@@ -51,7 +51,7 @@
         "may": 1,
         "june": 0
       },
-      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
+      "coverage_note": "Системный sweep сезона 2026/27; до 31.12.2026 включён широкий подтверждённый слой без автоматического исключения кроссоверных и праздничных программ."
     },
     {
       "name": "Большой зал Музыкального училища имени Гнесиных",
@@ -291,10 +291,10 @@
       "role": "venue",
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
-      "last_checked": "2026-09-26",
-      "event_count": 7,
+      "last_checked": "2026-09-27",
+      "event_count": 10,
       "coverage_2026": {
-        "october": 2,
+        "october": 4,
         "november": 0,
         "december": 1
       },
@@ -307,7 +307,7 @@
         "may": 1,
         "june": 0
       },
-      "coverage_note": "Сезонный проход 2026/27 выполнен по отдельной афише зала Мясковского; детские абонементы не копируются автоматически, взрослые содержательные циклы включены."
+      "coverage_note": "Системный sweep сезона 2026/27; до 31.12.2026 включён широкий подтверждённый слой без автоматического исключения кроссоверных и праздничных программ."
     },
     {
       "name": "Концертный зал имени П. И. Чайковского",
@@ -350,7 +350,7 @@
       "name": "КЦ «Покровские ворота»",
       "role": "venue",
       "parent_org": null,
-      "url": "",
+      "url": "https://pokrovka27.com/",
       "last_checked": "2026-09-26",
       "event_count": 1,
       "coverage_2026": {
@@ -388,23 +388,23 @@
       "role": "venue",
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
-      "last_checked": "2026-09-26",
-      "event_count": 58,
+      "last_checked": "2026-09-27",
+      "event_count": 75,
       "coverage_2026": {
-        "october": 7,
-        "november": 13,
+        "october": 20,
+        "november": 15,
         "december": 10
       },
       "coverage_status": "active",
       "coverage_2027": {
         "january": 2,
         "february": 8,
-        "march": 6,
+        "march": 5,
         "april": 9,
         "may": 3,
         "june": 0
       },
-      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
+      "coverage_note": "Системный sweep сезона 2026/27; до 31.12.2026 включён широкий подтверждённый слой без автоматического исключения кроссоверных и праздничных программ."
     },
     {
       "name": "Малый театр — Историческая сцена",
@@ -595,11 +595,11 @@
       "role": "venue",
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
-      "last_checked": "2026-09-26",
-      "event_count": 21,
+      "last_checked": "2026-09-27",
+      "event_count": 29,
       "coverage_2026": {
-        "october": 10,
-        "november": 5,
+        "october": 14,
+        "november": 6,
         "december": 1
       },
       "coverage_status": "active",
@@ -611,7 +611,7 @@
         "may": 1,
         "june": 0
       },
-      "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным на 26.09.2026 абонементам и календарным анонсам; программы некоторых сольных вечеров ещё не опубликованы."
+      "coverage_note": "Системный sweep сезона 2026/27; до 31.12.2026 включён широкий подтверждённый слой без автоматического исключения кроссоверных и праздничных программ."
     },
     {
       "name": "Руфъ",
@@ -813,7 +813,7 @@
       "name": "Île Thélème",
       "role": "venue",
       "parent_org": null,
-      "url": "https://ile-theleme.com/iskusstvo-dhrupada-nedelya-srednevekovoj-indijskoj-muzyki",
+      "url": "https://ile-theleme.com/",
       "last_checked": "2026-09-26",
       "event_count": 4,
       "coverage_2026": {
