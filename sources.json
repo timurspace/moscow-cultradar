@@ -1,476 +1,906 @@
 {
-  "updated": "2026-09-26",
-  "sources": [
+  "meta": {
+    "updated": "2026-09-26",
+    "schema_version": 2,
+    "rule": "Для role=venue поле name обязано буквально совпадать с events[].venue. СМИ, агрегаторы, ансамбли и другие discovery-сущности хранятся отдельно и не используются как название площадки.",
+    "audit_horizon_end": "2026-12-31"
+  },
+  "venues": [
+    {
+      "name": "Большой зал «Зарядья»",
+      "role": "venue",
+      "parent_org": "Зал Зарядье",
+      "url": "https://zaryadyehall.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 15,
+      "coverage_2026": {
+        "october": 9,
+        "november": 0,
+        "december": 6
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Большой зал Московской консерватории",
+      "role": "venue",
+      "parent_org": "Московская консерватория",
+      "url": "https://www.mosconsv.ru/afisha/",
+      "last_checked": "2026-09-26",
+      "event_count": 8,
+      "coverage_2026": {
+        "october": 3,
+        "november": 3,
+        "december": 1
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Большой зал Музыкального училища имени Гнесиных",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://gnesin-academy.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 0,
+        "november": 1,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Большой театр — Историческая сцена",
+      "role": "venue",
+      "parent_org": "Большой театр",
+      "url": "https://bolshoi.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Большой театр — Камерная сцена",
+      "role": "venue",
+      "parent_org": "Большой театр",
+      "url": "https://bolshoi.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Большой театр — Новая сцена",
+      "role": "venue",
+      "parent_org": "Большой театр",
+      "url": "https://bolshoi.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Внутри",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://vnutri.moscow/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Геликон-опера",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://www.helikon.ru/ru/playbill",
+      "last_checked": "2026-09-26",
+      "event_count": 11,
+      "coverage_2026": {
+        "october": 4,
+        "november": 2,
+        "december": 4
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Гнесинка",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://gnesin-academy.ru/creativity/festivals/",
+      "last_checked": "2026-09-26",
+      "event_count": 6,
+      "coverage_2026": {
+        "october": 3,
+        "november": 3,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "ГЭС-2",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://ges-2.org/",
+      "last_checked": "2026-09-26",
+      "event_count": 15,
+      "coverage_2026": {
+        "october": 10,
+        "november": 4,
+        "december": 1
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "ДК Рассвет",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://dkrassvet.space/",
+      "last_checked": "2026-09-26",
+      "event_count": 17,
+      "coverage_2026": {
+        "october": 11,
+        "november": 4,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Дом композиторов",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://mosunicom.ru/mo26/program",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Дом музыки",
+      "role": "venue",
+      "parent_org": "Московский Дом музыки",
+      "url": "https://www.mmdm.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Дом музыки — Зал Альфреда Шнитке",
+      "role": "venue",
+      "parent_org": "Московский Дом музыки",
+      "url": "https://www.mmdm.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Дом музыки — Светлановский зал",
+      "role": "venue",
+      "parent_org": "Московский Дом музыки",
+      "url": "https://www.mmdm.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Другое Дело",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://galereya-drugoe.timepad.ru/event/4204341/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Ельцин Центр в Москве",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://yeltsin.ru/platform/moskovskij-filial-elcin-centra/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Камерный зал Московской филармонии",
+      "role": "venue",
+      "parent_org": "Московская филармония",
+      "url": "https://meloman.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 15,
+      "coverage_2026": {
+        "october": 4,
+        "november": 6,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Концертный зал имени Н.Я. Мясковского",
+      "role": "venue",
+      "parent_org": "Московская консерватория",
+      "url": "https://www.mosconsv.ru/afisha/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Концертный зал имени П. И. Чайковского",
+      "role": "venue",
+      "parent_org": "Московская филармония",
+      "url": "https://meloman.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 19,
+      "coverage_2026": {
+        "october": 13,
+        "november": 3,
+        "december": 2
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Концертный зал РАМ имени Гнесиных",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://gnesin-academy.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 0,
+        "november": 1,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "КЦ «Покровские ворота»",
+      "role": "venue",
+      "parent_org": null,
+      "url": "",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 0,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый зал «Зарядья»",
+      "role": "venue",
+      "parent_org": "Зал Зарядье",
+      "url": "https://zaryadyehall.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 13,
+      "coverage_2026": {
+        "october": 5,
+        "november": 2,
+        "december": 4
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый зал Московской консерватории",
+      "role": "venue",
+      "parent_org": "Московская консерватория",
+      "url": "https://www.mosconsv.ru/afisha/",
+      "last_checked": "2026-09-26",
+      "event_count": 7,
+      "coverage_2026": {
+        "october": 1,
+        "november": 5,
+        "december": 1
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый театр — Историческая сцена",
+      "role": "venue",
+      "parent_org": "Малый театр",
+      "url": "https://www.maly.ru/afisha",
+      "last_checked": "2026-09-26",
+      "event_count": 18,
+      "coverage_2026": {
+        "october": 18,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый театр — Камерная сцена",
+      "role": "venue",
+      "parent_org": "Малый театр",
+      "url": "https://www.maly.ru/afisha",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый театр — Малая сцена на Б. Ордынке",
+      "role": "venue",
+      "parent_org": "Малый театр",
+      "url": "https://www.maly.ru/afisha",
+      "last_checked": "2026-09-26",
+      "event_count": 5,
+      "coverage_2026": {
+        "october": 5,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Малый театр — Сцена на Б. Ордынке",
+      "role": "venue",
+      "parent_org": "Малый театр",
+      "url": "https://www.maly.ru/afisha",
+      "last_checked": "2026-09-26",
+      "event_count": 20,
+      "coverage_2026": {
+        "october": 20,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "МАМТ",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://stanmus.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 7,
+      "coverage_2026": {
+        "october": 3,
+        "november": 3,
+        "december": 1
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей Музыки",
+      "role": "venue",
+      "parent_org": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей П.И. Чайковского в Москве",
+      "role": "venue",
+      "parent_org": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей С.С. Прокофьева",
+      "role": "venue",
+      "parent_org": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей-квартира А.Б. Гольденвейзера",
+      "role": "venue",
+      "parent_org": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей-квартира Н.С. Голованова",
+      "role": "venue",
+      "parent_org": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей-усадьба Ф.И. Шаляпина",
+      "role": "venue",
+      "url": "https://music-museum.ru/museums/",
+      "last_checked": "2026-09-26",
+      "event_count": 0,
+      "coverage_status": "closed"
+    },
+    {
+      "name": "Новая Опера",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://novayaopera.ru/playbill/",
+      "last_checked": "2026-09-26",
+      "event_count": 10,
+      "coverage_2026": {
+        "october": 3,
+        "november": 1,
+        "december": 6
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Практика",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://praktikatheatre.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 18,
+      "coverage_2026": {
+        "october": 18,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Прямая речь",
+      "role": "venue",
+      "url": "https://pryamaya.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 0,
+      "coverage_status": "pending"
+    },
+    {
+      "name": "Рахманиновский зал Московской консерватории",
+      "role": "venue",
+      "parent_org": "Московская консерватория",
+      "url": "https://www.mosconsv.ru/afisha/",
+      "last_checked": "2026-09-26",
+      "event_count": 5,
+      "coverage_2026": {
+        "october": 2,
+        "november": 3,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Руфъ",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://hramtrigory.ru/17104-2/",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр «Сфера»",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://spheratheatre.nakaretnom3.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр Маяковского",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://www.mayakovsky.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр на Малой Бронной",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://mbronnaya.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр Наций — Малая сцена",
+      "role": "venue",
+      "parent_org": "Театр Наций",
+      "url": "https://theatreofnations.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр Наций — Основная сцена",
+      "role": "venue",
+      "parent_org": "Театр Наций",
+      "url": "https://theatreofnations.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр у Никитских ворот",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://teatrunikitskihvorot.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 33,
+      "coverage_2026": {
+        "october": 33,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр.doc — Док на Лесной",
+      "role": "venue",
+      "parent_org": "Театр.doc",
+      "url": "https://teatrdoc.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 14,
+      "coverage_2026": {
+        "october": 14,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Театр.doc — DOC industrial",
+      "role": "venue",
+      "parent_org": "Театр.doc",
+      "url": "https://teatrdoc.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 5,
+      "coverage_2026": {
+        "october": 5,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Третьяковская галерея",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://ile-theleme.com/s-muzykoj-na-t",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Усадьба Прове–Калиш",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://prove-kalish.ru/afisha",
+      "last_checked": "2026-09-26",
+      "event_count": 5,
+      "coverage_2026": {
+        "october": 4,
+        "november": 1,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Центр Вознесенского",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://www.voznesenskycenter.ru/events/beseda-sibirskij-pank-v-kontekste-mirovoj-pank-sczeny/",
+      "last_checked": "2026-09-26",
+      "event_count": 6,
+      "coverage_2026": {
+        "october": 6,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Центр оперного пения Галины Вишневской",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://opera-centre.ru/poster/",
+      "last_checked": "2026-09-26",
+      "event_count": 3,
+      "coverage_2026": {
+        "october": 3,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Электротеатр Станиславский",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://www.electrotheatre.ru/repertoire/spectacle/1270",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Île Thélème",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://ile-theleme.com/iskusstvo-dhrupada-nedelya-srednevekovoj-indijskoj-muzyki",
+      "last_checked": "2026-09-26",
+      "event_count": 4,
+      "coverage_2026": {
+        "october": 4,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "L’Appartement 83",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://lappartement83.com/shop",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    }
+  ],
+  "discovery_sources": [
     {
       "name": "ClassicalMusicNews",
       "url": "https://www.classicalmusicnews.ru/",
       "role": "discovery",
-      "note": "Ранние анонсы сезонов, премьер, фестивалей и проектов; факты перепроверять на официальной площадке.",
       "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "discovery-only",
-      "coverage_note": "Источник обнаружения; события публикуются под официальной площадкой, поэтому собственный event_count может быть 0."
+      "note": "Обязательный ранний discovery-проход: новые публикации → кандидаты → сверка на официальной площадке → events.json."
     },
     {
       "name": "Русконцерт",
       "url": "https://rusconcert.net/events",
-      "tickets_url": "https://tickets.rusconcert.net/events/all",
       "role": "discovery",
-      "note": "Полезен длинным горизонтом продаж и БЗК. Не переносить автоматически: generic «хиты/шедевры/при свечах» обычно отсекать.",
       "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "discovery-only",
-      "coverage_note": "Источник обнаружения; события публикуются под официальной площадкой, поэтому собственный event_count может быть 0."
+      "note": "Discovery-источник; событие публикуется под реальной площадкой."
     },
     {
       "name": "Good Talks Club",
       "url": "https://goodtalksclub.ru/",
       "role": "talks-discovery",
-      "note": "Источник для раздела «Лекции / разговоры». Добавлять отдельные содержательные встречи; сайт плохо индексируется, поэтому требуется прямая проверка.",
       "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "no-future-found",
-      "coverage_note": "В сохранённом пользователем снимке подтверждён бранч «Одиссея» 26 сентября в 16:00; к моменту проверки событие уже прошло. Будущая афиша в доступном снимке отсутствует."
-    },
-    {
-      "name": "Московская консерватория",
-      "url": "https://www.mosconsv.ru/afisha/",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 8,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 8."
-    },
-    {
-      "name": "Зал Зарядье",
-      "url": "https://zaryadyehall.ru/events/",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 26,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 26."
-    },
-    {
-      "name": "Московская филармония",
-      "url": "https://meloman.ru/",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 18,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 18."
-    },
-    {
-      "name": "ДК Рассвет",
-      "url": "https://dkrassvet.space/",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 17,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 17."
-    },
-    {
-      "name": "Усадьба Прове–Калиш",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 5,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 5."
-    },
-    {
-      "name": "Руфъ",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Île Thélème",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
-    },
+      "note": "Discovery-источник; событие публикуется под реальной площадкой."
+    }
+  ],
+  "monitor_entities": [
     {
       "name": "Île Thélème Ensemble",
       "url": "",
       "role": "ensemble",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 1,
-      "coverage_status": "active",
-      "coverage_note": "Связано через выступления ансамбля, даже если площадка события другая."
-    },
-    {
-      "name": "КЦ Покровские ворота",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 1,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 1."
-    },
-    {
-      "name": "L’Appartement 83",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 1,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 1."
-    },
-    {
-      "name": "Новая Опера",
-      "url": "https://novayaopera.ru/playbill/",
-      "role": "opera",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 7,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 7."
-    },
-    {
-      "name": "Другое дело",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "ГЭС-2",
-      "url": "https://ges-2.org/",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 6,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 6."
-    },
-    {
-      "name": "МАМТ",
-      "url": "https://stanmus.ru/",
-      "role": "opera",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Большой театр",
-      "url": "https://bolshoi.ru/",
-      "role": "opera",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Геликон-опера",
-      "url": "https://www.helikon.ru/ru/playbill",
-      "role": "opera",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 7,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 7."
-    },
-    {
-      "name": "Центр оперного пения Галины Вишневской",
-      "url": "",
-      "role": "opera",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Московский Дом музыки",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Дом композиторов",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
-    },
-    {
-      "name": "Центр Вознесенского",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 6,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 6."
-    },
-    {
-      "name": "Электротеатр Станиславский",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 1,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 1."
-    },
-    {
-      "name": "Гнесинка",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 6,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 6."
-    },
-    {
-      "name": "Ельцин Центр в Москве",
-      "url": "",
-      "role": "venue",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
+      "last_checked": "2026-09-26"
     },
     {
       "name": "My Euphoria Orchestra",
       "url": "",
       "role": "ensemble",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 1,
-      "coverage_status": "active",
-      "coverage_note": "Связано через концерты ансамбля на сторонних площадках, в т.ч. ДК Рассвет."
+      "last_checked": "2026-09-26"
     },
     {
       "name": "Студия новой музыки",
       "url": "https://studionewmusic.ru/",
       "role": "ensemble",
-      "note": "Постоянно проверять; добавлять релевантные события, отсеивая только явную ерунду.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Музей Музыки",
-      "url": "https://music-museum.ru/events/",
-      "role": "venue",
-      "note": "Основная площадка на Фадеева, 4.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Музей П.И. Чайковского в Москве",
-      "url": "https://music-museum.ru/events/",
-      "role": "venue",
-      "note": "Филиал Российского национального музея музыки.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
-    },
-    {
-      "name": "Музей С.С. Прокофьева",
-      "url": "https://music-museum.ru/events/",
-      "role": "venue",
-      "note": "Филиал Российского национального музея музыки.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Музей-квартира Н.С. Голованова",
-      "url": "https://music-museum.ru/events/",
-      "role": "venue",
-      "note": "Филиал Российского национального музея музыки.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Музей-квартира А.Б. Гольденвейзера",
-      "url": "https://music-museum.ru/events/",
-      "role": "venue",
-      "note": "Филиал Российского национального музея музыки; постоянно мониторить камерные концерты и лекции.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Музей-усадьба Ф.И. Шаляпина",
-      "url": "https://music-museum.ru/museums/",
-      "role": "venue",
-      "note": "Сейчас закрыта на реставрацию; сохранить в реестре и вернуть в активный мониторинг после открытия.",
-      "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "closed",
-      "coverage_note": "Площадка закрыта на реставрацию."
-    },
-    {
-      "name": "Галерея «Другое Дело»",
-      "url": "https://galereya-drugoe.timepad.ru/events/all/page/1/",
-      "role": "venue",
-      "note": "Широкий пул; отсекать только явный generic candlelight/винный декор без содержательной программы.",
-      "last_checked": "2026-09-26",
-      "event_count": 4,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 4."
-    },
-    {
-      "name": "Малый театр",
-      "url": "https://www.maly.ru/afisha",
-      "role": "theatre",
-      "note": "Постоянно мониторить; отбирать сильные постановки, классику без музейности, интересные премьеры и редкие работы.",
-      "last_checked": "2026-09-26",
-      "event_count": 46,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 46."
-    },
-    {
-      "name": "Театр на Малой Бронной",
-      "url": "https://mbronnaya.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить; отбирать по конкретной постановке и режиссёру.",
-      "last_checked": "2026-09-26",
-      "event_count": 3,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 3."
-    },
-    {
-      "name": "Театр Наций",
-      "url": "https://theatreofnations.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить, особенно премьеры и крупные режиссёрские работы.",
-      "last_checked": "2026-09-26",
-      "event_count": 5,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 5."
-    },
-    {
-      "name": "Театр Маяковского",
-      "url": "https://www.mayakovsky.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить, особенно Егора Перегудова.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
-    },
-    {
-      "name": "Практика",
-      "url": "https://praktikatheatre.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить современную драматургию и работы, связанные с Мастерской Брусникина.",
-      "last_checked": "2026-09-26",
-      "event_count": 18,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 18."
+      "last_checked": "2026-09-26"
     },
     {
       "name": "Мастерская Брусникина",
       "url": "https://brusnikin.work/",
       "role": "theatre",
-      "note": "Discovery и спектакли/показы на разных площадках.",
-      "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "pending",
-      "coverage_note": "Источник сохранён, но подтверждённые будущие события ещё не внесены или сайт плохо доступен для проверки."
-    },
-    {
-      "name": "Театр.doc",
-      "url": "https://teatrdoc.ru/",
-      "role": "theatre",
-      "note": "Документальный и социальный театр; высокий интерес к содержательно сильным работам.",
-      "last_checked": "2026-09-26",
-      "event_count": 19,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 19."
-    },
-    {
-      "name": "Внутри",
-      "url": "https://vnutri.moscow/",
-      "role": "theatre",
-      "note": "Независимый театр; мониторить конкретные сильные спектакли.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
+      "last_checked": "2026-09-26"
     },
     {
       "name": "Место / Антон Фёдоров",
       "url": "",
       "role": "theatre",
-      "note": "Независимый театральный контур; искать актуальные площадки и показы.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
+      "last_checked": "2026-09-26"
+    }
+  ],
+  "monitor_groups": [
+    {
+      "name": "Московская консерватория",
+      "url": "https://www.mosconsv.ru/afisha/",
+      "member_venues": [
+        "Большой зал Московской консерватории",
+        "Концертный зал имени Н.Я. Мясковского",
+        "Малый зал Московской консерватории",
+        "Рахманиновский зал Московской консерватории"
+      ]
     },
     {
-      "name": "Театр у Никитских ворот",
-      "url": "https://teatrunikitskihvorot.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить; отбирать конкретные постановки и литературно-поэтические программы, не переносить репертуар автоматически.",
-      "last_checked": "2026-09-26",
-      "event_count": 33,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 33."
+      "name": "Московская филармония",
+      "url": "https://meloman.ru/",
+      "member_venues": [
+        "Камерный зал Московской филармонии",
+        "Концертный зал имени П. И. Чайковского"
+      ]
     },
     {
-      "name": "Прямая речь",
-      "url": "https://pryamaya.ru/",
-      "role": "talks",
-      "note": "Постоянно мониторить творческие вечера, литературу, историю, искусство, музыку и содержательные лекции; высокий порог против generic edutainment.",
-      "last_checked": "2026-09-26",
-      "event_count": 0,
-      "coverage_status": "pending",
-      "coverage_note": "Поиск подтверждает текущую афишу лектория, но официальный сайт плохо отдаёт календарь; нужен отдельный sweep по билетным карточкам."
+      "name": "Зал Зарядье",
+      "url": "https://zaryadyehall.ru/events/",
+      "member_venues": [
+        "Большой зал «Зарядья»",
+        "Малый зал «Зарядья»"
+      ]
     },
     {
-      "name": "Театр «Сфера»",
-      "url": "https://spheratheatre.nakaretnom3.ru/",
-      "role": "theatre",
-      "note": "Постоянно мониторить театр в саду «Эрмитаж»; отбирать по конкретной постановке, режиссёру и материалу.",
-      "last_checked": "2026-09-26",
-      "event_count": 2,
-      "coverage_status": "active",
-      "coverage_note": "В events.json связано событий: 2."
+      "name": "Большой театр",
+      "url": "https://bolshoi.ru/",
+      "member_venues": [
+        "Большой театр — Историческая сцена",
+        "Большой театр — Камерная сцена",
+        "Большой театр — Новая сцена"
+      ]
+    },
+    {
+      "name": "Малый театр",
+      "url": "https://www.maly.ru/afisha",
+      "member_venues": [
+        "Малый театр — Историческая сцена",
+        "Малый театр — Камерная сцена",
+        "Малый театр — Малая сцена на Б. Ордынке",
+        "Малый театр — Сцена на Б. Ордынке"
+      ]
+    },
+    {
+      "name": "Театр Наций",
+      "url": "https://theatreofnations.ru/",
+      "member_venues": [
+        "Театр Наций — Малая сцена",
+        "Театр Наций — Основная сцена"
+      ]
+    },
+    {
+      "name": "Театр.doc",
+      "url": "https://teatrdoc.ru/",
+      "member_venues": [
+        "Театр.doc — Док на Лесной",
+        "Театр.doc — DOC industrial"
+      ]
+    },
+    {
+      "name": "Московский Дом музыки",
+      "url": "https://www.mmdm.ru/",
+      "member_venues": [
+        "Дом музыки",
+        "Дом музыки — Зал Альфреда Шнитке",
+        "Дом музыки — Светлановский зал"
+      ]
+    },
+    {
+      "name": "Российский национальный музей музыки",
+      "url": "https://music-museum.ru/events/",
+      "member_venues": [
+        "Музей Музыки",
+        "Музей П.И. Чайковского в Москве",
+        "Музей С.С. Прокофьева",
+        "Музей-квартира А.Б. Гольденвейзера",
+        "Музей-квартира Н.С. Голованова"
+      ]
     }
   ]
 }
