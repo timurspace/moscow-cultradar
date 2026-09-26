@@ -7,6 +7,7 @@ let selectedVenues = new Set();
 let venueGroups = [];
 let rangeDays = 'all';
 let cardTag = 'all';
+let editorialFilter = 'all';
 
 const editorialLabels = {
   attention: 'ОБРАТИТЬ ВНИМАНИЕ',
@@ -64,7 +65,7 @@ function renderCard(e){
   const inner = `
     ${timofey}
     <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${visibleTags}</div>
-    <div class="editorial ${esc(e.editorial_status)}">${esc(editorialLabels[e.editorial_status]||'')}</div>
+    <button type="button" class="editorial editorial-filter ${esc(e.editorial_status)}" data-editorial="${esc(e.editorial_status)}" title="Фильтровать по редакционному статусу">${esc(editorialLabels[e.editorial_status]||'')}</button>
     <div class="title">${esc(e.display_title||e.title)}</div>
     <div class="venue">${esc(e.venue)}</div>
     <div class="place">${esc(e.place||'')}</div>
@@ -193,6 +194,7 @@ function applyFilters(){
       const cVisibleTags=(c.dataset.visibleTags||'').split('||').filter(Boolean);
       const cardTagOk=cardTag==='all'||cVisibleTags.includes(cardTag);
       const ev=eventById(c.dataset.id);
+      const editorialOk=editorialFilter==='all'||ev?.editorial_status===editorialFilter;
       let rangeOk=true;
       if(rangeDays!=='all'){
         const d=ev?dateObj(ev):null;
@@ -203,7 +205,7 @@ function applyFilters(){
           rangeOk=d>=now&&d<=until;
         }
       }
-      const match=catOk&&tagOk&&venueOk&&cardTagOk&&rangeOk;
+      const match=catOk&&tagOk&&venueOk&&cardTagOk&&editorialOk&&rangeOk;
       c.classList.toggle('hidden',!match);
       c.style.display=match?'':'none';
       if(match){visible++;sectionVisible++;}
@@ -215,7 +217,8 @@ function applyFilters(){
     const venueText=selectedVenues.size===0?'все площадки':selectedVenues.size===1?[...selectedVenues][0]:`площадок: ${selectedVenues.size}`;
     const rangeText=rangeDays==='all'?'весь горизонт':`${rangeDays} дней`;
     const tagText=cardTag==='all'?'':` · метка: ${cardTag}`;
-    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}`;
+    const editorialText=editorialFilter==='all'?'':` · статус: ${editorialLabels[editorialFilter]||editorialFilter}`;
+    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}${editorialText}`;
   }
 }
 function countRange(days){
@@ -283,6 +286,12 @@ function setupDelegation(){
       const value=cardTagBtn.dataset.cardTag;
       cardTag=cardTag===value?'all':value;
       document.querySelectorAll('.card-tag').forEach(x=>x.classList.toggle('on',cardTag!=='all'&&x.dataset.cardTag===cardTag));
+      applyFilters(); return;
+    }
+    const editorialBtn=e.target.closest('.editorial-filter'); if(editorialBtn){
+      const value=editorialBtn.dataset.editorial;
+      editorialFilter=editorialFilter===value?'all':value;
+      document.querySelectorAll('.editorial-filter').forEach(x=>x.classList.toggle('selected-filter',editorialFilter!=='all'&&x.dataset.editorial===editorialFilter));
       applyFilters(); return;
     }
     const stateBtn=e.target.closest('[data-private] button'); if(stateBtn){updatePersonalState(stateBtn.closest('[data-private]').dataset.private,stateBtn.dataset.state);return;}
