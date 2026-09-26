@@ -1,0 +1,24 @@
+{
+  "updated": "2026-09-26",
+  "sources": [
+    {
+      "name": "ClassicalMusicNews",
+      "url": "https://www.classicalmusicnews.ru/",
+      "role": "discovery",
+      "note": "Ранние анонсы сезонов, премьер, фестивалей и проектов; факты перепроверять на официальной площадке."
+    },
+    {
+      "name": "Русконцерт",
+      "url": "https://rusconcert.net/events",
+      "tickets_url": "https://tickets.rusconcert.net/events/all",
+      "role": "discovery",
+      "note": "Полезен длинным горизонтом продаж и БЗК. Не переносить автоматически: generic «хиты/шедевры/при свечах» обычно отсекать."
+    },
+    {
+      "name": "Good Talks Club",
+      "url": "https://goodtalksclub.ru/",
+      "role": "talks-discovery",
+      "note": "Источник для раздела «Лекции / разговоры». Добавлять отдельные содержательные встречи; сайт плохо индексируется, поэтому требуется прямая проверка."
+    }
+  ]
+}\n
