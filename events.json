@@ -15928,6 +15928,247 @@
       "verified": true,
       "organizer": "Электротеатр Станиславский",
       "monitor_entities": []
+    },
+    {
+      "id": "dost-tolstoy-khamovniki-2026-09-27",
+      "category": "talks",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-27T12:00:00+03:00",
+      "end": "2026-09-27T14:00:00+03:00",
+      "title": "«В гости к Льву Толстому»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Толстой",
+        "литература",
+        "музей"
+      ],
+      "venue": "Музей-усадьба Л.Н. Толстого в Хамовниках",
+      "place": "ул. Льва Толстого, 21, стр. 1",
+      "location": "Музей-усадьба Л.Н. Толстого в Хамовниках, Москва",
+      "people": "экскурсовод Екатерина Асланян",
+      "price": "билет организатора + вход в музей",
+      "why": "Литература не как отвлечённая лекция, а через реальное пространство жизни Толстого и разговор о его позднем творчестве и духовных поисках.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "Экскурсия по дому Толстого в Хамовниках; около 2 часов.",
+      "source_label": "Музей-усадьба Л.Н. Толстого в Хамовниках",
+      "source_url": "https://dostoverno.ru/events/v-gosti-k-lvu-tolstomu-2026-09-27",
+      "verified": true,
+      "organizer": "Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-battle-moscow-2026-09-30",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-30T19:00:00+03:00",
+      "title": "Михаил Мягков — «Битва за Москву»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1941",
+        "лекция"
+      ],
+      "venue": "Музей военной формы",
+      "place": "Большая Никитская ул., 46/17с1",
+      "location": "Музей военной формы, Москва",
+      "people": "Михаил Мягков",
+      "price": "проверить актуально",
+      "why": "Содержательная публичная историческая лекция с опорой на архивные источники, мемуары, дневники и письма.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Тема",
+      "details": "Хронология Битвы за Москву, планы сторон и международный контекст.",
+      "source_label": "Музей военной формы",
+      "source_url": "https://dostoverno.ru/events/bitva-za-moskvu",
+      "verified": true,
+      "organizer": "Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-secret-diplomacy-2026-10-04",
+      "category": "talks",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-04T18:30:00+03:00",
+      "title": "Виктор Авдеев — «Тайная дипломатия монархической Европы»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "история идей",
+        "Европа",
+        "лекция"
+      ],
+      "venue": "Библиотека №19 имени Ф.М. Достоевского",
+      "place": "Чистопрудный бульвар, 25",
+      "location": "Библиотека №19 имени Ф.М. Достоевского, Москва",
+      "people": "Виктор Авдеев",
+      "price": "2100 ₽",
+      "why": "Хороший разговор о том, как личные связи, эмоции и неформальные договорённости влияли на европейскую дипломатию.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Описание",
+      "details": "Лекция из цикла EQ through Art™; исторический материал рассматривается через человеческие отношения и механизмы принятия решений.",
+      "source_label": "Библиотека №19 имени Ф.М. Достоевского",
+      "source_url": "https://dostoverno.ru/events/lektsiya-taynaya-diplomatiya-monarkhicheskoy-evropy",
+      "verified": true,
+      "organizer": "Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-empire-ball-culture-2026-10-10",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-10T16:00:00+03:00",
+      "end": "2026-10-10T19:00:00+03:00",
+      "title": "«Бальная культура эпохи ампир»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "культурная история",
+        "ампир",
+        "исторический танец"
+      ],
+      "venue": "Музей военной формы",
+      "place": "Большая Никитская ул., 46/17с1",
+      "location": "Музей военной формы, Москва",
+      "people": "Наталия Данилова · Сергей Луцковский",
+      "price": "4500 ₽",
+      "why": "Не просто лекция, а практическое погружение в культурную историю начала XIX века: этикет, мода и исторический танец.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "Лекция + мастер-класс по полонезу, вальсу, кадрили и гросфатеру; около 3 часов.",
+      "source_label": "Музей военной формы",
+      "source_url": "https://dostoverno.ru/index.php/events/aleksandrovskiy-bal",
+      "verified": true,
+      "organizer": "Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-russian-culture-xiii-xv-2026-10-16",
+      "category": "talks",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": "2026-10-16T20:30:00+03:00",
+      "title": "«Докопались до русской культуры XIII–XV веков»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "культурная история",
+        "ГИМ",
+        "Средневековье"
+      ],
+      "venue": "Государственный исторический музей",
+      "place": "Красная площадь, 1",
+      "location": "Государственный исторический музей, Москва",
+      "people": "Алёна Головкина",
+      "price": "2600 ₽",
+      "why": "Сильный музейный формат на стыке искусства, литературы и истории культуры, а не просто обзор политической истории.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Тема",
+      "details": "Живопись и прикладное искусство XIII–XV веков, книжная культура, памятники Куликовского цикла и становление Москвы как культурного центра.",
+      "source_label": "Государственный исторический музей",
+      "source_url": "https://dostoverno.ru/index.php/events/dokopalis-do-russkoy-kultury-xiiixv-vv",
+      "verified": true,
+      "organizer": "Клуб любителей русской истории / Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-sovereigns-court-2026-10-23",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-23T19:00:00+03:00",
+      "end": "2026-10-23T20:30:00+03:00",
+      "title": "«Докопались до Государева двора: как личная власть стала системой»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "ГИМ",
+        "история государства",
+        "экскурсия"
+      ],
+      "venue": "Государственный исторический музей",
+      "place": "Красная площадь, 1",
+      "location": "Государственный исторический музей, Москва",
+      "people": "Алёна Головкина",
+      "price": "2600 ₽",
+      "why": "Содержательный разговор о трансформации двора и административных институтов через музейные предметы и источники.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Тема",
+      "details": "От княжеского окружения к государственному аппарату: приказы, чины, грамоты, кризис Смуты и восстановление системы.",
+      "source_label": "Государственный исторический музей",
+      "source_url": "https://dostoverno.ru/index.php/events/dokopalis-do-gosudareva-dvora-kak-lichnaya-vlast-stala-sistemoy",
+      "verified": true,
+      "organizer": "Клуб любителей русской истории / Лекторий «Достоевский»",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
+    },
+    {
+      "id": "dost-popov-radio-2026-10-25",
+      "category": "talks",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-25T15:00:00+03:00",
+      "end": "2026-10-25T17:00:00+03:00",
+      "title": "«Как Александр Попов пришёл к изобретению радио»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "история науки",
+        "Политехнический музей",
+        "радио"
+      ],
+      "venue": "Открытая коллекция Политехнического музея",
+      "place": "Волгоградский проспект, 42, корп. 5",
+      "location": "Открытая коллекция Политехнического музея, Москва",
+      "people": "Роман Артеменко",
+      "price": "4000 ₽ · только для членов клуба",
+      "why": "Редкий камерный формат истории науки с доступом к подлинному приёмнику Попова и закрытой музейной коллекции.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "buy",
+      "details_label": "Формат",
+      "details": "Лекция и авторская экскурсия по Открытой коллекции; группа не более 15 человек.",
+      "source_label": "Открытая коллекция Политехнического музея",
+      "source_url": "https://dostoverno.ru/index.php/events/voskresnye-obyasneniya-kak-aleksandr-popov-prishel-k-izobreteniyu-radio",
+      "verified": true,
+      "organizer": "Лекторий «Достоевский» / Политехнический музей",
+      "discovery_source": "Лекторий «Достоевский»",
+      "monitor_entities": [
+        "Лекторий «Достоевский»"
+      ]
     }
   ]
 }
