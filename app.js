@@ -5,6 +5,7 @@ let category = 'all';
 let tags = new Set();
 let venue = 'all';
 let rangeDays = 'all';
+let cardTag = 'all';
 
 const editorialLabels = {
   attention: 'ОБРАТИТЬ ВНИМАНИЕ',
@@ -54,14 +55,14 @@ function renderCard(e){
   const classes = ['card','event', e.featured ? 'feature' : '', r.state ? 'personal-'+r.state : ''].filter(Boolean).join(' ');
   const dateBox = `<div class="datebox"><span class="dow">${esc(d.dow)}</span><span class="date">${esc(d.date)}</span></div>`;
   const timofey = r.timofey ? `<span class="timofey-badge">с Тимофеем</span>` : '';
-  const visibleTags = (e.visible_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+  const visibleTags = (e.visible_tags||[]).map(t=>`<button type="button" class="tag card-tag" data-card-tag="${esc(t)}" title="Показать события с меткой «${esc(t)}»">${esc(t)}</button>`).join('');
   const urgency = urgencyLabels[e.ticket_urgency] || '';
   const source = e.source_url ? `<a class="button" href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_label||'Источник')}</a>` : '';
   const price = e.price ? `<span class="price">${esc(e.price)}</span>` : '';
   const calendarHint = r.state==='bought' && !r.calendar ? `<span class="calendar-added">билет куплен — добавьте событие в календарь</span>` : (r.calendar ? `<span class="calendar-added">календарь отмечен</span>` : '');
   const inner = `
     ${timofey}
-    <div class="meta"><span class="tag ${esc(e.category)}">${esc(categoryLabels[e.category]||e.category)}</span>${visibleTags}</div>
+    <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${visibleTags}</div>
     <div class="editorial ${esc(e.editorial_status)}">${esc(editorialLabels[e.editorial_status]||'')}</div>
     <div class="title">${esc(e.display_title||e.title)}</div>
     <div class="venue">${esc(e.venue)}</div>
@@ -95,7 +96,7 @@ function renderCard(e){
         <button data-state="skip" class="${r.state==='skip'?'selected':''}">Пропустить</button>
       </div>
     </div>`;
-  return `<article class="${classes}" id="event-${esc(e.id)}" data-id="${esc(e.id)}" data-category="${esc(e.category)}" data-tags="${esc((e.tags||[]).join(','))}" data-venue="${esc(e.venue)}">${dateBox}<div>${inner}</div></article>`;
+  return `<article class="${classes}" id="event-${esc(e.id)}" data-id="${esc(e.id)}" data-category="${esc(e.category)}" data-tags="${esc((e.tags||[]).join(','))}" data-visible-tags="${esc((e.visible_tags||[]).join('||'))}" data-venue="${esc(e.venue)}">${dateBox}<div>${inner}</div></article>`;
 }
 function renderMain(){
   const host = document.getElementById('mainContent');
@@ -123,6 +124,8 @@ function applyFilters(){
       const ctags=(c.dataset.tags||'').split(',').filter(Boolean);
       const tagOk=[...tags].every(t=>ctags.includes(t));
       const venueOk=venue==='all'||c.dataset.venue===venue;
+      const cVisibleTags=(c.dataset.visibleTags||'').split('||').filter(Boolean);
+      const cardTagOk=cardTag==='all'||cVisibleTags.includes(cardTag);
       const ev=eventById(c.dataset.id);
       let rangeOk=true;
       if(rangeDays!=='all'){
@@ -134,7 +137,7 @@ function applyFilters(){
           rangeOk=d>=now&&d<=until;
         }
       }
-      const match=catOk&&tagOk&&venueOk&&rangeOk;
+      const match=catOk&&tagOk&&venueOk&&cardTagOk&&rangeOk;
       c.classList.toggle('hidden',!match);
       c.style.display=match?'':'none';
       if(match){visible++;sectionVisible++;}
@@ -145,7 +148,8 @@ function applyFilters(){
   if(summary){
     const venueText=venue==='all'?'все площадки':venue;
     const rangeText=rangeDays==='all'?'весь горизонт':`${rangeDays} дней`;
-    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}`;
+    const tagText=cardTag==='all'?'':` · метка: ${cardTag}`;
+    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}`;
   }
 }
 function countRange(days){
@@ -204,6 +208,17 @@ function setupStaticControls(){
 }
 function setupDelegation(){
   document.addEventListener('click',e=>{
+    const cardCategory=e.target.closest('.card-category'); if(cardCategory){
+      category=cardCategory.dataset.cardCategory;
+      document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x.dataset.category===category));
+      applyFilters(); return;
+    }
+    const cardTagBtn=e.target.closest('.card-tag'); if(cardTagBtn){
+      const value=cardTagBtn.dataset.cardTag;
+      cardTag=cardTag===value?'all':value;
+      document.querySelectorAll('.card-tag').forEach(x=>x.classList.toggle('on',cardTag!=='all'&&x.dataset.cardTag===cardTag));
+      applyFilters(); return;
+    }
     const stateBtn=e.target.closest('[data-private] button'); if(stateBtn){updatePersonalState(stateBtn.closest('[data-private]').dataset.private,stateBtn.dataset.state);return;}
     const ics=e.target.closest('.calendarBtn'); if(ics){const ev=eventById(ics.dataset.id);if(ev)downloadICS(ev);return;}
     const g=e.target.closest('.googleBtn'); if(g){const ev=eventById(g.dataset.id);if(ev)googleCalendar(ev);return;}
@@ -214,7 +229,7 @@ function setupDelegation(){
 async function init(){
   loadPersonal(); setupStaticControls(); setupDelegation();
   try{
-    const res=await fetch('events.json',{cache:'no-store'}); if(!res.ok)throw new Error(`HTTP ${res.status}`); const data=await res.json(); events=data.events||[];
+    const res=await fetch(`events.json?v=${Date.now()}`,{cache:'no-store'}); if(!res.ok)throw new Error(`HTTP ${res.status}`); const data=await res.json(); events=data.events||[];
     if(data.meta?.note){const n=document.getElementById('dataNote');n.textContent=`Обновлено ${data.meta.updated||''}. ${data.meta.note}`;n.hidden=false;}
     renderMain();
   }catch(err){document.getElementById('mainContent').innerHTML=`<div class="loading">Не удалось загрузить events.json: ${esc(err.message)}</div>`;}
