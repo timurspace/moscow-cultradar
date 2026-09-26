@@ -30,10 +30,10 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .card .datebox{flex-direction:row;gap:8px;align-items:baseline;margin-bottom:10px}.card .datebox .date{font-size:22px}
 
 /* Clickable card filters */
-.meta .tag.card-tag,.meta .tag.card-category{border:0;box-shadow:none;padding:5px 8px;font-size:12px;line-height:1;background:var(--chip)}
+.meta .tag.card-tag,.meta .tag.card-category,.meta .tag.card-venue{border:0;box-shadow:none;padding:5px 8px;font-size:12px;line-height:1;background:var(--chip)}
 .meta .tag.card-category.music{background:#e8efe9}.meta .tag.card-category.theatre{background:#efe7e3}.meta .tag.card-category.opera{background:#ece7f2}
-.meta .tag.card-tag:hover,.meta .tag.card-category:hover{outline:1px solid #b9b1a4;transform:translateY(-1px)}
-.meta .tag.card-tag.on{background:var(--ink);color:#fff;outline:1px solid var(--ink)}
+.meta .tag.card-tag:hover,.meta .tag.card-category:hover,.meta .tag.card-venue:hover{outline:1px solid #b9b1a4;transform:translateY(-1px)}
+.meta .tag.card-tag.on,.meta .tag.card-venue.on{background:var(--ink);color:#fff;outline:1px solid var(--ink)}
 
 /* Grouped multi-venue filter */
 .venue-filter-box{position:relative}
