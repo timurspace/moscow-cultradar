@@ -28,3 +28,9 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 
 .rangebar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:14px}.range-label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.rangebar button.active{background:var(--accent);color:white;border-color:var(--accent)}
 .card:not(.feature) .datebox{flex-direction:row;gap:8px;align-items:baseline;margin-bottom:10px}.card:not(.feature) .datebox .date{font-size:22px}
+
+/* Clickable card filters */
+.meta .tag.card-tag,.meta .tag.card-category{border:0;box-shadow:none;padding:5px 8px;font-size:12px;line-height:1;background:var(--chip)}
+.meta .tag.card-category.music{background:#e8efe9}.meta .tag.card-category.theatre{background:#efe7e3}.meta .tag.card-category.opera{background:#ece7f2}
+.meta .tag.card-tag:hover,.meta .tag.card-category:hover{outline:1px solid #b9b1a4;transform:translateY(-1px)}
+.meta .tag.card-tag.on{background:var(--ink);color:#fff;outline:1px solid var(--ink)}
