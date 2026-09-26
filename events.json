@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Театральный sweep: добавлены конкретные постановки Большого, МАМТ, Малого, Малой Бронной, Театра Наций, Маяковского, Практики, Театра.doc, Места/Внутри и Сферы; у карточек фиксируются постановщик и подтверждённая длительность, а при отсутствии точной длительности она не выдумывается."
+    "note": "Репертуарный sweep: Малый театр разнесён по четырём московским сценам; добавлены почти полный октябрь Практики и Театра.doc, Центр Вознесенского, Гнесинка, Île Thélème и Покровские ворота. Для театров принцип — широкий репертуар, не только рекомендации."
   },
   "events": [
     {
@@ -31,7 +31,8 @@
       "details": "26 сентября 2026, 19:00. Большой зал Московской консерватории.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-09-26",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "phil-nekrassov-impressions-2026-09-26",
@@ -57,7 +58,34 @@
       "details": "Импровизационная программа от би-бопа к европейской сцене.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
+    },
+    {
+      "id": "pokrovskie-new-wine-2026-09-26",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Елена Степанова — «Новое вино и старые мехи»",
+      "tags": [],
+      "visible_tags": [
+        "презентация / разговор"
+      ],
+      "venue": "КЦ «Покровские ворота»",
+      "place": "Москва",
+      "location": "КЦ «Покровские ворота», Москва",
+      "people": "Елена Степанова",
+      "price": "проверить актуально",
+      "why": "Текущее содержательное событие обязательной площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "26 сентября, 19:00–21:00, Покровка, 27.",
+      "source_label": "КЦ Покровские ворота",
+      "source_url": "",
+      "verified": true,
+      "source_group": "КЦ Покровские ворота",
+      "start": "2026-09-26T19:00:00+03:00"
     },
     {
       "id": "phil-laul-mozart-2026-09-27",
@@ -84,7 +112,8 @@
       "details": "Рондо, сонаты и фантазии Моцарта.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~2026/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "helikon-lady-macbeth-2026-09-27",
@@ -114,7 +143,8 @@
       "details": "27 сентября, зал «Стравинский».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "phil-laul-mozart-2026-09-28",
@@ -141,7 +171,8 @@
       "details": "Рондо, сонаты и фантазии Моцарта.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~2026/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "rassvet-duo-inspiro-2026-09-28",
@@ -172,7 +203,8 @@
       "details": "Сонаты эпохи войны: Вайнберг, Хиндемит, Прокофьев.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "phil-prokofiev-nevsky-2026-09-29",
@@ -202,7 +234,8 @@
       "details": "Кантата «Александр Невский» и большая сюита из балета «Ромео и Джульетта».",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~2026/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "phil-grindenko-bach-biber-2026-09-29",
@@ -234,7 +267,8 @@
       "details": "Барочная программа Баха и Бибера.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~2026/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "rassvet-batagov-dreamer-2026-09-29",
@@ -263,7 +297,8 @@
       "details": "12 пьес, когда-то написанных для театра, кино и телевидения.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "phil-madrigal-new-shores-2026-09-30",
@@ -292,7 +327,8 @@
       "details": "Ансамбль «Мадригал».",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~ophg/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "mm-golovanov-blagovest-2026-10-01",
@@ -321,7 +357,8 @@
       "details": "75 минут; история становления Николая Голованова с фортепианными иллюстрациями.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/serious-lecture/blagovest-sudbyi.html",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира Н.С. Голованова"
     },
     {
       "id": "zaryadye-dsch-rudin-2026-10-01",
@@ -351,7 +388,8 @@
       "details": "Концерт цикла DSCH к 120-летию Дмитрия Шостаковича.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "phil-stars21-2026-10-01",
@@ -380,7 +418,88 @@
       "details": "Шостакович — Концерт № 2; Хачатурян — Скрипичный концерт; Прокофьев — Концерт № 3 и сюита «1941».",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-01/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
+    },
+    {
+      "id": "maly-dead-souls-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь / Булгаков — «Мёртвые души»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "1 и 13 октября. 2 ч 45 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T18:45:00.000Z"
+    },
+    {
+      "id": "maly-marriage-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Женитьба»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "1 и 13 октября. 2 ч 35 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T18:35:00.000Z"
+    },
+    {
+      "id": "voz-punk-2026-10-01",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Сибирский панк в контексте мировой панк-сцены",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Иван Щеглов · Максим Динкевич",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/beseda-sibirskij-pank-v-kontekste-mirovoj-pank-sczeny/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-01T19:30:00+03:00"
     },
     {
       "id": "nations-ordinary-death-2026-10-01",
@@ -414,6 +533,33 @@
       "verified": true
     },
     {
+      "id": "maly-sandman-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гофман — «Песочный человек»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр — Камерная сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "2 и 27 октября. 1 ч 20 мин без антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-02T18:30:00+03:00",
+      "end": "2026-10-02T16:50:00.000Z"
+    },
+    {
       "id": "zaryadye-michiels-organ-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -439,7 +585,8 @@
       "details": "Органный концерт.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-etnosfera-2026-10-02",
@@ -467,7 +614,8 @@
       "details": "«Новое дыхание традиций».",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "prove-voices-2026-10-02",
@@ -497,7 +645,8 @@
       "details": "Второй вечер фестиваля «Прове-Калиш. Шостакович».",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "source_group": "Усадьба Прове–Калиш"
     },
     {
       "id": "bolshoi-knyaz-igor-2026-10-02",
@@ -528,7 +677,8 @@
       "details": "Опера Александра Бородина. Историческая постановка Евгения Соковнина (1954), новая версия Иркина Габитова. Ориентир по продолжительности версии — 3 часа 45 минут с антрактом.",
       "source_label": "Большой театр",
       "source_url": "https://bolshoi.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Большой театр"
     },
     {
       "id": "bronnaya-new-optimistic-2026-10-02",
@@ -560,6 +710,60 @@
       "verified": true
     },
     {
+      "id": "maly-mysterious-box-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Каратыгин — «Таинственный ящик»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "2 октября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T18:30:00.000Z"
+    },
+    {
+      "id": "maly-shines-not-warms-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский / Соловьёв — «Светит, да не греет»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "2 октября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T18:30:00.000Z"
+    },
+    {
       "id": "rassvet-stravinsky-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -586,7 +790,34 @@
       "details": "Программа «Игорь Стравинский. Превращения».",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
+    },
+    {
+      "id": "voz-khardzhiev-2026-10-02",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Харджиев. Последний русский футурист» — документальный фильм и обсуждение",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Татьяна Горяева · фильм Лилии Вьюгиной",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/pokaz-dokumentalnogo-filma-hardzhiev-poslednij-russkij-futurist/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-02T19:30:00+03:00"
     },
     {
       "id": "mesto-eto-ne-ya-2026-10-02",
@@ -616,7 +847,59 @@
       "details": "2 октября, 20:00. 1 час 30 минут без антракта.",
       "source_label": "Театр «Место»",
       "source_url": "https://teatrmesto.ru/etoneya",
-      "verified": true
+      "verified": true,
+      "source_group": "Место / Антон Фёдоров"
+    },
+    {
+      "id": "praktika-natashas-dream-2026-10-02",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Наташина мечта»",
+      "tags": [],
+      "visible_tags": [
+        "современная драматургия"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "2 октября.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-02T20:00:00+03:00"
+    },
+    {
+      "id": "doc-150-reasons-2026-10-02",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«150 причин не защищать родину»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "2 октября. 1 ч 40 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-02T20:00:00+03:00",
+      "end": "2026-10-02T18:40:00.000Z"
     },
     {
       "id": "mm-golden-royali-2026-10-03",
@@ -644,7 +927,116 @@
       "details": "Лекция в музее-квартире Гольденвейзера.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира А.Б. Гольденвейзера"
+    },
+    {
+      "id": "maly-tin-soldier-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Андерсен — «Стойкий оловянный солдатик»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "3 и 18 октября. 50 минут.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-03T12:00:00+03:00",
+      "end": "2026-10-03T09:50:00.000Z"
+    },
+    {
+      "id": "praktika-good-im-like-this-2026-10-03",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Хорошо, что я такой»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "3 и 4 октября. 1 ч 10 мин.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-03T15:00:00+03:00",
+      "end": "2026-10-03T13:10:00.000Z"
+    },
+    {
+      "id": "maly-krechinsky-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Колкер — «Свадьба Кречинского»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "3 октября. Мюзикл, 2 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-03T18:00:00+03:00",
+      "end": "2026-10-03T17:20:00.000Z"
+    },
+    {
+      "id": "maly-player-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Достоевский — «Игрок»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "3 и 23 октября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-03T18:00:00+03:00",
+      "end": "2026-10-03T17:30:00.000Z"
     },
     {
       "id": "musica-stricta-2026",
@@ -678,7 +1070,8 @@
       "details": "Лигети — Musica ricercata (I–IV), Венгерская пассакалия для чембало.\\nВолконский — Musica stricta. Fantasia ricercata, соната для альта и фортепиано.\\nИ. С. Бах — сонаты для виолы да гамба и клавесина BWV 1029 и BWV 1028; Сюита № 5 BWV 1011 в версии для альта соло.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~oct/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "zaryadye-esenin-musica-viva-2026-10-03",
@@ -705,7 +1098,8 @@
       "details": "Литературно-музыкальная программа.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "phil-bso-mahler-2026-10-03",
@@ -732,7 +1126,8 @@
       "details": "Брамс — Вариации на тему Гайдна; Моцарт — Скрипичный концерт № 3; Малер — Симфония № 4.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-03/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "mmdm-verification-2026-10-03",
@@ -761,7 +1156,8 @@
       "details": "Проект «Музыка будущего».",
       "source_label": "Дом музыки",
       "source_url": "https://www.mmdm.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московский Дом музыки"
     },
     {
       "id": "praktika-black-blizzard-2026-10-03",
@@ -792,7 +1188,62 @@
       "details": "3 октября 20:00; 4 октября 16:00 и 20:00. 1 час 30 минут.",
       "source_label": "Практика",
       "source_url": "https://praktikatheatre.ru/events/purga",
-      "verified": true
+      "verified": true,
+      "source_group": "Практика"
+    },
+    {
+      "id": "iletheleme-sofronov-2026-10-03",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Фёдор Софронов — «От шамана до граммофона»",
+      "tags": [],
+      "visible_tags": [
+        "лекция",
+        "музыка"
+      ],
+      "venue": "Île Thélème",
+      "place": "Москва",
+      "location": "Île Thélème, Москва",
+      "people": "Фёдор Софронов",
+      "price": "проверить актуально",
+      "why": "Музыкально-историческая лекция в одной из обязательных независимых площадок.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "3 октября, 20:00. Время подтверждено афишным анонсом; официальный билетный URL требует дальнейшей сверки.",
+      "source_label": "Île Thélème",
+      "source_url": "",
+      "verified": false,
+      "source_group": "Île Thélème",
+      "start": "2026-10-03T20:00:00+03:00"
+    },
+    {
+      "id": "maly-cinderella-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шварц — «Золушка»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "4 октября. 1 ч 40 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-04T11:00:00+03:00",
+      "end": "2026-10-04T09:40:00.000Z"
     },
     {
       "id": "zaryadye-popov-choir-2026-10-04",
@@ -818,7 +1269,8 @@
       "details": "Хоровой концерт.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/mood/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "historic2",
@@ -848,7 +1300,140 @@
       "details": "Полная официальная программа будет храниться здесь целиком после следующей сверки источника. В рабочей версии карточка уже отделена от интерфейса и живёт в events.json.",
       "source_label": "ГЭС-2",
       "source_url": "",
-      "verified": false
+      "verified": false,
+      "source_group": "ГЭС-2"
+    },
+    {
+      "id": "maly-white-guard-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Белая гвардия»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "4 и 18 октября. 3 часа, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-04T18:00:00+03:00",
+      "end": "2026-10-04T18:00:00.000Z"
+    },
+    {
+      "id": "maly-madrid-court-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Скриб / Легуве — «Тайны Мадридского двора»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "4 октября. 3 часа, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-04T18:00:00+03:00",
+      "end": "2026-10-04T18:00:00.000Z"
+    },
+    {
+      "id": "doc-solovki-2026-10-04",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«На Соловки»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "4 октября. 1 ч 15 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-04T18:00:00+03:00",
+      "end": "2026-10-04T16:15:00.000Z"
+    },
+    {
+      "id": "voz-ungaretti-2026-10-04",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Джузеппе Унгаретти — «Веселье Крушений»",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "издательство «Носорог» · проект «несовременник»",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/prezentacziya-knigi-dzhuzeppe-ungaretti-vesele-krushenij/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-04T18:00:00+03:00"
+    },
+    {
+      "id": "maly-soldiers-wife-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Очирова / Юмов — «Жена солдата»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "4 и 23 октября. 1 ч 10 мин без антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-04T18:30:00+03:00",
+      "end": "2026-10-04T16:40:00.000Z"
     },
     {
       "id": "bolshoi-jewels-2026-10-04",
@@ -877,7 +1462,8 @@
       "details": "Серия показов 4–6 октября 2026. Время 19:00 подтверждено официальным каналом театра. Точную продолжительность в текущем источнике не удалось подтвердить — не подставляем её.",
       "source_label": "Большой театр",
       "source_url": "https://bolshoi.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Большой театр"
     },
     {
       "id": "rassvet-gongs-2026-10-04",
@@ -905,7 +1491,8 @@
       "details": "Музыка гонгов.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "zaryadye-sretensky-choir-2026-10-05",
@@ -931,7 +1518,8 @@
       "details": "Перенесён с 21 сентября на 5 октября 2026.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/reschedules-and-cancellations/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "bronnaya-sobytie-2026-10-05",
@@ -990,7 +1578,33 @@
       "details": "Коллективные сочинения разных эпох.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
+    },
+    {
+      "id": "doc-applause-2026-10-05",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Аплодисменты»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — DOC industrial",
+      "place": "Москва",
+      "location": "Театр.doc — DOC industrial, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "5 октября. Премьера. 1 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-05T20:00:00+03:00",
+      "end": "2026-10-05T18:30:00.000Z"
     },
     {
       "id": "mm-prokofiev-bassoon-2026-10-06",
@@ -1017,37 +1631,8 @@
       "details": "Концерт «Мастера фагота».",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
-    },
-    {
-      "id": "maly-zashchita-luzhina-2026-10-06",
-      "category": "theatre",
-      "horizon": "near",
-      "featured": true,
-      "start": "2026-10-06T18:30:00+03:00",
-      "end": "2026-10-06T20:45:00+03:00",
-      "title": "Набоков — «Защита Лужина»",
-      "tags": [
-        "psych",
-        "rare"
-      ],
-      "visible_tags": [
-        "Набоков",
-        "2 ч 15 мин"
-      ],
-      "venue": "Малый театр — Малая сцена на Ордынке",
-      "place": "Большая Ордынка, 69",
-      "location": "Малый театр, Малая сцена на Ордынке, Москва",
-      "people": "режиссёр Владимир Данай",
-      "price": "проверить актуально",
-      "why": "Набоков и психологическая история шахматиста на малой сцене; гораздо ближе к профилю радара, чем массовая «классика для галочки».",
-      "editorial_status": "candidate",
-      "ticket_urgency": "watch",
-      "details_label": "Даты",
-      "details": "Ближайшие показы: 6, 14 и 25 октября; 8 ноября; 19 декабря. 2 часа 15 минут с одним антрактом.",
-      "source_label": "Малый театр",
-      "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей С.С. Прокофьева"
     },
     {
       "id": "utopia",
@@ -1078,7 +1663,8 @@
       "details": "6 октября 2026, 19:00. Концерт-лекция «В плену утопии».\\nЙозеф Хауэр — Квинтет для кларнета и струнных.\\nПауль Хиндемит — Струнный квартет № 3 (II и III части).\\nНиколай Рославец — Фортепианное трио № 3; пьесы из цикла 24 прелюдий для скрипки и фортепиано.\\nИсполнители — солисты ансамбля «Студия новой музыки».",
       "source_label": "Студия новой музыки",
       "source_url": "https://studionewmusic.ru/?tribe_events=%D0%B2-%D0%BF%D0%BB%D0%B5%D0%BD%D1%83-%D1%83%D1%82%D0%BE%D0%BF%D0%B8%D0%B8",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "ges2-music-unbound-papoyan-2026-10-06",
@@ -1109,7 +1695,8 @@
       "details": "И. С. Бах, Людвиг ван Бетховен.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "source_group": "ГЭС-2"
     },
     {
       "id": "vishnevskaya-strauss-gala-2026-10-06",
@@ -1194,7 +1781,113 @@
       "details": "Показы 6–9 октября 2026. «Маддалена» длится около часа; точную суммарную продолжительность вечера текущий официальный анонс не даёт.",
       "source_label": "Большой театр",
       "source_url": "https://bolshoi.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Большой театр"
+    },
+    {
+      "id": "maly-cranes-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Розов — «Летят журавли»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "6 октября. 3 ч 15 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": "2026-10-06T19:15:00.000Z"
+    },
+    {
+      "id": "maly-players-gogol-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Игроки»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "6 и 28 октября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": "2026-10-06T18:30:00.000Z"
+    },
+    {
+      "id": "praktika-foreign-letters-2026-10-06",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Чужие письма»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "6 октября. 1 час.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-06T20:00:00+03:00",
+      "end": "2026-10-06T18:00:00.000Z"
+    },
+    {
+      "id": "praktika-junk-2026-10-07",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Барахло»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "7 и 8 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-07"
     },
     {
       "id": "sfera-bernarda-alba-2026-10-07",
@@ -1226,6 +1919,60 @@
       "verified": true
     },
     {
+      "id": "maly-guiltless-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Без вины виноватые»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "7 октября. 2 ч 50 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-07T19:00:00+03:00",
+      "end": "2026-10-07T18:50:00.000Z"
+    },
+    {
+      "id": "maly-bride-without-dowry-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Бесприданница»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "7 октября. 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-07T19:00:00+03:00",
+      "end": "2026-10-07T18:40:00.000Z"
+    },
+    {
       "id": "rassvet-picasso-2026-10-07",
       "category": "music",
       "horizon": "near",
@@ -1254,7 +2001,8 @@
       "details": "Средневековая и современная музыка.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "mm-golden-svoe-prostranstvo-2026-10-08",
@@ -1283,7 +2031,8 @@
       "details": "75 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/svoyo-prostranstvo.html",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира А.Б. Гольденвейзера"
     },
     {
       "id": "mmdm-aksion-estin-2026-10-08",
@@ -1313,7 +2062,8 @@
       "details": "Песнопения древней Византии.",
       "source_label": "Дом музыки",
       "source_url": "https://www.mmdm.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московский Дом музыки"
     },
     {
       "id": "helikon-debussy-toybox-2026-10-08",
@@ -1343,7 +2093,112 @@
       "details": "В рамках фестиваля «Видеть музыку».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
+    },
+    {
+      "id": "maly-big-three-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Большая тройка (Ялта-45)»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "8 октября. 2 ч 10 мин без антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T18:10:00.000Z"
+    },
+    {
+      "id": "maly-wedding-wedding-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Свадьба, свадьба, свадьба!»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "8 и 30 октября. 1 ч 40 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T17:40:00.000Z"
+    },
+    {
+      "id": "voz-spiritual-travel-2026-10-08",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "От кавказских дольменов до Алтая: места силы духовных путешественников",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Ксения Сироткина",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-ot-kavkazskih-dolmenov-do-altaya-mesta-sily-lesnyh-hippi-rerihovczev-i-drugih-duhovnyh-puteshestvennikov/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-08T19:30:00+03:00"
+    },
+    {
+      "id": "praktika-mama-moscow-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Мама, я в Москве»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "9 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-09"
     },
     {
       "id": "helikon-birds-2026",
@@ -1372,7 +2227,8 @@
       "details": "Опера «Птицы» в рамках фестиваля «Видеть музыку».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "drugoe-jazz-century-2026-10-09",
@@ -1399,7 +2255,8 @@
       "details": "Концерт-путешествие от свинга 1920-х до актуальной сцены.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4204341/",
-      "verified": true
+      "verified": true,
+      "source_group": "Другое Дело"
     },
     {
       "id": "zaryadye-coltrane-2026-10-09",
@@ -1426,7 +2283,8 @@
       "details": "Перенесён с 15 октября на 9 октября 2026.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/jazz/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "prove-letter-composer-2026-10-09",
@@ -1455,7 +2313,8 @@
       "details": "Бетховен, Яначек, Допплер.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "source_group": "Усадьба Прове–Калиш"
     },
     {
       "id": "electro-maryino-pole-premiere-2026-10-09",
@@ -1518,6 +2377,137 @@
       "verified": true
     },
     {
+      "id": "maly-inspector-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Ревизор»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "9 и 23 октября. 3 ч 55 мин, два антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T19:55:00.000Z"
+    },
+    {
+      "id": "maly-eight-women-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Робер Тома — «Восемь любящих женщин»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "9 и 27 октября. 2 ч 30 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T18:30:00.000Z"
+    },
+    {
+      "id": "praktika-fedya-bulkin-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Небесный почтальон Федя Булкин»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "9 октября. 1 ч 15 мин.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T17:15:00.000Z"
+    },
+    {
+      "id": "doc-dead-wave-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Мёртвая волна»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "9 и 21 октября. Премьера. 1 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-09T20:00:00+03:00",
+      "end": "2026-10-09T18:30:00.000Z"
+    },
+    {
+      "id": "maly-minor-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Фонвизин — «Недоросль»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "10 и 31 октября. 2 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-10T11:00:00+03:00",
+      "end": "2026-10-10T10:20:00.000Z"
+    },
+    {
       "id": "vishnevskaya-chamber-2026-10-10",
       "category": "music",
       "horizon": "near",
@@ -1572,7 +2562,35 @@
       "details": "10 и 11 октября; далее 14–15 ноября, 17–18 декабря. 3 часа 30 минут с одним антрактом.",
       "source_label": "Малый театр",
       "source_url": "https://www.maly.ru/spectacle/view?name=annakarenina",
-      "verified": true
+      "verified": true,
+      "source_group": "Малый театр"
+    },
+    {
+      "id": "maly-wolves-sheep-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Волки и овцы»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "10 октября. 3 ч 15 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-10T18:00:00+03:00",
+      "end": "2026-10-10T18:15:00.000Z"
     },
     {
       "id": "shostakovich-quartets-1",
@@ -1603,7 +2621,8 @@
       "details": "Шостакович — Струнные квартеты № 1 до мажор, ор. 49; № 2 ля мажор, ор. 68; № 3 фа мажор, ор. 73.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "kzch-korchak-2026",
@@ -1633,7 +2652,8 @@
       "details": "Бонончини, Дуранте, К. Ф. Э. Бах, Кальдара, И. С. Бах, Глюк, А. и Д. Скарлатти, Страделла, Глинка, Чайковский, Варламов, Даргомыжский и др.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-10/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "drugoe-tango-2026-10-10",
@@ -1663,7 +2683,8 @@
       "details": "Пьяццолла, Шнитке, Десятников, Латенас.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4203627/",
-      "verified": true
+      "verified": true,
+      "source_group": "Другое Дело"
     },
     {
       "id": "prove-shostakovich-chamber-2026-10-10",
@@ -1693,7 +2714,87 @@
       "details": "Камерные сочинения для дуэтов и трио.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "source_group": "Усадьба Прове–Калиш"
+    },
+    {
+      "id": "doc-adults-outside-2026-10-10",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Взрослые снаружи»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — DOC industrial",
+      "place": "Москва",
+      "location": "Театр.doc — DOC industrial, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "10 октября. 1 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-10T19:00:00+03:00",
+      "end": "2026-10-10T17:30:00.000Z"
+    },
+    {
+      "id": "doc-toni-garden-2026-10-11",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Тайный сад Тони Редискиной»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "11 октября. Семейный спектакль.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-11T13:00:00+03:00",
+      "end": "2026-10-11T11:00:00.000Z"
+    },
+    {
+      "id": "maly-dolly-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Уайлдер — «Всегда зовите Долли!»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "11 октября. 3 ч 20 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-11T18:00:00+03:00",
+      "end": "2026-10-11T18:20:00.000Z"
     },
     {
       "id": "wtc2",
@@ -1723,7 +2824,8 @@
       "details": "И. С. Бах. Хорошо темперированный клавир, II том — 24 прелюдии и фуги BWV 870–893.\nИсполнитель: Виктор Гинзбург, фортепиано.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/",
-      "verified": false
+      "verified": false,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "phil-rachmaninoff-bells-2026-10-11",
@@ -1753,7 +2855,8 @@
       "details": "Поэма «Колокола», соч. 35. Лекция-концерт в одном отделении, около 80 минут.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-11/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "zaryadye-dsch-gergiev-2026-10-12",
@@ -1783,7 +2886,8 @@
       "details": "90 минут.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/zaradys/9796/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "praktika-podolsk-2026-10-12",
@@ -1813,7 +2917,34 @@
       "details": "12 и 13 октября. 2 часа 30 минут с одним антрактом.",
       "source_label": "Практика",
       "source_url": "https://praktikatheatre.ru/events/chelovek-iz-podolska",
-      "verified": true
+      "verified": true,
+      "source_group": "Практика"
+    },
+    {
+      "id": "maly-hellas-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "MuzArts — «Эллада»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · мировая премьера"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "12 октября. Мировая премьера балетной программы; точную продолжительность официальный календарь в выдаче не показывает.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-12T19:00:00+03:00"
     },
     {
       "id": "teatrdoc-eisenstein-2026-10-12",
@@ -1842,7 +2973,8 @@
       "details": "1 час 40 минут без антракта.",
       "source_label": "Театр.doc",
       "source_url": "https://teatrdoc.ru/schedule/1422/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр.doc"
     },
     {
       "id": "1948-prove-kalish",
@@ -1873,7 +3005,8 @@
       "details": "Дмитрий Шостакович — «Антиформалистический раёк» для баса, хора и фортепиано; вокальный цикл «Из еврейской народной поэзии» для сопрано, контральто и тенора. Концерт в двух отделениях.",
       "source_label": "Хор Минина",
       "source_url": "https://choir.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Усадьба Прове–Калиш"
     },
     {
       "id": "zaryadye-dsch-milyukov-gergiev-2026-10-13",
@@ -1903,7 +3036,8 @@
       "details": "90 минут.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/zaradys/9797/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "phil-shishkin-2026-10-13",
@@ -1930,7 +3064,8 @@
       "details": "Чайковский — «Ромео и Джульетта» и Концерт № 1; Рахманинов — Рапсодия на тему Паганини.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-13/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "newopera-bach-ives-barber-2026-10-13",
@@ -1962,7 +3097,8 @@
       "details": "Концертная программа Баха, Айвза и Барбера.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "nations-ghosts-2026-10-13",
@@ -1995,6 +3131,31 @@
       "verified": true
     },
     {
+      "id": "doc-magritte-2026-10-13",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«М означает Магритт»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "13 октября. 55 минут.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-13T20:00:00+03:00",
+      "end": "2026-10-13T17:55:00.000Z"
+    },
+    {
       "id": "composers-moscow-autumn-snm-2026-10-14",
       "category": "music",
       "horizon": "near",
@@ -2024,6 +3185,37 @@
       "verified": true
     },
     {
+      "id": "maly-zashchita-luzhina-2026-10-06",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-14T18:30:00+03:00",
+      "end": "2026-10-14T17:45:00.000Z",
+      "title": "Набоков — «Защита Лужина»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Набоков",
+        "2 ч 15 мин"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Большая Ордынка, 69",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "режиссёр Владимир Данай",
+      "price": "проверить актуально",
+      "why": "Набоков и психологическая история шахматиста на малой сцене; гораздо ближе к профилю радара, чем массовая «классика для галочки».",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "6 октября спектакль отменён. Следующие подтверждённые показы: 14 и 25 октября. 2 ч 15 мин, один антракт.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
+      "verified": true,
+      "source_group": "Малый театр"
+    },
+    {
       "id": "drugoe-italy-2026-10-14",
       "category": "talks",
       "horizon": "near",
@@ -2049,7 +3241,8 @@
       "details": "Кинопоказ, концерт и презентация книги.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4187813/",
-      "verified": true
+      "verified": true,
+      "source_group": "Другое Дело"
     },
     {
       "id": "bolshoi-player-ballet-2026-10-14",
@@ -2079,7 +3272,8 @@
       "details": "Дата и постановочная команда подтверждены афишей премьера Большого Владислава Лантратова. Точная продолжительность требует отдельной сверки.",
       "source_label": "Афиша Владислава Лантратова / Большой театр",
       "source_url": "https://vladislavlantratov.com/afisha",
-      "verified": true
+      "verified": true,
+      "source_group": "Большой театр"
     },
     {
       "id": "bronnaya-besy-2026-10-14",
@@ -2141,6 +3335,60 @@
       "verified": true
     },
     {
+      "id": "maly-balzaminov-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Женитьба Бальзаминова»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "14 октября. 3 часа.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": "2026-10-14T19:00:00.000Z"
+    },
+    {
+      "id": "maly-valkyries-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Слава Сэ — «Тайная жизнь валькирий»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "14 октября. 2 ч 30 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-14T19:00:00+03:00",
+      "end": "2026-10-14T18:30:00.000Z"
+    },
+    {
       "id": "rassvet-satie-2026-10-14",
       "category": "music",
       "horizon": "near",
@@ -2167,7 +3415,8 @@
       "details": "Творческое объединение mader nort.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "mesto-chuvak-2026-10-14",
@@ -2197,7 +3446,58 @@
       "details": "14 октября, 20:00. 1 час 30 минут без антракта.",
       "source_label": "Театр «Место»",
       "source_url": "https://teatrmesto.ru/chuvak",
-      "verified": true
+      "verified": true,
+      "source_group": "Место / Антон Фёдоров"
+    },
+    {
+      "id": "doc-life-fucked-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Из жизни ***нутых»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "14 октября. 1 ч 10 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-14T20:00:00+03:00",
+      "end": "2026-10-14T18:10:00.000Z"
+    },
+    {
+      "id": "doc-truth-dare-2026-10-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Правда или действие»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — DOC industrial",
+      "place": "Москва",
+      "location": "Театр.doc — DOC industrial, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "14 октября. 1 ч 20 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-14T20:00:00+03:00",
+      "end": "2026-10-14T18:20:00.000Z"
     },
     {
       "id": "mm-prokofiev-love-dialogue-2026-10-15",
@@ -2222,7 +3522,8 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей С.С. Прокофьева"
     },
     {
       "id": "arslonga-15oct",
@@ -2251,7 +3552,8 @@
       "details": "П. И. Чайковский — Концерт для скрипки с оркестром ре мажор, соч. 35.\\nД. Д. Шостакович — Симфония № 10.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/ru/concert/203675",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "chizhevsky-15oct",
@@ -2282,7 +3584,87 @@
       "details": "И. С. Бах — Л. Стоковский: Komm, süßer Tod.\\nД. Д. Шостакович — Симфония № 8 до минор, соч. 65.",
       "source_label": "Афиша",
       "source_url": "https://www.afisha.ru/concert/f-chizhevskiy-gaso-rossii-im-e-f-svetlanova-6049086/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
+    },
+    {
+      "id": "maly-little-tragedies-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Маленькие трагедии»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "15 октября. 3 часа, два антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-15T19:00:00+03:00",
+      "end": "2026-10-15T19:00:00.000Z"
+    },
+    {
+      "id": "maly-windsor-wives-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шекспир — «Виндзорские жёнушки»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "15 и 25 октября. 2 ч 30 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-15T19:00:00+03:00",
+      "end": "2026-10-15T18:30:00.000Z"
+    },
+    {
+      "id": "doc-exit-2026-10-15",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Выход»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "15 октября. Премьера. 1 ч 40 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-15T20:00:00+03:00",
+      "end": "2026-10-15T18:40:00.000Z"
     },
     {
       "id": "mm-prokofiev-shostakovich-teachers-2026-10-16",
@@ -2310,7 +3692,8 @@
       "details": "Концерт «Шостакович и его учителя».",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей С.С. Прокофьева"
     },
     {
       "id": "mm-tchaikovsky-feelings-2026-10-16",
@@ -2336,7 +3719,32 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей П.И. Чайковского в Москве"
+    },
+    {
+      "id": "praktika-stop-2026-10-16",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Остановка»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "16 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-16"
     },
     {
       "id": "maly-night-tender-2026-10-16",
@@ -2365,7 +3773,8 @@
       "details": "16 и 25 октября; 17 и 26 ноября; 16 декабря. 1 час 50 минут без антракта.",
       "source_label": "Малый театр",
       "source_url": "https://www.maly.ru/spectacle/view?name=noch_nezhna",
-      "verified": true
+      "verified": true,
+      "source_group": "Малый театр"
     },
     {
       "id": "mm-golovanov-rachmaninov-2026-10-16",
@@ -2394,7 +3803,8 @@
       "details": "75 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/sergej-raxmaninov.-v-molchani-nochi-tajnoj.html",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира Н.С. Голованова"
     },
     {
       "id": "zaryadye-minsk-choir-2026-10-16",
@@ -2420,7 +3830,8 @@
       "details": "Хоровой концерт.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "mamt-cherry-orchard-2026-10-16",
@@ -2450,7 +3861,88 @@
       "details": "Премьерные показы 16–19 октября 2026. Диана Вишнёва и примы МАМТ заявлены в партии Раневской. Точную продолжительность нужно дочитать на карточке постановки.",
       "source_label": "МАМТ",
       "source_url": "https://www.stanmus.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "МАМТ"
+    },
+    {
+      "id": "maly-wise-man-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «На всякого мудреца довольно простоты»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "16 октября. 3 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": "2026-10-16T19:20:00.000Z"
+    },
+    {
+      "id": "maly-physicists-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Дюрренматт — «Физики»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "16 октября. 2 ч 40 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": "2026-10-16T18:40:00.000Z"
+    },
+    {
+      "id": "voz-kharms-2026-10-16",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Грамматики точный конь…»: хаос и космос в магическом автографе Хармса",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "лектор на официальной странице",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-grammatiki-tochnyj-kon-haos-i-kosmos-v-magicheskom-avtografe-daniila-harmsa/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-16T19:30:00+03:00"
     },
     {
       "id": "mm-golden-rodnik-2026-10-17",
@@ -2475,7 +3967,83 @@
       "details": "Концерт на площадке музея-квартиры.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира А.Б. Гольденвейзера"
+    },
+    {
+      "id": "praktika-brodsky-block-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«БродскийМаяковскийБлок»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "17 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-17"
+    },
+    {
+      "id": "doc-lonely-hearts-2026-10-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Вечер (не)одиноких сердец»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "17 октября. Продолжительность сверить.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-17T17:00:00+03:00"
+    },
+    {
+      "id": "maly-dogs-heart-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Собачье сердце»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "17 октября. 2 ч 30 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-17T18:00:00+03:00",
+      "end": "2026-10-17T17:30:00.000Z"
     },
     {
       "id": "composers-opensound-2026-10-17",
@@ -2534,7 +4102,8 @@
       "details": "Mozart Decomposed.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "newopera-tristan-concert-2026-10-17",
@@ -2564,7 +4133,8 @@
       "details": "Концертная программа вокруг «Тристана и Изольды».",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "nations-field-2026-10-17",
@@ -2623,7 +4193,35 @@
       "details": "17 и 27 октября. 1 час 10 минут.",
       "source_label": "Театр.doc",
       "source_url": "https://www.teatrdoc.ru/schedule/1109/",
-      "verified": true
+      "verified": true,
+      "source_group": "Театр.doc"
+    },
+    {
+      "id": "maly-buratino-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Буратино»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "18 октября. 1 ч 45 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-18T11:00:00+03:00",
+      "end": "2026-10-18T09:45:00.000Z"
     },
     {
       "id": "mm-main-voice-2026-10-18",
@@ -2649,7 +4247,8 @@
       "details": "Глинка, Римский-Корсаков, Чайковский, Кюи, Рахманинов, Глиэр и др.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей Музыки"
     },
     {
       "id": "zaryadye-liszt-missa-2026-10-18",
@@ -2679,7 +4278,62 @@
       "details": "Missa Choralis для хора и органа.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
+    },
+    {
+      "id": "praktika-prostodursen-2026-10-18",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Простодурсен»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "18 октября. 1 ч 10 мин.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-18T13:00:00+03:00",
+      "end": "2026-10-18T11:10:00.000Z"
+    },
+    {
+      "id": "maly-tartuffe-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Мольер — «Тартюф»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "18 октября. 2 ч 10 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-18T18:00:00+03:00",
+      "end": "2026-10-18T17:10:00.000Z"
     },
     {
       "id": "rassvet-janacek-2026-10-18",
@@ -2708,7 +4362,34 @@
       "details": "Интимные письма о любви и истории.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
+    },
+    {
+      "id": "praktika-moskh-2026-10-19",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Кровоизлияние в МОСХ»",
+      "tags": [],
+      "visible_tags": [
+        "музыкальный док"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "19 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-19"
     },
     {
       "id": "bzk-iolanta-2026",
@@ -2735,7 +4416,57 @@
       "details": "П. И. Чайковский — «Иоланта».",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
+    },
+    {
+      "id": "doc-poetry-slam-2026-10-19",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Московский поэтический слэм. II тур»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "19 октября. 2 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-19T20:00:00+03:00",
+      "end": "2026-10-19T19:30:00.000Z"
+    },
+    {
+      "id": "praktika-beethoven-2026-10-20",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Бетховен»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "20 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-20"
     },
     {
       "id": "snm-shift-reich-2026-10-20",
@@ -2765,7 +4496,87 @@
       "details": "Концерт к 90-летию Стива Райха.",
       "source_label": "Студия новой музыки",
       "source_url": "https://studionewmusic.ru/events_list/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
+    },
+    {
+      "id": "maly-truth-happiness-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Правда — хорошо, а счастье лучше»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "20 октября. 2 ч 40 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-20T19:00:00+03:00",
+      "end": "2026-10-20T18:40:00.000Z"
+    },
+    {
+      "id": "praktika-grisha-2026-10-20",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Гриша не свидетель»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "20 и 21 октября. 1 ч 20 мин.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-20T19:00:00+03:00",
+      "end": "2026-10-20T17:20:00.000Z"
+    },
+    {
+      "id": "doc-utopia-2026-10-20",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Утопия»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "20 октября. 55 минут.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-20T20:00:00+03:00",
+      "end": "2026-10-20T17:55:00.000Z"
     },
     {
       "id": "helikon-coffee-bach-2026",
@@ -2796,7 +4607,8 @@
       "details": "«Кофейная кантата» И. С. Баха.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "mmdm-contrapunctus-2026-10-21",
@@ -2826,7 +4638,8 @@
       "details": "Бах, Бетховен, Бриттен.",
       "source_label": "Дом музыки",
       "source_url": "https://www.afisha.ru/msk/concerthall/dom-muzyki-4759/concert/na-oktyabr/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московский Дом музыки"
     },
     {
       "id": "rassvet-butsko-2026-10-21",
@@ -2856,7 +4669,8 @@
       "details": "Камерный оркестр Prometheus.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "mm-golden-old-salon-2026-10-22",
@@ -2882,7 +4696,8 @@
       "details": "Концерт «Мелодии старой гостиной».",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира А.Б. Гольденвейзера"
     },
     {
       "id": "ges2-rosary-2026-10-22",
@@ -2911,7 +4726,35 @@
       "details": "Концерт в музыкальной программе ГЭС‑2; официальный раздел будущих музыкальных событий указывает дату 22 октября.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/?areas=music&current_interval=future",
-      "verified": true
+      "verified": true,
+      "source_group": "ГЭС-2"
+    },
+    {
+      "id": "maly-hangover-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «В чужом пиру похмелье»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "22 октября. 1 ч 40 мин без антракта.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-22T18:30:00+03:00",
+      "end": "2026-10-22T17:10:00.000Z"
     },
     {
       "id": "drugoe-house-memory-2026-10-22",
@@ -2938,7 +4781,8 @@
       "details": "Лекция-беседа с основателями галереи.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
-      "verified": true
+      "verified": true,
+      "source_group": "Другое Дело"
     },
     {
       "id": "newopera-postillon-2026-10-22",
@@ -2967,7 +4811,87 @@
       "details": "22 и 23 октября 2026.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
+    },
+    {
+      "id": "maly-woe-wit-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Грибоедов — «Горе от ума»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "22 октября. 3 часа.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-22T19:00:00+03:00",
+      "end": "2026-10-22T19:00:00.000Z"
+    },
+    {
+      "id": "maly-cherry-orchard-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Вишнёвый сад»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "22 октября. 2 ч 50 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-22T19:00:00+03:00",
+      "end": "2026-10-22T18:50:00.000Z"
+    },
+    {
+      "id": "doc-greeks-oedipus-medea-2026-10-22",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Греки. Эдип. Медея»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "22 октября. 1 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-22T20:00:00+03:00",
+      "end": "2026-10-22T18:30:00.000Z"
     },
     {
       "id": "mm-main-piano-keys-2026-10-23",
@@ -2994,7 +4918,8 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей Музыки"
     },
     {
       "id": "ges2-boulez100-2026-10-23",
@@ -3024,7 +4949,8 @@
       "details": "Пьер Булез.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "source_group": "ГЭС-2"
     },
     {
       "id": "mmdm-beethoven-chizhevsky-2026-10-23",
@@ -3051,7 +4977,8 @@
       "details": "Бетховен — Симфонии № 1, 2 и 5.",
       "source_label": "Дом музыки",
       "source_url": "https://www.mmdm.ru/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московский Дом музыки"
     },
     {
       "id": "rassvet-exotique-2026-10-23",
@@ -3079,7 +5006,8 @@
       "details": "Дебюсси, Равель, Заваро, Коннессон.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "mm-prokofiev-architects-2026-10-24",
@@ -3108,7 +5036,62 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей С.С. Прокофьева"
+    },
+    {
+      "id": "maly-captains-daughter-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Капитанская дочка»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "24 октября: 13:00 и 18:00. 2 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-24T13:00:00+03:00",
+      "end": "2026-10-24T12:20:00.000Z"
+    },
+    {
+      "id": "praktika-prostodursen-great-2026-10-24",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Простодурсен. Великий театр»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "24 октября. 1 час.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-24T13:00:00+03:00",
+      "end": "2026-10-24T11:00:00.000Z"
     },
     {
       "id": "helikon-aleko-2026-10-24",
@@ -3137,7 +5120,8 @@
       "details": "24 и 25 октября 2026.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "karennina",
@@ -3196,7 +5180,8 @@
       "details": "75 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/dva-geniya-russkoj-muzyiki-chajkovskij-i-raxmaninov.html",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей-квартира Н.С. Голованова"
     },
     {
       "id": "sfera-ordinary-story-2026-10-24",
@@ -3229,6 +5214,59 @@
       "verified": true
     },
     {
+      "id": "maly-lev-gurych-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Ленский — «Лев Гурыч Синичкин»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "24 октября. 2 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-24T18:00:00+03:00",
+      "end": "2026-10-24T17:20:00.000Z"
+    },
+    {
+      "id": "gnesin-shpiller-gala-2026-10-25",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Конкурс вокалистов им. Наталии Шпиллер — гала / финал",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "лауреаты конкурса",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Конкурс 20–25 октября; финальное событие 25 октября, время сверить.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "date_only": "2026-10-25"
+    },
+    {
       "id": "mamt-straussiana-2026-10-25",
       "category": "opera",
       "horizon": "buy",
@@ -3256,7 +5294,35 @@
       "details": "40 минут без антракта. 25 октября идут три показа — 12:00, 15:00 и 19:00; карточка заведена на вечерний.",
       "source_label": "МАМТ",
       "source_url": "https://stanmus.ru/shows/shtrausiana/?date=25.10.26-12%3A00",
-      "verified": true
+      "verified": true,
+      "source_group": "МАМТ"
+    },
+    {
+      "id": "iletheleme-five-evenings-2026-10-25",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Фестиваль «Пять вечеров» — «Узоры и силуэты»",
+      "tags": [],
+      "visible_tags": [
+        "современная музыка",
+        "фестиваль"
+      ],
+      "venue": "Île Thélème",
+      "place": "Москва",
+      "location": "Île Thélème, Москва",
+      "people": "исполнители фестиваля Союза композиторов",
+      "price": "проверить актуально",
+      "why": "Современная камерная музыка на независимой площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "25 октября, 19:00. Второй вечер фестиваля «Пять вечеров».",
+      "source_label": "Île Thélème",
+      "source_url": "",
+      "verified": true,
+      "source_group": "Île Thélème",
+      "start": "2026-10-25T19:00:00+03:00"
     },
     {
       "id": "kzch-young-2026",
@@ -3283,7 +5349,8 @@
       "details": "Элгар — виолончельный концерт; Рахманинов — Рапсодия на тему Паганини; Шоссон — Поэма; Прокофьев — Фортепианный концерт № 3.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-26/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "bzk-aleko-2026",
@@ -3312,7 +5379,8 @@
       "details": "С. В. Рахманинов — «Алеко».",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "zaryadye-meszaros-organ-2026-10-26",
@@ -3340,7 +5408,8 @@
       "details": "Органный концерт.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "praktika-prekrasno-2026-10-26",
@@ -3371,7 +5440,8 @@
       "details": "26 и 27 октября. 2 часа 30 минут с антрактом.",
       "source_label": "Практика",
       "source_url": "https://praktikatheatre.ru/events/prekrasno",
-      "verified": true
+      "verified": true,
+      "source_group": "Практика"
     },
     {
       "id": "rassvet-arm-percussion-2026-10-26",
@@ -3401,7 +5471,33 @@
       "details": "Новая музыка для перкуссии.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
+    },
+    {
+      "id": "doc-cars-2026-10-26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Тачки»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — DOC industrial",
+      "place": "Москва",
+      "location": "Театр.doc — DOC industrial, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "26 октября. Премьера. 1 ч 30 мин.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-26T20:00:00+03:00",
+      "end": "2026-10-26T18:30:00.000Z"
     },
     {
       "id": "nations-quiet-don-2026-10-27",
@@ -3434,6 +5530,32 @@
       "verified": true
     },
     {
+      "id": "gnesin-forum-siberia-2026-10-28",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Форум «Научное могущество прирастает Сибирью» — концерт народных коллективов",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "Ансамбль «Бай-Терек» · ансамбль «Ӱлгер»",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Концерт в завершение форума 28 октября; точное время сверить.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "date_only": "2026-10-28"
+    },
+    {
       "id": "phil-fiesta-madrigal-2026-10-28",
       "category": "music",
       "horizon": "buy",
@@ -3460,7 +5582,8 @@
       "details": "Музыка Испании и Латинской Америки XV–XVIII вв.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzf-2026-10-28/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
     },
     {
       "id": "mamt-orleanskaya-deva-2026-10-28",
@@ -3491,7 +5614,35 @@
       "details": "28 и 29 октября. 3 часа 20 минут с одним антрактом.",
       "source_label": "МАМТ",
       "source_url": "https://stanmus.ru/shows/orleanskaya-deva/?date=29.10.26-19%3A00",
-      "verified": true
+      "verified": true,
+      "source_group": "МАМТ"
+    },
+    {
+      "id": "maly-upset-family-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Екатерина II — «Расстроенная семья»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "29 октября. 2 часа.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-29T18:30:00+03:00",
+      "end": "2026-10-29T17:30:00.000Z"
     },
     {
       "id": "rassvet-popov-radugadesign-2026-10-29",
@@ -3521,7 +5672,8 @@
       "details": "Два показа: 19:00 и 21:00.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/popov/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "phil-gerzmava-2026-10-29",
@@ -3548,7 +5700,61 @@
       "details": "Глинка, Римский-Корсаков, Варламов, Шуман, Форе, Ан, Россини, Куртис.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-29/",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская филармония"
+    },
+    {
+      "id": "maly-garin-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "А. Н. Толстой — «Проект инженера Гарина»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "29 октября. 2 ч 20 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-29T19:00:00+03:00",
+      "end": "2026-10-29T18:20:00.000Z"
+    },
+    {
+      "id": "voz-letov-prishvin-2026-10-29",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Егор Летов и лесная философия Михаила Пришвина",
+      "tags": [],
+      "visible_tags": [
+        "лекция / разговор"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Москва",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Елена Кнорре",
+      "price": "проверить актуально",
+      "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "Подтверждено официальной страницей события.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-ushedshie-v-les-v-poiskah-podlinnosti-egor-letov-i-lesnaya-filosofiya-mihaila-prishvina/",
+      "verified": true,
+      "source_group": "Центр Вознесенского",
+      "start": "2026-10-29T19:30:00+03:00"
     },
     {
       "id": "mm-main-akhmatova-requiem-2026-10-30",
@@ -3577,7 +5783,61 @@
       "details": "Концерт «Реквием Анны Ахматовой. Голоса памяти».",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей Музыки"
+    },
+    {
+      "id": "gnesin-folk-gala-2026-10-30",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гала-концерт конкурса народных инструментов ВУЗов СНГ",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "лауреаты конкурса",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "30 октября, Концертный зал РАМ имени Гнесиных; время сверить.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "date_only": "2026-10-30"
+    },
+    {
+      "id": "maly-carefree-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Цвейг — «Беззаботные»",
+      "tags": [],
+      "visible_tags": [
+        "18+ · премьера"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр — Камерная сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "30 октября. 2 ч 30 мин.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-30T18:30:00+03:00",
+      "end": "2026-10-30T18:00:00.000Z"
     },
     {
       "id": "martynov-requiem",
@@ -3607,7 +5867,8 @@
       "details": "Владимир Мартынов. «Реквием» для солистов, хора и оркестра — премьера.\nРоссийский национальный оркестр.\nДирижёр — Фёдор Безносиков.\nГосударственный академический русский хор имени А. В. Свешникова.\nТатьяна Гринденко — скрипка.\nЯрослав Тимофеев — ведущий.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/",
-      "verified": false
+      "verified": false,
+      "source_group": "Московская филармония"
     },
     {
       "id": "mm-tchaikovsky-grechaninov-2026-10-30",
@@ -3635,7 +5896,134 @@
       "details": "80 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/zhizn-prozhita-nedarom.html",
-      "verified": true
+      "verified": true,
+      "source_group": "Музей П.И. Чайковского в Москве"
+    },
+    {
+      "id": "doc-patchwork-family-2026-10-30",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Мы. История лоскутной семьи»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — DOC industrial",
+      "place": "Москва",
+      "location": "Театр.doc — DOC industrial, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "30 октября. Премьера. 90 минут.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "start": "2026-10-30T19:00:00+03:00",
+      "end": "2026-10-30T17:30:00.000Z"
+    },
+    {
+      "id": "praktika-tsvetaeva-2026-10-31",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«ЦветаеваШпаликовХармс»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "31 октября. Время сверить на странице спектакля.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "date_only": "2026-10-31"
+    },
+    {
+      "id": "doc-island-2026-10-31",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Когда ты остров»",
+      "tags": [],
+      "visible_tags": [],
+      "venue": "Театр.doc — Док на Лесной",
+      "place": "Москва",
+      "location": "Театр.doc — Док на Лесной, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "31 октября. Время и длительность сверить.",
+      "source_label": "Театр.doc",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
+      "verified": true,
+      "source_group": "Театр.doc",
+      "date_only": "2026-10-31"
+    },
+    {
+      "id": "maly-golovlevs-oct26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Салтыков-Щедрин — «Господа Головлёвы»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "31 октября. Точная продолжительность требует сверки на карточке спектакля.",
+      "source_label": "Малый театр",
+      "source_url": "https://www.maly.ru/afisha?month=10&year=2026",
+      "verified": true,
+      "source_group": "Малый театр",
+      "start": "2026-10-31T18:00:00+03:00"
+    },
+    {
+      "id": "praktika-mamleev-2026-10-31",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Мамлеев»",
+      "tags": [],
+      "visible_tags": [
+        "18+"
+      ],
+      "venue": "Практика",
+      "place": "Москва",
+      "location": "Практика, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "31 октября. 1 ч 30 мин.",
+      "source_label": "Практика",
+      "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "verified": true,
+      "source_group": "Практика",
+      "start": "2026-10-31T20:00:00+03:00",
+      "end": "2026-10-31T18:30:00.000Z"
     },
     {
       "id": "prove-musicaeterna-2026-11-01",
@@ -3665,7 +6053,8 @@
       "details": "Шостакович — Струнный квартет № 2 и Фортепианный квинтет.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "source_group": "Усадьба Прове–Калиш"
     },
     {
       "id": "rassvet-sonus-verus-2026-11-01",
@@ -3694,7 +6083,8 @@
       "details": "Дебюсси и Равель.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "rassvet-hodila-izba-2026-11-03",
@@ -3724,7 +6114,8 @@
       "details": "Опера Варвары Чураковой.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "helikon-maddalena-2026",
@@ -3754,7 +6145,8 @@
       "details": "С. С. Прокофьев — «Маддалена».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "newopera-lohengrin-nov-2026",
@@ -3783,7 +6175,8 @@
       "details": "11 и 13 ноября 2026.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
@@ -3814,7 +6207,8 @@
       "details": "Пярт, Пелецис, Мансурян, Сильвестров.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
     },
     {
       "id": "mzk-filidor-satie-2026",
@@ -3845,7 +6239,8 @@
       "details": "Абонемент № 24 «Двойные портреты».",
       "source_label": "Московская консерватория",
       "source_url": "https://i1.mosconsv.ru/afisha/2026-11-14",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "ges2-sysoev-potemkin-2026-11-19",
@@ -3874,7 +6269,34 @@
       "details": "Алексей Сысоев. Исполнители: Im SPIEGEL ensemble, Юрий Фаворин.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "source_group": "ГЭС-2"
+    },
+    {
+      "id": "gnesin-cembalo-sofronitsky-2026-11-20",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Вивиана Софроницкая — клавесин / хаммерклавир",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "Вивиана Софроницкая",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "20 ноября, Малый зал Зарядья; событие конкурса клавесинистов им. Майкапара.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "start": "2026-11-20T19:00:00+03:00"
     },
     {
       "id": "shostakovich-quartets-2",
@@ -3904,7 +6326,34 @@
       "details": "Шостакович — Струнные квартеты № 4 ре мажор, ор. 83; № 5 си-бемоль мажор, ор. 92; № 6 соль мажор, ор. 101.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
+    },
+    {
+      "id": "gnesin-cembalo-martynova-2026-11-21",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Ольга Мартынова представляет…»",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "Софья Гончарова · Алсу Валиахметова",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "21 ноября, Малый зал РАМ имени Гнесиных.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "start": "2026-11-21T19:00:00+03:00"
     },
     {
       "id": "rassvet-xenakis-reich-2026-11-21",
@@ -3935,7 +6384,34 @@
       "details": "Новая музыка для перкуссии и клавесина.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "source_group": "ДК Рассвет"
+    },
+    {
+      "id": "gnesin-cembalo-winners-2026-11-23",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Концерт победителей конкурса клавесинистов им. Майкапара",
+      "tags": [],
+      "visible_tags": [
+        "Гнесинка"
+      ],
+      "venue": "Гнесинка",
+      "place": "Москва",
+      "location": "Гнесинка, Москва",
+      "people": "лауреаты конкурса",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Даты / постановка",
+      "details": "23 ноября, Музыкальная гостиная дома Шуваловой.",
+      "source_label": "Гнесинка",
+      "source_url": "https://gnesin-academy.ru/creativity/festivals/",
+      "verified": true,
+      "source_group": "Гнесинка",
+      "start": "2026-11-23T19:00:00+03:00"
     },
     {
       "id": "mzk-papoyan-2026",
@@ -3961,7 +6437,8 @@
       "details": "Фортепианный вечер с Ильёй Папояном.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
-      "verified": true
+      "verified": true,
+      "source_group": "Московская консерватория"
     },
     {
       "id": "ges2-ophelia-2026-11-25",
@@ -3991,7 +6468,8 @@
       "details": "Кароль Шимановский, Морис Равель, Рихард Штраус.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "source_group": "ГЭС-2"
     },
     {
       "id": "helikon-norma-premiere",
@@ -4020,7 +6498,8 @@
       "details": "Премьера идёт 25, 26, 27, 28 и 29 ноября 2026.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "source_group": "Геликон-опера"
     },
     {
       "id": "zaryadye-winter-open-2026",
@@ -4049,7 +6528,8 @@
       "details": "Открытие Зимнего фестиваля Зала Зарядье. Три тенора, Московский государственный симфонический оркестр, дирижёр Иван Рудин.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/festivals/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-neobarocco-2026",
@@ -4080,7 +6560,8 @@
       "details": "Ансамбль NeoBarocco: флейта, скрипка/вокал, виола да гамба, клавесин. Программа английской музыки эпохи Реставрации.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/festivals/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "shostakovich-quartets-3",
@@ -4110,7 +6591,8 @@
       "details": "Шостакович — Струнные квартеты № 7 фа-диез минор, ор. 108; № 8 до минор, ор. 110; № 9 ми-бемоль мажор, ор. 117.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-vishnevsky-2026",
@@ -4138,7 +6620,8 @@
       "details": "Событие Зимнего фестиваля Зарядья.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/festivals/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-cellos-2026",
@@ -4167,7 +6650,8 @@
       "details": "Событие Зимнего фестиваля Зарядья.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/festivals/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-masleev-2026",
@@ -4196,7 +6680,8 @@
       "details": "Гершвин, Цфасман, Шостакович.",
       "source_label": "Зал Зарядье",
       "source_url": "https://www.zaryadyehall.ru/events/festivals/",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "newopera-magic-flute-12",
@@ -4223,7 +6708,8 @@
       "details": "2 часа 50 минут с одним антрактом.",
       "source_label": "Новая Опера",
       "source_url": "https://novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "newopera-tristan-13",
@@ -4253,7 +6739,8 @@
       "details": "Продолжительность 4 часа 40 минут с двумя антрактами.",
       "source_label": "Новая Опера",
       "source_url": "https://novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "zaryadye-lohengrin-19",
@@ -4283,7 +6770,8 @@
       "details": "Дата и наличие события подтверждаются декабрьской афишей; состав и формат перед покупкой нужно сверить на официальной странице.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": false
+      "verified": false,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-lohengrin-20",
@@ -4313,7 +6801,8 @@
       "details": "Повторный показ 20 декабря.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": false
+      "verified": false,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-pratum-2026",
@@ -4343,7 +6832,8 @@
       "details": "Квартет Pratum Integrum. Программа «Соперники Бетховена».",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": false
+      "verified": false,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "zaryadye-cherevichki-2026",
@@ -4372,7 +6862,8 @@
       "details": "Опера «Черевички» в Большом зале Зарядья.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/",
-      "verified": false
+      "verified": false,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "newopera-cabaret-2026",
@@ -4404,7 +6895,8 @@
       "details": "Песни Курта Вайля, Арнольда Шёнберга, Бенджамина Бриттена, Эрика Сати и других.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/presscenter/news/otkryta-prodazha-biletov-na-noyabr-i-dekabr-2026/",
-      "verified": true
+      "verified": true,
+      "source_group": "Новая Опера"
     },
     {
       "id": "shostakovich-quartets-4",
@@ -4434,7 +6926,8 @@
       "details": "Шостакович — Струнные квартеты № 10 ля-бемоль мажор, ор. 118; № 11 фа минор, ор. 122; № 12 ре-бемоль мажор, ор. 133.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "shostakovich-quartets-5",
@@ -4464,7 +6957,8 @@
       "details": "Шостакович — Струнные квартеты № 13 си-бемоль минор, ор. 138; № 14 фа-диез мажор, ор. 142; № 15 ми-бемоль минор, ор. 144.",
       "source_label": "Культура.РФ / Зал Зарядье",
       "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
-      "verified": true
+      "verified": true,
+      "source_group": "Зал Зарядье"
     },
     {
       "id": "rameau",
