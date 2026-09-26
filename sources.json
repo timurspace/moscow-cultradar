@@ -13,7 +13,7 @@
       "parent_org": "Зал Зарядье",
       "url": "https://zaryadyehall.ru/events/",
       "last_checked": "2026-09-26",
-      "event_count": 19,
+      "event_count": 21,
       "coverage_2026": {
         "october": 9,
         "november": 0,
@@ -24,7 +24,7 @@
         "january": 0,
         "february": 1,
         "march": 1,
-        "april": 1,
+        "april": 3,
         "may": 0,
         "june": 1
       },
@@ -292,7 +292,7 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 6,
+      "event_count": 7,
       "coverage_2026": {
         "october": 2,
         "november": 0,
@@ -303,7 +303,7 @@
         "january": 1,
         "february": 0,
         "march": 1,
-        "april": 0,
+        "april": 1,
         "may": 1,
         "june": 0
       },
@@ -315,7 +315,7 @@
       "parent_org": "Московская филармония",
       "url": "https://meloman.ru/",
       "last_checked": "2026-09-26",
-      "event_count": 70,
+      "event_count": 80,
       "coverage_2026": {
         "october": 20,
         "november": 24,
@@ -323,11 +323,11 @@
       },
       "coverage_status": "active",
       "coverage_2027": {
-        "january": 4,
-        "february": 3,
-        "march": 6,
-        "april": 1,
-        "may": 2,
+        "january": 5,
+        "february": 5,
+        "march": 8,
+        "april": 5,
+        "may": 3,
         "june": 0
       },
       "coverage_note": "Сезонный проход 2026/27 выполнен по опубликованным абонементам и отдельным билетным страницам; доступность абонемента и отдельных билетов хранится раздельно в событиях."
@@ -366,7 +366,7 @@
       "parent_org": "Зал Зарядье",
       "url": "https://zaryadyehall.ru/events/",
       "last_checked": "2026-09-26",
-      "event_count": 18,
+      "event_count": 20,
       "coverage_2026": {
         "october": 5,
         "november": 2,
@@ -377,7 +377,7 @@
         "january": 2,
         "february": 3,
         "march": 2,
-        "april": 0,
+        "april": 2,
         "may": 0,
         "june": 0
       },
@@ -389,7 +389,7 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 57,
+      "event_count": 58,
       "coverage_2026": {
         "october": 7,
         "november": 13,
@@ -399,7 +399,7 @@
       "coverage_2027": {
         "january": 2,
         "february": 8,
-        "march": 5,
+        "march": 6,
         "april": 9,
         "may": 3,
         "june": 0
@@ -596,7 +596,7 @@
       "parent_org": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "last_checked": "2026-09-26",
-      "event_count": 20,
+      "event_count": 21,
       "coverage_2026": {
         "october": 10,
         "november": 5,
@@ -607,7 +607,7 @@
         "january": 0,
         "february": 2,
         "march": 0,
-        "april": 1,
+        "april": 2,
         "may": 1,
         "june": 0
       },
