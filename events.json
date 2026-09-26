@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Календарь расширен: октябрь Зарядья и ближайшая Филармония добраны по официальным афишам; «Другое Дело» переименовано в понятный фильтр без префикса «Галерея»."
+    "note": "Системный sweep продолжается: добавлены недопредставленные ГЭС‑2, Прове–Калиш, Студия новой музыки, Дом музыки, Дом композиторов, Новая Опера, Геликон, Центр Вишневской, Электротеатр и L’Appartement 83."
   },
   "events": [
     {
@@ -84,6 +84,36 @@
       "details": "Рондо, сонаты и фантазии Моцарта.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/~2026/",
+      "verified": true
+    },
+    {
+      "id": "helikon-lady-macbeth-2026-09-27",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-27T19:00:00+03:00",
+      "end": "2026-09-27T22:30:00+03:00",
+      "title": "Шостакович — «Леди Макбет Мценского уезда»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "фестиваль"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "в рамках фестиваля «Шостакович вместо сумбура»",
+      "price": "проверить актуально",
+      "why": "Одна из центральных опер Шостаковича в профильном фестивальном контексте.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "buy",
+      "details_label": "Источник",
+      "details": "27 сентября, зал «Стравинский».",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true
     },
     {
@@ -409,6 +439,36 @@
       "verified": true
     },
     {
+      "id": "prove-voices-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T21:00:00+03:00",
+      "title": "«Голоса» — солисты Хора Минина",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "Прове–Калиш"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "солисты Хора Минина",
+      "price": "проверить актуально",
+      "why": "Второй вечер фестиваля «Прове-Калиш. Шостакович», вокальное наследие композитора.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Фестиваль",
+      "details": "Второй вечер фестиваля «Прове-Калиш. Шостакович».",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "verified": true
+    },
+    {
       "id": "rassvet-stravinsky-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -551,6 +611,35 @@
       "details": "Брамс — Вариации на тему Гайдна; Моцарт — Скрипичный концерт № 3; Малер — Симфония № 4.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-03/",
+      "verified": true
+    },
+    {
+      "id": "mmdm-verification-2026-10-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-03T19:00:00+03:00",
+      "end": "2026-10-03T21:00:00+03:00",
+      "title": "«Музыка будущего» — проект Verification",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "современная музыка"
+      ],
+      "venue": "Дом музыки — Зал Альфреда Шнитке",
+      "place": "Космодамианская наб., 52, стр. 8",
+      "location": "Московский международный Дом музыки, Москва",
+      "people": "проект Verification",
+      "price": "от 900 ₽",
+      "why": "Современная программа в зале Шнитке — именно тот тип события, ради которого Дом музыки надо фильтровать, а не игнорировать целиком.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Проект «Музыка будущего».",
+      "source_label": "Дом музыки",
+      "source_url": "https://www.mmdm.ru/",
       "verified": true
     },
     {
@@ -751,6 +840,91 @@
       "verified": true
     },
     {
+      "id": "ges2-music-unbound-papoyan-2026-10-06",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": "2026-10-06T21:00:00+03:00",
+      "title": "Music Unbound — Илья Папоян: «Трансцендентные этюды»",
+      "tags": [
+        "bach",
+        "rare"
+      ],
+      "visible_tags": [
+        "Бах",
+        "Бетховен",
+        "Music Unbound"
+      ],
+      "venue": "ГЭС-2",
+      "place": "Болотная наб., 15",
+      "location": "Дом культуры ГЭС-2, Москва",
+      "people": "Илья Папоян, фортепиано",
+      "price": "проверить актуально",
+      "why": "Бах и Бетховен в кураторском цикле ГЭС‑2; сильный сольный вечер.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "И. С. Бах, Людвиг ван Бетховен.",
+      "source_label": "ГЭС-2",
+      "source_url": "https://ges-2.org/en/projects/music-unbound",
+      "verified": true
+    },
+    {
+      "id": "vishnevskaya-strauss-gala-2026-10-06",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": "2026-10-06T21:00:00+03:00",
+      "title": "Штраус-гала",
+      "tags": [],
+      "visible_tags": [
+        "Рихард Штраус",
+        "вокальная"
+      ],
+      "venue": "Центр оперного пения Галины Вишневской",
+      "place": "Остоженка, 25, стр. 1",
+      "location": "Центр оперного пения Галины Вишневской, Москва",
+      "people": "состав на официальной странице",
+      "price": "от 600 ₽ по афишному агрегатору",
+      "why": "Штраус в профильном вокальном центре; сохраняем как оперно-вокальный кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Штраус-гала.",
+      "source_label": "Центр Вишневской",
+      "source_url": "https://opera-centre.ru/poster/",
+      "verified": true
+    },
+    {
+      "id": "lapp83-opera-carmen-2026-10-06",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-06T19:00:00+03:00",
+      "end": "2026-10-06T21:00:00+03:00",
+      "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
+      "tags": [],
+      "visible_tags": [
+        "опера",
+        "лекция"
+      ],
+      "venue": "L’Appartement 83",
+      "place": "Москва",
+      "location": "L’Appartement 83, Москва",
+      "people": "Даниил Топилин",
+      "price": "4000 ₽",
+      "why": "Содержательный разговор об опере в камерном формате; дорогой, но релевантный talks-кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Цикл «Оперы мира».",
+      "source_label": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop",
+      "verified": true
+    },
+    {
       "id": "rassvet-picasso-2026-10-07",
       "category": "music",
       "horizon": "near",
@@ -808,6 +982,66 @@
       "details": "75 минут без антракта.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/kontserty/svoyo-prostranstvo.html",
+      "verified": true
+    },
+    {
+      "id": "mmdm-aksion-estin-2026-10-08",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T21:00:00+03:00",
+      "title": "Песнопения древней Византии — хор «Аксион Естин»",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Византия",
+        "хор"
+      ],
+      "venue": "Дом музыки",
+      "place": "Космодамианская наб., 52, стр. 8",
+      "location": "Московский международный Дом музыки, Москва",
+      "people": "хор «Аксион Естин»",
+      "price": "от 700 ₽",
+      "why": "Древневизантийское пение — редкий и содержательно точный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Песнопения древней Византии.",
+      "source_label": "Дом музыки",
+      "source_url": "https://www.mmdm.ru/",
+      "verified": true
+    },
+    {
+      "id": "helikon-debussy-toybox-2026-10-08",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-08T19:00:00+03:00",
+      "end": "2026-10-08T21:00:00+03:00",
+      "title": "Дебюсси — «Ящик с игрушками»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Дебюсси",
+        "Видеть музыку"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "фестиваль «Видеть музыку»",
+      "price": "проверить актуально",
+      "why": "Редкий Дебюсси в театральном формате; логичный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "В рамках фестиваля «Видеть музыку».",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true
     },
     {
@@ -891,6 +1125,92 @@
       "details": "Перенесён с 15 октября на 9 октября 2026.",
       "source_label": "Зал Зарядье",
       "source_url": "https://zaryadyehall.ru/events/jazz/",
+      "verified": true
+    },
+    {
+      "id": "prove-letter-composer-2026-10-09",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T21:00:00+03:00",
+      "title": "«Письмо композитора» — Бетховен / Яначек / Допплер",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Яначек",
+        "камерная"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "ансамбль солистов «Классикпост»",
+      "price": "проверить актуально",
+      "why": "Неочевидная камерная программа с Яначеком.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бетховен, Яначек, Допплер.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "verified": true
+    },
+    {
+      "id": "electro-maryino-pole-premiere-2026-10-09",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T21:30:00+03:00",
+      "title": "«Марьино поле» — премьера",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "премьера",
+        "Олег Богаев"
+      ],
+      "venue": "Электротеатр Станиславский",
+      "place": "Тверская, 23",
+      "location": "Электротеатр Станиславский, Москва",
+      "people": "по пьесе Олега Богаева",
+      "price": "проверить актуально",
+      "why": "Новая постановка современной драматургии на основной сцене; до отзывов — только «обратить внимание».",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "Премьерные показы 9 и 10 октября.",
+      "source_label": "Электротеатр Станиславский",
+      "source_url": "https://www.electrotheatre.ru/playbill/?month=2026-10",
+      "verified": true
+    },
+    {
+      "id": "vishnevskaya-chamber-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-10T15:00:00+03:00",
+      "end": "2026-10-10T17:00:00+03:00",
+      "title": "Камерная вокальная музыка из репертуара Галины Вишневской",
+      "tags": [],
+      "visible_tags": [
+        "вокальная",
+        "камерная"
+      ],
+      "venue": "Центр оперного пения Галины Вишневской",
+      "place": "Остоженка, 25, стр. 1",
+      "location": "Центр оперного пения Галины Вишневской, Москва",
+      "people": "солисты Центра",
+      "price": "от 200 ₽ по агрегатору",
+      "why": "Камерная вокальная линия центра; широкий пул должен её видеть.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Источник",
+      "details": "Камерная вокальная программа из репертуара Вишневской.",
+      "source_label": "Центр Вишневской",
+      "source_url": "https://opera-centre.ru/poster/",
       "verified": true
     },
     {
@@ -982,6 +1302,36 @@
       "details": "Пьяццолла, Шнитке, Десятников, Латенас.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4203627/",
+      "verified": true
+    },
+    {
+      "id": "prove-shostakovich-chamber-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-10T19:00:00+03:00",
+      "end": "2026-10-10T21:00:00+03:00",
+      "title": "Фестиваль «Прове-Калиш. Шостакович» — камерный вечер",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "фестиваль"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "Даниил Коган · Арсений Тарасевич-Николаев и другие",
+      "price": "проверить актуально",
+      "why": "Третий вечер фестиваля, камерные дуэты и трио Шостаковича.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Фестиваль",
+      "details": "Камерные сочинения для дуэтов и трио.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "verified": true
     },
     {
@@ -1160,6 +1510,67 @@
       "details": "Чайковский — «Ромео и Джульетта» и Концерт № 1; Рахманинов — Рапсодия на тему Паганини.",
       "source_label": "Московская филармония",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-13/",
+      "verified": true
+    },
+    {
+      "id": "newopera-bach-ives-barber-2026-10-13",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-13T19:00:00+03:00",
+      "end": "2026-10-13T21:00:00+03:00",
+      "title": "Бах / Айвз / Барбер",
+      "tags": [
+        "bach",
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Бах",
+        "Айвз",
+        "Барбер"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "состав перепроверить на официальной странице",
+      "price": "от 1800 ₽ по агрегатору",
+      "why": "Очень нетипичная для оперного театра концертная программа — именно её легко пропустить.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концертная программа Баха, Айвза и Барбера.",
+      "source_label": "Новая Опера",
+      "source_url": "https://www.novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
+      "id": "composers-moscow-autumn-snm-2026-10-14",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "date_only": "2026-10-14",
+      "title": "«Московская осень» — Студия новой музыки",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Московская осень",
+        "новая музыка"
+      ],
+      "venue": "Дом композиторов",
+      "place": "Брюсов пер., 8–10, стр. 2",
+      "location": "Московский Дом композиторов, Москва",
+      "people": "Студия новой музыки · дирижёр Игорь Дронов",
+      "price": "проверить",
+      "why": "Фестиваль современной музыки и профильный ансамбль; обязательная линия.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "no_rush",
+      "details_label": "Фестиваль",
+      "details": "Программа фестиваля «Московская осень».",
+      "source_label": "Союз московских композиторов",
+      "source_url": "https://mosunicom.ru/mo26/program",
       "verified": true
     },
     {
@@ -1439,6 +1850,36 @@
       "verified": true
     },
     {
+      "id": "composers-opensound-2026-10-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-17T19:00:00+03:00",
+      "end": "2026-10-17T21:00:00+03:00",
+      "title": "«Между прошлым и будущим» — OpensoundOrchestra",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Московская осень",
+        "OpensoundOrchestra"
+      ],
+      "venue": "Дом композиторов",
+      "place": "Брюсов пер., 8–10, стр. 2",
+      "location": "Московский Дом композиторов, Москва",
+      "people": "OpensoundOrchestra · дирижёр С. Малышев",
+      "price": "проверить",
+      "why": "Современный оркестр и фестивальный контекст.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Кокжаев, Николаев, Раева, Поспелов, Подгайц.",
+      "source_label": "Союз московских композиторов",
+      "source_url": "https://mosunicom.ru/mo26/program",
+      "verified": true
+    },
+    {
       "id": "rassvet-euphoria-mozart-2026-10-17",
       "category": "music",
       "horizon": "near",
@@ -1465,6 +1906,36 @@
       "details": "Mozart Decomposed.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "newopera-tristan-concert-2026-10-17",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-17T20:00:00+03:00",
+      "end": "2026-10-17T23:00:00+03:00",
+      "title": "Вагнер — «Тристан и Изольда» / Фёдор Безносиков",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Вагнер",
+        "концертная опера"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "Фёдор Безносиков · состав уточнить",
+      "price": "от 1000 ₽ по агрегатору",
+      "why": "Вагнер и Безносиков в концертном формате — явный оперный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концертная программа вокруг «Тристана и Изольды».",
+      "source_label": "Новая Опера",
+      "source_url": "https://www.novayaopera.ru/playbill/",
       "verified": true
     },
     {
@@ -1580,6 +2051,36 @@
       "verified": true
     },
     {
+      "id": "snm-shift-reich-2026-10-20",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-20T19:00:00+03:00",
+      "end": "2026-10-20T21:00:00+03:00",
+      "title": "«СДВИГ» — к 90-летию Стива Райха",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Стив Райх",
+        "Студия новой музыки"
+      ],
+      "venue": "Рахманиновский зал Московской консерватории",
+      "place": "Большая Никитская, 13/6",
+      "location": "Рахманиновский зал Московской консерватории, Москва",
+      "people": "Студия новой музыки · проект Hauntology",
+      "price": "проверить актуально",
+      "why": "Юбилейная программа Райха профильного ансамбля современной музыки.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концерт к 90-летию Стива Райха.",
+      "source_label": "Студия новой музыки",
+      "source_url": "https://studionewmusic.ru/events_list/",
+      "verified": true
+    },
+    {
       "id": "helikon-coffee-bach-2026",
       "category": "opera",
       "horizon": "buy",
@@ -1608,6 +2109,36 @@
       "details": "«Кофейная кантата» И. С. Баха.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
+      "verified": true
+    },
+    {
+      "id": "mmdm-contrapunctus-2026-10-21",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-21T19:00:00+03:00",
+      "end": "2026-10-21T21:00:00+03:00",
+      "title": "«Виртуозы Москвы». Contrapunctus — Бах / Бетховен / Бриттен",
+      "tags": [
+        "bach",
+        "modern"
+      ],
+      "visible_tags": [
+        "Бах",
+        "Бриттен"
+      ],
+      "venue": "Дом музыки",
+      "place": "Космодамианская наб., 52, стр. 8",
+      "location": "Московский международный Дом музыки, Москва",
+      "people": "«Виртуозы Москвы»",
+      "price": "от 700 ₽",
+      "why": "Бах–Бетховен–Бриттен в тематической программе, а не generic hits.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бах, Бетховен, Бриттен.",
+      "source_label": "Дом музыки",
+      "source_url": "https://www.afisha.ru/msk/concerthall/dom-muzyki-4759/concert/na-oktyabr/",
       "verified": true
     },
     {
@@ -1667,6 +2198,35 @@
       "verified": true
     },
     {
+      "id": "ges2-rosary-2026-10-22",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "date_only": "2026-10-22",
+      "title": "«Розарий»",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Бибер",
+        "скрипка"
+      ],
+      "venue": "ГЭС-2",
+      "place": "Болотная наб., 15",
+      "location": "Дом культуры ГЭС-2, Москва",
+      "people": "состав перепроверить на странице события",
+      "price": "проверить актуально",
+      "why": "«Розарий» Бибера — редкий репертуар и естественный кандидат старинного контура.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Концерт в музыкальной программе ГЭС‑2; официальный раздел будущих музыкальных событий указывает дату 22 октября.",
+      "source_label": "ГЭС-2",
+      "source_url": "https://ges-2.org/?areas=music&current_interval=future",
+      "verified": true
+    },
+    {
       "id": "drugoe-house-memory-2026-10-22",
       "category": "talks",
       "horizon": "near",
@@ -1694,6 +2254,35 @@
       "verified": true
     },
     {
+      "id": "newopera-postillon-2026-10-22",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-22T19:00:00+03:00",
+      "end": "2026-10-22T21:30:00+03:00",
+      "title": "Адан — «Почтальон из Лонжюмо»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "редкая опера",
+        "Адан"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "состав на странице спектакля",
+      "price": "от 1000 ₽",
+      "why": "Редкий репертуар — гораздо важнее для Культрадара, чем очередной стандартный «Риголетто».",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "22 и 23 октября 2026.",
+      "source_label": "Новая Опера",
+      "source_url": "https://www.novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
       "id": "mm-main-piano-keys-2026-10-23",
       "category": "music",
       "horizon": "near",
@@ -1718,6 +2307,63 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "ges2-boulez100-2026-10-23",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-23T19:00:00+03:00",
+      "end": "2026-10-23T21:00:00+03:00",
+      "title": "Boulez-100",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Булез",
+        "новая музыка"
+      ],
+      "venue": "ГЭС-2",
+      "place": "Болотная наб., 15",
+      "location": "Дом культуры ГЭС-2, Москва",
+      "people": "Фёдор Леднев · Даниил Коган · Boulez Ensemble",
+      "price": "проверить актуально",
+      "why": "Булез целиком и профильный ансамбль — один из наиболее точных современных кандидатов.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Пьер Булез.",
+      "source_label": "ГЭС-2",
+      "source_url": "https://ges-2.org/en/projects/music-unbound",
+      "verified": true
+    },
+    {
+      "id": "mmdm-beethoven-chizhevsky-2026-10-23",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-23T19:00:00+03:00",
+      "end": "2026-10-23T21:30:00+03:00",
+      "title": "Бетховен — Симфонии № 1, 2, 5 / Филипп Чижевский / ГАСО",
+      "tags": [],
+      "visible_tags": [
+        "Бетховен",
+        "Чижевский"
+      ],
+      "venue": "Дом музыки — Светлановский зал",
+      "place": "Космодамианская наб., 52, стр. 8",
+      "location": "Московский международный Дом музыки, Москва",
+      "people": "ГАСО · Филипп Чижевский",
+      "price": "от 800 ₽",
+      "why": "Три симфонии Бетховена в одном вечере с Чижевским — сильный симфонический кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бетховен — Симфонии № 1, 2 и 5.",
+      "source_label": "Дом музыки",
+      "source_url": "https://www.mmdm.ru/",
       "verified": true
     },
     {
@@ -1775,6 +2421,35 @@
       "details": "Концерт.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "helikon-aleko-2026-10-24",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-24T16:00:00+03:00",
+      "end": "2026-10-24T18:00:00+03:00",
+      "title": "Рахманинов — «Алеко»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Рахманинов",
+        "камерная сцена"
+      ],
+      "venue": "Геликон-опера",
+      "place": "Большая Никитская, 19/16",
+      "location": "Геликон-опера, Москва",
+      "people": "Белоколонный зал княгини Шаховской",
+      "price": "проверить актуально",
+      "why": "Рахманиновская опера в камерном зале.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "24 и 25 октября 2026.",
+      "source_label": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true
     },
     {
@@ -2124,6 +2799,36 @@
       "verified": true
     },
     {
+      "id": "prove-musicaeterna-2026-11-01",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-01T19:00:00+03:00",
+      "end": "2026-11-01T21:00:00+03:00",
+      "title": "«Личное» — солисты musicAeterna",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "musicAeterna"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "солисты musicAeterna",
+      "price": "проверить актуально",
+      "why": "Финал фестиваля Шостаковича: Второй квартет и Фортепианный квинтет.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Шостакович — Струнный квартет № 2 и Фортепианный квинтет.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "verified": true
+    },
+    {
       "id": "rassvet-sonus-verus-2026-11-01",
       "category": "music",
       "horizon": "buy",
@@ -2213,6 +2918,35 @@
       "verified": true
     },
     {
+      "id": "newopera-lohengrin-nov-2026",
+      "category": "opera",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-11T19:00:00+03:00",
+      "end": "2026-11-11T23:00:00+03:00",
+      "title": "Вагнер — «Лоэнгрин»",
+      "tags": [
+        "rare",
+        "long"
+      ],
+      "visible_tags": [
+        "Вагнер"
+      ],
+      "venue": "Новая Опера",
+      "place": "Каретный Ряд, 3, стр. 2",
+      "location": "Новая Опера, Москва",
+      "people": "состав на официальной странице",
+      "price": "от 1000 ₽",
+      "why": "Вагнер в репертуаре Новой Оперы — дальний кандидат, который надо видеть заранее.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Даты",
+      "details": "11 и 13 ноября 2026.",
+      "source_label": "Новая Опера",
+      "source_url": "https://www.novayaopera.ru/playbill/",
+      "verified": true
+    },
+    {
       "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
       "category": "music",
       "horizon": "buy",
@@ -2272,6 +3006,35 @@
       "details": "Абонемент № 24 «Двойные портреты».",
       "source_label": "Московская консерватория",
       "source_url": "https://i1.mosconsv.ru/afisha/2026-11-14",
+      "verified": true
+    },
+    {
+      "id": "ges2-sysoev-potemkin-2026-11-19",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "date_only": "2026-11-19",
+      "title": "Music Unbound — Алексей Сысоев: «Броненосец Потёмкин, новый курс»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Сысоев",
+        "Im SPIEGEL"
+      ],
+      "venue": "ГЭС-2",
+      "place": "Болотная наб., 15",
+      "location": "Дом культуры ГЭС-2, Москва",
+      "people": "Im SPIEGEL ensemble · Юрий Фаворин",
+      "price": "проверить актуально",
+      "why": "Современная музыка и кинематографический материал; сильная кураторская линия.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Источник",
+      "details": "Алексей Сысоев. Исполнители: Im SPIEGEL ensemble, Юрий Фаворин.",
+      "source_label": "ГЭС-2",
+      "source_url": "https://ges-2.org/en/projects/music-unbound",
       "verified": true
     },
     {
@@ -2359,6 +3122,36 @@
       "details": "Фортепианный вечер с Ильёй Папояном.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
+      "verified": true
+    },
+    {
+      "id": "ges2-ophelia-2026-11-25",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "date_only": "2026-11-25",
+      "title": "Music Unbound — «Песни Офелии»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шимановский",
+        "Равель",
+        "Штраус"
+      ],
+      "venue": "ГЭС-2",
+      "place": "Болотная наб., 15",
+      "location": "Дом культуры ГЭС-2, Москва",
+      "people": "Элене Гвритишвили · ведущий Ярослав Тимофеев",
+      "price": "проверить актуально",
+      "why": "Камерная вокальная программа Шимановского, Равеля и Штрауса.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Кароль Шимановский, Морис Равель, Рихард Штраус.",
+      "source_label": "ГЭС-2",
+      "source_url": "https://ges-2.org/en/projects/music-unbound",
       "verified": true
     },
     {
