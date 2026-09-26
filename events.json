@@ -10032,6 +10032,738 @@
       "source_label": "Watchlist",
       "source_url": "",
       "verified": true
+    },
+    {
+      "id": "phil-virtuosi-schnittke-schoenberg-brahms-2026-10-14",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-14T19:00:00+03:00",
+      "title": "«Виртуозы Москвы» — Шнитке / Шёнберг / Брамс",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Шёнберг",
+        "Шнитке"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "Государственный камерный оркестр «Виртуозы Москвы» · Владимир Спиваков · Андрей Михайловский, кларнет",
+      "price": "проверить актуально",
+      "why": "Шёнберг и Шнитке в крупном зале — содержательная программа, которую нельзя терять в общем календаре.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Шнитке — Сюита в старинном стиле; Шёнберг — «Просветлённая ночь»; Брамс — Квинтет для кларнета и струнных.",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-symphonic-kind-blue-2026-10-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-17T19:00:00+03:00",
+      "title": "Symphonic Kind of Blue — к 100-летию Майлза Дэвиса",
+      "tags": [],
+      "visible_tags": [
+        "Майлз Дэвис",
+        "джаз + оркестр"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "Вадим Эйленкриг · Национальный филармонический оркестр России · Арсентий Ткаченко",
+      "price": "проверить актуально",
+      "why": "Не академический центр профиля, но серьёзный межжанровый проект с оркестром, а не generic crossover.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Описание",
+      "details": "Программа к 100-летию со дня рождения Майлза Дэвиса.",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-letters-bizet-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-18T13:00:00+03:00",
+      "title": "«Письма к тебе» — Бизе / Бизе–Щедрин",
+      "tags": [],
+      "visible_tags": [
+        "Бизе",
+        "Бизе–Щедрин"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "БСО имени П. И. Чайковского · Арсентий Ткаченко · Сергей Чонишвили",
+      "price": "проверить актуально",
+      "why": "Не первоочередной кандидат, но полноценная оркестровая программа базовой площадки; широкий радар должен её видеть.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Бизе — фрагменты «Кармен», «Арлезианки», «Детских игр», Симфонии № 1; Бизе–Щедрин — фрагменты «Кармен-сюиты».",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-haydn-armida-2026-10-21",
+      "category": "opera",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-21T19:00:00+03:00",
+      "title": "Гайдн — «Армида» · российская премьера",
+      "tags": [
+        "rare",
+        "early"
+      ],
+      "visible_tags": [
+        "опера",
+        "российская премьера",
+        "Гайдн"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "Государственный академический камерный оркестр России · Дьёрдь Вашхедьи · Василиса Бержанская и солисты",
+      "price": "проверить актуально",
+      "why": "Редкая концертная опера Гайдна и российская премьера — прямой сильный кандидат для оперного и старинного радара.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "buy",
+      "details_label": "Программа",
+      "details": "Йозеф Гайдн — «Армида», опера в концертном исполнении.",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-iolanta-bashmet-2026-10-22",
+      "category": "opera",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-22T19:00:00+03:00",
+      "title": "Чайковский — «Иоланта» · концертное исполнение",
+      "tags": [],
+      "visible_tags": [
+        "опера",
+        "концертное исполнение"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "ГСО «Новая Россия» · Юрий Башмет · Валерия Терейковская · Данил Князев · Аркадий Чайкин и солисты",
+      "price": "проверить актуально",
+      "why": "Концертная опера в КЗЧ должна присутствовать в отдельном оперном контуре, даже при стандартном репертуаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "П. И. Чайковский — «Иоланта», опера в концертном исполнении.",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-22-19/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-masleev-rachmaninoff-tchaikovsky-2026-10-27",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-27T19:00:00+03:00",
+      "title": "Дмитрий Маслеев — Рахманинов / Чайковский",
+      "tags": [],
+      "visible_tags": [
+        "Маслеев",
+        "Рахманинов"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "Дмитрий Маслеев, фортепиано · Омский академический симфонический оркестр · Дмитрий Васильев",
+      "price": "проверить актуально",
+      "why": "Сильный солист и цельная большая романтическая программа; нормальный кандидат широкого музыкального календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Рахманинов — Концерт № 2; Чайковский — Симфония № 4.",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-sladkovsky-strauss-2026-10-28",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-28T19:00:00+03:00",
+      "title": "Сладковский / Александр Романовский — Бетховен / Р. Штраус",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Альпийская симфония",
+        "Р. Штраус"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "Концертный зал имени П. И. Чайковского, Москва",
+      "people": "ГАСО Республики Татарстан · Александр Сладковский · Александр Романовский, фортепиано · Артём Варгафтик",
+      "price": "проверить актуально",
+      "why": "«Альпийская симфония» — масштабная и не повседневная программа; заметный кандидат большого зала.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бетховен — Концерт № 3 для фортепиано с оркестром; Рихард Штраус — «Альпийская симфония».",
+      "source_label": "Концертный зал имени П. И. Чайковского",
+      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-gpc-rogovoy-2026-10-01",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-01T19:00:00+03:00",
+      "title": "Grand Piano Competition — Кирилл Роговой",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано",
+        "Grand Piano"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Кирилл Роговой, фортепиано",
+      "price": "билеты проданы",
+      "why": "Сольный вечер сильного молодого пианиста; sold out всё равно сохраняем как часть реального календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Шопен — мазурки, Полонез-фантазия, Скерцо № 4; Чайковский — Соната до-диез минор.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-gpc-zakaria-pirozhenko-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "title": "Лауреаты Grand Piano Competition — Эмир Закариа / Михаил Пироженко",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано",
+        "Grand Piano"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Эмир Закариа · Михаил Пироженко, фортепиано",
+      "price": "билеты проданы",
+      "why": "Большая фортепианная программа и молодые исполнители; полезно видеть даже после sold out.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Бетховен, Шопен, Сен-Санс–Лист, Лист, Рахманинов.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-zaytseva-taras-nikolaev-2026-10-08",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-08T19:00:00+03:00",
+      "title": "«Celloвеческий голос» — Мария Зайцева / Арсений Тарасевич-Николаев",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Крам",
+        "виолончель"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Мария Зайцева, виолончель · Арсений Тарасевич-Николаев, фортепиано",
+      "price": "билеты проданы",
+      "why": "От Сибелиуса и Грига к Краму — содержательная камерная программа, а не стандартный recital.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Сибелиус — «Меланхолия»; Григ — Соната; Крам — Соната для виолончели соло; Р. Штраус — Соната.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-musica-tempora-shadow-light-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-10T19:00:00+03:00",
+      "title": "«В тени и на свету» — Musica Tempora",
+      "tags": [
+        "early"
+      ],
+      "visible_tags": [
+        "старинная музыка",
+        "Musica Tempora"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Дарья Борковская, клавесин · ансамбль старинной музыки Musica Tempora",
+      "price": "билеты проданы",
+      "why": "Прямой watchlist старинной музыки; отсутствие этой карточки было заметной дырой.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Официальная афиша",
+      "details": "Программа «В тени и на свету».",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония",
+        "Musica Tempora"
+      ]
+    },
+    {
+      "id": "phil-weinberg-quartets-2026-10-13",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-13T19:00:00+03:00",
+      "title": "Мечислав Вайнберг — все квартеты · 3-й год цикла",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Вайнберг",
+        "цикл квартетов"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Квартет имени Вайнберга · Иван Кощеев, фортепиано · Андрей Устинов",
+      "price": "проверить актуально",
+      "why": "Длинный последовательный цикл Вайнберга — именно тот тип редкого репертуара, ради которого нужен радар.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Бетховен — Фортепианный квартет № 2; Вайнберг — квартеты № 14 и № 15; Рахманинов — Элегическое трио № 1.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-sirin-pokrov-2026-10-14",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-14T19:00:00+03:00",
+      "title": "«Покров» — ансамбль «Сирин»",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "древнерусская музыка",
+        "Сирин"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Ансамбль древнерусской духовной музыки «Сирин»",
+      "price": "билеты проданы",
+      "why": "Древнерусская духовная музыка — содержательно сильный и редкий контур, который нельзя отбрасывать как нишевый.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Официальная афиша",
+      "details": "Программа «Покров».",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-fritz-lang-tired-death-2026-10-15",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-15T19:00:00+03:00",
+      "title": "Фриц Ланг — «Усталая смерть» (1921) · музыка к кинопоказу",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "немое кино",
+        "ГАМ"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Рауф Фархадов, лектор · ансамбль «Галерея актуальной музыки»",
+      "price": "проверить актуально",
+      "why": "Кино + живая актуальная музыка — сильный междисциплинарный формат, а не декоративный кинопоказ.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "Показ фильма Фрица Ланга «Усталая смерть» (1921) с живым музыкальным сопровождением.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-grindenko-french-baroque-2026-10-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-17T19:00:00+03:00",
+      "title": "Музыка Франции — Куперен / Корретт / Рамо / Буамортье",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Татьяна Гринденко",
+        "Рамо",
+        "барокко"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "«Академия старинной музыки» Московской филармонии · Татьяна Гринденко, скрипка",
+      "price": "билеты проданы",
+      "why": "Прямой watchlist: Гринденко + французское барокко + Рамо.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Куперен, Корретт, Рамо, Буамортье.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония",
+        "Татьяна Гринденко"
+      ]
+    },
+    {
+      "id": "phil-chamber-evenings-schubert-brahms-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-18T19:00:00+03:00",
+      "title": "«Камерные вечера» — Шуберт / Брамс",
+      "tags": [],
+      "visible_tags": [
+        "фортепианное трио"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Алексей Гуляницкий, скрипка · Максим Тарноруцкий, виолончель · Павел Домбровский, фортепиано",
+      "price": "проверить актуально",
+      "why": "Классическая камерная программа хорошего зала; не обязана быть «редкостью», чтобы оставаться в широком календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Шуберт — Фортепианное трио № 1; Брамс — Фортепианное трио № 2.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-svetlanov-soloists-beethoven-linde-2026-10-20",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-20T19:00:00+03:00",
+      "title": "Солисты Госоркестра — Бетховен / Линде",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "камерная музыка",
+        "Линде"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Солисты Государственного академического симфонического оркестра России имени Е. Ф. Светланова",
+      "price": "проверить актуально",
+      "why": "Бетховенский септет рядом с редко звучащим Линде делает программу заметно интереснее стандартного камерного вечера.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Бетховен — Соната № 4 для виолончели и фортепиано, Септет; Линде — Sonata a tre.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-pratum-mozart-schubert-2026-10-21",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-21T19:00:00+03:00",
+      "title": "«Два гения: Моцарт и Шуберт» — Pratum Integrum",
+      "tags": [
+        "early"
+      ],
+      "visible_tags": [
+        "Pratum Integrum",
+        "историческое исполнительство"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Солисты оркестра старинной музыки Pratum Integrum",
+      "price": "проверить актуально",
+      "why": "Исторически ориентированное исполнение Моцарта и Шуберта — профильный камерный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Моцарт и Шуберт.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-pospekhina-hudyakov-2026-10-22",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-22T19:00:00+03:00",
+      "title": "Стефания Поспехина / Олег Худяков — Бах / Изаи / Равель",
+      "tags": [
+        "bach"
+      ],
+      "visible_tags": [
+        "Бах",
+        "Изаи"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Стефания Поспехина, скрипка · Олег Худяков, фортепиано",
+      "price": "проверить актуально",
+      "why": "Сильная скрипичная программа от Баха и Изаи к Шоссону и Равелю.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "Бах — фрагменты Сонаты № 2 BWV 1003; Изаи — Соната № 3; Паганини, Сен-Санс–Изаи, Шоссон, Чайковский, Равель.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-camerata-rno-serenades-2026-10-23",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-23T19:00:00+03:00",
+      "title": "Камерата РНО — Сальери / Гайдн / Фукс / Нильсен / Рославец",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Рославец",
+        "редкая программа"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Ансамбль солистов Российского национального оркестра «Камерата РНО»",
+      "price": "проверить актуально",
+      "why": "Редкая и хорошо собранная камерная программа: от Сальери и Фукса до Нильсена и Рославца.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Сальери — Маленькая серенада; Гайдн — Дивертисмент; Фукс — Серенада; Нильсен — Serenata in vano; Рославец — Ноктюрн.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-gubaidulina-in-croce-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-24T19:00:00+03:00",
+      "title": "София Губайдулина — In Croce · 95 лет",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Губайдулина",
+        "XX–XXI"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Андрей Устинов · Варвара Гансгорье · Николай Землянских · Квартет имени В. А. Берлинского · Григорий Кротенко",
+      "price": "билеты проданы",
+      "why": "Юбилейная программа Губайдулиной с крупными камерными сочинениями — один из сильнейших октябрьских пунктов Филармонии.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Губайдулина — Струнный квартет № 4 с магнитофонной лентой; Perception для сопрано, баритона и семи струнных.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-bach-french-predecessors-2026-10-25",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-25T19:00:00+03:00",
+      "title": "«Бах и его французские предшественники» — Ольга Мартынова",
+      "tags": [
+        "bach",
+        "early"
+      ],
+      "visible_tags": [
+        "Бах",
+        "клавесин"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Ольга Мартынова, клавесин",
+      "price": "билеты проданы",
+      "why": "Баховский радар + французская клавесинная традиция; событие должно быть в базе даже при sold out.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Официальная афиша",
+      "details": "Программа «Бах и его французские предшественники».",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
+    },
+    {
+      "id": "phil-borodin-quartet-2026-10-31",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-31T19:00:00+03:00",
+      "title": "Квартет имени Бородина — Бетховен / Мясковский",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Мясковский",
+        "струнный квартет"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Государственный квартет имени Бородина",
+      "price": "билеты проданы",
+      "why": "Квартет имени Бородина и редкий поздний квартет Мясковского — сильный камерный кандидат.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Бетховен — квартеты № 1 и № 5, соч. 18; Мясковский — Квартет № 13.",
+      "source_label": "Камерный зал Московской филармонии",
+      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "verified": true,
+      "organizer": "Московская филармония",
+      "monitor_entities": [
+        "Московская филармония"
+      ]
     }
   ]
 }
