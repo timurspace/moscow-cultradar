@@ -232,7 +232,8 @@ function renderPlans(){
   const host=document.getElementById('plansList');
   const rows=events.filter(e=>{
     const r=personal[e.id]||{};
-    return ((r.state&&r.state!=='skip'&&r.state!=='visited')||r.timofey||r.calendar||r.noteBefore||r.noteAfter);
+    if(r.state==='visited')return false;
+    return ((r.state&&r.state!=='skip')||r.timofey||r.calendar||r.noteBefore||r.noteAfter);
   }).sort((a,b)=>{
     const da=dateObj(a), db=dateObj(b); if(!da&&!db)return a.title.localeCompare(b.title,'ru'); if(!da)return 1;if(!db)return -1;return da-db;
   });
