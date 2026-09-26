@@ -4,6 +4,7 @@ let events = [];
 let category = 'all';
 let tags = new Set();
 let venue = 'all';
+let rangeDays = 'all';
 
 const editorialLabels = {
   attention: 'ОБРАТИТЬ ВНИМАНИЕ',
@@ -51,7 +52,7 @@ function urgencyClass(v){ return ['buy','low','soldout'].includes(v) ? 'urgent' 
 function renderCard(e){
   const d = formatDate(e); const r = personal[e.id] || {};
   const classes = ['card','event', e.featured ? 'feature' : '', r.state ? 'personal-'+r.state : ''].filter(Boolean).join(' ');
-  const dateBox = e.featured ? `<div class="datebox"><span class="dow">${esc(d.dow)}</span><span class="date">${esc(d.date)}</span></div>` : '';
+  const dateBox = `<div class="datebox"><span class="dow">${esc(d.dow)}</span><span class="date">${esc(d.date)}</span></div>`;
   const timofey = r.timofey ? `<span class="timofey-badge">с Тимофеем</span>` : '';
   const visibleTags = (e.visible_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
   const urgency = urgencyLabels[e.ticket_urgency] || '';
@@ -122,7 +123,18 @@ function applyFilters(){
       const ctags=(c.dataset.tags||'').split(',').filter(Boolean);
       const tagOk=[...tags].every(t=>ctags.includes(t));
       const venueOk=venue==='all'||c.dataset.venue===venue;
-      const match=catOk&&tagOk&&venueOk;
+      const ev=eventById(c.dataset.id);
+      let rangeOk=true;
+      if(rangeDays!=='all'){
+        const d=ev?dateObj(ev):null;
+        if(!d){ rangeOk=false; }
+        else{
+          const now=new Date();
+          const until=new Date(now.getTime()+Number(rangeDays)*86400000);
+          rangeOk=d>=now&&d<=until;
+        }
+      }
+      const match=catOk&&tagOk&&venueOk&&rangeOk;
       c.classList.toggle('hidden',!match);
       c.style.display=match?'':'none';
       if(match){visible++;sectionVisible++;}
@@ -132,7 +144,8 @@ function applyFilters(){
   const summary=document.getElementById('filterSummary');
   if(summary){
     const venueText=venue==='all'?'все площадки':venue;
-    summary.textContent=`Показано: ${visible} · ${venueText}`;
+    const rangeText=rangeDays==='all'?'весь горизонт':`${rangeDays} дней`;
+    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}`;
   }
 }
 function countRange(days){
@@ -178,6 +191,11 @@ function googleCalendar(e){
 }
 function setupStaticControls(){
   document.querySelectorAll('#categoryNav button').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x===b));applyFilters();}));
+  document.querySelectorAll('#rangeNav button').forEach(b=>b.addEventListener('click',()=>{
+    rangeDays=b.dataset.range;
+    document.querySelectorAll('#rangeNav button').forEach(x=>x.classList.toggle('active',x===b));
+    applyFilters();
+  }));
   document.querySelectorAll('#tagFilters button').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.tag;tags.has(t)?tags.delete(t):tags.add(t);b.classList.toggle('on',tags.has(t));applyFilters();}));
   document.getElementById('venueFilter').addEventListener('change',e=>{venue=e.target.value;applyFilters();});
   document.getElementById('exportBtn').addEventListener('click',()=>{const payload={schema_version:3,exported_at:new Date().toISOString(),personal};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cultradar-private.json';a.click();URL.revokeObjectURL(a.href);});
