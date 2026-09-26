@@ -4,6 +4,7 @@ const path = require('path');
 const root = __dirname;
 const eventsPath = path.join(root, 'events.json');
 const sourcesPath = path.join(root, 'sources.json');
+const markdownMode = process.argv.includes('--md');
 
 function loadJson(file) {
   if (!fs.existsSync(file)) return null;
@@ -35,7 +36,8 @@ const report = {
   empty_source_url: [],
   invalid_dates: [],
   categories: {},
-  venues_not_in_sources: []
+  venues_not_in_sources: [],
+  music_without_context: []
 };
 
 const ids = new Map();
@@ -47,8 +49,8 @@ for (const event of events) {
   if (ids.has(id)) report.duplicate_ids.push(id);
   ids.set(id, true);
 
-  report.categories[event.category || 'unknown'] =
-    (report.categories[event.category || 'unknown'] || 0) + 1;
+  const category = event.category || 'unknown';
+  report.categories[category] = (report.categories[category] || 0) + 1;
 
   for (const field of ['id', 'title', 'category', 'venue']) {
     if (!event[field]) add(report.missing_fields, field, id);
@@ -65,6 +67,37 @@ for (const event of events) {
   if (sourceNames.size && event.venue && !sourceNames.has(event.venue)) {
     report.venues_not_in_sources.push({ id, venue: event.venue });
   }
+
+  if ((category === 'music' || category === 'opera') && !event.composers && !event.works && !event.program_status) {
+    report.music_without_context.push(id);
+  }
 }
 
-console.log(JSON.stringify(report, null, 2));
+function markdown(report) {
+  return [
+    '# Культрадар — аудит данных',
+    '',
+    `Всего событий: ${report.total}`,
+    '',
+    '## Категории',
+    ...Object.entries(report.categories).map(([k,v]) => `- ${k}: ${v}`),
+    '',
+    `## Дубли id: ${report.duplicate_ids.length}`,
+    ...report.duplicate_ids.map(x => `- ${x}`),
+    '',
+    `## Пустые source_url: ${report.empty_source_url.length}`,
+    ...report.empty_source_url.slice(0,50).map(x => `- ${x}`),
+    '',
+    `## Music/opera без контекста программы: ${report.music_without_context.length}`,
+    ...report.music_without_context.slice(0,50).map(x => `- ${x}`),
+    '',
+    `## Площадки не найдены в sources: ${report.venues_not_in_sources.length}`,
+  ].join('\n');
+}
+
+const output = markdownMode ? markdown(report) : JSON.stringify(report, null, 2);
+console.log(output);
+
+if (markdownMode) {
+  fs.writeFileSync(path.join(root, 'audit-report.md'), output);
+}
