@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>Культрадар — музыка, театр, опера, балет и разговоры в Москве</title>
-  <link rel="stylesheet" href="styles.css?v=20260926h">
+  <link rel="stylesheet" href="styles.css?v=20260926i">
 </head>
 <body>
   <div class="shell">
@@ -63,8 +63,19 @@
             <span><i class="swatch want"></i> собираюсь</span>
             <span><i class="swatch bought"></i> билет куплен</span>
             <span><i class="swatch later"></i> решить позже</span>
+            <span><i class="swatch visited"></i> был</span>
             <span><i class="swatch skip"></i> пропустить</span>
           </div>
+        </div>
+      </div>
+
+      <div class="plans visited-box" id="visitedBox">
+        <div class="plans-head">
+          <div><h3>Посещённое <span id="visitedCount" class="visited-count"></span></h3><div class="load">Личная история посещений. Снимок события хранится в этом браузере и сохраняется при экспорте.</div></div>
+          <button id="toggleVisited" class="small-btn" aria-expanded="true">Свернуть</button>
+        </div>
+        <div id="visitedBody">
+          <div id="visitedList" class="visited-list"><span class="plan-empty">Здесь появятся события, которые Вы отметите «Был».</span></div>
         </div>
       </div>
     </header>
@@ -77,6 +88,6 @@
       Публичные события хранятся в <code>events.json</code>. Личные статусы и заметки — только в Вашем браузере. «Что осталось?» — не рейтинг и не отзыв, а короткий след события.
     </footer>
   </div>
-  <script src="app.js?v=20260926h" defer></script>
+  <script src="app.js?v=20260926i" defer></script>
 </body>
 </html>
