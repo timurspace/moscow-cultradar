@@ -36,7 +36,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "phil-nekrassov-impressions-2026-09-26",
@@ -66,7 +68,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "pokrovskie-new-wine-2026-09-26",
@@ -126,7 +130,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "helikon-lady-macbeth-2026-09-27",
@@ -156,7 +165,15 @@
       "details": "27 сентября, зал «Стравинский».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Стравинский",
+        "Шостакович"
+      ],
+      "works": [
+        "«Леди Макбет Мценского уезда»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-laul-mozart-2026-09-28",
@@ -187,7 +204,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-duo-inspiro-2026-09-28",
@@ -218,7 +240,12 @@
       "details": "Сонаты эпохи войны: Вайнберг, Хиндемит, Прокофьев.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Прокофьев",
+        "Вайнберг"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-prokofiev-nevsky-2026-09-29",
@@ -252,7 +279,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Прокофьев"
+      ],
+      "works": [
+        "«Александр Невский» и «Ромео и Джульетта»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-grindenko-bach-biber-2026-09-29",
@@ -288,7 +323,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах",
+        "Бибер"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-batagov-dreamer-2026-09-29",
@@ -317,7 +358,8 @@
       "details": "12 пьес, когда-то написанных для театра, кино и телевидения.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "phil-madrigal-new-shores-2026-09-30",
@@ -350,7 +392,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "yeltsin-sharova-artists-2026-10-01",
@@ -440,7 +484,15 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Милюков / Андрианов / МГСО / Иван Рудин"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-stars21-2026-10-01",
@@ -473,7 +525,19 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Прокофьев",
+        "Шостакович",
+        "Хачатурян"
+      ],
+      "works": [
+        "Концерт № 2",
+        "Скрипичный концерт",
+        "Концерт № 3 и сюита «1941»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-dead-souls-oct26",
@@ -613,7 +677,8 @@
       "source_label": "Île Thélème",
       "source_url": "https://ile-theleme.com/iskusstvo-dhrupada-nedelya-srednevekovoj-indijskoj-muzyki",
       "verified": true,
-      "start": "2026-10-01T19:30:00+03:00"
+      "start": "2026-10-01T19:30:00+03:00",
+      "card_schema_version": 2
     },
     {
       "id": "nations-ordinary-death-2026-10-01",
@@ -710,7 +775,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-etnosfera-2026-10-02",
@@ -742,7 +809,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "prove-voices-2026-10-02",
@@ -772,7 +841,11 @@
       "details": "Второй вечер фестиваля «Прове-Калиш. Шостакович».",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Шостакович"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "bolshoi-knyaz-igor-2026-10-02",
@@ -807,7 +880,14 @@
       "organizer": "Большой театр",
       "monitor_entities": [
         "Большой театр"
-      ]
+      ],
+      "composers": [
+        "Бородин"
+      ],
+      "works": [
+        "«Князь Игорь»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "bronnaya-new-optimistic-2026-10-02",
@@ -951,7 +1031,15 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-10-02T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Гендель"
+      ],
+      "works": [
+        "Дмитрий Синьковский / Intrada / ГАКОР"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-stravinsky-2026-10-02",
@@ -980,7 +1068,11 @@
       "details": "Программа «Игорь Стравинский. Превращения».",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Стравинский"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "voz-khardzhiev-2026-10-02",
@@ -1118,7 +1210,8 @@
       "source_url": "https://yeltsin.ru/affairs/?cid=1",
       "verified": true,
       "start": "2026-10-02T21:00:00+03:00",
-      "end": "2026-10-02T19:30:00.000Z"
+      "end": "2026-10-02T19:30:00.000Z",
+      "card_schema_version": 2
     },
     {
       "id": "mm-golden-royali-2026-10-03",
@@ -1232,7 +1325,16 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-03T17:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "И. С. Бах",
+        "Гендель",
+        "Рамо",
+        "Куперен",
+        "Гайдн",
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-krechinsky-oct26",
@@ -1331,7 +1433,12 @@
       "monitor_entities": [
         "Московская филармония",
         "Île Thélème Ensemble"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-esenin-musica-viva-2026-10-03",
@@ -1362,7 +1469,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "phil-bso-mahler-2026-10-03",
@@ -1393,7 +1502,19 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Моцарт",
+        "Брамс",
+        "Малер"
+      ],
+      "works": [
+        "Вариации на тему Гайдна",
+        "Скрипичный концерт № 3",
+        "Симфония № 4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mmdm-verification-2026-10-03",
@@ -1426,7 +1547,8 @@
       "organizer": "Дом музыки",
       "monitor_entities": [
         "Московский Дом музыки"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-wedding-2026-10-03",
@@ -1594,7 +1716,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "historic2",
@@ -1624,7 +1748,8 @@
       "details": "Полная официальная программа будет храниться здесь целиком после следующей сверки источника. В рабочей версии карточка уже отделена от интерфейса и живёт в events.json.",
       "source_label": "ГЭС-2",
       "source_url": "",
-      "verified": false
+      "verified": false,
+      "card_schema_version": 2
     },
     {
       "id": "maly-white-guard-oct26",
@@ -1800,7 +1925,8 @@
       "organizer": "Большой театр",
       "monitor_entities": [
         "Большой театр"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-lolita-2026-10-04",
@@ -1853,7 +1979,8 @@
       "details": "Музыка гонгов.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-sretensky-choir-2026-10-05",
@@ -1883,7 +2010,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "bronnaya-sobytie-2026-10-05",
@@ -1942,7 +2071,8 @@
       "details": "Коллективные сочинения разных эпох.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "doc-applause-2026-10-05",
@@ -1998,7 +2128,8 @@
       "source_label": "Музей С.С. Прокофьева",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "utopia",
@@ -2034,7 +2165,12 @@
       "monitor_entities": [
         "Московская филармония",
         "Студия новой музыки"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Рославец"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "ges2-music-unbound-papoyan-2026-10-06",
@@ -2065,7 +2201,12 @@
       "details": "И. С. Бах, Людвиг ван Бетховен.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "И. С. Бах",
+        "Бетховен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "vishnevskaya-strauss-gala-2026-10-06",
@@ -2093,7 +2234,11 @@
       "source_label": "Центр оперного пения Галины Вишневской",
       "source_url": "https://opera-centre.ru/poster/",
       "verified": true,
-      "organizer": "Центр Вишневской"
+      "organizer": "Центр Вишневской",
+      "composers": [
+        "Р. Штраус"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "lapp83-opera-carmen-2026-10-06",
@@ -2155,7 +2300,15 @@
       "organizer": "Большой театр",
       "monitor_entities": [
         "Большой театр"
-      ]
+      ],
+      "composers": [
+        "Равель",
+        "Прокофьев"
+      ],
+      "works": [
+        "«Маддалена. Испанский час»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-cranes-oct26",
@@ -2434,7 +2587,8 @@
       "details": "Средневековая и современная музыка.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "phil-currentzis-2026-10-07",
@@ -2463,7 +2617,17 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-10-07T20:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Моцарт",
+        "Бетховен"
+      ],
+      "works": [
+        "увертюра к «Свадьбе Фигаро», Концерт №23",
+        "Симфония №7."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mm-golden-svoe-prostranstvo-2026-10-08",
@@ -2493,7 +2657,8 @@
       "source_label": "Музей-квартира А.Б. Гольденвейзера",
       "source_url": "https://music-museum.ru/events/kontserty/svoyo-prostranstvo.html",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "mmdm-aksion-estin-2026-10-08",
@@ -2526,7 +2691,8 @@
       "verified": true,
       "monitor_entities": [
         "Московский Дом музыки"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "helikon-debussy-toybox-2026-10-08",
@@ -2556,7 +2722,14 @@
       "details": "В рамках фестиваля «Видеть музыку».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Дебюсси"
+      ],
+      "works": [
+        "«Ящик с игрушками»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-big-three-oct26",
@@ -2694,7 +2867,15 @@
       "source_url": "https://yeltsin.ru/affairs/?cid=1",
       "verified": true,
       "start": "2026-10-08T19:00:00+03:00",
-      "end": "2026-10-08T17:15:00.000Z"
+      "end": "2026-10-08T17:15:00.000Z",
+      "composers": [
+        "Чайковский",
+        "Барток"
+      ],
+      "works": [
+        "Квартет №4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "voz-spiritual-travel-2026-10-08",
@@ -2771,7 +2952,8 @@
       "details": "Опера «Птицы» в рамках фестиваля «Видеть музыку».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "drugoe-jazz-century-2026-10-09",
@@ -2802,7 +2984,8 @@
       "monitor_entities": [
         "Другое дело",
         "Галерея «Другое Дело»"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-coltrane-2026-10-09",
@@ -2833,7 +3016,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "prove-letter-composer-2026-10-09",
@@ -2862,7 +3047,11 @@
       "details": "Бетховен, Яначек, Допплер.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Бетховен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "electro-maryino-pole-premiere-2026-10-09",
@@ -3091,7 +3280,19 @@
       "source_url": "https://musicasacranova.ru/",
       "verified": true,
       "start": "2026-10-09T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Стравинский",
+        "Фалик",
+        "Йоффе"
+      ],
+      "works": [
+        "Sacra conversazione",
+        "Requiem Canticles",
+        "Месса."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "doc-dead-wave-2026-10-09",
@@ -3177,7 +3378,8 @@
       "source_label": "Центр оперного пения Галины Вишневской",
       "source_url": "https://opera-centre.ru/poster/",
       "verified": true,
-      "organizer": "Центр Вишневской"
+      "organizer": "Центр Вишневской",
+      "card_schema_version": 2
     },
     {
       "id": "maly-anna-karenina-2026-10-10",
@@ -3270,7 +3472,12 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-10T18:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Шуберт",
+        "Мендельсон"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "shostakovich-quartets-1",
@@ -3305,7 +3512,15 @@
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнные квартеты № 1 до мажор, ор. 49"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "kzch-korchak-2026",
@@ -3339,7 +3554,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "И. С. Бах",
+        "Чайковский",
+        "Глинка",
+        "Даргомыжский"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "drugoe-tango-2026-10-10",
@@ -3373,7 +3596,11 @@
       "monitor_entities": [
         "Другое дело",
         "Галерея «Другое Дело»"
-      ]
+      ],
+      "composers": [
+        "Шнитке"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "prove-shostakovich-chamber-2026-10-10",
@@ -3403,7 +3630,14 @@
       "details": "Камерные сочинения для дуэтов и трио.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "камерный вечер"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "doc-adults-outside-2026-10-10",
@@ -3596,7 +3830,11 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-11T18:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Шуман"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "wtc2",
@@ -3630,7 +3868,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "works": [
+        "Хорошо темперированный клавир, II том",
+        "24 прелюдии и фуги BWV 870–893."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-rubalskaya-2026-10-11",
@@ -3714,7 +3961,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Рахманинов"
+      ],
+      "works": [
+        "«Колокола»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-dsch-gergiev-2026-10-12",
@@ -3748,7 +4003,12 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Шостакович"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "praktika-podolsk-2026-10-12",
@@ -3898,7 +4158,15 @@
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://choir.ru/",
       "verified": true,
-      "organizer": "Хор Минина"
+      "organizer": "Хор Минина",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "«Антиформалистический раёк» и «Из еврейской народной поэзии»",
+        "«Антиформалистический раёк» для баса, хора и фортепиано"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-dsch-milyukov-gergiev-2026-10-13",
@@ -3932,7 +4200,12 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Шостакович"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-shishkin-2026-10-13",
@@ -3963,7 +4236,18 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Чайковский",
+        "Рахманинов",
+        "Паганини"
+      ],
+      "works": [
+        "«Ромео и Джульетта» и Концерт № 1",
+        "Рапсодия на тему Паганини."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "newopera-bach-ives-barber-2026-10-13",
@@ -3995,7 +4279,11 @@
       "details": "Концертная программа Баха, Айвза и Барбера.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "И. С. Бах"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-dear-elena-2026-10-13",
@@ -4050,7 +4338,15 @@
       "source_url": "https://www.mosconsv.ru/ru/concert/203018",
       "verified": true,
       "start": "2026-10-13T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "«Семь стихотворений А. Блока», Соната для виолончели и фортепиано, Адажио из «Светлого ручья»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nations-ghosts-2026-10-13",
@@ -4145,7 +4441,8 @@
       "organizer": "Союз московских композиторов",
       "monitor_entities": [
         "Студия новой музыки"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-zashchita-luzhina-2026-10-06",
@@ -4245,7 +4542,8 @@
       "organizer": "Афиша Владислава Лантратова / Большой театр",
       "monitor_entities": [
         "Большой театр"
-      ]
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "bronnaya-besy-2026-10-14",
@@ -4418,7 +4716,8 @@
       "details": "Творческое объединение mader nort.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "mesto-chuvak-2026-10-14",
@@ -4534,7 +4833,8 @@
       "source_label": "Музей С.С. Прокофьева",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "arslonga-15oct",
@@ -4567,7 +4867,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Шостакович",
+        "Чайковский"
+      ],
+      "works": [
+        "Концерт для скрипки с оркестром ре мажор, соч. 35.\\nД. Д. Шостакович — Симфония № 10."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "chizhevsky-15oct",
@@ -4602,7 +4911,17 @@
       "organizer": "Афиша",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "И. С. Бах",
+        "Шостакович"
+      ],
+      "works": [
+        "Стоковский / Шостакович № 8",
+        "Л. Стоковский: Komm, süßer Tod.\\nД. Д. Шостакович — Симфония № 8 до минор, соч. 65."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-little-tragedies-oct26",
@@ -4769,7 +5088,11 @@
       "source_label": "Музей С.С. Прокофьева",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Шостакович"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mm-tchaikovsky-feelings-2026-10-16",
@@ -4796,7 +5119,12 @@
       "source_label": "Музей П.И. Чайковского в Москве",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Шуберт",
+        "Чайковский"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "praktika-stop-2026-10-16",
@@ -4882,7 +5210,14 @@
       "source_label": "Музей-квартира Н.С. Голованова",
       "source_url": "https://music-museum.ru/events/kontserty/sergej-raxmaninov.-v-molchani-nochi-tajnoj.html",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Рахманинов"
+      ],
+      "works": [
+        "«В молчаньи ночи тайной»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-minsk-choir-2026-10-16",
@@ -4912,7 +5247,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "mamt-cherry-orchard-2026-10-16",
@@ -4942,7 +5279,8 @@
       "details": "Премьерные показы 16–19 октября 2026. Диана Вишнёва и примы МАМТ заявлены в партии Раневской. Точную продолжительность нужно дочитать на карточке постановки.",
       "source_label": "МАМТ",
       "source_url": "https://www.stanmus.ru/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "maly-wise-man-oct26",
@@ -5103,7 +5441,8 @@
       "source_label": "Музей-квартира А.Б. Гольденвейзера",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "praktika-brodsky-block-2026-10-17",
@@ -5212,7 +5551,12 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-17T18:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Гуммель",
+        "Лист"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "composers-opensound-2026-10-17",
@@ -5243,7 +5587,8 @@
       "source_label": "Дом композиторов",
       "source_url": "https://mosunicom.ru/mo26/program",
       "verified": true,
-      "organizer": "Союз московских композиторов"
+      "organizer": "Союз московских композиторов",
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-capdaughter-2026-10-17",
@@ -5323,7 +5668,8 @@
       "source_url": "https://unioncomposers.ru/news/2607-tihaya-zhizn-nevidimyh-sushestv/",
       "verified": true,
       "start": "2026-10-17T19:00:00+03:00",
-      "organizer": "Союз композиторов России"
+      "organizer": "Союз композиторов России",
+      "card_schema_version": 2
     },
     {
       "id": "myaskovsky-musical-bridges-2026-10-17",
@@ -5354,7 +5700,15 @@
       "source_url": "https://www.mosconsv.ru/ru/concert/204396",
       "verified": true,
       "start": "2026-10-17T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "Мясковского",
+      "composers": [
+        "Рославец",
+        "Караманов",
+        "Немтин",
+        "Крейчи"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-euphoria-mozart-2026-10-17",
@@ -5386,7 +5740,11 @@
       "verified": true,
       "monitor_entities": [
         "My Euphoria Orchestra"
-      ]
+      ],
+      "composers": [
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "newopera-tristan-concert-2026-10-17",
@@ -5418,7 +5776,11 @@
       "source_url": "https://www.novayaopera.ru/playbill/",
       "verified": true,
       "discovery_source": "ClassicalMusicNews",
-      "organizer": "Новая Опера"
+      "organizer": "Новая Опера",
+      "composers": [
+        "Вагнер"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nations-field-2026-10-17",
@@ -5542,7 +5904,14 @@
       "source_label": "Музей Музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Чайковский",
+        "Рахманинов",
+        "Римский-Корсаков",
+        "Глинка"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-miracle-worker-2026-10-18",
@@ -5627,7 +5996,15 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Лист"
+      ],
+      "works": [
+        "Missa Choralis для хора и органа"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "praktika-prostodursen-2026-10-18",
@@ -5682,7 +6059,11 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-18T17:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Шопен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-tartuffe-oct26",
@@ -5768,7 +6149,18 @@
       "source_url": "https://ile-theleme.com/s-muzykoj-na-t",
       "verified": true,
       "start": "2026-10-18T19:00:00+03:00",
-      "organizer": "Île Thélème Ensemble"
+      "organizer": "Île Thélème Ensemble",
+      "composers": [
+        "Шостакович",
+        "Рахманинов",
+        "Губайдулина"
+      ],
+      "works": [
+        "Элегическое трио",
+        "Фортепианный квинтет",
+        "Струнный квартет №2."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-janacek-2026-10-18",
@@ -5797,7 +6189,8 @@
       "details": "Интимные письма о любви и истории.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "praktika-moskh-2026-10-19",
@@ -5851,7 +6244,13 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "start": "2026-10-19T18:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Шопен",
+        "Чайковский",
+        "Римский-Корсаков"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "bzk-iolanta-2026",
@@ -5882,7 +6281,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "«Иоланта»",
+        "«Иоланта»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "doc-poetry-slam-2026-10-19",
@@ -5968,7 +6376,12 @@
       "monitor_entities": [
         "Московская консерватория",
         "Студия новой музыки"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "Райх"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-truth-happiness-oct26",
@@ -6108,7 +6521,14 @@
       "details": "«Кофейная кантата» И. С. Баха.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "И. С. Бах"
+      ],
+      "works": [
+        "«Кофейная кантата»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mmdm-contrapunctus-2026-10-21",
@@ -6141,7 +6561,12 @@
       "verified": true,
       "monitor_entities": [
         "Московский Дом музыки"
-      ]
+      ],
+      "composers": [
+        "И. С. Бах",
+        "Бетховен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-butsko-2026-10-21",
@@ -6171,7 +6596,14 @@
       "details": "Камерный оркестр Prometheus.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Буцко"
+      ],
+      "works": [
+        "«Безмолвие осени»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mm-golden-old-salon-2026-10-22",
@@ -6198,7 +6630,8 @@
       "source_label": "Музей-квартира А.Б. Гольденвейзера",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "ges2-rosary-2026-10-22",
@@ -6227,7 +6660,11 @@
       "details": "Концерт в музыкальной программе ГЭС‑2; официальный раздел будущих музыкальных событий указывает дату 22 октября.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/?areas=music&current_interval=future",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Бибер"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-hangover-oct26",
@@ -6317,7 +6754,8 @@
       "details": "22 и 23 октября 2026.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "maly-woe-wit-oct26",
@@ -6458,7 +6896,8 @@
       "source_label": "Музей Музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "ges2-boulez100-2026-10-23",
@@ -6488,7 +6927,11 @@
       "details": "Пьер Булез.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Булез"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mmdm-beethoven-chizhevsky-2026-10-23",
@@ -6519,7 +6962,15 @@
       "organizer": "Дом музыки",
       "monitor_entities": [
         "Московский Дом музыки"
-      ]
+      ],
+      "composers": [
+        "Бетховен"
+      ],
+      "works": [
+        "Симфонии № 1, 2, 5 / Филипп Чижевский / ГАСО",
+        "Симфонии № 1, 2 и 5."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-chekhov-jokes-2026-10-23",
@@ -6572,7 +7023,12 @@
       "details": "Дебюсси, Равель, Заваро, Коннессон.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Дебюсси",
+        "Равель"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mm-prokofiev-architects-2026-10-24",
@@ -6602,7 +7058,11 @@
       "source_label": "Музей С.С. Прокофьева",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Прокофьев"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-captains-daughter-oct26",
@@ -6687,7 +7147,14 @@
       "details": "24 и 25 октября 2026.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Рахманинов"
+      ],
+      "works": [
+        "«Алеко»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "karennina",
@@ -6747,7 +7214,12 @@
       "source_label": "Музей-квартира Н.С. Голованова",
       "source_url": "https://music-museum.ru/events/kontserty/dva-geniya-russkoj-muzyiki-chajkovskij-i-raxmaninov.html",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "composers": [
+        "Чайковский",
+        "Рахманинов"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "sfera-ordinary-story-2026-10-24",
@@ -6888,7 +7360,9 @@
       "verified": true,
       "start": "2026-10-24T19:00:00+03:00",
       "organizer": "Союз композиторов России",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-shpiller-gala-2026-10-25",
@@ -6913,7 +7387,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "date_only": "2026-10-25"
+      "date_only": "2026-10-25",
+      "card_schema_version": 2
     },
     {
       "id": "vishnevskaya-centenary-2026-10-25",
@@ -6939,7 +7414,8 @@
       "source_label": "Центр оперного пения Галины Вишневской",
       "source_url": "https://opera-centre.ru/",
       "verified": true,
-      "date_only": "2026-10-25"
+      "date_only": "2026-10-25",
+      "card_schema_version": 2
     },
     {
       "id": "ruf-eucharist-2026-10-25",
@@ -6995,7 +7471,8 @@
       "details": "40 минут без антракта. 25 октября идут три показа — 12:00, 15:00 и 19:00; карточка заведена на вечерний.",
       "source_label": "МАМТ",
       "source_url": "https://stanmus.ru/shows/shtrausiana/?date=25.10.26-12%3A00",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "iletheleme-five-evenings-2026-10-25",
@@ -7021,7 +7498,8 @@
       "source_label": "Île Thélème",
       "source_url": "",
       "verified": true,
-      "start": "2026-10-25T19:00:00+03:00"
+      "start": "2026-10-25T19:00:00+03:00",
+      "card_schema_version": 2
     },
     {
       "id": "nikitskie-morphine-2026-10-25",
@@ -7077,7 +7555,22 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Элгар",
+        "Прокофьев",
+        "Рахманинов",
+        "Шоссон",
+        "Паганини"
+      ],
+      "works": [
+        "виолончельный концерт",
+        "Рапсодия на тему Паганини",
+        "Поэма",
+        "Фортепианный концерт № 3."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "bzk-aleko-2026",
@@ -7110,7 +7603,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Рахманинов"
+      ],
+      "works": [
+        "«Алеко»",
+        "«Алеко»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-meszaros-organ-2026-10-26",
@@ -7142,7 +7644,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "praktika-prekrasno-2026-10-26",
@@ -7203,7 +7707,8 @@
       "details": "Новая музыка для перкуссии.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "doc-cars-2026-10-26",
@@ -7295,7 +7800,9 @@
       "verified": true,
       "start": "2026-10-27T19:00:00+03:00",
       "organizer": "Союз композиторов России",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-forum-siberia-2026-10-28",
@@ -7320,7 +7827,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "date_only": "2026-10-28"
+      "date_only": "2026-10-28",
+      "card_schema_version": 2
     },
     {
       "id": "phil-fiesta-madrigal-2026-10-28",
@@ -7353,7 +7861,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "mamt-orleanskaya-deva-2026-10-28",
@@ -7384,7 +7894,14 @@
       "details": "28 и 29 октября. 3 часа 20 минут с одним антрактом.",
       "source_label": "МАМТ",
       "source_url": "https://stanmus.ru/shows/orleanskaya-deva/?date=29.10.26-19%3A00",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "«Орлеанская дева»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-upset-family-oct26",
@@ -7444,7 +7961,8 @@
       "details": "Два показа: 19:00 и 21:00.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/popov/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "phil-gerzmava-2026-10-29",
@@ -7475,7 +7993,14 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Шуман",
+        "Римский-Корсаков",
+        "Глинка"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "maly-garin-oct26",
@@ -7585,7 +8110,8 @@
       "source_label": "Музей Музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-folk-gala-2026-10-30",
@@ -7610,7 +8136,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "date_only": "2026-10-30"
+      "date_only": "2026-10-30",
+      "card_schema_version": 2
     },
     {
       "id": "maly-carefree-oct26",
@@ -7674,7 +8201,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Мартынов"
+      ],
+      "works": [
+        "«Реквием»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mm-tchaikovsky-grechaninov-2026-10-30",
@@ -7703,7 +8238,8 @@
       "source_label": "Музей П.И. Чайковского в Москве",
       "source_url": "https://music-museum.ru/events/kontserty/zhizn-prozhita-nedarom.html",
       "verified": true,
-      "organizer": "Музей музыки"
+      "organizer": "Музей музыки",
+      "card_schema_version": 2
     },
     {
       "id": "doc-patchwork-family-2026-10-30",
@@ -7786,7 +8322,9 @@
       "verified": true,
       "start": "2026-10-30T19:00:00+03:00",
       "organizer": "Союз композиторов России",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "praktika-tsvetaeva-2026-10-31",
@@ -7946,7 +8484,14 @@
       "details": "Шостакович — Струнный квартет № 2 и Фортепианный квинтет.",
       "source_label": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнный квартет № 2 и Фортепианный квинтет."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-mozart-requiem-2026-11-01",
@@ -7972,7 +8517,16 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-01T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "БЗК",
+      "composers": [
+        "Моцарт"
+      ],
+      "works": [
+        "Симфония №40 / Реквием",
+        "Симфония №40 и Реквием."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-sonus-verus-2026-11-01",
@@ -8001,7 +8555,12 @@
       "details": "Дебюсси и Равель.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Дебюсси",
+        "Равель"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-baroque-chronicles-2026-11-02",
@@ -8029,7 +8588,9 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-02T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-hodila-izba-2026-11-03",
@@ -8059,7 +8620,8 @@
       "details": "Опера Варвары Чураковой.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "phil-poliansky-bells-2026-11-05",
@@ -8085,7 +8647,18 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-05T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Чайковский",
+        "Рахманинов",
+        "Мусоргский"
+      ],
+      "works": [
+        "«Колокола»",
+        "«Колокола»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mamt-not-only-love-2026-11-06",
@@ -8116,7 +8689,8 @@
       "source_url": "https://stanmus.ru/",
       "verified": true,
       "start": "2026-11-06T19:00:00+03:00",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "card_schema_version": 2
     },
     {
       "id": "phil-sinkovsky-bach-2026-11-06",
@@ -8146,7 +8720,12 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-06T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-borodin-shostakovich-2026-11-06",
@@ -8175,7 +8754,16 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-06T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "квартеты №15 и №14",
+        "поздние квартеты №15 и №14."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-avantgarde-new-simplicity-2026-11-07",
@@ -8206,7 +8794,13 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-07T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Кейдж",
+        "Барток"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-vishnevsky-2026-11-09",
@@ -8232,7 +8826,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-09T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "phil-other-space-2026-11-10",
@@ -8262,7 +8858,17 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Такэмицу",
+        "Ахунов"
+      ],
+      "works": [
+        "мировая премьера",
+        "November Steps"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-grindenko-2026-11-10",
@@ -8293,7 +8899,16 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах",
+        "Бибер"
+      ],
+      "works": [
+        "Татьяна Гринденко"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-les-moscovites-2026-11-10",
@@ -8322,7 +8937,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-zenaishvili-2026-11-10",
@@ -8352,7 +8969,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "helikon-maddalena-2026",
@@ -8382,7 +9001,15 @@
       "details": "С. С. Прокофьев — «Маддалена».",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Прокофьев"
+      ],
+      "works": [
+        "«Маддалена»",
+        "«Маддалена»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "newopera-lohengrin-nov-2026",
@@ -8411,7 +9038,14 @@
       "details": "11 и 13 ноября 2026.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Вагнер"
+      ],
+      "works": [
+        "«Лоэнгрин»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mamt-rusalka-2026-11-11",
@@ -8437,7 +9071,14 @@
       "source_label": "МАМТ",
       "source_url": "https://stanmus.ru/",
       "verified": true,
-      "start": "2026-11-11T19:00:00+03:00"
+      "start": "2026-11-11T19:00:00+03:00",
+      "composers": [
+        "Даргомыжский"
+      ],
+      "works": [
+        "«Русалка»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-pierrot-reich-2026-11-11",
@@ -8467,7 +9108,15 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-11T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Райх"
+      ],
+      "works": [
+        "Double Sextet."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-kultyshev-wtc-shostakovich-2026-11-11",
@@ -8497,7 +9146,15 @@
       "source_url": "https://zaryadyehall.ru/events/",
       "verified": true,
       "start": "2026-11-11T19:00:00+03:00",
-      "organizer": "Зал Зарядье"
+      "organizer": "Зал Зарядье",
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "24 прелюдии и фуги / Мирослав Култышев"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
@@ -8528,7 +9185,14 @@
       "details": "Пярт, Пелецис, Мансурян, Сильвестров.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Пярт",
+        "Пелецис",
+        "Мансурян",
+        "Сильвестров"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-kultyshev-2026-11-12",
@@ -8558,7 +9222,18 @@
       "verified": true,
       "start": "2026-11-12T20:00:00+03:00",
       "organizer": "Гнесинка",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Чайковский",
+        "Скрябин",
+        "Мясковский"
+      ],
+      "works": [
+        "Соната №6",
+        "Соната №4",
+        "Плетнёв и Чайковский–Фейнберг."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mzk-filidor-satie-2026",
@@ -8593,7 +9268,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "phil-reminiscences-2026-11-14",
@@ -8621,7 +9298,9 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-11-14T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-17nov-shostakovich-2026-11-17",
@@ -8650,7 +9329,16 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-17T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен",
+        "Шостакович"
+      ],
+      "works": [
+        "Musica Viva / Даниил Коган"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "ges2-sysoev-potemkin-2026-11-19",
@@ -8679,7 +9367,8 @@
       "details": "Алексей Сысоев. Исполнители: Im SPIEGEL ensemble, Юрий Фаворин.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-cembalo-sofronitsky-2026-11-20",
@@ -8704,7 +9393,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "start": "2026-11-20T19:00:00+03:00"
+      "start": "2026-11-20T19:00:00+03:00",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-natalia-trull-2026-11-20",
@@ -8730,7 +9420,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-20T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "shostakovich-quartets-2",
@@ -8764,7 +9456,15 @@
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнные квартеты № 4 ре мажор, ор. 83"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-cembalo-martynova-2026-11-21",
@@ -8789,7 +9489,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "start": "2026-11-21T19:00:00+03:00"
+      "start": "2026-11-21T19:00:00+03:00",
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-xenakis-reich-2026-11-21",
@@ -8820,7 +9521,15 @@
       "details": "Новая музыка для перкуссии и клавесина.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Райх",
+        "Ксенакис"
+      ],
+      "works": [
+        "перкуссия и клавесин"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "ges2-fireworks-2026-11-23",
@@ -8848,7 +9557,11 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "date_only": "2026-11-23",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Дебюсси"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-cembalo-winners-2026-11-23",
@@ -8873,7 +9586,8 @@
       "source_label": "Гнесинка",
       "source_url": "https://gnesin-academy.ru/creativity/festivals/",
       "verified": true,
-      "start": "2026-11-23T19:00:00+03:00"
+      "start": "2026-11-23T19:00:00+03:00",
+      "card_schema_version": 2
     },
     {
       "id": "mzk-papoyan-2026",
@@ -8903,7 +9617,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-remembering-future-2026-11-24",
@@ -8931,7 +9647,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-24T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "ges2-ophelia-2026-11-25",
@@ -8961,7 +9679,12 @@
       "details": "Кароль Шимановский, Морис Равель, Рихард Штраус.",
       "source_label": "ГЭС-2",
       "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Р. Штраус",
+        "Равель"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "helikon-norma-premiere",
@@ -8990,7 +9713,14 @@
       "details": "Премьера идёт 25, 26, 27, 28 и 29 ноября 2026.",
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Беллини"
+      ],
+      "works": [
+        "«Норма» · премьера"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "gnesin-di-cristofano-2026-11-25",
@@ -9017,7 +9747,19 @@
       "verified": true,
       "start": "2026-11-25T19:00:00+03:00",
       "organizer": "Гнесинка",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Моцарт",
+        "Бетховен",
+        "Шопен",
+        "Брамс"
+      ],
+      "works": [
+        "четыре баллады",
+        "Соната №15",
+        "Баллада №4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "ges2-1881-1921-2026-11-26",
@@ -9047,7 +9789,11 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "date_only": "2026-11-26",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Булез"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mamt-romeo-juliette-premiere-2026-11-27",
@@ -9076,7 +9822,14 @@
       "source_url": "https://stanmus.ru/",
       "verified": true,
       "date_only": "2026-11-27",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Гуно"
+      ],
+      "works": [
+        "«Ромео и Джульетта» · премьера"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-shagimuratova-2026-11-27",
@@ -9102,7 +9855,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-27T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-telemann-2026-11-27",
@@ -9130,7 +9885,12 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-11-27T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "МЗК",
+      "composers": [
+        "Телеман"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "mamt-lady-macbeth-2026-12-02",
@@ -9159,7 +9919,14 @@
       "source_url": "https://stanmus.ru/",
       "verified": true,
       "date_only": "2026-12-02",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "«Леди Макбет Мценского уезда»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "helikon-carmen-dec-2026",
@@ -9185,7 +9952,14 @@
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true,
-      "date_only": "2026-12-03"
+      "date_only": "2026-12-03",
+      "composers": [
+        "Бизе"
+      ],
+      "works": [
+        "«Кармен» · 30 лет постановке"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-winter-open-2026",
@@ -9218,7 +9992,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-neobarocco-2026",
@@ -9253,7 +10029,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "helikon-indian-dreams-premiere-2026-12-05",
@@ -9278,7 +10056,8 @@
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true,
-      "date_only": "2026-12-05"
+      "date_only": "2026-12-05",
+      "card_schema_version": 2
     },
     {
       "id": "shostakovich-quartets-3",
@@ -9312,7 +10091,15 @@
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнные квартеты № 7 фа-диез минор, ор. 108"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-vishnevsky-2026",
@@ -9344,7 +10131,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-cellos-2026",
@@ -9377,7 +10166,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-masleev-2026",
@@ -9410,7 +10201,12 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Шостакович"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-virtuosi-2026-12-09",
@@ -9436,7 +10232,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-12-09T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "newopera-magic-flute-12",
@@ -9463,7 +10261,14 @@
       "details": "2 часа 50 минут с одним антрактом.",
       "source_label": "Новая Опера",
       "source_url": "https://novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Моцарт"
+      ],
+      "works": [
+        "«Волшебная флейта» (концертное исполнение)"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-emelyanov-chopin-2026-12-12",
@@ -9490,7 +10295,16 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-12-12T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Шопен"
+      ],
+      "works": [
+        "два фортепианных концерта",
+        "Концерты №1 и №2."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "newopera-tristan-13",
@@ -9520,7 +10334,14 @@
       "details": "Продолжительность 4 часа 40 минут с двумя антрактами.",
       "source_label": "Новая Опера",
       "source_url": "https://novayaopera.ru/playbill/",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Вагнер"
+      ],
+      "works": [
+        "«Тристан и Изольда»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "ges2-gala-2026-12-16",
@@ -9548,7 +10369,8 @@
       "source_url": "https://ges-2.org/",
       "verified": true,
       "date_only": "2026-12-16",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "card_schema_version": 2
     },
     {
       "id": "newopera-tristan-16dec-2026",
@@ -9577,7 +10399,14 @@
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/playbill/",
       "verified": true,
-      "start": "2026-12-16T19:00:00+03:00"
+      "start": "2026-12-16T19:00:00+03:00",
+      "composers": [
+        "Вагнер"
+      ],
+      "works": [
+        "«Тристан и Изольда»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-chizhevsky-mahler-strauss-2026-12-17",
@@ -9604,7 +10433,18 @@
       "source_url": "https://meloman.ru/",
       "verified": true,
       "start": "2026-12-17T19:00:00+03:00",
-      "organizer": "Московская филармония"
+      "organizer": "Московская филармония",
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Р. Штраус",
+        "Малер"
+      ],
+      "works": [
+        "Чижевский / ГАСО",
+        "«Волшебный рог мальчика»",
+        "«Так говорил Заратустра»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-lohengrin-19",
@@ -9638,7 +10478,15 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Вагнер"
+      ],
+      "works": [
+        "«Лоэнгрин»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-lohengrin-20",
@@ -9672,7 +10520,15 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Вагнер"
+      ],
+      "works": [
+        "«Лоэнгрин»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "helikon-fledermaus-dec-2026",
@@ -9697,7 +10553,14 @@
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true,
-      "date_only": "2026-12-22"
+      "date_only": "2026-12-22",
+      "composers": [
+        "И. Штраус"
+      ],
+      "works": [
+        "«Летучая мышь»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-pratum-2026",
@@ -9731,7 +10594,9 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "card_schema_version": 2
     },
     {
       "id": "helikon-christmas-ball-2026",
@@ -9756,7 +10621,8 @@
       "source_label": "Геликон-опера",
       "source_url": "https://www.helikon.ru/ru/playbill",
       "verified": true,
-      "date_only": "2026-12-23"
+      "date_only": "2026-12-23",
+      "card_schema_version": 2
     },
     {
       "id": "newopera-quiet-evening-2026-12-24",
@@ -9784,7 +10650,8 @@
       "source_url": "https://www.novayaopera.ru/playbill/",
       "verified": true,
       "date_only": "2026-12-24",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-cherevichki-2026",
@@ -9817,7 +10684,15 @@
       "organizer": "Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Большой",
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "опера «Черевички»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "newopera-nutcracker-untold-2026-12-26",
@@ -9844,7 +10719,11 @@
       "source_url": "https://www.novayaopera.ru/playbill/",
       "verified": true,
       "date_only": "2026-12-26",
-      "discovery_source": "ClassicalMusicNews"
+      "discovery_source": "ClassicalMusicNews",
+      "composers": [
+        "Чайковский"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-nersesyan-2026-12-26",
@@ -9870,7 +10749,9 @@
       "source_url": "https://www.mosconsv.ru/afisha/",
       "verified": true,
       "start": "2026-12-26T19:00:00+03:00",
-      "organizer": "Московская консерватория"
+      "organizer": "Московская консерватория",
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "newopera-cabaret-2026",
@@ -9902,7 +10783,8 @@
       "details": "Песни Курта Вайля, Арнольда Шёнберга, Бенджамина Бриттена, Эрика Сати и других.",
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/presscenter/news/otkryta-prodazha-biletov-na-noyabr-i-dekabr-2026/",
-      "verified": true
+      "verified": true,
+      "card_schema_version": 2
     },
     {
       "id": "shostakovich-quartets-4",
@@ -9936,7 +10818,15 @@
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнные квартеты № 10 ля-бемоль мажор, ор. 118"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "shostakovich-quartets-5",
@@ -9970,7 +10860,15 @@
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
         "Зал Зарядье"
-      ]
+      ],
+      "venue_short": "Зарядье · Малый",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "Струнные квартеты № 13 си-бемоль минор, ор. 138"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "rameau",
@@ -10001,7 +10899,11 @@
       "details": "Основной тег — Рамо. Уточнение про современный рояль остаётся внутри карточки и не превращается в громоздкий фильтр.",
       "source_label": "Watchlist",
       "source_url": "",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "Рамо"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "wtc1",
@@ -10031,7 +10933,11 @@
       "details": "Независимый радар: искать полный I том ХТК по исполнителям и площадкам, а не ждать, пока он случайно попадётся в одной из привычных афиш.",
       "source_label": "Watchlist",
       "source_url": "",
-      "verified": true
+      "verified": true,
+      "composers": [
+        "И. С. Бах"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-virtuosi-schnittke-schoenberg-brahms-2026-10-14",
@@ -10063,7 +10969,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Брамс",
+        "Шнитке"
+      ],
+      "works": [
+        "Сюита в старинном стиле",
+        "Квинтет для кларнета и струнных."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-symphonic-kind-blue-2026-10-17",
@@ -10093,7 +11009,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-letters-bizet-2026-10-18",
@@ -10123,7 +11041,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бизе"
+      ],
+      "works": [
+        "фрагменты «Кармен», «Арлезианки», «Детских игр», Симфонии № 1",
+        "Щедрин — фрагменты «Кармен-сюиты»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-haydn-armida-2026-10-21",
@@ -10157,7 +11084,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Гайдн"
+      ],
+      "works": [
+        "«Армида» · российская премьера",
+        "«Армида», опера в концертном исполнении."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-iolanta-bashmet-2026-10-22",
@@ -10187,7 +11123,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "«Иоланта» · концертное исполнение",
+        "«Иоланта», опера в концертном исполнении."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-masleev-rachmaninoff-tchaikovsky-2026-10-27",
@@ -10217,7 +11162,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Чайковский",
+        "Рахманинов"
+      ],
+      "works": [
+        "Концерт № 2",
+        "Симфония № 4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-sladkovsky-strauss-2026-10-28",
@@ -10249,7 +11204,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Р. Штраус"
+      ],
+      "works": [
+        "Концерт № 3 для фортепиано с оркестром",
+        "«Альпийская симфония»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-gpc-rogovoy-2026-10-01",
@@ -10279,7 +11244,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шопен",
+        "Чайковский"
+      ],
+      "works": [
+        "мазурки, Полонез-фантазия, Скерцо № 4",
+        "Соната до-диез минор."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-gpc-zakaria-pirozhenko-2026-10-02",
@@ -10309,7 +11284,19 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Шопен",
+        "Лист",
+        "Сен-Санс",
+        "Рахманинов"
+      ],
+      "works": [
+        "Лист, Лист, Рахманинов."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-zaytseva-taras-nikolaev-2026-10-08",
@@ -10341,7 +11328,21 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Григ",
+        "Сибелиус",
+        "Р. Штраус",
+        "Крам"
+      ],
+      "works": [
+        "«Меланхолия»",
+        "Соната",
+        "Соната для виолончели соло",
+        "Соната."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-musica-tempora-shadow-light-2026-10-10",
@@ -10374,7 +11375,9 @@
       "monitor_entities": [
         "Московская филармония",
         "Musica Tempora"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-weinberg-quartets-2026-10-13",
@@ -10407,7 +11410,20 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Рахманинов",
+        "Вайнберг"
+      ],
+      "works": [
+        "все квартеты · 3-й год цикла",
+        "Фортепианный квартет № 2",
+        "квартеты № 14 и № 15",
+        "Элегическое трио № 1."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-sirin-pokrov-2026-10-14",
@@ -10440,7 +11456,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-fritz-lang-tired-death-2026-10-15",
@@ -10473,7 +11491,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-grindenko-french-baroque-2026-10-17",
@@ -10508,7 +11528,15 @@
       "monitor_entities": [
         "Московская филармония",
         "Татьяна Гринденко"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Рамо",
+        "Куперен",
+        "Корретт",
+        "Буамортье"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-chamber-evenings-schubert-brahms-2026-10-18",
@@ -10537,7 +11565,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шуберт",
+        "Брамс"
+      ],
+      "works": [
+        "Фортепианное трио № 1",
+        "Фортепианное трио № 2."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-svetlanov-soloists-beethoven-linde-2026-10-20",
@@ -10569,7 +11607,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Линде"
+      ],
+      "works": [
+        "Соната № 4 для виолончели и фортепиано, Септет",
+        "Sonata a tre."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-pratum-mozart-schubert-2026-10-21",
@@ -10601,7 +11649,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Моцарт",
+        "Шуберт"
+      ],
+      "works": [
+        "Pratum Integrum"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-pospekhina-hudyakov-2026-10-22",
@@ -10633,7 +11690,23 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах",
+        "Сен-Санс",
+        "Равель",
+        "Чайковский",
+        "Изаи",
+        "Шоссон",
+        "Паганини"
+      ],
+      "works": [
+        "фрагменты Сонаты № 2 BWV 1003",
+        "Соната № 3",
+        "Изаи, Шоссон, Чайковский, Равель."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-camerata-rno-serenades-2026-10-23",
@@ -10665,7 +11738,23 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Сальери",
+        "Фукс",
+        "Гайдн",
+        "Рославец",
+        "Нильсен"
+      ],
+      "works": [
+        "Маленькая серенада",
+        "Дивертисмент",
+        "Серенада",
+        "Serenata in vano",
+        "Ноктюрн."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-gubaidulina-in-croce-2026-10-24",
@@ -10698,7 +11787,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Губайдулина"
+      ],
+      "works": [
+        "In Croce · 95 лет",
+        "Струнный квартет № 4 с магнитофонной лентой"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-bach-french-predecessors-2026-10-25",
@@ -10731,7 +11829,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "works": [
+        "Ольга Мартынова"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-borodin-quartet-2026-10-31",
@@ -10763,7 +11869,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Мясковский"
+      ],
+      "works": [
+        "квартеты № 1 и № 5, соч. 18",
+        "Квартет № 13."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-world-music-day-2026-10-01",
@@ -10794,7 +11910,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Чайковский",
+        "Бородин",
+        "Римский-Корсаков",
+        "Глинка"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-beethoven9-polyansky-2026-10-02",
@@ -10824,7 +11948,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен"
+      ],
+      "works": [
+        "Симфония № 9"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-moscow-autumn-opening-2026-10-03",
@@ -10856,7 +11988,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-gerzmava-2026-10-03",
@@ -10886,7 +12020,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-vishnevsky-new-russia-2026-10-04",
@@ -10916,7 +12052,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-yurovsky-beethoven-tchaikovsky-2026-10-05",
@@ -10946,7 +12084,17 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен",
+        "Чайковский"
+      ],
+      "works": [
+        "Симфония №3",
+        "Симфония №4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-opera-masterpieces-2026-10-06",
@@ -10976,7 +12124,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-musica-tempora-dreams-king-2026-10-06",
@@ -11010,7 +12160,18 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "Куперен",
+        "Делаланд",
+        "Клерамбо",
+        "де Визе",
+        "Ламбер",
+        "Маре",
+        "Франкёр"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-russian-piano-trio-2026-10-07",
@@ -11040,7 +12201,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-arslonga-opening-2026-10-08",
@@ -11070,7 +12233,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-shostakovich-fiori-bessonov-2026-10-08",
@@ -11102,7 +12267,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "к 120-летию"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-mozart-sonatas-terekhov-2026-10-08",
@@ -11132,7 +12305,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "Моцарт"
+      ],
+      "works": [
+        "все фортепианные сонаты. Концерт № 3"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-papoyan-rno-2026-10-10",
@@ -11163,7 +12344,17 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен",
+        "Чайковский"
+      ],
+      "works": [
+        "Концерт №4",
+        "Симфония №4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-kingdom-keyboards-2026-10-11",
@@ -11197,7 +12388,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-gornostaeva-memory-2026-10-12",
@@ -11227,7 +12420,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-beethoven-emelyanov-2026-10-13",
@@ -11256,7 +12451,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен"
+      ],
+      "works": [
+        "Концерт № 5 / Симфония № 5"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-savic-160-2026-10-14",
@@ -11286,7 +12489,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-two-pianos-melnikov-tarasevich-2026-10-15",
@@ -11315,7 +12520,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-slovachevsky-kashpurin-2026-10-16",
@@ -11344,7 +12551,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-rudenko-tchaikovsky-grieg-2026-10-17",
@@ -11374,7 +12583,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Григ",
+        "Чайковский"
+      ],
+      "works": [
+        "Филипп Руденко"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-bach-organ-all-toccatas-fugues-2026-10-18",
@@ -11408,7 +12626,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "works": [
+        "все токкаты и фуги для органа"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-what-is-truth-2026-10-18",
@@ -11441,7 +12667,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-bertolazzi-grieg-liszt-2026-10-20",
@@ -11471,7 +12699,16 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Лист",
+        "Григ"
+      ],
+      "works": [
+        "Джованни Бертолацци"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-tarosyan-gergiev-rno-2026-10-21",
@@ -11503,7 +12740,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Сен-Санс",
+        "Равель",
+        "Скрябин",
+        "Шоссон"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-matsuev-rudin-2026-10-22",
@@ -11533,7 +12778,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-bso-nonciaux-2026-10-24",
@@ -11565,7 +12812,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Лист",
+        "Брамс",
+        "Дворжак",
+        "Сметана"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-vienna-two-eras-2026-10-25",
@@ -11598,7 +12853,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-paganini-pochekin-2026-10-27",
@@ -11628,7 +12885,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Паганини"
+      ],
+      "works": [
+        "Иван Почекин"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-composers-mgc-2-2026-10-27",
@@ -11661,7 +12926,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-shishkin-solo-2026-10-29",
@@ -11690,7 +12957,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-chopin-gala-bessonov-2026-10-30",
@@ -11720,7 +12989,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Шопен"
+      ],
+      "works": [
+        "Иван Бессонов"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-andrei-diev-2026-10-30",
@@ -11749,7 +13026,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-beethoven-sonatas-kuznetsov-2026-10-31",
@@ -11779,7 +13058,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "Бетховен"
+      ],
+      "works": [
+        "великие фортепианные сонаты"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-two-pianos-gorbunova-chernyavskaya-2026-10-31",
@@ -11808,7 +13095,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-myaskovsky-planet-kehrer-2026-10-31",
@@ -11840,7 +13129,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Мясковского",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-abdullin-organ-2026-11-03",
@@ -11871,7 +13162,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-golub-bach-organ-2026-11-04",
@@ -11904,7 +13197,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "works": [
+        "Людмила Голуб"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-obsession-glavatskikh-2026-11-06",
@@ -11937,7 +13238,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-knyazev-brahms-2026-11-06",
@@ -11967,7 +13270,12 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "Брамс"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-organ-voice-gadelia-eshba-2026-11-07",
@@ -11997,7 +13305,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-shostakovich-120-youth-2026-11-08",
@@ -12029,7 +13339,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "к 120-летию"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-rno-beethoven-brahms-2026-11-14",
@@ -12059,7 +13377,18 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Бетховен",
+        "Брамс"
+      ],
+      "works": [
+        "РНО",
+        "увертюра «Эгмонт», Тройной концерт",
+        "Симфония №3."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-kagan-festival-2026-11-14",
@@ -12089,7 +13418,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-pratum-integrum-baroque-opera-2026-11-15",
@@ -12124,7 +13455,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Гендель",
+        "Вивальди",
+        "Монтеверди",
+        "Пёрселл"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-vivaldi-contemporaries-2026-11-18",
@@ -12159,7 +13498,19 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "composers": [
+        "И. С. Бах",
+        "Гендель",
+        "Телеман",
+        "Вивальди",
+        "Корелли",
+        "Тартини",
+        "Джеминиани",
+        "Учеллини"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-kagan-festival-2026-11-21",
@@ -12189,7 +13540,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-helikon-opera-2026-11-22",
@@ -12219,7 +13572,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-kopachevsky-2026-11-29",
@@ -12248,7 +13603,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-repin-chubachin-2026-11-30",
@@ -12281,7 +13638,17 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Прокофьев",
+        "Шостакович"
+      ],
+      "works": [
+        "Концерт №1 для скрипки",
+        "Концерт №1 для виолончели."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-andrianov-2026-12-01",
@@ -12310,7 +13677,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-filipov-petrova-2026-12-04",
@@ -12340,7 +13709,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-gaso-90-2026-12-06",
@@ -12370,7 +13741,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-gyngazov-2026-12-07",
@@ -12399,7 +13772,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-mamt-2026-12-08",
@@ -12429,7 +13804,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-chefanov-kudoyarov-2026-12-09",
@@ -12458,7 +13835,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-fedotov-petrova-2026-12-11",
@@ -12488,7 +13867,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-tchaikovsky-gala-2026-12-12",
@@ -12518,7 +13899,15 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "Иван Бессонов"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-rach-remembering-future-2026-12-15",
@@ -12548,7 +13937,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Рахманиновский",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-organ-voice-2026-12-17",
@@ -12578,7 +13969,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-vishnevsky-2026-12-20",
@@ -12609,7 +14002,17 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "БЗК",
+      "composers": [
+        "Чайковский",
+        "Мусоргский"
+      ],
+      "works": [
+        "«Картинки с выставки»",
+        "Плетнёв — концертная сюита из «Спящей красавицы»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-myaskovsky-new-year-organ-2026-12-20",
@@ -12643,7 +14046,14 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "Мясковского",
+      "composers": [
+        "И. С. Бах",
+        "Гендель",
+        "Элгар"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-borodin-quartet-2026-12-25",
@@ -12673,7 +14083,9 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "card_schema_version": 2
     },
     {
       "id": "consv-mzk-knyazev-brahms-2026-12-28",
@@ -12703,7 +14115,12 @@
       "organizer": "Московская консерватория",
       "monitor_entities": [
         "Московская консерватория"
-      ]
+      ],
+      "venue_short": "МЗК",
+      "composers": [
+        "Брамс"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-tchaikovsky-masterpiece-2026-11-01",
@@ -12733,7 +14150,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Чайковский"
+      ],
+      "works": [
+        "Концерт №3 для фортепиано"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-tarosyan-ramm-emelyanov-2026-11-01",
@@ -12762,7 +14187,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Мендельсон",
+        "Франк"
+      ],
+      "works": [
+        "Трио №1",
+        "Трио №1."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-laul-mozart-2026-11-03",
@@ -12792,7 +14227,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-laul-mozart-2026-11-04",
@@ -12822,7 +14262,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Моцарт"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-im-spiegel-2026-11-05",
@@ -12856,7 +14301,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шуман",
+        "Раннев"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-matsuev-spb-2026-11-07",
@@ -12886,7 +14337,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Чайковский"
+      ],
+      "works": [
+        "Концерт №1",
+        "Симфония №5."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-lugansky-solo-2026-11-08",
@@ -12916,7 +14377,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Шуман",
+        "Шопен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-vivacello-dvorak-2026-11-09",
@@ -12946,7 +14413,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Дворжак"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-brahms-manfred-2026-11-11",
@@ -12976,7 +14448,18 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Брамс",
+        "Чайковский"
+      ],
+      "works": [
+        "Павел Милюков / Иван Никифорчин",
+        "Скрипичный концерт",
+        "симфония «Манфред»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-neoclassicism-artdeco-2026-11-12",
@@ -13009,7 +14492,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-musica-tempora-barberini-2026-11-13",
@@ -13042,7 +14527,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-vivacello-questa-musica-2026-11-14",
@@ -13072,7 +14559,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-rnmso-lazarev-tarosyan-2026-11-15",
@@ -13103,7 +14592,19 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Элгар",
+        "Чайковский",
+        "Аренский"
+      ],
+      "works": [
+        "«Буря»",
+        "Скрипичный концерт",
+        "Симфония №2."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-viola-romanenko-2026-11-15",
@@ -13133,7 +14634,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шуберт",
+        "Брамс"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-shostakovich-film-2026-11-16",
@@ -13165,7 +14672,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Шостакович"
+      ],
+      "works": [
+        "музыка кино"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-fomin-opera-2026-11-16",
@@ -13198,7 +14713,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Фомин"
+      ],
+      "works": [
+        "«Ямщики на подставе»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-part-gubaidulina-prokofiev-2026-11-17",
@@ -13232,7 +14755,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Прокофьев",
+        "Губайдулина",
+        "Пярт"
+      ],
+      "works": [
+        "Вадим Репин"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-vivacello-modern-2026-11-18",
@@ -13265,7 +14798,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Сен-Санс"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-fomin-opera-2026-11-18",
@@ -13298,7 +14836,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Фомин"
+      ],
+      "works": [
+        "«Ямщики на подставе»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-stars21-2026-11-19",
@@ -13328,7 +14874,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Лист"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-telemann-feathers-2026-11-19",
@@ -13360,7 +14912,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Телеман"
+      ],
+      "works": [
+        "«Перья за ноты»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-bashmet-abdrazakov-2026-11-20",
@@ -13390,7 +14950,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-berlinsky-andrianov-2026-11-20",
@@ -13421,7 +14983,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Шуберт",
+        "Брамс"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-russian-choral-history-2026-11-21",
@@ -13454,7 +15022,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-shimanskaya-ravel-prokofiev-2026-11-21",
@@ -13484,7 +15054,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Равель",
+        "Прокофьев"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-berezovsky-solo-2026-11-22",
@@ -13513,7 +15089,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-mamedkuliev-guitar-2026-11-22",
@@ -13544,7 +15122,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Родриго",
+        "Брауэр"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-mahler8-2026-11-23",
@@ -13575,7 +15159,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Малер"
+      ],
+      "works": [
+        "Симфония № 8"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-debut-sibileva-knyazev-2026-11-23",
@@ -13606,7 +15198,14 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Григ",
+        "Рахманинов",
+        "Барток"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-stravinsky-cycle-2026-11-24",
@@ -13639,7 +15238,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Стравинский"
+      ],
+      "works": [
+        "пятый год цикла"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-madrigal-outside-time-2026-11-24",
@@ -13671,7 +15278,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-taneyev-brahms-2026-11-25",
@@ -13702,7 +15311,16 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Брамс",
+        "Танеев"
+      ],
+      "works": [
+        "к 170-летию Танеева"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-borodin-quartet-beethoven-galynin-2026-11-25",
@@ -13732,7 +15350,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Галынин"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-campra-requiem-2026-11-26",
@@ -13766,7 +15390,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Кампра"
+      ],
+      "works": [
+        "Requiem / Miserere"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-great-concerts-chamber-2026-11-26",
@@ -13796,7 +15428,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Бетховен",
+        "Григ"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-force-motion-2026-11-27",
@@ -13830,7 +15468,14 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Кейдж",
+        "Лахенман",
+        "Денисов"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-repin-lugansky-2026-11-28",
@@ -13860,7 +15505,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Прокофьев"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-neobarocco-2026-11-28",
@@ -13893,7 +15544,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-bach-organ-day-2026-11-29",
@@ -13926,7 +15579,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "И. С. Бах"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-viols-seasons-2026-11-29",
@@ -13959,7 +15617,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-vladimirov-young-talents-2026-11-30",
@@ -13989,7 +15649,14 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Брамс",
+        "Чайковский",
+        "Мусоргский"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-telemann-cpe-bach-2026-12-03",
@@ -14023,7 +15690,13 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах",
+        "Телеман"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-beethoven-eroica-2026-12-05",
@@ -14053,7 +15726,12 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-rnmso-prokofiev-stravinsky-2026-12-06",
@@ -14085,7 +15763,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Стравинский",
+        "Прокофьев"
+      ],
+      "works": [
+        "Концерт №3, «Скифская сюита»",
+        "«Весна священная»."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-beethoven-universe-2026-12-10",
@@ -14118,7 +15806,20 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Гуммель",
+        "Шуберт"
+      ],
+      "works": [
+        "Musica Viva",
+        "увертюра",
+        "концерт для фортепиано и скрипки",
+        "Симфония №4."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-pratum-integrum-italy-russian-court-2026-12-13",
@@ -14151,7 +15852,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-ottoman-music-2026-12-14",
@@ -14185,7 +15888,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
     },
     {
       "id": "phil-bashmet-berezovsky-2026-12-15",
@@ -14215,7 +15920,9 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "phil-bridges-to-bach-2026-12-16",
@@ -14251,7 +15958,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "И. С. Бах",
+        "Пярт",
+        "Канчели",
+        "Ксенакис"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-berezovsky-dohnanyi-scriabin-2026-12-23",
@@ -14281,7 +15996,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Скрябин"
+      ],
+      "works": [
+        "Фортепианный концерт."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-lugansky-brahms-beethoven-2026-12-26",
@@ -14312,7 +16035,17 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "composers": [
+        "Бетховен",
+        "Брамс"
+      ],
+      "works": [
+        "Концерт №1",
+        "Симфония №7."
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-martynov-book-changes-2026-12-28",
@@ -14345,7 +16078,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Мартынов"
+      ],
+      "works": [
+        "«Книга перемен»"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-opera-ghosts-2026-12-18",
@@ -14377,7 +16118,15 @@
       "organizer": "Московская филармония",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "Камерный · Филармония",
+      "composers": [
+        "Вагнер",
+        "Доницетти",
+        "Чайковский",
+        "Глинка"
+      ],
+      "card_schema_version": 2
     },
     {
       "id": "phil-zakharova-repin-pas-de-de-2026-12-21",
@@ -14408,7 +16157,9 @@
       "organizer": "ООО «Дагр»",
       "monitor_entities": [
         "Московская филармония"
-      ]
+      ],
+      "venue_short": "КЗЧ",
+      "card_schema_version": 2
     },
     {
       "id": "sov-edimomyslenniki-2026-10-01",
