@@ -3,7 +3,8 @@ let personal = {};
 let events = [];
 let category = 'all';
 let tags = new Set();
-let venue = 'all';
+let selectedVenues = new Set();
+let venueGroups = [];
 let rangeDays = 'all';
 let cardTag = 'all';
 
@@ -113,13 +114,72 @@ function renderMain(){
   populateVenues(); applyFilters(); renderPlans();
 }
 function populateVenues(){
-  const select=document.getElementById('venueFilter');
-  const current=select.value;
-  select.innerHTML='<option value="all">Площадка: все</option>';
-  [...new Set(events.map(x=>x.venue).filter(v=>v&&v!=='Watchlist'))].sort((a,b)=>a.localeCompare(b,'ru')).forEach(v=>{
-    const o=document.createElement('option'); o.value=v; o.textContent=v; select.appendChild(o);
+  const host=document.getElementById('venueFilters');
+  if(!host)return;
+  const eventVenues=[...new Set(events.map(x=>x.venue).filter(v=>v&&v!=='Watchlist'))].sort((a,b)=>a.localeCompare(b,'ru'));
+  const eventVenueSet=new Set(eventVenues);
+  const groups=(venueGroups||[]).map(g=>({
+    name:g.name,
+    member_venues:(g.member_venues||[]).filter(v=>eventVenueSet.has(v))
+  })).filter(g=>g.member_venues.length);
+  const grouped=new Set(groups.flatMap(g=>g.member_venues));
+  const others=eventVenues.filter(v=>!grouped.has(v));
+  const venueRow=v=>`<label class="venue-check venue-child"><input type="checkbox" data-venue="${esc(v)}"><span>${esc(v)}</span></label>`;
+  host.innerHTML=`
+    <label class="venue-check venue-all"><input type="checkbox" data-venue-all><span>Все площадки</span></label>
+    <div class="venue-groups">
+      ${groups.map((g,i)=>`<div class="venue-group">
+        <label class="venue-check venue-parent"><input type="checkbox" data-venue-group="${i}"><strong>${esc(g.name)}</strong></label>
+        <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
+      </div>`).join('')}
+      ${others.length?`<div class="venue-group"><div class="venue-parent venue-other-title"><strong>Другие площадки</strong></div><div class="venue-children">${others.map(venueRow).join('')}</div></div>`:''}
+    </div>`;
+  host._venueGroupData=groups;
+  updateVenueFilterUI();
+}
+function updateVenueFilterUI(){
+  const host=document.getElementById('venueFilters');
+  if(!host)return;
+  const eventVenues=[...new Set(events.map(x=>x.venue).filter(v=>v&&v!=='Watchlist'))];
+  const all=host.querySelector('[data-venue-all]');
+  if(all)all.checked=selectedVenues.size===0;
+  host.querySelectorAll('[data-venue]').forEach(input=>{
+    input.checked=selectedVenues.has(input.dataset.venue);
   });
-  if([...select.options].some(o=>o.value===current)) select.value=current;
+  const groups=host._venueGroupData||[];
+  host.querySelectorAll('[data-venue-group]').forEach(input=>{
+    const members=groups[Number(input.dataset.venueGroup)]?.member_venues||[];
+    const selected=members.filter(v=>selectedVenues.has(v)).length;
+    input.checked=members.length>0&&selected===members.length;
+    input.indeterminate=selected>0&&selected<members.length;
+  });
+  const label=document.getElementById('venueFilterLabel');
+  if(label){
+    if(selectedVenues.size===0)label.textContent='Площадки: все';
+    else if(selectedVenues.size===1)label.textContent=`Площадка: ${[...selectedVenues][0]}`;
+    else label.textContent=`Площадки: выбрано ${selectedVenues.size}`;
+  }
+  if(selectedVenues.size>eventVenues.length){
+    selectedVenues=new Set([...selectedVenues].filter(v=>eventVenues.includes(v)));
+  }
+}
+function handleVenueFilterChange(e){
+  const input=e.target.closest('#venueFilters input[type="checkbox"]');
+  if(!input)return;
+  const host=document.getElementById('venueFilters');
+  if(input.hasAttribute('data-venue-all')){
+    selectedVenues.clear();
+  }else if(input.hasAttribute('data-venue-group')){
+    const group=(host._venueGroupData||[])[Number(input.dataset.venueGroup)];
+    const members=group?.member_venues||[];
+    if(input.checked)members.forEach(v=>selectedVenues.add(v));
+    else members.forEach(v=>selectedVenues.delete(v));
+  }else if(input.dataset.venue){
+    if(input.checked)selectedVenues.add(input.dataset.venue);
+    else selectedVenues.delete(input.dataset.venue);
+  }
+  updateVenueFilterUI();
+  applyFilters();
 }
 function applyFilters(){
   let visible = 0;
@@ -129,7 +189,7 @@ function applyFilters(){
       const catOk=category==='all'||c.dataset.category===category;
       const ctags=(c.dataset.tags||'').split(',').filter(Boolean);
       const tagOk=[...tags].every(t=>ctags.includes(t));
-      const venueOk=venue==='all'||c.dataset.venue===venue;
+      const venueOk=selectedVenues.size===0||selectedVenues.has(c.dataset.venue);
       const cVisibleTags=(c.dataset.visibleTags||'').split('||').filter(Boolean);
       const cardTagOk=cardTag==='all'||cVisibleTags.includes(cardTag);
       const ev=eventById(c.dataset.id);
@@ -152,7 +212,7 @@ function applyFilters(){
   });
   const summary=document.getElementById('filterSummary');
   if(summary){
-    const venueText=venue==='all'?'все площадки':venue;
+    const venueText=selectedVenues.size===0?'все площадки':selectedVenues.size===1?[...selectedVenues][0]:`площадок: ${selectedVenues.size}`;
     const rangeText=rangeDays==='all'?'весь горизонт':`${rangeDays} дней`;
     const tagText=cardTag==='all'?'':` · метка: ${cardTag}`;
     summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}`;
@@ -207,7 +267,7 @@ function setupStaticControls(){
     applyFilters();
   }));
   document.querySelectorAll('#tagFilters button').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.tag;tags.has(t)?tags.delete(t):tags.add(t);b.classList.toggle('on',tags.has(t));applyFilters();}));
-  document.getElementById('venueFilter').addEventListener('change',e=>{venue=e.target.value;applyFilters();});
+  document.getElementById('venueFilters').addEventListener('change',handleVenueFilterChange);
   document.getElementById('exportBtn').addEventListener('click',()=>{const payload={schema_version:3,exported_at:new Date().toISOString(),personal};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cultradar-private.json';a.click();URL.revokeObjectURL(a.href);});
   document.getElementById('importInput').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());personal=(data&&data.personal)||data||{};savePersonal();renderMain();alert('Личные данные импортированы.');}catch{alert('Не удалось прочитать JSON.');}e.target.value='';});
   document.getElementById('togglePlans').addEventListener('click',e=>{const body=document.getElementById('plansBody');const hidden=body.hidden=!body.hidden;e.target.textContent=hidden?'Развернуть':'Свернуть';e.target.setAttribute('aria-expanded',String(!hidden));});
@@ -235,7 +295,20 @@ function setupDelegation(){
 async function init(){
   loadPersonal(); setupStaticControls(); setupDelegation();
   try{
-    const res=await fetch(`events.json?v=${Date.now()}`,{cache:'no-store'}); if(!res.ok)throw new Error(`HTTP ${res.status}`); const data=await res.json(); events=data.events||[];
+    const stamp=Date.now();
+    const [eventsRes,sourcesRes]=await Promise.all([
+      fetch(`events.json?v=${stamp}`,{cache:'no-store'}),
+      fetch(`sources.json?v=${stamp}`,{cache:'no-store'})
+    ]);
+    if(!eventsRes.ok)throw new Error(`events.json: HTTP ${eventsRes.status}`);
+    const data=await eventsRes.json();
+    events=data.events||[];
+    if(sourcesRes.ok){
+      const sourceData=await sourcesRes.json();
+      venueGroups=sourceData.monitor_groups||[];
+    }else{
+      venueGroups=[];
+    }
     if(data.meta?.note){const n=document.getElementById('dataNote');n.textContent=`Обновлено ${data.meta.updated||''}. ${data.meta.note}`;n.hidden=false;}
     renderMain();
   }catch(err){document.getElementById('mainContent').innerHTML=`<div class="loading">Не удалось загрузить events.json: ${esc(err.message)}</div>`;}
