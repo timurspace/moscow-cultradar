@@ -20772,6 +20772,123 @@
       "card_schema_version": 2,
       "season": "2026/27",
       "sales_status": "есть отдельные билеты"
+    },
+    {
+      "id": "consv-myaskovsky-dialogue-artist-2027-01-10",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2027-01-10T19:00:00+03:00",
+      "title": "«Диалог с художником… Видим музыку»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Viva la tromba",
+        "музыка + живопись"
+      ],
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "venue_short": "Мясковского",
+      "place": "Москва",
+      "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+      "people": "ансамбль Viva la tromba",
+      "price": "проверить актуально",
+      "why": "Камерный междисциплинарный цикл зала Мясковского: музыка вступает в прямой диалог с визуальным искусством.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "",
+      "source_label": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concerts.aspx?hall=6",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "composers": [],
+      "works": [],
+      "program_status": "подробная программа не опубликована в календарном анонсе",
+      "card_schema_version": 2,
+      "season": "2026/27",
+      "sales_status": "событие сезона; продажу отдельных билетов проверить"
+    },
+    {
+      "id": "consv-myaskovsky-dialogue-poet-2027-03-21",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2027-03-21T19:00:00+03:00",
+      "title": "«Диалог с поэтом…»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Viva la tromba",
+        "музыка + поэзия"
+      ],
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "venue_short": "Мясковского",
+      "place": "Москва",
+      "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+      "people": "ансамбль Viva la tromba",
+      "price": "проверить актуально",
+      "why": "Камерный междисциплинарный цикл зала Мясковского — музыка и поэтический текст.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "",
+      "source_label": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concerts.aspx?hall=6",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "composers": [],
+      "works": [],
+      "program_status": "подробная программа не опубликована в календарном анонсе",
+      "card_schema_version": 2,
+      "season": "2026/27",
+      "sales_status": "событие сезона; продажу отдельных билетов проверить"
+    },
+    {
+      "id": "consv-myaskovsky-trumpet-ensemble-2027-05-16",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2027-05-16T19:00:00+03:00",
+      "title": "«Музыка для трубы в ансамбле»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "труба",
+        "камерный ансамбль"
+      ],
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "venue_short": "Мясковского",
+      "place": "Москва",
+      "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+      "people": "ансамбль Viva la tromba",
+      "price": "проверить актуально",
+      "why": "Редкий инструментальный камерный формат в отдельном зале Консерватории.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Программа",
+      "details": "",
+      "source_label": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concerts.aspx?hall=6",
+      "verified": true,
+      "organizer": "Московская консерватория",
+      "monitor_entities": [
+        "Московская консерватория"
+      ],
+      "composers": [],
+      "works": [],
+      "program_status": "подробная программа не опубликована в календарном анонсе",
+      "card_schema_version": 2,
+      "season": "2026/27",
+      "sales_status": "событие сезона; продажу отдельных билетов проверить"
     }
   ]
 }
