@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-26",
-    "note": "Широкий календарь: добавлены плотный блок ДК Рассвет, сегодняшняя афиша БЗК, площадки Музея музыки и Другое Дело. Время не выдумывается: если общий официальный список даёт только дату, карточка показывает дату без часов."
+    "note": "Календарь расширен: октябрь Зарядья и ближайшая Филармония добраны по официальным афишам; «Другое Дело» переименовано в понятный фильтр без префикса «Галерея»."
   },
   "events": [
     {
@@ -31,6 +31,86 @@
       "details": "26 сентября 2026, 19:00. Большой зал Московской консерватории.",
       "source_label": "Московская консерватория",
       "source_url": "https://www.mosconsv.ru/afisha/2026-09-26",
+      "verified": true
+    },
+    {
+      "id": "phil-nekrassov-impressions-2026-09-26",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-26T19:00:00+03:00",
+      "end": "2026-09-26T21:00:00+03:00",
+      "title": "Impressions — от би-бопа до европейской импровизационной музыки",
+      "tags": [],
+      "visible_tags": [
+        "джаз"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Квартет Тимура Некрасова · Михаил Митропольский",
+      "price": "проверить актуально",
+      "why": "Сегодняшний живой концерт Камерного зала; текущая база Филармонии должна отражать и такие даты.",
+      "editorial_status": "attention",
+      "ticket_urgency": "buy",
+      "details_label": "Официальная афиша",
+      "details": "Импровизационная программа от би-бопа к европейской сцене.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/",
+      "verified": true
+    },
+    {
+      "id": "phil-laul-mozart-2026-09-27",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-27T19:00:00+03:00",
+      "end": "2026-09-27T21:00:00+03:00",
+      "title": "Пётр Лаул — Моцарт: играет и рассказывает",
+      "tags": [],
+      "visible_tags": [
+        "Моцарт",
+        "фортепиано"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Пётр Лаул, фортепиано",
+      "price": "билеты проданы",
+      "why": "Полноценная моцартовская сольная программа; сохраняем даже sold out как часть реального календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Рондо, сонаты и фантазии Моцарта.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/~2026/",
+      "verified": true
+    },
+    {
+      "id": "phil-laul-mozart-2026-09-28",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-28T19:00:00+03:00",
+      "end": "2026-09-28T21:00:00+03:00",
+      "title": "Пётр Лаул — Моцарт: играет и рассказывает",
+      "tags": [],
+      "visible_tags": [
+        "Моцарт",
+        "фортепиано"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Пётр Лаул, фортепиано",
+      "price": "билеты проданы",
+      "why": "Вторая дата той же программы; важна как отдельное календарное событие.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Программа",
+      "details": "Рондо, сонаты и фантазии Моцарта.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/~2026/",
       "verified": true
     },
     {
@@ -65,6 +145,68 @@
       "verified": true
     },
     {
+      "id": "phil-prokofiev-nevsky-2026-09-29",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-29T19:00:00+03:00",
+      "end": "2026-09-29T21:30:00+03:00",
+      "title": "Прокофьев — «Александр Невский» и «Ромео и Джульетта»",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Прокофьев",
+        "хор",
+        "оркестр"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Государственная академическая симфоническая капелла России · Валерий Полянский · Евгения Сегенюк",
+      "price": "проверить актуально",
+      "why": "Крупная прокофьевская программа с хором и оркестром; очевидный кандидат, которого база не должна была пропускать.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Кантата «Александр Невский» и большая сюита из балета «Ромео и Джульетта».",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/~2026/",
+      "verified": true
+    },
+    {
+      "id": "phil-grindenko-bach-biber-2026-09-29",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-09-29T19:00:00+03:00",
+      "end": "2026-09-29T21:00:00+03:00",
+      "title": "Музыка барокко: И. С. Бах, Бибер",
+      "tags": [
+        "bach",
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Бах",
+        "Бибер",
+        "Гринденко"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "«Академия старинной музыки» · Татьяна Гринденко, скрипка · Александра Коренева, клавесин",
+      "price": "билеты проданы",
+      "why": "Прямой watchlist: Гринденко + барокко + Бах. Даже sold out событие должно присутствовать в календаре.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "soldout",
+      "details_label": "Официальная афиша",
+      "details": "Барочная программа Баха и Бибера.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/~2026/",
+      "verified": true
+    },
+    {
       "id": "rassvet-batagov-dreamer-2026-09-29",
       "category": "music",
       "horizon": "near",
@@ -94,6 +236,35 @@
       "verified": true
     },
     {
+      "id": "phil-madrigal-new-shores-2026-09-30",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-30T19:00:00+03:00",
+      "end": "2026-09-30T21:00:00+03:00",
+      "title": "«К новым берегам» — ансамбль «Мадригал»",
+      "tags": [
+        "early"
+      ],
+      "visible_tags": [
+        "Мадригал",
+        "старинная музыка"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Ансамбль солистов «Мадригал» Московской филармонии",
+      "price": "билеты проданы",
+      "why": "Старинная музыка базовой площадки; не должна исчезать из календаря из-за sold out.",
+      "editorial_status": "attention",
+      "ticket_urgency": "soldout",
+      "details_label": "Официальная афиша",
+      "details": "Ансамбль «Мадригал».",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/~ophg/",
+      "verified": true
+    },
+    {
       "id": "mm-golovanov-blagovest-2026-10-01",
       "category": "talks",
       "horizon": "near",
@@ -120,6 +291,121 @@
       "details": "75 минут; история становления Николая Голованова с фортепианными иллюстрациями.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/events/serious-lecture/blagovest-sudbyi.html",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-dsch-rudin-2026-10-01",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T21:00:00+03:00",
+      "title": "DSCH. К 120-летию Шостаковича — Милюков / Андрианов / МГСО / Иван Рудин",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "DSCH"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Павел Милюков, скрипка · Борис Андрианов, виолончель · Московский государственный симфонический оркестр · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Октябрьский блок Шостаковича в Зарядье; событие базовой площадки, которое нельзя было оставлять за пределами календаря.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Концерт цикла DSCH к 120-летию Дмитрия Шостаковича.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": true
+    },
+    {
+      "id": "phil-stars21-2026-10-01",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-01T19:00:00+03:00",
+      "end": "2026-10-01T21:30:00+03:00",
+      "title": "«Звёзды XXI века» — Шостакович / Хачатурян / Прокофьев",
+      "tags": [
+        "modern"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "Прокофьев"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Леонид Железный · Александр Ключко · Николай Кузнецов · ГАСО России им. Светланова · Олег Худяков",
+      "price": "проверить актуально",
+      "why": "Плотная программа XX века и несколько сильных молодых солистов.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Шостакович — Концерт № 2; Хачатурян — Скрипичный концерт; Прокофьев — Концерт № 3 и сюита «1941».",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-01/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-michiels-organ-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T21:00:00+03:00",
+      "title": "Игнас Михильс, орган",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "орган"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Игнас Михильс, орган",
+      "price": "проверить актуально",
+      "why": "Органный вечер Большого зала; в широком календаре должен быть виден.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Органный концерт.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-etnosfera-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "end": "2026-10-02T21:00:00+03:00",
+      "title": "Сергей Старостин и проект «Этносфера»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "этно"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Сергей Старостин и проект «Этносфера»",
+      "price": "проверить актуально",
+      "why": "Сильный традиционный/межжанровый проект; не академический мейнстрим, но содержательно релевантен.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "«Новое дыхание традиций».",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
       "verified": true
     },
     {
@@ -214,6 +500,86 @@
       "verified": true
     },
     {
+      "id": "zaryadye-esenin-musica-viva-2026-10-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-03T19:00:00+03:00",
+      "end": "2026-10-03T21:00:00+03:00",
+      "title": "«Навеки ваш — Сергей Есенин» / Musica Viva",
+      "tags": [],
+      "visible_tags": [
+        "Есенин",
+        "Musica Viva"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Евгений Шварц, художественное слово · Московский камерный оркестр Musica Viva · Михаил Астафьев",
+      "price": "проверить актуально",
+      "why": "Литературно-музыкальная программа с Musica Viva; нормальный кандидат широкого календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Литературно-музыкальная программа.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
+      "verified": true
+    },
+    {
+      "id": "phil-bso-mahler-2026-10-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-03T19:00:00+03:00",
+      "end": "2026-10-03T21:30:00+03:00",
+      "title": "БСО имени Чайковского — Брамс / Моцарт / Малер",
+      "tags": [],
+      "visible_tags": [
+        "Малер",
+        "Моцарт"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "БСО им. П. И. Чайковского · Арсентий Ткаченко · Елена Таросян",
+      "price": "проверить актуально",
+      "why": "Малер № 4 плюс Моцарт и Брамс; нормальный крупный симфонический кандидат.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Брамс — Вариации на тему Гайдна; Моцарт — Скрипичный концерт № 3; Малер — Симфония № 4.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-03/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-popov-choir-2026-10-04",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-04T13:00:00+03:00",
+      "end": "2026-10-04T15:00:00+03:00",
+      "title": "Хор Академии хорового искусства имени В. С. Попова",
+      "tags": [],
+      "visible_tags": [
+        "хор"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Хор Академии хорового искусства имени В. С. Попова",
+      "price": "проверить актуально",
+      "why": "Камерный хоровой концерт в Зарядье; не повод для хайпа, но должен быть в календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная афиша",
+      "details": "Хоровой концерт.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "verified": true
+    },
+    {
       "id": "historic2",
       "category": "music",
       "horizon": "near",
@@ -269,6 +635,32 @@
       "details": "Музыка гонгов.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-sretensky-choir-2026-10-05",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-05T19:00:00+03:00",
+      "end": "2026-10-05T21:00:00+03:00",
+      "title": "Хор Сретенского монастыря",
+      "tags": [],
+      "visible_tags": [
+        "хор"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Хор Сретенского монастыря · Андрей Полторухин",
+      "price": "проверить актуально",
+      "why": "Перенесённый концерт Большого зала; широкий календарь должен отражать актуальную дату.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Перенос",
+      "details": "Перенесён с 21 сентября на 5 октября 2026.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/reschedules-and-cancellations/",
       "verified": true
     },
     {
@@ -460,7 +852,7 @@
         "джаз",
         "усадьба"
       ],
-      "venue": "Галерея «Другое Дело»",
+      "venue": "Другое Дело",
       "place": "Старая Басманная, 15Ас4 · сад Баумана",
       "location": "Галерея Другое Дело, Москва",
       "people": "Jazzplay · Маргарита Симанова",
@@ -472,6 +864,33 @@
       "details": "Концерт-путешествие от свинга 1920-х до актуальной сцены.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4204341/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-coltrane-2026-10-09",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-09T19:00:00+03:00",
+      "end": "2026-10-09T21:00:00+03:00",
+      "title": "John Coltrane: My Favorite Things — культовый альбом вживую",
+      "tags": [],
+      "visible_tags": [
+        "джаз",
+        "Coltrane"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Квартет Артёма Баденко · Кирилл Мошков",
+      "price": "проверить актуально",
+      "why": "Исторически значимый альбом как цельная программа; хорошая джазовая линия широкого радара.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Перенос",
+      "details": "Перенесён с 15 октября на 9 октября 2026.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/jazz/",
       "verified": true
     },
     {
@@ -551,7 +970,7 @@
         "Десятников",
         "Пьяццолла"
       ],
-      "venue": "Галерея «Другое Дело»",
+      "venue": "Другое Дело",
       "place": "Старая Басманная, 15Ас4 · сад Баумана",
       "location": "Галерея Другое Дело, Москва",
       "people": "ансамбль «Трагиком»",
@@ -596,6 +1015,66 @@
       "verified": false
     },
     {
+      "id": "phil-rachmaninoff-bells-2026-10-11",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-11T20:00:00+03:00",
+      "end": "2026-10-11T21:20:00+03:00",
+      "title": "«Вещь в себе»: Рахманинов — «Колокола»",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Рахманинов",
+        "хор",
+        "лекция-концерт"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "РНМСО · Хор им. Свешникова · Алексей Рубин · Елизавета Кулагина · Игорь Морозов · Илья Кутюхин · Ярослав Тимофеев",
+      "price": "проверить актуально",
+      "why": "«Колокола» целиком и формат лекции-концерта — один из более содержательных филармонических вечеров месяца.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Формат",
+      "details": "Поэма «Колокола», соч. 35. Лекция-концерт в одном отделении, около 80 минут.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-11/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-dsch-gergiev-2026-10-12",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-12T19:00:00+03:00",
+      "end": "2026-10-12T20:30:00+03:00",
+      "title": "DSCH — объединённый оркестр Мариинского и Большого театров / Валерий Гергиев",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "DSCH"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Ирина Чурилова · Юрий Воробьёв · Михаил Петренко · Хор Мариинского театра · объединённый оркестр Мариинского и Большого театров · Валерий Гергиев",
+      "price": "проверить актуально",
+      "why": "Крупный Шостаковичевский блок с объединённым оркестром двух театров.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница",
+      "details": "90 минут.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/zaradys/9796/",
+      "verified": true
+    },
+    {
       "id": "1948-prove-kalish",
       "category": "music",
       "horizon": "near",
@@ -627,6 +1106,63 @@
       "verified": true
     },
     {
+      "id": "zaryadye-dsch-milyukov-gergiev-2026-10-13",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-13T19:00:00+03:00",
+      "end": "2026-10-13T20:30:00+03:00",
+      "title": "DSCH — Павел Милюков / объединённый оркестр Мариинского и Большого / Валерий Гергиев",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Шостакович",
+        "DSCH"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Павел Милюков, скрипка · объединённый оркестр Мариинского и Большого театров · Валерий Гергиев",
+      "price": "проверить актуально",
+      "why": "Вторая крупная дата DSCH подряд; важна как часть октябрьского шостаковичевского кластера.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница",
+      "details": "90 минут.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/zaradys/9797/",
+      "verified": true
+    },
+    {
+      "id": "phil-shishkin-2026-10-13",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-13T19:00:00+03:00",
+      "end": "2026-10-13T21:30:00+03:00",
+      "title": "Дмитрий Шишкин / МГАСО / Иван Никифорчин",
+      "tags": [],
+      "visible_tags": [
+        "Чайковский",
+        "Рахманинов"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Дмитрий Шишкин, фортепиано · МГАСО · Иван Никифорчин",
+      "price": "проверить актуально",
+      "why": "Сильный солист и крупная романтическая программа; достойный кандидат широкого календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Чайковский — «Ромео и Джульетта» и Концерт № 1; Рахманинов — Рапсодия на тему Паганини.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-13/",
+      "verified": true
+    },
+    {
       "id": "drugoe-italy-2026-10-14",
       "category": "talks",
       "horizon": "near",
@@ -640,7 +1176,7 @@
         "литература",
         "музыка"
       ],
-      "venue": "Галерея «Другое Дело»",
+      "venue": "Другое Дело",
       "place": "Старая Басманная, 15Ас4 · сад Баумана",
       "location": "Галерея Другое Дело, Москва",
       "people": "Георгий Гусев",
@@ -852,6 +1388,32 @@
       "verified": true
     },
     {
+      "id": "zaryadye-minsk-choir-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-16T19:00:00+03:00",
+      "end": "2026-10-16T21:00:00+03:00",
+      "title": "Митрополичий хор Минского Свято-Духова кафедрального собора",
+      "tags": [],
+      "visible_tags": [
+        "хор"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Митрополичий хор Минского Свято-Духова кафедрального собора",
+      "price": "проверить актуально",
+      "why": "Хоровая программа Зарядья; широкий календарь сохраняет такие события без завышения статуса.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная афиша",
+      "details": "Хоровой концерт.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": true
+    },
+    {
       "id": "mm-golden-rodnik-2026-10-17",
       "category": "music",
       "horizon": "near",
@@ -929,6 +1491,36 @@
       "details": "Глинка, Римский-Корсаков, Чайковский, Кюи, Рахманинов, Глиэр и др.",
       "source_label": "Музей музыки",
       "source_url": "https://music-museum.ru/afisha-sobyitij-v-rossijskom-naczionalnom-muzee-muzyiki-test/",
+      "verified": true
+    },
+    {
+      "id": "zaryadye-liszt-missa-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-18T13:00:00+03:00",
+      "end": "2026-10-18T15:00:00+03:00",
+      "title": "К юбилею Ференца Листа — Missa Choralis для хора и органа",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Лист",
+        "хор",
+        "орган"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "хор и орган",
+      "price": "проверить актуально",
+      "why": "Неочевидная духовная хоровая музыка Листа — содержательно сильнее стандартного юбилейного гала.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Missa Choralis для хора и органа.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
       "verified": true
     },
     {
@@ -1087,7 +1679,7 @@
         "лекция",
         "предметная культура"
       ],
-      "venue": "Галерея «Другое Дело»",
+      "venue": "Другое Дело",
       "place": "Старая Басманная, 15Ас4 · сад Баумана",
       "location": "Галерея Другое Дело, Москва",
       "people": "Владислава и Полина Марковы",
@@ -1301,6 +1893,34 @@
       "verified": true
     },
     {
+      "id": "zaryadye-meszaros-organ-2026-10-26",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-26T19:00:00+03:00",
+      "end": "2026-10-26T21:00:00+03:00",
+      "title": "Жолт Месарош, орган",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "орган"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4",
+      "location": "Зал Зарядье, Москва",
+      "people": "Жолт Месарош, орган",
+      "price": "проверить актуально",
+      "why": "Ещё одна реальная октябрьская дата органного цикла Зарядья.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная афиша",
+      "details": "Органный концерт.",
+      "source_label": "Зал Зарядье",
+      "source_url": "https://zaryadyehall.ru/events/",
+      "verified": true
+    },
+    {
       "id": "rassvet-arm-percussion-2026-10-26",
       "category": "music",
       "horizon": "buy",
@@ -1331,6 +1951,35 @@
       "verified": true
     },
     {
+      "id": "phil-fiesta-madrigal-2026-10-28",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-28T19:00:00+03:00",
+      "end": "2026-10-28T21:00:00+03:00",
+      "title": "«Фиеста» — ансамбль «Мадригал»",
+      "tags": [
+        "early"
+      ],
+      "visible_tags": [
+        "XV–XVIII вв.",
+        "Мадригал"
+      ],
+      "venue": "Камерный зал Московской филармонии",
+      "place": "Триумфальная площадь, 4/31",
+      "location": "Камерный зал Московской филармонии, Москва",
+      "people": "Ансамбль солистов «Мадригал» Московской филармонии",
+      "price": "проверить актуально",
+      "why": "Музыка Испании и Латинской Америки XV–XVIII веков — прямое попадание в старинную музыку.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Музыка Испании и Латинской Америки XV–XVIII вв.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-28/",
+      "verified": true
+    },
+    {
       "id": "rassvet-popov-radugadesign-2026-10-29",
       "category": "music",
       "horizon": "buy",
@@ -1358,6 +2007,33 @@
       "details": "Два показа: 19:00 и 21:00.",
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/popov/",
+      "verified": true
+    },
+    {
+      "id": "phil-gerzmava-2026-10-29",
+      "category": "music",
+      "horizon": "buy",
+      "featured": false,
+      "start": "2026-10-29T19:00:00+03:00",
+      "end": "2026-10-29T21:00:00+03:00",
+      "title": "Фестиваль камерной вокальной музыки — Хибла Герзмава / Екатерина Ганелина",
+      "tags": [],
+      "visible_tags": [
+        "вокальная",
+        "камерная"
+      ],
+      "venue": "Концертный зал имени П. И. Чайковского",
+      "place": "Триумфальная площадь, 4",
+      "location": "КЗЧ, Москва",
+      "people": "Хибла Герзмава, сопрано · Екатерина Ганелина, фортепиано",
+      "price": "проверить актуально",
+      "why": "Камерный вокальный вечер сильной певицы; в широкой базе Филармонии должен присутствовать.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Программа",
+      "details": "Глинка, Римский-Корсаков, Варламов, Шуман, Форе, Ан, Россини, Куртис.",
+      "source_label": "Московская филармония",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-29/",
       "verified": true
     },
     {
