@@ -85,7 +85,7 @@ function renderCard(e){
     <button type="button" class="editorial editorial-filter ${esc(e.editorial_status)}" data-editorial="${esc(e.editorial_status)}" title="Фильтровать по редакционному статусу">${esc(editorialLabels[e.editorial_status]||'')}</button>
     <div class="title">${esc(e.display_title||e.title)}</div>
     ${Array.isArray(e.composers)&&e.composers.length?`<div class="composer-line"><strong>Композиторы:</strong> ${esc(e.composers.join(' · '))}</div>`:''}
-    ${Array.isArray(e.works)&&e.works.length?`<div class="works-line"><strong>Программа:</strong> ${esc(e.works.slice(0,3).join(' · '))}${e.works.length>3?` <span class="works-more">+ ещё ${e.works.length-3}</span>`:''}</div>`:''}
+    ${Array.isArray(e.works)&&e.works.length?`<div class="works-line"><strong>Программа:</strong> ${esc(e.works.slice(0,3).join(' · '))}${e.works.length>3?` <span class="works-more">+ ещё ${e.works.length-3}</span>`:''}</div>`:(e.program_status?`<div class="works-line program-status"><strong>Программа:</strong> ${esc(e.program_status)}</div>`:'')}
     <div class="venue">${esc(e.venue)}</div>
     <div class="place">${esc(e.place||'')}</div>
     ${(e.people||price) ? `<div class="line">${esc(e.people||'')}${e.people&&price?' · ':''}${price}</div>` : ''}
