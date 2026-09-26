@@ -116,6 +116,6 @@ body[data-density="3"] .works-line{font-size:11px}
 
 /* Brand emblem */
 .brandline{display:flex;align-items:center;gap:10px;margin-bottom:8px}
-.brand-mark{width:46px;height:46px;display:block;flex:0 0 auto;border-radius:10px}
+.brand-mark{width:54px;height:54px;display:block;flex:0 0 auto}
 .brandline .kicker{margin:0}
-@media (max-width:780px){.brand-mark{width:40px;height:40px}.brandline{gap:8px}}
+@media (max-width:780px){.brand-mark{width:46px;height:46px}.brandline{gap:8px}}
