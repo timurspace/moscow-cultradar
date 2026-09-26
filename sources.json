@@ -808,6 +808,91 @@
       },
       "coverage_status": "active",
       "coverage_note": "На момент проверки доступна октябрьская афиша; последующие месяцы добирать после публикации."
+    },
+    {
+      "name": "Книжный клуб «Достоевский»",
+      "role": "venue",
+      "parent_org": "РВИО",
+      "url": "https://dostoevsky-club.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 0,
+      "coverage_2026": {
+        "october": 0,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active",
+      "coverage_note": "Отдельно мониторить физическую площадку на Воздвиженке, 1. Текущая афиша Лектория часто проходит на других площадках Москвы."
+    },
+    {
+      "name": "Музей-усадьба Л.Н. Толстого в Хамовниках",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://tolstoymuseum.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 0,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Музей военной формы",
+      "role": "venue",
+      "parent_org": "РВИО",
+      "url": "https://rvio.histrf.ru/activities/museums",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Библиотека №19 имени Ф.М. Достоевского",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://kulturamos.ru/biblioteka-19/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Государственный исторический музей",
+      "role": "venue",
+      "parent_org": null,
+      "url": "https://shm.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 2,
+      "coverage_2026": {
+        "october": 2,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
+    },
+    {
+      "name": "Открытая коллекция Политехнического музея",
+      "role": "venue",
+      "parent_org": "Политехнический музей",
+      "url": "https://polymus.ru/",
+      "last_checked": "2026-09-26",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "active"
     }
   ],
   "discovery_sources": [
@@ -831,6 +916,13 @@
       "role": "talks-discovery",
       "last_checked": "2026-09-26",
       "note": "Discovery-источник; событие публикуется под реальной площадкой."
+    },
+    {
+      "name": "Лекторий «Достоевский»",
+      "url": "https://dostoverno.ru/events/types/all",
+      "role": "talks-discovery",
+      "last_checked": "2026-09-26",
+      "note": "Отдельный talks-контур. События публиковать под фактической площадкой; Лекторий хранить как organizer/discovery_source."
     }
   ],
   "monitor_entities": [
@@ -862,6 +954,12 @@
       "name": "Место / Антон Фёдоров",
       "url": "",
       "role": "theatre",
+      "last_checked": "2026-09-26"
+    },
+    {
+      "name": "Лекторий «Достоевский»",
+      "url": "https://dostoverno.ru/",
+      "role": "talks-organizer",
       "last_checked": "2026-09-26"
     }
   ],
