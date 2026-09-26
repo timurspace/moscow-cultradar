@@ -1,4 +1,5 @@
 const stateKey = 'afisha-private-v2';
+const densityKey = 'cultradar-density-v1';
 let personal = {};
 let events = [];
 let category = 'all';
@@ -8,6 +9,7 @@ let venueGroups = [];
 let rangeDays = 'all';
 let cardTag = 'all';
 let editorialFilter = 'all';
+let cardDensity = '2';
 
 const editorialLabels = {
   attention: 'ОБРАТИТЬ ВНИМАНИЕ',
@@ -34,6 +36,20 @@ function loadPersonal(){
   catch { personal = {}; }
 }
 function savePersonal(){ localStorage.setItem(stateKey, JSON.stringify(personal)); }
+function loadDensity(){
+  const saved=localStorage.getItem(densityKey);
+  cardDensity=['1','2','3'].includes(saved)?saved:'2';
+}
+function applyDensity(){
+  document.body.dataset.density=cardDensity;
+  document.querySelectorAll('#densityNav button').forEach(b=>b.classList.toggle('active',b.dataset.density===cardDensity));
+}
+function setDensity(value){
+  if(!['1','2','3'].includes(value))return;
+  cardDensity=value;
+  localStorage.setItem(densityKey,cardDensity);
+  applyDensity();
+}
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function eventById(id){ return events.find(e => e.id === id); }
 function dateObj(e){ if(e.start) return new Date(e.start); if(e.date_only) return new Date(e.date_only+'T12:00:00+03:00'); return null; }
@@ -341,6 +357,7 @@ function googleCalendar(e){
 }
 function setupStaticControls(){
   document.querySelectorAll('#categoryNav button').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x===b));applyFilters();}));
+  document.querySelectorAll('#densityNav button').forEach(b=>b.addEventListener('click',()=>setDensity(b.dataset.density)));
   document.querySelectorAll('#rangeNav button').forEach(b=>b.addEventListener('click',()=>{
     rangeDays=b.dataset.range;
     document.querySelectorAll('#rangeNav button').forEach(x=>x.classList.toggle('active',x===b));
@@ -382,7 +399,7 @@ function setupDelegation(){
   document.addEventListener('input',e=>{const ta=e.target.closest('textarea[data-note]');if(!ta)return;saveNote(ta.dataset.id,ta.dataset.note,ta.value);});
 }
 async function init(){
-  loadPersonal(); setupStaticControls(); setupDelegation();
+  loadPersonal(); loadDensity(); setupStaticControls(); setupDelegation(); applyDensity();
   try{
     const stamp=Date.now();
     const [eventsRes,sourcesRes]=await Promise.all([
