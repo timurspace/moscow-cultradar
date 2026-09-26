@@ -1,0 +1,32 @@
+name: Культрадар — аудит данных
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "events.json"
+      - "sources.json"
+      - "validate.js"
+
+jobs:
+  audit:
+    name: Проверка афиши
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run audit
+        run: node validate.js --md
+
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cultradar-audit-report
+          path: audit-report.md
