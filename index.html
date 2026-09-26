@@ -1,388 +1,71 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Культрадар — музыка, театр и опера в Москве</title>
-<style>
-:root{
-  --bg:#f4f1ea; --paper:#fffdf8; --ink:#171717; --muted:#716d65; --line:#d8d1c5;
-  --chip:#ece7dd; --accent:#283c33; --warn:#8a4b08; --danger:#8c2d1e; --shadow:0 10px 28px rgba(0,0,0,.055);
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-a{color:inherit}
-.shell{max-width:1180px;margin:auto;padding:20px}
-header{padding:22px 0 18px;border-bottom:1px solid var(--line)}
-.kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(34px,6vw,60px);line-height:1;margin:8px 0 10px;font-weight:500;max-width:900px}
-.sub{color:var(--muted);line-height:1.5;max-width:820px}
-.nav,.filters,.privatebar{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-button,.button,select{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:9px 13px;font-size:14px}
-button{cursor:pointer}
-button.active{background:var(--ink);color:white;border-color:var(--ink)}
-.filters button.on{background:var(--chip)}
-select{appearance:auto}
-.note{font-size:12px;color:var(--muted)}
-.privatebar{align-items:center}
-.plans{margin-top:18px;background:#ece8de;border:1px solid var(--line);border-radius:18px;padding:14px 16px}
-.plans h3{font:500 20px Georgia,serif;margin:0 0 8px}
-.plans-list{display:flex;gap:8px;flex-wrap:wrap}
-.plan-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:13px}
-.plan-item strong{display:block}
-.plan-empty{font-size:13px;color:var(--muted)}
-.legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:12px;color:var(--muted)}
-.legend span{display:inline-flex;align-items:center;gap:5px}
-.swatch{width:12px;height:12px;border-radius:3px;display:inline-block;background:white}
-.swatch.want{border:2px solid #b88428}.swatch.bought{border:2px solid #3f7258}.swatch.later{border:2px solid #9b968d}.swatch.skip{background:#c9c5bd;opacity:.55}
-section{padding:26px 0 8px}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:14px}
-h2{font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:500;margin:0}
-.section-head p{margin:4px 0 0;color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
-.card{grid-column:span 6;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:330px;transition:.18s ease}
-.card.personal-want{border:2px solid #b88428}
-.card.personal-bought{border:2px solid #3f7258;box-shadow:0 0 0 3px rgba(63,114,88,.10),var(--shadow)}
-.card.personal-later{border:2px solid #9b968d}
-.card.personal-skip{opacity:.44;filter:grayscale(.35)}
-.card.personal-timofey::after{content:"с Тимофеем";position:absolute;right:14px;top:14px;font-size:11px;padding:4px 7px;border-radius:999px;background:#e6edf4;border:1px solid #bdcbd8}
-.card{position:relative}
-.card.feature{grid-column:span 12;display:grid;grid-template-columns:120px 1fr;gap:20px;min-height:auto}
-.datebox{display:flex;flex-direction:column}
-.datebox .date{font:500 34px Georgia,serif}
-.datebox .dow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
-.meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-.tag{font-size:12px;padding:5px 8px;background:var(--chip);border-radius:999px}
-.tag.music{background:#e8efe9}.tag.theatre{background:#efe7e3}.tag.opera{background:#ece7f2}
-.title{font:500 25px/1.08 Georgia,serif;margin:0 0 8px}
-.venue{font-weight:650;margin-top:2px}
-.place{color:var(--muted);font-size:13px;margin-top:2px}
-.line{color:var(--muted);font-size:14px;line-height:1.45;margin-top:7px}
-.why{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:14px;line-height:1.45}
-.statusline{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px;font-size:12px}
-.status{padding:5px 8px;border:1px solid var(--line);border-radius:999px}
-.status.decide{background:#fbf0df;border-color:#c79a5d}
-.status.urgent{color:var(--danger);border-color:#cf9b91}
-.details{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px}
-details summary{cursor:pointer;font-size:13px;font-weight:650}
-details .full{font-size:13px;color:#4f4c46;line-height:1.55;margin-top:8px;white-space:pre-line}
-.card-footer{margin-top:auto;padding-top:16px;display:flex;gap:8px;justify-content:space-between;align-items:center;flex-wrap:wrap}
-.actions,.private-controls{display:flex;gap:6px;flex-wrap:wrap}
-.actions button,.private-controls button{border-radius:10px;padding:7px 9px;font-size:12px;background:white}
-.private-controls button.selected{background:var(--accent);color:#fff;border-color:var(--accent)}
-.calendar-added{font-size:11px;color:var(--accent)}
-.conflict{border-left:4px solid #7e2a21;padding-left:12px;color:#64271f;font-size:13px;margin-top:10px}
-footer{border-top:1px solid var(--line);margin-top:30px;padding:24px 0 38px;color:var(--muted);font-size:13px}
-@media (max-width:780px){
- .shell{padding:14px}.nav{position:sticky;top:0;z-index:5;background:rgba(244,241,234,.96);backdrop-filter:blur(10px);padding:9px 0}
- .card,.card.feature{grid-column:span 12;display:flex;min-height:auto}.card.feature{gap:0}
- .datebox{flex-direction:row;gap:8px;align-items:baseline;margin-bottom:8px}.datebox .date{font-size:25px}
- .section-head{display:block}.title{font-size:23px}.card-footer{align-items:flex-start;flex-direction:column}
- .private-controls,.actions{width:100%}.private-controls button,.actions button{flex:1}
- select{max-width:100%}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Культрадар — музыка, театр и опера в Москве</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="shell">
-<header>
-  <div class="kicker">Культрадар · рабочая версия</div>
-  <h1>Музыка, театр и опера, которые легко пропустить</h1>
-  <div class="sub">Сайт — для поиска и решения. Календарь — для того, куда Вы уже решили идти, с полной программой и историей посещений. Публичная афиша общая; личные статусы хранятся только у Вас.</div>
+  <div class="shell">
+    <header>
+      <div class="kicker">Культрадар · рабочая версия</div>
+      <h1>Музыка, театр и опера, которые легко пропустить</h1>
+      <div class="sub">Сайт — для поиска и решения. Календарь — для того, куда Вы уже решили идти. Редакционный интерес, билетная срочность и Ваше личное решение здесь намеренно разведены.</div>
+      <div id="dataNote" class="data-note" hidden></div>
 
-  <nav class="nav" id="categoryNav">
-    <button class="active" data-category="all">Все</button>
-    <button data-category="music">Музыка</button>
-    <button data-category="theatre">Театр</button>
-    <button data-category="opera">Опера</button>
-  </nav>
+      <nav class="nav" id="categoryNav" aria-label="Разделы">
+        <button class="active" data-category="all">Все</button>
+        <button data-category="music">Музыка</button>
+        <button data-category="theatre">Театр</button>
+        <button data-category="opera">Опера</button>
+      </nav>
 
-  <div class="filters" id="tagFilters">
-    <button data-tag="bach">Бах</button>
-    <button data-tag="early">Старинная</button>
-    <button data-tag="modern">XX–XXI</button>
-    <button data-tag="rare">Редкое</button>
-    <button data-tag="psych">Психологическое</button>
-    <button data-tag="long">4+ часа</button>
-    <select id="venueFilter" aria-label="Фильтр по площадке">
-      <option value="all">Площадка: все</option>
-    </select>
-  </div>
+      <div class="filters" id="tagFilters">
+        <button data-tag="bach">Бах</button>
+        <button data-tag="early">Старинная</button>
+        <button data-tag="modern">XX–XXI</button>
+        <button data-tag="rare">Редкое</button>
+        <button data-tag="psych">Психологическое</button>
+        <button data-tag="long">4+ часа</button>
+        <select id="venueFilter" aria-label="Фильтр по площадке">
+          <option value="all">Площадка: все</option>
+        </select>
+      </div>
 
-  <div class="privatebar">
-    <button id="exportBtn">Экспорт личных отметок</button>
-    <label class="button" for="importInput">Импорт JSON</label>
-    <input id="importInput" type="file" accept="application/json" hidden>
-    <span class="note">Для первой версии: локально в браузере + перенос JSON между телефоном и компьютером.</span>
-  </div>
+      <div class="privatebar">
+        <button id="exportBtn">Экспорт личных данных</button>
+        <label class="button" for="importInput">Импорт JSON</label>
+        <input id="importInput" type="file" accept="application/json" hidden>
+        <span class="note">Статусы и заметки остаются в localStorage этого браузера. В публичный GitHub они не отправляются.</span>
+      </div>
 
-  <div class="plans">
-    <h3>Мои планы</h3>
-    <div id="plansList" class="plans-list"><span class="plan-empty">Пока ничего не отмечено.</span></div>
-    <div class="legend">
-      <span><i class="swatch want"></i> хочу сходить</span>
-      <span><i class="swatch bought"></i> билет куплен</span>
-      <span><i class="swatch later"></i> решить позже</span>
-      <span><i class="swatch skip"></i> пропустить</span>
-    </div>
-  </div>
-</header>
-
-<section>
-  <div class="section-head">
-    <div><h2>Ближайшие</h2><p>Следующие 2–3 недели — то, что требует решения сейчас. Театр и опера могут появляться здесь намного раньше даты, если билеты уже уходят.</p></div>
-    <div class="note">площадка видна сразу · полная программа раскрывается</div>
-  </div>
-  <div class="grid">
-
-    <article class="card feature event" data-id="wtc2" data-category="music" data-tags="bach,rare" data-venue="Малый зал Московской консерватории"
-      data-title="И. С. Бах — Хорошо темперированный клавир, II том"
-      data-start="2026-10-11T19:00:00" data-end="2026-10-11T22:00:00"
-      data-location="Малый зал Московской консерватории, Большая Никитская ул., 13/6, Москва"
-      data-url="https://www.mosconsv.ru/">
-      <div class="datebox"><span class="dow">Вс · 19:00</span><span class="date">11 окт</span></div>
-      <div>
-        <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">Бах</span><span class="tag">монографическое</span></div>
-        <div class="title">И. С. Бах — Хорошо темперированный клавир, II том</div>
-        <div class="venue">Малый зал Московской консерватории</div>
-        <div class="place">Большая Никитская, 13/6 · Арбатская / Библиотека им. Ленина</div>
-        <div class="line">Виктор Гинзбург · 300–3000 ₽</div>
-        <div class="why"><strong>Почему попало:</strong> полный II том ХТК в живом исполнении — редкий формат; здесь важен сам масштаб целого цикла.</div>
-        <div class="statusline"><span class="status">серьёзный кандидат</span><span class="status">билеты: спокойно</span></div>
-        <div class="details"><details><summary>Полная программа / описание</summary><div class="full">И. С. Бах. Хорошо темперированный клавир, II том — 24 прелюдии и фуги BWV 870–893.
-Исполнитель: Виктор Гинзбург, фортепиано.
-В календарь уйдёт это полное описание вместе с площадкой и ссылкой.</div></details></div>
-        <div class="card-footer">
-          <div class="actions"><button class="calendarBtn">Добавить в календарь</button><a class="button" href="https://www.mosconsv.ru/" target="_blank" rel="noopener">Источник</a></div>
-          <div class="private-controls" data-private="wtc2"><button data-state="want">Хочу</button><button data-state="bought">Куплено</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div>
+      <div class="plans" id="plansBox">
+        <div class="plans-head">
+          <div><h3>Мои планы</h3><div class="load" id="loadSummary"></div></div>
+          <button id="togglePlans" class="small-btn" aria-expanded="true">Свернуть</button>
+        </div>
+        <div id="plansBody">
+          <div id="plansList" class="plans-list"><span class="plan-empty">Пока ничего не отмечено.</span></div>
+          <div class="legend">
+            <span><i class="swatch want"></i> собираюсь</span>
+            <span><i class="swatch bought"></i> билет куплен</span>
+            <span><i class="swatch later"></i> решить позже</span>
+            <span><i class="swatch skip"></i> пропустить</span>
+          </div>
         </div>
       </div>
-    </article>
+    </header>
 
-    <article class="card event" data-id="historic2" data-category="music" data-tags="rare" data-venue="ГЭС-2"
-      data-title="Исторические концерты · концерт II" data-start="2026-10-04T18:00:00" data-end="2026-10-04T22:00:00"
-      data-location="Дом культуры ГЭС-2, Болотная наб., 15, Москва" data-url="#">
-      <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">редкость</span><span class="tag">цикл</span></div>
-      <div class="title">4 октября · «Исторические концерты», концерт II</div>
-      <div class="venue">ГЭС-2 · Актовый зал</div>
-      <div class="place">Болотная наб., 15 · Кропоткинская / Полянка</div>
-      <div class="line">Никита Мндоянц, Валентин Малинин, Юрий Фаворин · восемь сонат Бетховена</div>
-      <div class="why"><strong>Почему попало:</strong> реконструкция рубинштейновского формата слушания; четыре часа — часть исторического эксперимента.</div>
-      <div class="statusline"><span class="status decide">лучше решить заранее</span><span class="status urgent">билеты: стоит покупать</span></div>
-      <div class="details"><details><summary>Полная программа / описание</summary><div class="full">Полная программа должна храниться здесь целиком, а не только в коротком резюме карточки. В боевой версии сюда подтягивается официальный список сонат и исполнителей.</div></details></div>
-      <div class="card-footer"><div class="actions"><button class="calendarBtn">В календарь</button></div><div class="private-controls" data-private="historic2"><button data-state="want">Хочу</button><button data-state="bought">Куплено</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-    </article>
+    <main id="mainContent" aria-live="polite">
+      <div class="loading">Загружаю афишу…</div>
+    </main>
 
-    <article class="card event" data-id="utopia" data-category="music" data-tags="modern,rare" data-venue="Камерный зал Московской филармонии"
-      data-title="В плену утопии" data-start="2026-10-06T19:00:00" data-end="2026-10-06T21:00:00"
-      data-location="Камерный зал Московской филармонии, Москва" data-url="https://meloman.ru/">
-      <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">XX век</span><span class="tag">редкое</span></div>
-      <div class="title">6 октября · «В плену утопии»</div>
-      <div class="venue">Камерный зал Московской филармонии</div>
-      <div class="place">Москва · площадка сразу читается до раскрытия деталей</div>
-      <div class="line">Студия новой музыки · Хауэр, Хиндемит, Рославец</div>
-      <div class="why"><strong>Почему попало:</strong> редкий авангард первой половины XX века; Рославец и Хауэр в одном вечере — уже причина смотреть внимательно.</div>
-      <div class="statusline"><span class="status">серьёзный кандидат</span><span class="status">билеты: спокойно</span></div>
-      <div class="details"><details><summary>Полная программа / описание</summary><div class="full">В рабочей версии здесь будет официальный состав произведений, исполнители, ведущий/лектор (если есть), длительность и ссылка на источник.</div></details></div>
-      <div class="card-footer"><div class="actions"><button class="calendarBtn">В календарь</button><a class="button" href="https://meloman.ru/" target="_blank">Источник</a></div><div class="private-controls" data-private="utopia"><button data-state="want">Хочу</button><button data-state="bought">Куплено</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-    </article>
-
-    <article class="card event" data-id="karennina" data-category="theatre" data-tags="psych,long,rare" data-venue="Театр Маяковского"
-      data-title="Каренина. Том второй" data-start="2026-10-24T17:00:00" data-end="2026-10-24T22:30:00"
-      data-location="Театр Маяковского, Москва" data-url="#">
-      <div class="meta"><span class="tag theatre">ТЕАТР</span><span class="tag">психологическое</span><span class="tag">5 ч 30 мин</span></div>
-      <div class="title">24 октября · «Каренина. Том второй»</div>
-      <div class="venue">Театр Маяковского</div>
-      <div class="place">Б. Никитская / Тверская зона · точный адрес будет в боевой карточке</div>
-      <div class="line">Режиссёр Егор Перегудов</div>
-      <div class="why"><strong>Почему попало:</strong> масштабная психологическая работа со второй половиной романа; тот случай, когда длина — часть замысла.</div>
-      <div class="statusline"><span class="status">серьёзный кандидат</span><span class="status">билеты: стоит следить</span></div>
-      <div class="details"><details><summary>Полное описание / критика</summary><div class="full">Вместо рекламной аннотации здесь можно хранить короткое редакционное резюме + 1–2 ссылки на содержательные рецензии. Для театра это полезнее, чем копировать пресс-релиз целиком.</div></details></div>
-      <div class="card-footer"><div class="actions"><button class="calendarBtn">В календарь</button></div><div class="private-controls" data-private="karennina"><button data-state="want">Хочу</button><button data-state="bought">Куплено</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-    </article>
-
+    <footer>
+      Публичные события хранятся в <code>events.json</code>. Личные статусы и заметки — только в Вашем браузере. «Что осталось?» — не рейтинг и не отзыв, а короткий след события.
+    </footer>
   </div>
-</section>
-
-<section>
-  <div class="section-head">
-    <div><h2>Купить заранее</h2><p>Событие может быть через 1–4 месяца и дальше: сюда попадает всё, где решение о билете нужно принять уже сейчас.</p></div>
-  </div>
-  <div class="grid">
-    <article class="card feature event" data-id="martynov-requiem" data-category="music" data-tags="modern,rare" data-venue="Концертный зал имени П. И. Чайковского"
-      data-title="Владимир Мартынов — Реквием" data-start="2026-10-30T19:00:00" data-end="2026-10-30T21:30:00"
-      data-location="Концертный зал имени П. И. Чайковского, Триумфальная площадь, 4, Москва"
-      data-url="https://meloman.ru/">
-      <div class="datebox"><span class="dow">Пт · 19:00</span><span class="date">30 окт</span></div>
-      <div>
-        <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">премьера</span><span class="tag">watchlist</span></div>
-        <div class="title">Владимир Мартынов — «Реквием»</div>
-        <div class="venue">Концертный зал имени П. И. Чайковского</div>
-        <div class="place">Триумфальная площадь, 4 · Маяковская</div>
-        <div class="line">Российский национальный оркестр · Фёдор Безносиков · хор им. Свешникова · Татьяна Гринденко, скрипка · Ярослав Тимофеев, ведущий</div>
-        <div class="why"><strong>Почему попало:</strong> премьерное исполнение крупного нового сочинения Мартынова — ровно тот дальний приоритет, который нельзя обнаруживать за неделю.</div>
-        <div class="statusline"><span class="status decide">лучше решить заранее</span><span class="status">билеты: проверить актуально</span></div>
-        <div class="details"><details open><summary>Полная программа / описание</summary><div class="full">Владимир Мартынов. «Реквием» для солистов, хора и оркестра — премьера.
-Российский национальный оркестр.
-Дирижёр — Фёдор Безносиков.
-Государственный академический русский хор имени А. В. Свешникова.
-Татьяна Гринденко — скрипка.
-Ярослав Тимофеев — ведущий.</div></details></div>
-        <div class="card-footer"><div class="actions"><button class="calendarBtn">Добавить в календарь</button><a class="button" href="https://meloman.ru/" target="_blank">Филармония</a></div><div class="private-controls" data-private="martynov-requiem"><button data-state="want">Хочу</button><button data-state="bought">Куплено</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section>
-  <div class="section-head"><div><h2>Дальний радар</h2><p>Редкие вещи: музыка обычно на 1–3 месяца, театр и опера — до 4–6 месяцев.</p></div></div>
-  <div class="grid">
-    <article class="card event" data-id="wtc1" data-category="music" data-tags="bach,rare" data-venue="Watchlist"
-      data-title="ХТК, I том — живое исполнение" data-start="" data-end="" data-location="Москва" data-url="#">
-      <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">Бах</span><span class="tag">watchlist</span></div>
-      <div class="title">ХТК, I том — живое исполнение</div>
-      <div class="venue">Независимый watchlist</div>
-      <div class="place">Площадка и дата ещё не найдены</div>
-      <div class="why"><strong>Почему попало:</strong> как только объявится полный I том, он должен всплыть независимо от площадки.</div>
-      <div class="statusline"><span class="status">обратить внимание</span></div>
-      <div class="card-footer"><div class="private-controls" data-private="wtc1"><button data-state="want">Хочу</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-    </article>
-    <article class="card event" data-id="rameau" data-category="music" data-tags="early,rare" data-venue="Watchlist"
-      data-title="Рамо на современном рояле" data-start="" data-end="" data-location="Москва" data-url="#">
-      <div class="meta"><span class="tag music">МУЗЫКА</span><span class="tag">Рамо</span><span class="tag">рояль</span></div>
-      <div class="title">Рамо на современном рояле</div>
-      <div class="venue">Независимый watchlist</div>
-      <div class="place">Ждём содержательную большую программу</div>
-      <div class="why"><strong>Почему попало:</strong> редкая интерпретационная линия; важны исполнитель и масштаб программы.</div>
-      <div class="statusline"><span class="status">обратить внимание</span></div>
-      <div class="card-footer"><div class="private-controls" data-private="rameau"><button data-state="want">Хочу</button><button data-state="later">Позже</button><button data-state="timofey">С Тимофеем</button><button data-state="skip">Пропустить</button></div></div>
-    </article>
-  </div>
-</section>
-
-<footer>
-  Прототип интерфейса. Боевой сайт будет строиться из структурированных данных; карточки смогут автоматически формировать .ics с полной программой и ссылкой на источник.
-</footer>
-</div>
-
-<script>
-const stateKey='afisha-private-v2';
-let personal={};
-try{personal=JSON.parse(localStorage.getItem(stateKey)||'{}')}catch(e){personal={}}
-function save(){localStorage.setItem(stateKey,JSON.stringify(personal))}
-function paintPrivate(){
-  document.querySelectorAll('.event').forEach(card=>{
-    const id=card.dataset.id;
-    const rec=personal[id]||{};
-    card.classList.remove('personal-want','personal-bought','personal-later','personal-skip','personal-timofey');
-    if(rec.state) card.classList.add('personal-'+rec.state);
-    if(rec.timofey) card.classList.add('personal-timofey');
-  });
-  document.querySelectorAll('[data-private]').forEach(box=>{
-    const id=box.dataset.private;
-    const rec=personal[id]||{};
-    box.querySelectorAll('button').forEach(b=>{
-      if(b.dataset.state==='timofey') b.classList.toggle('selected',!!rec.timofey);
-      else b.classList.toggle('selected',rec.state===b.dataset.state);
-    });
-  });
-  renderPlans();
-}
-function renderPlans(){
-  const host=document.getElementById('plansList');
-  const cards=[...document.querySelectorAll('.event')];
-  const items=cards.filter(c=>{
-    const r=personal[c.dataset.id]||{};
-    return (r.state && r.state!=='skip') || r.timofey || r.calendar;
-  }).map(c=>{
-    const r=personal[c.dataset.id]||{};
-    const label=r.state==='bought'?'Билет куплен':r.state==='want'?'Хочу':r.state==='later'?'Решить позже':'';
-    const extra=r.timofey?' · с Тимофеем':'';
-    return `<div class="plan-item"><strong>${c.dataset.title||c.querySelector('.title')?.textContent||'Событие'}</strong>${label}${extra}</div>`;
-  });
-  host.innerHTML=items.length?items.join(''):'<span class="plan-empty">Пока ничего не отмечено.</span>';
-}
-paintPrivate();
-
-document.addEventListener('click',e=>{
-  const b=e.target.closest('[data-private] button');
-  if(!b)return;
-  const id=b.closest('[data-private]').dataset.private;
-  personal[id]=personal[id]||{};
-  if(b.dataset.state==='timofey'){
-    personal[id].timofey=!personal[id].timofey;
-  } else {
-    personal[id].state=personal[id].state===b.dataset.state?null:b.dataset.state;
-  }
-  const r=personal[id];
-  if(!r.state && !r.timofey && !r.calendar) delete personal[id];
-  save(); paintPrivate();
-});
-
-let category='all', tags=new Set(), venue='all';
-function applyFilters(){
-  document.querySelectorAll('.event').forEach(c=>{
-    const catOk=category==='all'||c.dataset.category===category;
-    const ctags=(c.dataset.tags||'').split(',');
-    const tagOk=[...tags].every(t=>ctags.includes(t));
-    const venueOk=venue==='all'||c.dataset.venue===venue;
-    c.style.display=(catOk&&tagOk&&venueOk)?'':'none';
-  });
-}
-document.querySelectorAll('#categoryNav button').forEach(b=>b.onclick=()=>{
-  category=b.dataset.category;
-  document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x===b));
-  applyFilters();
-});
-document.querySelectorAll('#tagFilters button').forEach(b=>b.onclick=()=>{
-  const t=b.dataset.tag; tags.has(t)?tags.delete(t):tags.add(t); b.classList.toggle('on',tags.has(t)); applyFilters();
-});
-const venueSelect=document.getElementById('venueFilter');
-[...new Set([...document.querySelectorAll('.event')].map(x=>x.dataset.venue).filter(v=>v&&v!=='Watchlist'))].sort()
-.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;venueSelect.appendChild(o)});
-venueSelect.onchange=()=>{venue=venueSelect.value;applyFilters()};
-
-function icsEscape(s=''){return s.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;')}
-function fmtICS(dt){
-  if(!dt)return '';
-  const d=new Date(dt);
-  const p=n=>String(n).padStart(2,'0');
-  return d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+'T'+p(d.getUTCHours())+p(d.getUTCMinutes())+p(d.getUTCSeconds())+'Z';
-}
-document.querySelectorAll('.calendarBtn').forEach(btn=>btn.addEventListener('click',()=>{
-  const card=btn.closest('.event');
-  const details=card.querySelector('details .full')?.innerText.trim()||'';
-  const why=card.querySelector('.why')?.innerText.trim()||'';
-  const url=card.dataset.url||'';
-  const lines=[
-    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Moscow Selective Afisha//RU','CALSCALE:GREGORIAN',
-    'BEGIN:VEVENT',
-    'UID:'+Date.now()+'-'+card.dataset.id+'@afisha.local',
-    'DTSTART:'+fmtICS(card.dataset.start),
-    'DTEND:'+fmtICS(card.dataset.end),
-    'SUMMARY:'+icsEscape(card.dataset.title||'Событие'),
-    'LOCATION:'+icsEscape(card.dataset.location||''),
-    'DESCRIPTION:'+icsEscape((details?details+'\\n\\n':'')+why+(url?'\\n\\nИсточник: '+url:'')),
-    url && url!=='#' ? 'URL:'+url : '',
-    'END:VEVENT','END:VCALENDAR'
-  ].filter(Boolean);
-  const blob=new Blob([lines.join('\r\n')],{type:'text/calendar;charset=utf-8'});
-  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=(card.dataset.id||'event')+'.ics';a.click();URL.revokeObjectURL(a.href);
-  personal[card.dataset.id]=personal[card.dataset.id]||{};
-  personal[card.dataset.id].calendar=true; save();
-  const mark=document.createElement('span');mark.className='calendar-added';mark.textContent='добавлено в .ics';
-  btn.replaceWith(mark);
-}));
-
-document.getElementById('exportBtn').onclick=()=>{
-  const blob=new Blob([JSON.stringify(personal,null,2)],{type:'application/json'});
-  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='afisha-private.json';a.click();URL.revokeObjectURL(a.href)
-};
-document.getElementById('importInput').onchange=async e=>{
-  const f=e.target.files[0]; if(!f)return;
-  try{personal=JSON.parse(await f.text())||{};save();paintPrivate();alert('Личные отметки импортированы.')}
-  catch(err){alert('Не удалось прочитать JSON.')}
-};
-</script>
+  <script src="app.js" defer></script>
 </body>
 </html>
