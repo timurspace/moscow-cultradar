@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Культрадар — лира и театральная маска</title>
+  <g fill="none" stroke="#202428" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 68 C10 56 11 34 23 19 C28 13 34 14 36 20 C38 25 35 31 30 34" stroke-width="8"/>
+    <path d="M48 34 C43 30 41 24 43 19 C45 14 51 13 56 18 C61 23 63 31 61 39" stroke-width="8"/>
+    <path d="M18 68 C25 77 37 80 49 76" stroke-width="8"/>
+    <path d="M31 31 V68 M38 27 V71 M45 31 V69" stroke-width="3.8"/>
+  </g>
+  <path d="M54 35 C65 30 78 35 82 46 C86 58 80 73 67 82 C57 77 51 68 51 57 C51 48 52 41 54 35 Z" fill="#202428"/>
+  <path d="M58 49 C62 46 67 46 70 49 C66 52 62 52 58 49 Z" fill="#f4f1ea"/>
+  <path d="M72 49 C76 46 80 46 82 49 C79 52 75 52 72 49 Z" fill="#f4f1ea"/>
+  <path d="M66 61 C68 63 71 63 73 61" fill="none" stroke="#f4f1ea" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M10 61 C26 26 63 12 85 28" fill="none" stroke="#b88428" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M84 28 C88 40 87 56 81 68" fill="none" stroke="#b88428" stroke-width="4.8" stroke-linecap="round"/>
+  <path d="M81 16 L84 24 L92 27 L84 30 L81 39 L78 30 L70 27 L78 24 Z" fill="#b88428"/>
+</svg>
