@@ -41,6 +41,7 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .venue-filter-box>summary::-webkit-details-marker{display:none}
 .venue-filter-box[open]>summary{background:var(--chip)}
 .venue-filter-panel{position:absolute;z-index:20;top:calc(100% + 8px);left:0;width:min(520px,calc(100vw - 28px));max-height:70vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:0 14px 36px rgba(0,0,0,.14);padding:12px}
+.venue-filter-head{display:none}
 .venue-groups{display:grid;gap:8px;margin-top:8px}
 .venue-group{border-top:1px solid var(--line);padding-top:8px}
 .venue-check{display:flex;align-items:flex-start;gap:8px;font-size:13px;line-height:1.35;cursor:pointer;padding:5px 4px;border-radius:8px}
@@ -50,7 +51,14 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .venue-parent{font-size:13px}
 .venue-children{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;padding-left:18px}
 .venue-other-title{padding:5px 4px;font-size:13px}
-@media (max-width:780px){.venue-filter-box{width:100%}.venue-filter-box>summary{max-width:100%;width:100%}.venue-filter-panel{position:fixed;left:14px;right:14px;top:120px;width:auto;max-height:70vh}.venue-children{grid-template-columns:1fr}}
+@media (max-width:780px){
+  .venue-filter-box{width:100%}
+  .venue-filter-box>summary{max-width:100%;width:100%;min-height:44px;display:flex;align-items:center}
+  .venue-filter-panel{position:fixed;left:12px;right:12px;top:72px;bottom:12px;width:auto;max-height:none;padding:0 12px 12px;overscroll-behavior:contain}
+  .venue-filter-head{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--paper);padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:6px}
+  .venue-close{min-height:40px;padding:8px 16px;border-radius:999px;font-size:14px;font-weight:700}
+  .venue-children{grid-template-columns:1fr}
+}
 
 /* Clickable editorial status filters */
 .editorial-filter{border:0;cursor:pointer;font-family:inherit;color:inherit}
