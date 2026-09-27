@@ -151,6 +151,7 @@ function populateVenues(){
   const others=eventVenues.filter(v=>!grouped.has(v));
   const venueRow=v=>`<label class="venue-check venue-child"><input type="checkbox" data-venue="${esc(v)}"><span>${esc(v)}</span></label>`;
   host.innerHTML=`
+    <div class="venue-filter-head"><strong>Площадки</strong><button type="button" class="venue-close" aria-label="Закрыть выбор площадок">Готово</button></div>
     <label class="venue-check venue-all"><input type="checkbox" data-venue-all><span>Все площадки</span></label>
     <div class="venue-groups">
       ${groups.map((g,i)=>`<div class="venue-group">
@@ -372,6 +373,9 @@ function setupStaticControls(){
   }));
   document.querySelectorAll('#tagFilters button').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.tag;tags.has(t)?tags.delete(t):tags.add(t);b.classList.toggle('on',tags.has(t));applyFilters();}));
   document.getElementById('venueFilters').addEventListener('change',handleVenueFilterChange);
+  document.getElementById('venueFilters').addEventListener('click',e=>{
+    if(e.target.closest('.venue-close')) document.getElementById('venueFilterBox').open=false;
+  });
   document.getElementById('exportBtn').addEventListener('click',()=>{const payload={schema_version:4,exported_at:new Date().toISOString(),personal};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cultradar-private.json';a.click();URL.revokeObjectURL(a.href);});
   document.getElementById('importInput').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());personal=(data&&data.personal)||data||{};savePersonal();renderMain();alert('Личные данные импортированы.');}catch{alert('Не удалось прочитать JSON.');}e.target.value='';});
   document.getElementById('togglePlans').addEventListener('click',e=>{const body=document.getElementById('plansBody');const hidden=body.hidden=!body.hidden;e.target.textContent=hidden?'Развернуть':'Свернуть';e.target.setAttribute('aria-expanded',String(!hidden));});
