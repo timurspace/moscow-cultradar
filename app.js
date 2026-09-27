@@ -151,7 +151,7 @@ function populateVenues(){
   const others=eventVenues.filter(v=>!grouped.has(v));
   const venueRow=v=>`<label class="venue-check venue-child"><input type="checkbox" data-venue="${esc(v)}"><span>${esc(v)}</span></label>`;
   host.innerHTML=`
-    <div class="venue-filter-head"><strong>Площадки</strong><button type="button" class="venue-close" aria-label="Закрыть выбор площадок">Готово</button></div>
+    <div class="venue-filter-head"><strong>Площадки</strong><button type="button" class="venue-close" aria-label="Свернуть выбор площадок">Свернуть</button></div>
     <label class="venue-check venue-all"><input type="checkbox" data-venue-all><span>Все площадки</span></label>
     <div class="venue-groups">
       ${groups.map((g,i)=>`<div class="venue-group">
@@ -159,7 +159,7 @@ function populateVenues(){
         <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
       </div>`).join('')}
       ${others.length?`<div class="venue-group"><div class="venue-parent venue-other-title"><strong>Другие площадки</strong></div><div class="venue-children">${others.map(venueRow).join('')}</div></div>`:''}
-    </div>`;
+    </div><div class="venue-filter-foot"><button type="button" class="venue-close venue-close-bottom" aria-label="Свернуть выбор площадок">Свернуть площадки</button></div>`;
   host._venueGroupData=groups;
   updateVenueFilterUI();
 }
