@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-27",
-    "note": "Повторный sweep Московской филармонии за декабрь 2026 завершён: КЗЧ + Камерный зал сопоставлены с актуальной афишей и разделом изменений; добавлена «Безумная Италия» 11 декабря, обновлён sold out Шнитке 9 декабря.",
+    "note": "Контрольный sweep Большого и Малого залов Зарядья за октябрь–декабрь 2026: добавлено 42 подтверждённых событий; coverage теперь октябрь 27, ноябрь 17, декабрь 24. Отдельные позднедекабрьские кандидаты без достаточной текущей официальной карточки не добавлялись.",
     "source_schema_version": 2
   },
   "events": [
@@ -4057,6 +4057,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-leonov-evstigneev-2026-10-06",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-06T19:00:00+03:00",
+      "title": "К 100-летию Евгения Леонова и Евгения Евстигнеева",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Российский государственный симфонический оркестр кинематографии · Сергей Скрипка",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "praktika-foreign-letters-2026-10-06",
       "category": "theatre",
       "horizon": "near",
@@ -4363,6 +4396,39 @@
       "source_label": "Театр «Сфера»",
       "source_url": "https://spheratheatre.nakaretnom3.ru/performances/dom-bernardy-alby/",
       "verified": true
+    },
+    {
+      "id": "zaryadye-rhythm-synergy-2026-10-07",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-07T19:00:00+03:00",
+      "title": "Rhythm Synergy — «Home: Пульс Планеты»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Ансамбль солистов Rhythm Synergy",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "rassvet-picasso-2026-10-07",
@@ -4958,6 +5024,39 @@
       "works": [
         "Квартет №4."
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-kramer-akkuratov-2026-10-08",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-08T19:00:00+03:00",
+      "title": "Даниил Крамер / Олег Аккуратов / НФОР",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Даниил Крамер · Олег Аккуратов · НФОР · Алексей Верещагин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -6192,6 +6291,39 @@
       "monitor_entities": [
         "Театр.doc"
       ]
+    },
+    {
+      "id": "zaryadye-bach-gamba-2026-10-11",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-11T13:00:00+03:00",
+      "title": "Бах — сонаты для виолы да гамба и облигатного клавесина",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Ангелина Николовска · Ирина Красная",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-mozart-requiem-wagner-2026-10-11",
@@ -8848,6 +8980,39 @@
       "date_only": "2026-10-17"
     },
     {
+      "id": "zaryadye-spivakov-scholars-2026-10-17",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-17T13:00:00+03:00",
+      "title": "Стипендиаты Международного благотворительного фонда Владимира Спивакова",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Глеб Монастыршин, Вера Шанина, Мария Горшенина и др.",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/forkids/6819/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "doc-lonely-hearts-2026-10-17",
       "category": "theatre",
       "horizon": "near",
@@ -9233,6 +9398,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-emelyanov-2026-10-17",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-17T19:00:00+03:00",
+      "title": "Константин Емельянов, фортепиано",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Константин Емельянов",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "rassvet-euphoria-mozart-2026-10-17",
       "category": "music",
       "horizon": "near",
@@ -9550,6 +9748,39 @@
       "verified": true,
       "start": "2026-10-18T13:00:00+03:00",
       "end": "2026-10-18T11:10:00.000Z"
+    },
+    {
+      "id": "zaryadye-gogol-jazz-2026-10-18",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-18T13:00:00+03:00",
+      "title": "«Писатели-меломаны: Гоголь-jazz»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Алексей Чижик · Георгий Нефёдов · Владимир Волков · Ирина Чижик",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/forkids/6513/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-liszt-missa-2026-10-18",
@@ -10214,6 +10445,39 @@
       "program_status": "Оригинальные произведения для русских народных инструментов и обработки народных мелодий."
     },
     {
+      "id": "zaryadye-bolshoi-gergiev-2026-10-19",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-19T19:00:00+03:00",
+      "title": "Оркестр Большого театра / Валерий Гергиев",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Симфонический оркестр Большого театра · Валерий Гергиев",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/9115/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "doc-poetry-slam-2026-10-19",
       "category": "theatre",
       "horizon": "near",
@@ -10498,6 +10762,72 @@
       "composers": [
         "Райх"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-borisoglebsky-rno-2026-10-20",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-20T19:00:00+03:00",
+      "title": "Никита Борисоглебский / РНО / Александр Рудин",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Никита Борисоглебский · Российский национальный оркестр · Александр Рудин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/6213/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-laul-2026-10-20",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-20T19:00:00+03:00",
+      "title": "Пётр Лаул, фортепиано",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Пётр Лаул",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -12637,6 +12967,39 @@
       "program_status": "Равель — «Отражения», «Игра воды», Павана; Дебюсси — «Остров радости», «Бергамасская сюита»; Лист — трансцендентные этюды и пьесы из «Годов странствий»."
     },
     {
+      "id": "zaryadye-repin-novosibirsk-2026-10-25",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-25T19:00:00+03:00",
+      "title": "Вадим Репин / Новосибирский академический симфонический оркестр",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Вадим Репин · Новосибирский академический симфонический оркестр · Димитрис Ботинис",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/6494/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "bzk-aleko-2026",
       "category": "opera",
       "horizon": "buy",
@@ -12858,6 +13221,39 @@
       "source_label": "Практика",
       "source_url": "https://praktikatheatre.ru/events/prekrasno",
       "verified": true
+    },
+    {
+      "id": "zaryadye-kultyshev-2026-10-26",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-26T19:00:00+03:00",
+      "title": "Шостакович — 24 прелюдии и фуги / Мирослав Култышев",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Мирослав Култышев",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "zaryadye-meszaros-organ-2026-10-26",
@@ -13312,6 +13708,39 @@
         "Концерт № 3 для фортепиано с оркестром",
         "«Альпийская симфония»."
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-gavrilin-bells-2026-10-28",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-10-28T19:00:00+03:00",
+      "title": "Гаврилин — «Перезвоны» / Сергей Гармаш",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Сергей Гармаш · Симфонический хор Свердловской филармонии · Андрей Петренко",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/mood/8078/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -14406,6 +14835,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-images-russia-2026-11-01",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-01T18:00:00+03:00",
+      "title": "«Образы России»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "НФОР · Арсентий Ткаченко · Артём Варгафтик",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/8170/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-bzk-mozart-requiem-2026-11-01",
       "category": "music",
       "horizon": "buy",
@@ -14857,6 +15319,39 @@
       "sales_status": "билеты проданы"
     },
     {
+      "id": "zaryadye-bellini-2026-11-03",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-03T19:00:00+03:00",
+      "title": "К 225-летию Винченцо Беллини",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Полина Шабунина · Давид Саникидзе · Карина Погосбекова",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/9618/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "rassvet-hodila-izba-2026-11-03",
       "category": "music",
       "horizon": "buy",
@@ -15030,6 +15525,39 @@
       "sales_status": "событие подтверждено; статус продажи проверить",
       "card_schema_version": 2,
       "program_status": "Праздничная хоровая программа."
+    },
+    {
+      "id": "zaryadye-patriarchal-choir-2026-11-04",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-04T19:00:00+03:00",
+      "title": "Патриарший хор Храма Христа Спасителя",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Патриарший хор Храма Христа Спасителя · Илья Толкачёв",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/6321/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-vostokov-jazz-orchestra-2026-11-05",
@@ -15498,6 +16026,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-composer-detective-2026-11-08",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-08T13:00:00+03:00",
+      "title": "Концерт-детектив «Куда исчез композитор?»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Сергей Безруков · МГСО · Иван Рудин · Георгий Исаакян",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/forkids/8270/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-mzk-bugaev-glavatskikh-2026-11-08",
       "category": "music",
       "horizon": "buy",
@@ -15701,6 +16262,39 @@
       "composers": [
         "Дворжак"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-dsch-berezovsky-2026-11-09",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-09T19:00:00+03:00",
+      "title": "DSCH — Андрей Мерзликин / Борис Березовский / МГСО",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Андрей Мерзликин · Борис Березовский · МГСО · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/8130/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -16461,6 +17055,72 @@
       "program_status": "Лист — Соната си минор, «Мефисто-вальс»; Равель — Сонатина, «Отражения»."
     },
     {
+      "id": "zaryadye-musical-hermitage-2026-11-13",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-13T19:00:00+03:00",
+      "title": "«Музыкальный Эрмитаж». Музыка и танцы XV и XVI веков",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Ренессансный оркестр · Владимир Парунцев",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/baroque/6202/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-rachmaninov-home-2026-11-13",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-13T19:00:00+03:00",
+      "title": "«Рахманинов. Путь домой»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Филипп Копачевский · МГСО · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/zaradys/9795/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-bzk-rno-beethoven-brahms-2026-11-14",
       "category": "music",
       "horizon": "buy",
@@ -16662,6 +17322,39 @@
       "monitor_entities": []
     },
     {
+      "id": "zaryadye-camerata-komitas-2026-11-15",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-15T13:00:00+03:00",
+      "title": "Camerata Komitas — «Муффат. Над временем»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Ансамбль солистов Camerata Komitas",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "phil-rnmso-lazarev-tarosyan-2026-11-15",
       "category": "music",
       "horizon": "buy",
@@ -16738,6 +17431,39 @@
         "Шуберт",
         "Брамс"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-dsch-knyazev-2026-11-15",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-15T19:00:00+03:00",
+      "title": "DSCH — Александр Князев / МГСО / Иван Рудин",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Александр Князев · МГСО · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/8086/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -16862,6 +17588,39 @@
       "works": [
         "музыка кино"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-taneyev-spivakov-2026-11-16",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-16T19:00:00+03:00",
+      "title": "К 170-летию С. И. Танеева",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Стефания Поспехина · НФОР · Владимир Спиваков",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/6203/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -17169,6 +17928,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-tariverdiev-organ-2026-11-18",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-18T19:00:00+03:00",
+      "title": "Органный концерт к 95-летию Таривердиева",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Лада Лабзина · Мансур Юсупов · Жан-Пьер Стайверс",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/organ/6204/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "ges2-sysoev-potemkin-2026-11-19",
       "category": "music",
       "horizon": "far",
@@ -17363,6 +18155,39 @@
         "Шуберт",
         "Брамс"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-sofronitskaya-2026-11-20",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-20T19:00:00+03:00",
+      "title": "Вивиана Софроницкая — хаммерклавир / клавесин",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Вивиана Софроницкая · Пол МакНалти",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -18378,6 +19203,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-belov-2026-11-25",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-25T19:00:00+03:00",
+      "title": "Мультимедийная светская кантата «Белов»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Андрей Мерзликин · Musica Viva · Леонид Казаков",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/mood/10055/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "ges2-1881-1921-2026-11-26",
       "category": "music",
       "horizon": "far",
@@ -18520,6 +19378,39 @@
         "Бетховен",
         "Григ"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-dsch-pavlova-barati-2026-11-26",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-26T19:00:00+03:00",
+      "title": "DSCH — Надежда Павлова / Кристоф Барати / МГСО",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Надежда Павлова · Кристоф Барати · МГСО · Иван Рудин",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/classics/8135/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -19150,6 +20041,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-cardi-eichenlaub-2026-11-30",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-11-30T19:00:00+03:00",
+      "title": "Эмануэле Карди / Маркус Айхенлауб — орган",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Эмануэле Карди · Маркус Айхенлауб",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/organ/6335/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-mzk-andrianov-2026-12-01",
       "category": "music",
       "horizon": "far",
@@ -19610,6 +20534,39 @@
       "program_status": "Рахманиновская фортепианная программа."
     },
     {
+      "id": "zaryadye-elokhovo-choir-2026-12-04",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-04T19:00:00+03:00",
+      "title": "Хор Московского Богоявленского кафедрального собора в Елохове",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Хор Богоявленского кафедрального собора · Александр Майоров",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "zaryadye-neobarocco-2026",
       "category": "music",
       "horizon": "far",
@@ -19746,6 +20703,39 @@
       "works": [
         "«Вертер» — опера в концертном исполнении"
       ]
+    },
+    {
+      "id": "zaryadye-blizzard-2026-12-06",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-06T13:00:00+03:00",
+      "title": "Моноспектакль «Метель»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Владимир Кошевой · Даниэль Зарецкий · Евгений Зарецкий",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-student-orchestra-2026-12-06",
@@ -20244,6 +21234,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-tango-2026-12-09",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-09T19:00:00+03:00",
+      "title": "«История танго»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Антон Сильверстов · Иосиф Пуриц",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "phil-beethoven-universe-2026-12-10",
       "category": "music",
       "horizon": "far",
@@ -20286,6 +21309,39 @@
         "Гуммель — Концерт для фортепиано и скрипки с оркестром соль мажор, соч. 17",
         "Бетховен — Симфония №4 си-бемоль мажор, соч. 60"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-shagimuratova-2026-12-10",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-10T19:00:00+03:00",
+      "title": "Альбина Шагимуратова / ГАСО Татарстана / Александр Сладковский",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Альбина Шагимуратова · ГАСО Республики Татарстан · Александр Сладковский",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -20400,6 +21456,72 @@
         "Прокофьев — сюита «Поручик Киже»",
         "Шостакович — Сюита для эстрадного оркестра"
       ]
+    },
+    {
+      "id": "zaryadye-human-voice-waiting-2026-12-11",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-11T19:00:00+03:00",
+      "title": "Пуленк / Таривердиев — «Человеческий голос» и «Ожидание»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Ольга Селивёрстова · Елизавета Пахомова · Мария Оселкова",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/10044/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-spivakov-scholars-2026-12-12",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-12T13:00:00+03:00",
+      "title": "Стипендиаты Международного благотворительного фонда Владимира Спивакова",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Мария Верещагина, Роман Шевцов, Станислав Шевцов и др.",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/forkids/6807/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "consv-bzk-three-tenors-christmas-2026-12-12",
@@ -20548,6 +21670,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-magic-flute-screening-2026-12-12",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-12T19:00:00+03:00",
+      "title": "Показ записи оперы Моцарта «Волшебная флейта»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Венская государственная опера",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/zaradys/8281/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "phil-language-cinema-2026-12-13",
       "category": "music",
       "horizon": "far",
@@ -20581,6 +21736,39 @@
       "sales_status": "событие подтверждено; статус продажи проверить",
       "card_schema_version": 2,
       "program_status": "Музыка кино в интерактивном цикле «Язык музыки»."
+    },
+    {
+      "id": "zaryadye-new-year-trees-2026-12-13",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-13T13:00:00+03:00",
+      "title": "«Когда зажигаются ёлки»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Российский государственный симфонический оркестр кинематографии",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/6339/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
     },
     {
       "id": "newopera-tristan-13",
@@ -20687,6 +21875,39 @@
         "Московская филармония"
       ],
       "venue_short": "Камерный · Филармония",
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-midnight-mass-2026-12-13",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-13T19:00:00+03:00",
+      "title": "«Полуночная рождественская месса»",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Даниэль Сальвадор · Государственный академический русский хор имени А. В. Свешникова",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/10016/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -21103,6 +22324,39 @@
       "program_status": "Вустин, Амасян, Шуберт, Десятников, Стравинский, Соллима, Тан Дун, Хиндемит, Барток."
     },
     {
+      "id": "zaryadye-kopachevsky-bso-2026-12-17",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-17T19:00:00+03:00",
+      "title": "Филипп Копачевский / БСО имени Чайковского / Боян Суджич",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Филипп Копачевский · БСО имени П. И. Чайковского · Боян Суджич",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/9908/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "phil-opera-ghosts-2026-12-18",
       "category": "music",
       "horizon": "far",
@@ -21417,6 +22671,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-rostropovich100-2026-12-21",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-21T19:00:00+03:00",
+      "title": "К 100-летию Мстислава Ростроповича",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Даниил Коган · Иван Сендецкий · Арсений Тарасевич-Николаев · МГАСО · Дмитрий Юровский",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/10173/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "helikon-fledermaus-dec-2026",
       "category": "opera",
       "horizon": "far",
@@ -21546,6 +22833,39 @@
       "works": [
         "Фортепианный концерт."
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-arielle-christmas-2026-12-23",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-23T19:00:00+03:00",
+      "title": "«Рождество в Европе» — ансамбль Arielle",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Вокальный ансамбль Arielle · Эльмира Дадашева",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/9901/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
@@ -21786,6 +23106,39 @@
       "card_schema_version": 2
     },
     {
+      "id": "zaryadye-kasprov-2026-12-26",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-26T19:00:00+03:00",
+      "title": "Сергей Каспров — клавесин / хаммерклавир / фортепиано",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Малый зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Сергей Каспров",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Малый зал «Зарядья»",
+      "source_url": "https://zaryadyehall.ru/events/festival/10161/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Малый",
+      "season": "2026/27",
+      "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-mzk-knyazev-brahms-2026-12-28",
       "category": "music",
       "horizon": "far",
@@ -21892,6 +23245,39 @@
       "source_label": "Новая Опера",
       "source_url": "https://www.novayaopera.ru/presscenter/news/otkryta-prodazha-biletov-na-noyabr-i-dekabr-2026/",
       "verified": true,
+      "card_schema_version": 2
+    },
+    {
+      "id": "zaryadye-brahms-franck-2026-12-29",
+      "category": "music",
+      "horizon": "far",
+      "featured": false,
+      "start": "2026-12-29T19:00:00+03:00",
+      "title": "Брамс и Франк — камерная музыка",
+      "tags": [],
+      "visible_tags": [
+        "Зарядье"
+      ],
+      "venue": "Большой зал «Зарядья»",
+      "place": "Варварка, 6, стр. 4 · Китай-город",
+      "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+      "people": "Никита Борисоглебский · Гайк Казазян · Андрей Гридчук · Борис Андрианов · Николай Луганский",
+      "price": "проверить актуально",
+      "why": "Подтверждено официальной афишей Зала Зарядье в контрольном sweep октября–декабря 2026.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная афиша",
+      "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
+      "source_label": "Большой зал «Зарядья»",
+      "source_url": "https://www.zaryadyehall.ru/events/festival/8684/",
+      "verified": true,
+      "organizer": "Зал Зарядье",
+      "monitor_entities": [
+        "Зал Зарядье"
+      ],
+      "venue_short": "Зарядье · Большой",
+      "season": "2026/27",
+      "sales_status": "в продаже",
       "card_schema_version": 2
     },
     {
