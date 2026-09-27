@@ -7,6 +7,7 @@ on:
       - "events.json"
       - "sources.json"
       - "validate.js"
+      - "app.js"
 
 jobs:
   audit:
@@ -21,6 +22,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Check app.js syntax
+        run: node --check app.js
 
       - name: Run audit
         run: node validate.js --md
