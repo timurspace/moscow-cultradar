@@ -104,7 +104,7 @@
 
 - `validate.js` теперь фатально проверяет стабильное правило `source_label === venue` для событий с физической площадкой; текущих расхождений **0**.
 - Текущий validator даёт **11** `weak_music_context` warnings. Это сигналы на ревью, а не автоматически ошибки: часть программ может быть корректно подтверждена иначе.
-- Validator пока не проверяет `end`, `date_only`, допустимые enum-значения, timezone, `end >= start`, schema/card version и согласованность coverage.
+- `validate.js` теперь фатально проверяет допустимые значения `category`, `horizon`, `editorial_status`, `ticket_urgency`; текущих enum-ошибок **0**. Validator пока не проверяет `end`, `date_only`, timezone, `end >= start`, schema/card version и согласованность coverage.
 
 ### Интерфейс
 
@@ -137,7 +137,7 @@ Workflow хорошо ловит JSON parse через запуск Node и фа
 1. Завершить split документации и держать `PROJECT_STATE.md` единственным местом для текущих counts/status.
 2. Добавить client-side поиск с объединением с существующими фильтрами; минимум: `title`, `display_title`, `composers`, `works`, `people`/`performers`.
 3. Добавить одну кнопку **«Сбросить фильтры»**, сбрасывающую category/range/tags/venues/card-tag/editorial/search.
-4. Следующий validator-этап делать отдельно: enum-проверки (`category`, `horizon`, `editorial_status`, `ticket_urgency`).
+4. Следующий validator-этап делать отдельно: проверки дат (`date_only`, `end`, timezone, `end >= start`, конфликт `start` + `date_only`).
 5. Повторно закрыть Филармонию по месяцам: ноябрь → декабрь.
 6. Контрольный sweep Зарядья до 31.12 и затем opera/theatre/talks по мере публикации.
 7. Утвердить регламент очистки прошедших публичных событий; приватный visited snapshot уже защищает личную историю.

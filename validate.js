@@ -22,7 +22,7 @@ const venues = Array.isArray(sourcesData) ? sourcesData : sourcesData.venues || 
 
 const report = {
   total: events.length,
-  errors: { duplicate_ids: [], missing_fields: [], source_label_mismatch: [] },
+  errors: { duplicate_ids: [], missing_fields: [], source_label_mismatch: [], invalid_enum: [] },
   warnings: {
     empty_source_url: [],
     aggregator_source_url: [],
@@ -37,6 +37,12 @@ const report = {
 const ids = new Set();
 const venueNames = new Set(venues.map(v => v.name).filter(Boolean));
 const aggregatorHosts = new Set(['afisha.ru', 'kudago.com']);
+const allowedEnums = {
+  category: new Set(['music', 'theatre', 'opera', 'talks']),
+  horizon: new Set(['near', 'buy', 'far']),
+  editorial_status: new Set(['attention', 'candidate', 'decide']),
+  ticket_urgency: new Set(['none', 'no_rush', 'watch', 'buy', 'low', 'soldout'])
+};
 
 for (const e of events) {
   const id = e.id || '(no id)';
@@ -49,6 +55,12 @@ for (const e of events) {
 
   const category = e.category || 'unknown';
   report.categories[category] = (report.categories[category] || 0) + 1;
+
+  for (const [field, allowed] of Object.entries(allowedEnums)) {
+    if (!allowed.has(e[field])) {
+      report.errors.invalid_enum.push({ id, field, value: e[field] ?? null });
+    }
+  }
 
   const isConcreteEvent = Boolean(e.start || e.date_only);
   if (isConcreteEvent && !e.source_url) report.warnings.empty_source_url.push(id);
@@ -85,6 +97,7 @@ function markdown(r) {
     `Дубли id: ${r.errors.duplicate_ids.length}`,
     `Пропущенные обязательные поля: ${r.errors.missing_fields.length}`,
     `Несовпадение source_label и venue: ${r.errors.source_label_mismatch.length}`,
+    `Недопустимые enum-значения: ${r.errors.invalid_enum.length}`,
     '',
     '## Предупреждения',
     `Нет source_url у датированных событий: ${r.warnings.empty_source_url.length}`,
@@ -100,6 +113,6 @@ const output = markdownMode ? markdown(report) : JSON.stringify(report, null, 2)
 console.log(output);
 if (markdownMode) fs.writeFileSync(path.join(root, 'audit-report.md'), output);
 
-if (report.errors.duplicate_ids.length || report.errors.missing_fields.length || report.errors.source_label_mismatch.length) {
+if (report.errors.duplicate_ids.length || report.errors.missing_fields.length || report.errors.source_label_mismatch.length || report.errors.invalid_enum.length) {
   process.exitCode = 1;
 }
