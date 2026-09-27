@@ -41,7 +41,9 @@ const report = {
     invalid_date_only: [],
     missing_timezone: [],
     end_before_start: [],
-    start_and_date_only: []
+    start_and_date_only: [],
+    invalid_sources_schema: [],
+    invalid_card_schema: []
   },
   warnings: {
     empty_source_url: [],
@@ -62,6 +64,13 @@ const allowedEnums = {
   editorial_status: new Set(['attention', 'candidate', 'decide']),
   ticket_urgency: new Set(['none', 'no_rush', 'watch', 'buy', 'low', 'soldout'])
 };
+
+if (sourcesData?.meta?.schema_version !== 2) {
+  report.errors.invalid_sources_schema.push({
+    expected: 2,
+    actual: sourcesData?.meta?.schema_version ?? null
+  });
+}
 
 for (const e of events) {
   const id = e.id || '(no id)';
@@ -113,6 +122,10 @@ for (const e of events) {
     report.errors.source_label_mismatch.push({ id, venue: e.venue, source_label: e.source_label || '' });
   }
 
+  if ((category === 'music' || category === 'opera') && e.card_schema_version !== 2) {
+    report.errors.invalid_card_schema.push({ id, category, value: e.card_schema_version ?? null });
+  }
+
   const hasMusicContext = [
     e.composers, e.works, e.program_status, e.program, e.description, e.performers, e.people
   ].some(hasValue);
@@ -121,6 +134,39 @@ for (const e of events) {
   }
 
   if (e.featured && !e.why) report.warnings.missing_editorial_why.push(id);
+}
+
+function issueIds(items) {
+  return [...new Set(items.map(item => typeof item === 'string' ? item : item?.id).filter(Boolean))];
+}
+function issueDetailLines(r) {
+  const groups = [
+    ['Дубли id', r.errors.duplicate_ids],
+    ['Пропущенные обязательные поля', r.errors.missing_fields],
+    ['Несовпадение source_label и venue', r.errors.source_label_mismatch],
+    ['Недопустимые enum-значения', r.errors.invalid_enum],
+    ['Некорректный start', r.errors.invalid_start],
+    ['Некорректный end', r.errors.invalid_end],
+    ['Некорректный date_only', r.errors.invalid_date_only],
+    ['Нет явного timezone у start/end', r.errors.missing_timezone],
+    ['end раньше start', r.errors.end_before_start],
+    ['Одновременно заданы start и date_only', r.errors.start_and_date_only],
+    ['Неверная card_schema_version', r.errors.invalid_card_schema],
+    ['Нет source_url у датированных событий', r.warnings.empty_source_url],
+    ['Агрегатор в source_url', r.warnings.aggregator_source_url],
+    ['Слабый музыкальный контекст', r.warnings.weak_music_context],
+    ['Нет редакционного why у featured', r.warnings.missing_editorial_why],
+    ['Площадки не найдены в sources.venues', r.warnings.venues_not_in_sources]
+  ];
+  const lines = [];
+  for (const [label, items] of groups) {
+    const ids = issueIds(items);
+    if (!ids.length) continue;
+    lines.push('', `### ${label}`);
+    lines.push(...ids.slice(0, 50).map(id => `- \`${id}\``));
+    if (ids.length > 50) lines.push(`- …ещё ${ids.length - 50}`);
+  }
+  return lines;
 }
 
 function markdown(r) {
@@ -143,13 +189,18 @@ function markdown(r) {
     `Нет явного timezone у start/end: ${r.errors.missing_timezone.length}`,
     `end раньше start: ${r.errors.end_before_start.length}`,
     `Одновременно заданы start и date_only: ${r.errors.start_and_date_only.length}`,
+    `Неверная sources.meta.schema_version: ${r.errors.invalid_sources_schema.length}`,
+    `Неверная card_schema_version у music/opera: ${r.errors.invalid_card_schema.length}`,
     '',
     '## Предупреждения',
     `Нет source_url у датированных событий: ${r.warnings.empty_source_url.length}`,
     `Агрегатор в source_url: ${r.warnings.aggregator_source_url.length}`,
     `Слабый музыкальный контекст: ${r.warnings.weak_music_context.length}`,
     `Нет редакционного why у featured: ${r.warnings.missing_editorial_why.length}`,
-    `Площадки не найдены в sources.venues: ${r.warnings.venues_not_in_sources.length}`
+    `Площадки не найдены в sources.venues: ${r.warnings.venues_not_in_sources.length}`,
+    '',
+    '## Конкретные ID',
+    ...issueDetailLines(r)
   ].join('\n');
 }
 
@@ -167,7 +218,9 @@ if (
   report.errors.invalid_date_only.length ||
   report.errors.missing_timezone.length ||
   report.errors.end_before_start.length ||
-  report.errors.start_and_date_only.length
+  report.errors.start_and_date_only.length ||
+  report.errors.invalid_sources_schema.length ||
+  report.errors.invalid_card_schema.length
 ) {
   process.exitCode = 1;
 }
