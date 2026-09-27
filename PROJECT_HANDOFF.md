@@ -47,7 +47,7 @@ Weekly automation — отдельный content-maintenance контур. Её 
 
 1. Открыть repo и убедиться, что работа идёт с актуальным `main`.
 2. Прочитать `PROJECT_STATE.md` и `PROJECT_RULES.md`.
-3. Проверить фактические `events.json`, `sources.json`, relevant code и последние Actions; не доверять старому числу только потому, что оно написано в Markdown.
+3. Проверить фактические `events.json`, `sources.json`, relevant code и последние Actions; не доверять старому числу только потому, что оно написано в Markdown. Для большого `events.json` следовать правилу полного чтения через Git blob из `PROJECT_RULES.md`.
 4. Выбрать **одну** ближайшую задачу из STATE.
 5. Менять минимальный набор файлов; content-only задача не должна случайно превращаться в UI refactor.
 6. Перед commit прогнать доступный QA/validator и проверить JSON/schema assumptions.
