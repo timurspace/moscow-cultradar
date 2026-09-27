@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Культрадар</title>
-  <rect width="64" height="64" rx="10" fill="#f4f1ea"/>
-  <path d="M9 14c6-5 12-1 12 5v23c0 6-3 10-8 12M35 14c-6-5-12-1-12 5v23c0 6 3 10 8 12" fill="none" stroke="#202428" stroke-width="6" stroke-linecap="round"/>
-  <path d="M16 22v25M22 19v29M28 22v25" stroke="#202428" stroke-width="3.4" stroke-linecap="round"/>
-  <path d="M34 22c10-4 20 2 22 12 2 9-3 18-13 24-7-5-10-12-9-20 0-6 0-11 0-16z" fill="#202428"/>
-  <path d="M38 33c3-2 6-2 9 0-3 3-6 3-9 0zM47 33c3-2 6-2 8 0-2 3-5 3-8 0z" fill="#f4f1ea"/>
-  <path d="M53 6l2.2 5.8L61 14l-5.8 2.2L53 22l-2.2-5.8L45 14l5.8-2.2z" fill="#b88428"/>
-</svg>
