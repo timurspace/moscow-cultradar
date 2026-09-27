@@ -102,7 +102,7 @@
 
 ### Данные / QA
 
-- `validate.js` не проверяет стабильное правило `source_label === venue`. В актуальных данных есть **2** расхождения: `phil-east-west-toncheva-2026-10-16` и `phil-pozyumsky-music-2026-10-29`.
+- `validate.js` теперь фатально проверяет стабильное правило `source_label === venue` для событий с физической площадкой; текущих расхождений **0**.
 - Текущий validator даёт **11** `weak_music_context` warnings. Это сигналы на ревью, а не автоматически ошибки: часть программ может быть корректно подтверждена иначе.
 - Validator пока не проверяет `end`, `date_only`, допустимые enum-значения, timezone, `end >= start`, schema/card version и согласованность coverage.
 
@@ -137,11 +137,10 @@ Workflow хорошо ловит JSON parse через запуск Node и фа
 1. Завершить split документации и держать `PROJECT_STATE.md` единственным местом для текущих counts/status.
 2. Добавить client-side поиск с объединением с существующими фильтрами; минимум: `title`, `display_title`, `composers`, `works`, `people`/`performers`.
 3. Добавить одну кнопку **«Сбросить фильтры»**, сбрасывающую category/range/tags/venues/card-tag/editorial/search.
-4. Усилить `validate.js`: `source_label === venue`, enums, `date_only`, `end`, timezone, `end >= start`, source/card schema checks; warnings не превращать в fatal без проверки ложных срабатываний.
-5. Исправить две текущие `source_label`-несогласованности после усиления validator.
-6. Повторно закрыть Филармонию по месяцам: ноябрь → декабрь.
-7. Контрольный sweep Зарядья до 31.12 и затем opera/theatre/talks по мере публикации.
-8. Утвердить регламент очистки прошедших публичных событий; приватный visited snapshot уже защищает личную историю.
+4. Следующий validator-этап делать отдельно: enum-проверки (`category`, `horizon`, `editorial_status`, `ticket_urgency`).
+5. Повторно закрыть Филармонию по месяцам: ноябрь → декабрь.
+6. Контрольный sweep Зарядья до 31.12 и затем opera/theatre/talks по мере публикации.
+7. Утвердить регламент очистки прошедших публичных событий; приватный visited snapshot уже защищает личную историю.
 
 ### Потом
 

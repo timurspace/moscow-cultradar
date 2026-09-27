@@ -22,7 +22,7 @@ const venues = Array.isArray(sourcesData) ? sourcesData : sourcesData.venues || 
 
 const report = {
   total: events.length,
-  errors: { duplicate_ids: [], missing_fields: [] },
+  errors: { duplicate_ids: [], missing_fields: [], source_label_mismatch: [] },
   warnings: {
     empty_source_url: [],
     aggregator_source_url: [],
@@ -58,6 +58,9 @@ for (const e of events) {
   if (e.venue && e.venue !== 'Watchlist' && venueNames.size && !venueNames.has(e.venue)) {
     report.warnings.venues_not_in_sources.push({ id, venue: e.venue });
   }
+  if (e.venue && e.venue !== 'Watchlist' && e.source_label !== e.venue) {
+    report.errors.source_label_mismatch.push({ id, venue: e.venue, source_label: e.source_label || '' });
+  }
 
   const hasMusicContext = [
     e.composers, e.works, e.program_status, e.program, e.description, e.performers, e.people
@@ -81,6 +84,7 @@ function markdown(r) {
     '## Ошибки',
     `Дубли id: ${r.errors.duplicate_ids.length}`,
     `Пропущенные обязательные поля: ${r.errors.missing_fields.length}`,
+    `Несовпадение source_label и venue: ${r.errors.source_label_mismatch.length}`,
     '',
     '## Предупреждения',
     `Нет source_url у датированных событий: ${r.warnings.empty_source_url.length}`,
@@ -96,6 +100,6 @@ const output = markdownMode ? markdown(report) : JSON.stringify(report, null, 2)
 console.log(output);
 if (markdownMode) fs.writeFileSync(path.join(root, 'audit-report.md'), output);
 
-if (report.errors.duplicate_ids.length || report.errors.missing_fields.length) {
+if (report.errors.duplicate_ids.length || report.errors.missing_fields.length || report.errors.source_label_mismatch.length) {
   process.exitCode = 1;
 }
