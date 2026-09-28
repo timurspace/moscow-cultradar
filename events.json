@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Культрадар",
-    "updated": "2026-09-27",
-    "note": "Октябрь Московской консерватории дополнительно сверен по официальным карточкам: добавлено 1 пропущенных события, нормализовано 18 placeholder-карточек; итог 123.",
+    "updated": "2026-09-28",
+    "note": "Link audit Московской консерватории за октябрь–декабрь 2026: source_url всех 192 карточек сверены с официальным сайтом и нормализованы до индивидуальных концертных/абонементных страниц; для двух событий Большого зала 1 и 7 ноября оставлены точные официальные дневные страницы, поскольку отдельная доступная карточка на сайте не подтверждена.",
     "source_schema_version": 2
   },
   "events": [
@@ -1059,7 +1059,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-01",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204298",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -1120,7 +1120,7 @@
       "details_label": "Официальная афиша",
       "details": "Чайковский, Глинка, Бородин, Римский-Корсаков.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-01",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203672",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -1248,7 +1248,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-01",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204129",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -1683,7 +1683,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-02",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203673",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -2313,7 +2313,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204470",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -2345,7 +2345,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204389",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -2503,7 +2503,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203483",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -2643,7 +2643,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204390",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3030,7 +3030,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204245",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3063,7 +3063,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204231",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3369,7 +3369,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203668",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3400,7 +3400,7 @@
       "details_label": "Официальная афиша",
       "details": "«Кармина Бурана»",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204244",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3654,7 +3654,7 @@
       "details_label": "Официальная афиша",
       "details": "Бетховен — Симфония №3; Чайковский — Симфония №4.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-05",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204316",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3693,7 +3693,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-05",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204232",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3916,7 +3916,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204391",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -3949,7 +3949,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204235",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4026,7 +4026,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203692",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4057,7 +4057,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204343",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4496,7 +4496,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-07",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204392",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4538,7 +4538,7 @@
       "title": "Варвара Мягкова — «Эстафета Веры»",
       "people": "Варвара Мягкова, фортепиано",
       "sales_status": "есть отдельные билеты",
-      "source_url": "https://mosconsv.ru/ru/concert/202427",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202427",
       "composers": [
         "Шуберт",
         "Мендельсон",
@@ -4575,7 +4575,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-07",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204078",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4893,7 +4893,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204393",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4927,7 +4927,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203674",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4961,7 +4961,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204088",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -4999,7 +4999,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204079",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -5530,7 +5530,7 @@
       "details_label": "Официальная афиша",
       "details": "Камерная программа в календарном анонсе не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-09",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203581",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -5562,7 +5562,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа в календарном анонсе не раскрыта.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-09",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204080",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -5993,7 +5993,7 @@
       "details_label": "Программа",
       "details": "На официальной карточке состав произведений пока не опубликован.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://i1.mosconsv.ru/ru/concert/203484",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203484",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6087,7 +6087,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения в календарном анонсе не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-10",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203679",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6126,7 +6126,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-10",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204090",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6323,7 +6323,7 @@
       "details_label": "Официальная афиша",
       "details": "Бетховен — Концерт №4; Чайковский — Симфония №4.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-10",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203628",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6360,7 +6360,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа в календарном анонсе не раскрыта.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-10",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204236",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6784,7 +6784,7 @@
       "details_label": "Официальная афиша",
       "details": "Реквием; Фрагменты из опер",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203670",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6830,7 +6830,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202346",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6953,7 +6953,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204340",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -6984,7 +6984,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа в календарном анонсе не раскрыта.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204082",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7108,7 +7108,7 @@
       "details_label": "Полная программа / описание",
       "details": "И. С. Бах. Хорошо темперированный клавир, II том — 24 прелюдии и фуги BWV 870–893.\nИсполнитель: Виктор Гинзбург, фортепиано.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204091",
       "verified": false,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7189,7 +7189,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-12",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204394",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7223,7 +7223,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-12",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203867",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7252,7 +7252,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа посвящения в календарном анонсе не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-12",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204092",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7286,7 +7286,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-12",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204083",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -7591,7 +7591,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-13",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203693",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -8050,7 +8050,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-14",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203681",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -8079,7 +8079,7 @@
       "details_label": "Официальная афиша",
       "details": "Абонемент «Эдуард Грач представляет…»; программа не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-14",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202392",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -8113,7 +8113,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-14",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204087",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -8665,7 +8665,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-15",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202324",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -8694,7 +8694,7 @@
       "details_label": "Официальная афиша",
       "details": "Авторская программа молодых композиторов; состав произведений не опубликован.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-15",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204089",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9080,7 +9080,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-16",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203701",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9113,7 +9113,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-16",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202396",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9636,7 +9636,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-17",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202335",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9669,7 +9669,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-17",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204093",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9703,7 +9703,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-17",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204395",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -9860,7 +9860,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-17",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203702",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10548,7 +10548,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204094",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10581,7 +10581,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202350",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10615,7 +10615,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202364",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10711,7 +10711,7 @@
       "details_label": "Официальная афиша",
       "details": "«Кармина Бурана»",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203807",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10748,7 +10748,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа музыкально-поэтического концерта не раскрыта.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202369",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -10828,7 +10828,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-18",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204104",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11130,7 +11130,7 @@
       "details_label": "Источник",
       "details": "П. И. Чайковский — «Иоланта».",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203703",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11166,7 +11166,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа юбилейного вечера не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202266",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11200,7 +11200,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204105",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11234,7 +11234,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-19",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204397",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11420,7 +11420,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-20",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203706",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11458,7 +11458,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-20",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204095",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11653,7 +11653,7 @@
       "details_label": "Источник",
       "details": "Концерт к 90-летию Стива Райха.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://studionewmusic.ru/events_list/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204106",
       "verified": true,
       "organizer": "Студия новой музыки",
       "monitor_entities": [
@@ -11785,7 +11785,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-21",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203711",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11820,7 +11820,7 @@
       "details_label": "Официальная афиша",
       "details": "Кроссовер оперы и джаза; подробная программа не опубликована.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-21",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204096",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -11854,7 +11854,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-21",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204107",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12208,7 +12208,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-22",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203676",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12239,7 +12239,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения Моцарта в календарном анонсе не перечислены.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-22",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204100",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12276,7 +12276,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-22",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204108",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12401,7 +12401,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-22",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204398",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12631,7 +12631,7 @@
       "details_label": "Официальная афиша",
       "details": "Юбилейная программа; подробный трек-лист не опубликован.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-23",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203667",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12663,7 +12663,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа квартета в календарном анонсе не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-23",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203541",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12697,7 +12697,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-23",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204110",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -12839,7 +12839,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-23",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204399",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13068,7 +13068,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204474",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13101,7 +13101,7 @@
       "details_label": "Официальная афиша",
       "details": "Состав произведений и исполнителей в сводной афише не раскрыт.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204097",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13138,7 +13138,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204111",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13172,7 +13172,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204400",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13369,7 +13369,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203712",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13404,7 +13404,7 @@
       "details_label": "Официальная афиша",
       "details": "Абонемент «Элисо Вирсаладзе и ученики»; программа не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202216",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13438,7 +13438,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204237",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13505,7 +13505,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204401",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13817,7 +13817,7 @@
       "details_label": "Официальная афиша",
       "details": "Абонемент «Московская консерватория и Денис Мацуев представляют новые имена»; программа не опубликована.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202401",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13851,7 +13851,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204098",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13884,7 +13884,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204112",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -13986,7 +13986,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения в календарном анонсе не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203714",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14023,7 +14023,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа абонемента №31 не детализирована в сводной афише.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202355",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14055,7 +14055,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа фортепианного вечера не опубликована.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203810",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14093,7 +14093,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-25",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202282",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14323,7 +14323,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204113",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14360,7 +14360,7 @@
       "details_label": "Источник",
       "details": "С. В. Рахманинов — «Алеко».",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203713",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14396,7 +14396,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа концерта-посвящения не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204099",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14508,7 +14508,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-26",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204402",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14740,7 +14740,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-27",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204253",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14781,7 +14781,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-27",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204114",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14845,7 +14845,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-27",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204403",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -14979,7 +14979,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204404",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15013,7 +15013,7 @@
       "details_label": "Официальная афиша",
       "details": "Концерт №2; «Шехеразада»",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203680",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15054,7 +15054,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено календарём Московской консерватории; дополнительные детали следует брать из актуальной официальной карточки.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204086",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15087,7 +15087,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204115",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15298,7 +15298,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-29",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204254",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15329,7 +15329,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-29",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204117",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15649,7 +15649,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204101",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15682,7 +15682,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204118",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15746,7 +15746,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203671",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15783,7 +15783,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204102",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15814,7 +15814,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204119",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -15980,7 +15980,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204405",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16151,7 +16151,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204103",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16184,7 +16184,7 @@
       "details_label": "Официальная афиша",
       "details": "Точная формулировка подтверждена актуальной официальной афишей при сверке дневных страниц и официальных карточек.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204120",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16218,7 +16218,7 @@
       "details_label": "Официальная афиша",
       "details": "Публичная позиция официальной афиши; редакционная приоритизация отделена от факта включения.",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204406",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16282,7 +16282,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения в календарном анонсе не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203678",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16324,7 +16324,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204407",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16356,7 +16356,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203494",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16393,7 +16393,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-10-31",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203968",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16657,7 +16657,7 @@
       "details_label": "Программа / детали",
       "details": "Моцарт — Симфония №40 и Реквием.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
       "verified": true,
       "start": "2026-11-01T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -16933,7 +16933,7 @@
       "details_label": "Официальная афиша",
       "details": "Концерт №1 для фортепиано с оркестром; «Лебединое озеро»",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204311",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -16975,7 +16975,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-03",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202381",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17004,7 +17004,7 @@
       "details_label": "Официальная афиша",
       "details": "Абонемент №23, к 65-летию оркестра; программа не опубликована.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-03",
+      "source_url": "https://www.mosconsv.ru/ru/eventdet/202230",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17205,7 +17205,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203782",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17242,7 +17242,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202434",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17381,7 +17381,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа джазового вечера не опубликована.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-05",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203485",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17496,7 +17496,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203843",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17528,7 +17528,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202409",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17669,7 +17669,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения в календарном анонсе не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-07",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203786",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17741,7 +17741,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-07",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203531",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17882,7 +17882,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202339",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17913,7 +17913,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа камерного вечера не опубликована.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204331",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -17950,7 +17950,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-08",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203651",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -18022,7 +18022,7 @@
       "details_label": "Программа / детали",
       "details": "Сольный концерт; программу сверить на официальной странице.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203823",
       "verified": true,
       "start": "2026-11-09T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -18156,7 +18156,7 @@
       "details_label": "Программа / детали",
       "details": "Камерная программа; полный состав сверить.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202289",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -18298,7 +18298,7 @@
       "details_label": "Программа / детали",
       "details": "Татьяна Зенаишвили — орган, клавесин, клавикорд. Абонемент №11 «Орган+».",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202382",
       "verified": true,
       "start": "2026-11-11T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -18591,7 +18591,7 @@
       "details_label": "Официальная афиша",
       "details": "Симфония №4; Концерт №2 для фортепиано с оркестром",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-12",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204458",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -18802,7 +18802,7 @@
       "details_label": "Официальная афиша",
       "details": "Вокально-симфоническая программа в календарном анонсе не раскрыта.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-13",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204313",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -19019,7 +19019,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-14",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202219",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -19056,7 +19056,7 @@
       "details_label": "Источник",
       "details": "Абонемент № 24 «Двойные портреты».",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://i1.mosconsv.ru/afisha/2026-11-14",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202259",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -19211,7 +19211,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203517",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -19696,7 +19696,7 @@
       "details_label": "Официальная афиша",
       "details": "Учеллини, Корелли, Джеминиани, Тартини, Гендель, Бах, Телеман.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://mosconsv.ru/ru/concert/202433",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202433",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -19955,7 +19955,7 @@
       "details_label": "Программа / детали",
       "details": "Юбилейный фортепианный вечер к 70-летию.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202306",
       "verified": true,
       "start": "2026-11-20T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -20112,7 +20112,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202220",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -20464,7 +20464,7 @@
       "details_label": "Официальная афиша",
       "details": "Конкретные произведения в программе «Избранное» не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203784",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -20802,7 +20802,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203946",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -20836,7 +20836,7 @@
       "details_label": "Программа / детали",
       "details": "Программа «Вспоминая будущее».",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202231",
       "verified": true,
       "start": "2026-11-24T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -20866,7 +20866,7 @@
       "details_label": "Источник",
       "details": "Фортепианный вечер с Ильёй Папояном.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203803",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -21437,7 +21437,7 @@
       "details_label": "Программа / детали",
       "details": "Вокально-симфоническая программа.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203564",
       "verified": true,
       "start": "2026-11-27T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -21467,7 +21467,7 @@
       "details_label": "Программа / детали",
       "details": "Программа вокруг Георга Филиппа Телемана.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202383",
       "verified": true,
       "start": "2026-11-27T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -21573,7 +21573,7 @@
       "details_label": "Официальная афиша",
       "details": "Мультимедийная органно-симфоническая программа; произведения не перечислены.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204457",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -21655,7 +21655,7 @@
       "details_label": "Официальная афиша",
       "details": "Третий вечер абонемента №20; программа не раскрыта.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "source_url": "https://www.mosconsv.ru/ru/eventdet/202218",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -21804,7 +21804,7 @@
       "details_label": "Официальная афиша",
       "details": "Концерт №3 для фортепиано с оркестром; Симфония №6",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-29",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204317",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -21845,7 +21845,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-29",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202269",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -21953,7 +21953,7 @@
       "details_label": "Официальная афиша",
       "details": "Прокофьев — Концерт №1 для скрипки; Шостакович — Концерт №1 для виолончели.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://i1.mosconsv.ru/ru/concert/204478",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204478",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22199,7 +22199,7 @@
       "details_label": "Официальная афиша",
       "details": "«Воспоминание о Флоренции»; Избранные танго",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-02",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204453",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22453,7 +22453,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-04",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202388",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22653,7 +22653,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-05",
+      "source_url": "https://www.mosconsv.ru/ru/eventdet/202334",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22757,7 +22757,7 @@
       "details_label": "Официальная афиша",
       "details": "Абонемент «Московская консерватория и Денис Мацуев представляют новые имена»; программа не опубликована.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-06",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202402",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22792,7 +22792,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-06",
+      "source_url": "https://www.mosconsv.ru/ru/eventdet/202343",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -22907,7 +22907,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-07",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204243",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -23114,7 +23114,7 @@
       "details_label": "Программа / детали",
       "details": "Программа сверяется по официальной карточке.",
       "source_label": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203486",
       "verified": true,
       "start": "2026-12-09T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -23367,7 +23367,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-11",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202317",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -24015,7 +24015,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-15",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202232",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -24230,7 +24230,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-17",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203532",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -24460,7 +24460,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-19",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203709",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -25091,7 +25091,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/ru/concert.aspx?id=203535",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203535",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -25124,7 +25124,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-26",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202351",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -25156,7 +25156,7 @@
       "details_label": "Программа / детали",
       "details": "Сольный вечер.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202270",
       "verified": true,
       "start": "2026-12-26T19:00:00+03:00",
       "organizer": "Московская консерватория",
@@ -25259,7 +25259,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-27",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203536",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -25293,7 +25293,7 @@
       "details_label": "Официальная афиша",
       "details": "",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-28",
+      "source_url": "https://www.mosconsv.ru/ru/concert/202410",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
@@ -25434,7 +25434,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено актуальной официальной афишей Московской консерватории.",
       "source_label": "Малый зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-12-30",
+      "source_url": "https://www.mosconsv.ru/ru/concert/203351",
       "verified": true,
       "organizer": "Московская консерватория",
       "monitor_entities": [
