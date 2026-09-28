@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-28",
-    "note": "Link audit Московской консерватории за октябрь–декабрь 2026: source_url всех 192 карточек сверены с официальным сайтом и нормализованы до индивидуальных концертных/абонементных страниц; для двух событий Большого зала 1 и 7 ноября оставлены точные официальные дневные страницы, поскольку отдельная доступная карточка на сайте не подтверждена.",
+    "note": "Link audit 28.09.2026: Зарядье (68), Московская филармония (157) и существующие карточки ММДМ (4) за октябрь–декабрь проверены; уточнены официальные source_url. В ММДМ добавлен Камерный зал и исправлена площадка у 2 событий.",
     "source_schema_version": 2
   },
   "events": [
@@ -1308,7 +1308,7 @@
       "details_label": "Программа",
       "details": "Шопен — мазурки, Полонез-фантазия, Скерцо № 4; Чайковский — Соната до-диез минор.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-01/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -1454,7 +1454,7 @@
       "details_label": "Официальная афиша",
       "details": "Концерт цикла DSCH к 120-летию Дмитрия Шостаковича.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/8131/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -2014,7 +2014,7 @@
       "details_label": "Официальная афиша",
       "details": "«Новое дыхание традиций».",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
+      "source_url": "https://zaryadyehall.ru/events/ethno/8146/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -2048,7 +2048,7 @@
       "details_label": "Официальная афиша",
       "details": "Органный концерт.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://zaryadyehall.ru/events/organ/6193/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -2568,7 +2568,7 @@
       "details_label": "Источник",
       "details": "Проект «Музыка будущего».",
       "source_label": "Дом музыки — Зал Альфреда Шнитке",
-      "source_url": "https://www.mmdm.ru/",
+      "source_url": "https://www.mmdm.ru/event/muzyka-budushego-proekt-verification?event_pk=7328",
       "verified": true,
       "organizer": "Дом музыки",
       "monitor_entities": [
@@ -2607,7 +2607,7 @@
       "details_label": "Полная программа / описание",
       "details": "Лигети — Musica ricercata (I–IV), Венгерская пассакалия для чембало.\\nВолконский — Musica stricta. Fantasia ricercata, соната для альта и фортепиано.\\nИ. С. Бах — сонаты для виолы да гамба и клавесина BWV 1029 и BWV 1028; Сюита № 5 BWV 1011 в версии для альта соло.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-03/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -2806,7 +2806,7 @@
       "details_label": "Официальная афиша",
       "details": "Литературно-музыкальная программа.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/?PAGEN_1=2",
+      "source_url": "https://zaryadyehall.ru/events/classics/6208/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -2999,7 +2999,7 @@
       "details_label": "Официальная афиша",
       "details": "Хоровой концерт.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/8271/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -3797,7 +3797,7 @@
       "details_label": "Перенос",
       "details": "Перенесён с 21 сентября на 5 октября 2026.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/reschedules-and-cancellations/",
+      "source_url": "https://zaryadyehall.ru/events/mood/6944/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -4413,7 +4413,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/6218/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -4788,7 +4788,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/6486/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -4855,7 +4855,7 @@
       "details_label": "Программа / детали",
       "details": "Моцарт — увертюра к «Свадьбе Фигаро», Концерт №23; Бетховен — Симфония №7.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-07/",
       "verified": true,
       "start": "2026-10-07T20:00:00+03:00",
       "organizer": "Московская филармония",
@@ -5186,9 +5186,9 @@
         "Византия",
         "хор"
       ],
-      "venue": "Дом музыки",
+      "venue": "Дом музыки — Камерный зал",
       "place": "Космодамианская наб., 52, стр. 8",
-      "location": "Московский международный Дом музыки, Москва",
+      "location": "Камерный зал Московского международного Дома музыки, Москва",
       "people": "хор «Аксион Естин»",
       "price": "от 700 ₽",
       "why": "Древневизантийское пение — редкий и содержательно точный кандидат.",
@@ -5196,8 +5196,8 @@
       "ticket_urgency": "watch",
       "details_label": "Источник",
       "details": "Песнопения древней Византии.",
-      "source_label": "Дом музыки",
-      "source_url": "https://www.mmdm.ru/",
+      "source_label": "Дом музыки — Камерный зал",
+      "source_url": "https://www.mmdm.ru/event/pesnopeniya-drevnej-vizantii-hor-aksion-estin-1?event_pk=6981",
       "verified": true,
       "monitor_entities": [
         "Московский Дом музыки"
@@ -5345,7 +5345,7 @@
       "details_label": "Программа",
       "details": "Сибелиус — «Меланхолия»; Григ — Соната; Крам — Соната для виолончели соло; Р. Штраус — Соната.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-08/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -5451,7 +5451,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/mood/",
+      "source_url": "https://zaryadyehall.ru/events/mood/8162/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -5836,7 +5836,7 @@
       "details_label": "Программа / детали",
       "details": "Йоффе — Sacra conversazione; Стравинский — Requiem Canticles; Фалик — Месса.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://musicasacranova.ru/",
+      "source_url": "https://meloman.ru/subscription/~74sp/",
       "verified": true,
       "start": "2026-10-09T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -5961,7 +5961,7 @@
       "details_label": "Перенос",
       "details": "Перенесён с 15 октября на 9 октября 2026.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/jazz/",
+      "source_url": "https://zaryadyehall.ru/events/jazz/8144/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -6582,7 +6582,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа «В тени и на свету».",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-10/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -6657,7 +6657,7 @@
       "details_label": "Программа",
       "details": "Шостакович — Струнные квартеты № 1 до мажор, ор. 49; № 2 ля мажор, ор. 68; № 3 фа мажор, ор. 73.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "source_url": "https://zaryadyehall.ru/events/classics/6488/",
       "verified": true,
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
@@ -6750,7 +6750,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "source_url": "https://zaryadyehall.ru/events/baroque/6415/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -7069,7 +7069,7 @@
       "details_label": "Программа",
       "details": "Литературная программа по «Мёртвым душам».",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-11/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -7735,7 +7735,7 @@
       "details_label": "Программа",
       "details": "Бетховен — Фортепианный квартет № 2; Вайнберг — квартеты № 14 и № 15; Рахманинов — Элегическое трио № 1.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-13/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -8327,7 +8327,7 @@
       "details_label": "Официальная афиша",
       "details": "Программа «Покров».",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-14/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -8361,7 +8361,7 @@
       "details_label": "Программа",
       "details": "Шнитке — Сюита в старинном стиле; Шёнберг — «Просветлённая ночь»; Брамс — Квинтет для кларнета и струнных.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-14/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -8870,7 +8870,7 @@
       "details_label": "Формат",
       "details": "Показ фильма Фрица Ланга «Усталая смерть» (1921) с живым музыкальным сопровождением.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-15/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -9403,7 +9403,7 @@
       "details_label": "Программа",
       "details": "Официальная афиша подтверждает концерт «Восток и Запад» и состав исполнителей.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-16/",
       "source_scope": "calendar",
       "verified": true,
       "organizer": "Московская филармония",
@@ -9467,7 +9467,7 @@
       "details_label": "Официальная афиша",
       "details": "Хоровой концерт.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/6194/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -10051,7 +10051,7 @@
       "details_label": "Программа",
       "details": "Куперен, Корретт, Рамо, Буамортье.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-17/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -10090,7 +10090,7 @@
       "details_label": "Описание",
       "details": "Программа к 100-летию со дня рождения Майлза Дэвиса.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-17/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -10121,7 +10121,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/classics/",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/8085/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -10409,7 +10409,7 @@
       "details_label": "Программа",
       "details": "Бизе — фрагменты «Кармен», «Арлезианки», «Детских игр», Симфонии № 1; Бизе–Щедрин — фрагменты «Кармен-сюиты».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-18-1/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -10511,7 +10511,7 @@
       "details_label": "Официальная афиша",
       "details": "Missa Choralis для хора и органа.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://www.zaryadyehall.ru/events/organ/9210/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -10912,7 +10912,7 @@
       "details_label": "Программа",
       "details": "Шуберт — Фортепианное трио № 1; Брамс — Фортепианное трио № 2.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-18/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -11583,7 +11583,7 @@
       "details_label": "Программа",
       "details": "Бетховен — Соната № 4 для виолончели и фортепиано, Септет; Линде — Sonata a tre.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-20/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -11721,7 +11721,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/classics/",
+      "source_url": "https://zaryadyehall.ru/events/classics/6802/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -11919,9 +11919,9 @@
         "Бах",
         "Бриттен"
       ],
-      "venue": "Дом музыки",
+      "venue": "Дом музыки — Камерный зал",
       "place": "Космодамианская наб., 52, стр. 8",
-      "location": "Московский международный Дом музыки, Москва",
+      "location": "Камерный зал Московского международного Дома музыки, Москва",
       "people": "«Виртуозы Москвы»",
       "price": "от 700 ₽",
       "why": "Бах–Бетховен–Бриттен в тематической программе, а не generic hits.",
@@ -11929,7 +11929,7 @@
       "ticket_urgency": "watch",
       "details_label": "Программа",
       "details": "Бах, Бетховен, Бриттен.",
-      "source_label": "Дом музыки",
+      "source_label": "Дом музыки — Камерный зал",
       "source_url": "https://www.mmdm.ru/event/virtuozy-moskvy-contrapunctus-bah-bethoven-britten?event_pk=6928",
       "verified": true,
       "monitor_entities": [
@@ -12000,7 +12000,7 @@
       "details_label": "Программа",
       "details": "Йозеф Гайдн — «Армида», опера в концертном исполнении.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-21/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -12041,7 +12041,7 @@
       "details_label": "Программа",
       "details": "Моцарт и Шуберт.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-21/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -12531,7 +12531,7 @@
       "details_label": "Программа",
       "details": "Бах — фрагменты Сонаты № 2 BWV 1003; Изаи — Соната № 3; Паганини, Сен-Санс–Изаи, Шоссон, Чайковский, Равель.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-22/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -12801,7 +12801,7 @@
       "details_label": "Программа",
       "details": "Бетховен — Симфонии № 1, 2 и 5.",
       "source_label": "Дом музыки — Светлановский зал",
-      "source_url": "https://www.mmdm.ru/",
+      "source_url": "https://www.mmdm.ru/event/bethoven-simfonii-1-2-3-filipp-chizhevskij-i-gaso?event_pk=7008",
       "verified": true,
       "organizer": "Дом музыки",
       "monitor_entities": [
@@ -12900,7 +12900,7 @@
       "details_label": "Программа",
       "details": "Сальери — Маленькая серенада; Гайдн — Дивертисмент; Фукс — Серенада; Нильсен — Serenata in vano; Рославец — Ноктюрн.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-23/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -13474,7 +13474,7 @@
       "details_label": "Программа / детали",
       "details": "Первый вечер VIII фестиваля «Пять вечеров».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://unioncomposers.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-24-2/",
       "verified": true,
       "start": "2026-10-24T19:00:00+03:00",
       "organizer": "Союз композиторов России",
@@ -13623,7 +13623,7 @@
       "details_label": "Программа",
       "details": "Губайдулина — Струнный квартет № 4 с магнитофонной лентой; Perception для сопрано, баритона и семи струнных.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-24/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -14649,7 +14649,7 @@
       "details_label": "Официальная афиша",
       "details": "Органный концерт.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://zaryadyehall.ru/events/organ/6192/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -14814,7 +14814,7 @@
       "details_label": "Программа / детали",
       "details": "VIII фестиваль «Пять вечеров».",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://unioncomposers.ru/",
+      "source_url": "https://meloman.ru/concert/festival-soyuza-kompozitorov-rossii-pyat-vecherov-vecher-tretij-bajki-i-shalosti/",
       "verified": true,
       "start": "2026-10-27T19:00:00+03:00",
       "organizer": "Союз композиторов России",
@@ -14913,7 +14913,7 @@
       "details_label": "Программа",
       "details": "Рахманинов — Концерт № 2; Чайковский — Симфония № 4.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-27/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -15196,7 +15196,7 @@
       "details_label": "Программа",
       "details": "Бетховен — Концерт № 3 для фортепиано с оркестром; Рихард Штраус — «Альпийская симфония».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/calendar/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_2026/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-28/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -15461,7 +15461,7 @@
       "details_label": "Программа",
       "details": "Позюмский — Соната для двух виол да гамба; «Безумный дилижанс»; кантата «Ариадна»; сюита «О пяти пальцах»; фрагменты цикла «Венок консортов»; песни из циклов «Огонь горит» и «Двенадцать ноктюрнов»; Le Printemps.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-29/",
       "source_scope": "calendar",
       "verified": true,
       "organizer": "Московская филармония",
@@ -15912,7 +15912,7 @@
       "details_label": "Полная программа / описание",
       "details": "Владимир Мартынов. «Реквием» для солистов, хора и оркестра — премьера.\nРоссийский национальный оркестр.\nДирижёр — Фёдор Безносиков.\nГосударственный академический русский хор имени А. В. Свешникова.\nТатьяна Гринденко — скрипка.\nЯрослав Тимофеев — ведущий.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-30/",
       "verified": false,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -16039,7 +16039,7 @@
       "details_label": "Программа",
       "details": "Литературно-музыкальный вечер.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-30/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -16452,7 +16452,7 @@
       "details_label": "Программа",
       "details": "Бетховен — квартеты № 1 и № 5, соч. 18; Мясковский — Квартет № 13.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~oct_kontsertnyy-zal-imeni-p-i-chaykovskogo_kamernyy-zal-filarmonii/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-10-31/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -16694,7 +16694,7 @@
       "details_label": "Программа",
       "details": "Духовные стихи и постовые песни.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-01/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -16839,7 +16839,7 @@
       "details_label": "Программа / детали",
       "details": "барокко XVIII века",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-02/",
       "verified": true,
       "start": "2026-11-02T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -17074,7 +17074,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-03/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -17280,7 +17280,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-04/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -17420,7 +17420,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-05/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -17454,7 +17454,7 @@
       "details_label": "Программа / детали",
       "details": "Мусоргский, Чайковский, Рахманинов — «Колокола».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-05/",
       "verified": true,
       "start": "2026-11-05T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -17596,7 +17596,7 @@
       "details_label": "Программа / детали",
       "details": "Шостакович — поздние квартеты №15 и №14.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-06/",
       "verified": true,
       "start": "2026-11-06T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -17635,7 +17635,7 @@
       "details_label": "Программа / детали",
       "details": "И. С. Бах — оркестровые сюиты и кантаты.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-06/",
       "verified": true,
       "start": "2026-11-06T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -17776,7 +17776,7 @@
       "details_label": "Программа / детали",
       "details": "Шёнберг, Барток, Джон Адамс, Кейдж.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-07/",
       "verified": true,
       "start": "2026-11-07T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -17810,7 +17810,7 @@
       "details_label": "Программа",
       "details": "Бетховен — Концерт №1; Чайковский — Симфония №5.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-07/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -17988,7 +17988,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-08/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -18052,7 +18052,7 @@
       "details_label": "Программа",
       "details": "Стипендиаты Благотворительного фонда «Новые имена» имени Иветты Вороновой.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-09/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -18087,7 +18087,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-09/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -18189,7 +18189,7 @@
       "details_label": "Программа / детали",
       "details": "Бах, Бибер.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/subscription/ansambl-solistov-akademiia-starinnoj-muzyki-moskovskoj-filarmonii-2026-114/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -18228,7 +18228,7 @@
       "details_label": "Программа / детали",
       "details": "Ахунов — мировая премьера; Такемицу — November Steps; Рахмадиев; Зволинский — мировая премьера.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-10/",
       "verified": true,
       "start": "2026-11-10T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -18436,7 +18436,7 @@
       "details_label": "Программа",
       "details": "Брамс — Скрипичный концерт; Чайковский — симфония «Манфред».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-11/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -18479,7 +18479,7 @@
       "details_label": "Программа / детали",
       "details": "Тауэр, Шмотова, Навок, Хрущёва, Ланг, Грайм, Райх — Double Sextet.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-11/",
       "verified": true,
       "start": "2026-11-11T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -18517,7 +18517,7 @@
       "details_label": "Программа / детали",
       "details": "24 прелюдии и фуги для фортепиано. Перенесено с 06.11.2026.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://zaryadyehall.ru/events/classics/10133/",
       "verified": true,
       "start": "2026-11-11T19:00:00+03:00",
       "organizer": "Зал Зарядье",
@@ -18701,7 +18701,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-12/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -18840,7 +18840,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-13/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19088,7 +19088,7 @@
       "details_label": "Программа / детали",
       "details": "Бериньи, Блох и др.; камерная программа.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-14/",
       "verified": true,
       "start": "2026-11-14T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -19118,7 +19118,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-14/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19178,7 +19178,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "source_url": "https://zaryadyehall.ru/events/baroque/9864/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -19246,7 +19246,7 @@
       "details_label": "Программа",
       "details": "Чайковский — «Буря»; Аренский — Скрипичный концерт; Элгар — Симфония №2.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-15/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19288,7 +19288,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-15/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19403,7 +19403,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-16/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19443,7 +19443,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-16/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19583,7 +19583,7 @@
       "details_label": "Программа",
       "details": "Литературно-музыкальный вечер.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-17/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19622,7 +19622,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-17/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19741,7 +19741,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-18/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19783,7 +19783,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-18/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19881,7 +19881,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-19/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -19919,7 +19919,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-19/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20012,7 +20012,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-20/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20047,7 +20047,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/baroque/",
+      "source_url": "https://www.zaryadyehall.ru/events/baroque/9869/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -20173,7 +20173,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-21/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20205,7 +20205,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-21/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20245,7 +20245,7 @@
       "details_label": "Программа",
       "details": "Шостакович — Струнные квартеты № 4 ре мажор, ор. 83; № 5 си-бемоль мажор, ор. 92; № 6 соль мажор, ор. 101.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "source_url": "https://zaryadyehall.ru/events/classics/6489/",
       "verified": true,
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
@@ -20533,7 +20533,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-22/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20566,7 +20566,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-22/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20694,7 +20694,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-23/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20732,7 +20732,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-23/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20900,7 +20900,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-24/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -20935,7 +20935,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-24/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21116,7 +21116,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-25/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21153,7 +21153,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-25/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21296,7 +21296,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-26/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21334,7 +21334,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-26/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21504,7 +21504,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-27/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21693,7 +21693,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-28/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21725,7 +21725,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-11-28/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21918,7 +21918,7 @@
       "details_label": "Программа",
       "details": "Симпсон — «Времена года»; Дженкинс — консорты.",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-29/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -21993,7 +21993,7 @@
       "details_label": "Программа",
       "details": "",
       "source_label": "Камерный зал Московской филармонии",
-      "source_url": "https://meloman.ru/concert/~nov/",
+      "source_url": "https://meloman.ru/concert/kzf-2026-11-30/",
       "verified": true,
       "organizer": "Московская филармония",
       "monitor_entities": [
@@ -22421,7 +22421,7 @@
       "details_label": "Фестиваль",
       "details": "Открытие Зимнего фестиваля Зала Зарядье. Три тенора, Московский государственный симфонический оркестр, дирижёр Иван Рудин.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/festival/10153/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -22522,7 +22522,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "source_url": "https://www.zaryadyehall.ru/events/festival/10043/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -22561,7 +22561,7 @@
       "details_label": "Состав",
       "details": "Ансамбль NeoBarocco: флейта, скрипка/вокал, виола да гамба, клавесин. Программа английской музыки эпохи Реставрации.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/festival/6337/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -22726,7 +22726,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/festival/10083/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -22870,7 +22870,7 @@
       "details_label": "Программа",
       "details": "Шостакович — Струнные квартеты № 7 фа-диез минор, ор. 108; № 8 до минор, ор. 110; № 9 ми-бемоль мажор, ор. 117.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+      "source_url": "https://zaryadyehall.ru/events/classics/6490/",
       "verified": true,
       "organizer": "Культура.РФ / Зал Зарядье",
       "monitor_entities": [
@@ -22979,7 +22979,7 @@
       "details_label": "Источник",
       "details": "Событие Зимнего фестиваля Зарядья.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/classics/9790/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -23084,7 +23084,7 @@
       "details_label": "Источник",
       "details": "Событие Зимнего фестиваля Зарядья.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/festival/10154/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -23221,7 +23221,7 @@
       "details_label": "Программа",
       "details": "Гершвин, Цфасман, Шостакович.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://www.zaryadyehall.ru/events/festivals/",
+      "source_url": "https://www.zaryadyehall.ru/events/mood/8675/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -23255,7 +23255,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "source_url": "https://zaryadyehall.ru/events/festival/10155/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -23333,7 +23333,7 @@
       "details_label": "Официальная афиша",
       "details": "Событие подтверждено официальной афишей Зала Зарядье; актуальные программа и состав — по карточке источника.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/festivals/",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/6199/",
       "verified": true,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -23655,7 +23655,7 @@
       "details_label": "Программа / детали",
       "details": "Шопен — Концерты №1 и №2.",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-12-12/",
       "verified": true,
       "start": "2026-12-12T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -24261,7 +24261,7 @@
       "details_label": "Программа / детали",
       "details": "Малер — «Волшебный рог мальчика»; Р. Штраус — «Так говорил Заратустра».",
       "source_label": "Концертный зал имени П. И. Чайковского",
-      "source_url": "https://meloman.ru/",
+      "source_url": "https://meloman.ru/concert/kzch-2026-12-17/",
       "verified": true,
       "start": "2026-12-17T19:00:00+03:00",
       "organizer": "Московская филармония",
@@ -24423,7 +24423,7 @@
       "details_label": "Проверка",
       "details": "Дата и наличие события подтверждаются декабрьской афишей; состав и формат перед покупкой нужно сверить на официальной странице.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://zaryadyehall.ru/events/festival/9116/",
       "verified": false,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -24795,7 +24795,7 @@
       "details_label": "Источник",
       "details": "Квартет Pratum Integrum. Программа «Соперники Бетховена».",
       "source_label": "Малый зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://www.zaryadyehall.ru/events/classics/6581/",
       "verified": false,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
@@ -24956,7 +24956,7 @@
       "details_label": "Источник",
       "details": "Опера «Черевички» в Большом зале Зарядья.",
       "source_label": "Большой зал «Зарядья»",
-      "source_url": "https://zaryadyehall.ru/events/",
+      "source_url": "https://zaryadyehall.ru/events/festival/6219/",
       "verified": false,
       "organizer": "Зал Зарядье",
       "monitor_entities": [
