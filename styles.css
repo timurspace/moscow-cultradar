@@ -54,7 +54,7 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .venue-check input{margin-top:2px;accent-color:var(--accent);flex:0 0 auto}
 .venue-all{font-weight:700}
 .venue-parent{font-size:13px}
-.venue-children{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;padding-left:18px}
+.venue-children{display:grid;grid-template-columns:1fr;gap:2px;padding-left:18px}
 .venue-other-title{padding:5px 4px;font-size:13px}
 @media (max-width:780px){
   .venue-filter-box{width:100%}
