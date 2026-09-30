@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Культрадар",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "note": "Большой театр: полный sweep актуально опубликованного октября 2026. Публичный слой Большого расширен с 4 старых карточек до 56 актуальных: Историческая сцена 26, Новая 27, Камерная 0, Бетховенский зал 3. Три устаревшие карточки прежней версии афиши удалены. Ноябрь/декабрь не помечены как проверенные: официальный театр на 28.09 сообщил, что афиша опубликована до конца октября. Все октябрьские source_url — прямые официальные страницы постановок.",
     "source_schema_version": 2
   },
@@ -21427,6 +21427,36 @@
       "end": "2026-10-31T18:30:00.000Z"
     },
     {
+      "id": "maly-buratino-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Буратино»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "1 и 21 ноября. 1 ч 45 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=buratino",
+      "verified": true,
+      "start": "2026-11-01T11:00:00+03:00",
+      "end": "2026-11-01T09:45:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "mmdm-7299",
       "category": "music",
       "horizon": "buy",
@@ -21632,6 +21662,96 @@
       "season": "2026/27",
       "sales_status": "в продаже",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-madrid-court-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Скриб / Легуве — «Тайны Мадридского двора»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "1 и 15 ноября. 3 часа, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=madridsecret",
+      "verified": true,
+      "start": "2026-11-01T18:00:00+03:00",
+      "end": "2026-11-01T18:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-white-guard-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Белая гвардия»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "1 и 21 ноября. 3 часа, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=belaya-gvardiya",
+      "verified": true,
+      "start": "2026-11-01T18:00:00+03:00",
+      "end": "2026-11-01T18:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-sandman-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гофман — «Песочный человек»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр — Камерная сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "1, 10 и 11 ноября. 1 ч 20 мин без антракта.",
+      "source_label": "Малый театр — Камерная сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=sandman",
+      "verified": true,
+      "start": "2026-11-01T18:30:00+03:00",
+      "end": "2026-11-01T16:50:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-mozart-requiem-2026-11-01",
@@ -22329,6 +22449,66 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-bride-without-dowry-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Бесприданница»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "3 и 18 ноября; 18 ноября — замена спектакля «Игрок». 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=01bespridannica",
+      "verified": true,
+      "start": "2026-11-03T19:00:00+03:00",
+      "end": "2026-11-03T18:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-guiltless-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Без вины виноватые»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "3 ноября. 2 ч 50 мин.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=bezvinyvinovatye",
+      "verified": true,
+      "start": "2026-11-03T19:00:00+03:00",
+      "end": "2026-11-03T18:50:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "rassvet-hodila-izba-2026-11-03",
       "category": "music",
       "horizon": "buy",
@@ -22492,6 +22672,66 @@
       "card_schema_version": 2,
       "season": "2026/27",
       "sales_status": "есть отдельные билеты"
+    },
+    {
+      "id": "maly-big-three-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Большая тройка (Ялта-45)»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "4 ноября. 2 ч 10 мин без антракта.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=troyka",
+      "verified": true,
+      "start": "2026-11-04T18:00:00+03:00",
+      "end": "2026-11-04T17:10:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-valkyries-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Слава Сэ — «Тайная жизнь валькирий»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "4 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=valkirii",
+      "verified": true,
+      "start": "2026-11-04T18:00:00+03:00",
+      "end": "2026-11-04T17:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-rachmaninov-masterpieces-2026-11-04",
@@ -22991,6 +23231,66 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-cranes-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Розов — «Летят журавли»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "5 и 17 ноября. 3 ч 15 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zhuravli",
+      "verified": true,
+      "start": "2026-11-05T19:00:00+03:00",
+      "end": "2026-11-05T19:15:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-dolly-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Уайлдер — «Всегда зовите Долли!»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "5 и 24 ноября. 3 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=dolli",
+      "verified": true,
+      "start": "2026-11-05T19:00:00+03:00",
+      "end": "2026-11-05T19:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "mmdm-7279",
       "category": "theatre",
       "horizon": "buy",
@@ -23267,6 +23567,96 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-dead-souls-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь / Булгаков — «Мёртвые души»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "6 и 12 ноября. 2 ч 45 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=dushi",
+      "verified": true,
+      "start": "2026-11-06T19:00:00+03:00",
+      "end": "2026-11-06T18:45:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-shines-not-warms-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский / Соловьёв — «Светит, да не греет»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "6 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=svetitdanegreet",
+      "verified": true,
+      "start": "2026-11-06T19:00:00+03:00",
+      "end": "2026-11-06T18:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-cinderella-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шварц — «Золушка»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "7 и 15 ноября. 1 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zolushka",
+      "verified": true,
+      "start": "2026-11-07T11:00:00+03:00",
+      "end": "2026-11-07T09:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "mmdm-6896",
       "category": "music",
       "horizon": "buy",
@@ -23374,6 +23764,65 @@
         "Равель"
       ],
       "program_status": "Конкретные произведения в календарном анонсе не перечислены."
+    },
+    {
+      "id": "maly-golovlevs-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Салтыков-Щедрин — «Господа Головлёвы»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "7 и 29 ноября. Премьера; точная продолжительность в текущей официальной афише не указана.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=golovlyov_family",
+      "verified": true,
+      "start": "2026-11-07T18:00:00+03:00",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-players-gogol-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Игроки»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "7 и 29 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=igroki",
+      "verified": true,
+      "start": "2026-11-07T18:00:00+03:00",
+      "end": "2026-11-07T17:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-bashmet-belarus-russia-2026-11-07",
@@ -23717,6 +24166,100 @@
       "season": "2026/27",
       "sales_status": "событие подтверждено",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-dogs-heart-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Булгаков — «Собачье сердце»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "8 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=sobachjeserdce",
+      "verified": true,
+      "start": "2026-11-08T18:00:00+03:00",
+      "end": "2026-11-08T17:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-eight-women-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Робер Тома — «Восемь любящих женщин»",
+      "tags": [],
+      "visible_tags": [
+        "16+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "8 и 20 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=eightwomen",
+      "verified": true,
+      "start": "2026-11-08T18:00:00+03:00",
+      "end": "2026-11-08T17:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-zashchita-luzhina-2026-11-08",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-11-08T18:30:00+03:00",
+      "end": "2026-11-08T17:45:00.000Z",
+      "title": "Набоков — «Защита Лужина»",
+      "tags": [
+        "psych",
+        "rare"
+      ],
+      "visible_tags": [
+        "Набоков",
+        "2 ч 15 мин"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Большая Ордынка, 69",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "режиссёр Владимир Данай",
+      "price": "проверить актуально",
+      "why": "Набоков и психологическая история шахматиста на малой сцене; гораздо ближе к профилю радара, чем массовая «классика для галочки».",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная карточка / даты",
+      "details": "8 ноября. 2 ч 15 мин, один антракт.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
+      "verified": true,
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-mzk-bugaev-glavatskikh-2026-11-08",
@@ -24267,6 +24810,66 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-mysterious-box-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Каратыгин — «Таинственный ящик»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "10 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=box",
+      "verified": true,
+      "start": "2026-11-10T19:00:00+03:00",
+      "end": "2026-11-10T18:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-truth-happiness-ordynka-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Правда — хорошо, а счастье лучше»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "10 ноября. 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=pravda",
+      "verified": true,
+      "start": "2026-11-10T19:00:00+03:00",
+      "end": "2026-11-10T18:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "nations-adult-daughter-2026-11-10",
       "category": "theatre",
       "horizon": "buy",
@@ -24617,6 +25220,66 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-inspector-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Ревизор»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "11, 25 и 27 ноября; 27 ноября — замена спектакля «Женитьба Бальзаминова». 3 ч 55 мин, два антракта.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=revizor",
+      "verified": true,
+      "start": "2026-11-11T19:00:00+03:00",
+      "end": "2026-11-11T19:55:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-wedding-wedding-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Свадьба, свадьба, свадьба!»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "11 и 21 ноября. 1 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=svadba",
+      "verified": true,
+      "start": "2026-11-11T19:00:00+03:00",
+      "end": "2026-11-11T17:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
       "category": "music",
       "horizon": "buy",
@@ -24863,6 +25526,36 @@
       ],
       "venue_short": "Камерный · Филармония",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-wolves-sheep-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Волки и овцы»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "12 ноября. 3 ч 15 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=wolves",
+      "verified": true,
+      "start": "2026-11-12T19:00:00+03:00",
+      "end": "2026-11-12T19:15:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "gnesin-kultyshev-2026-11-12",
@@ -25244,6 +25937,160 @@
       "season": "2026/27",
       "sales_status": "в продаже",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-garin-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "А. Н. Толстой — «Проект инженера Гарина»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "13 и 14 ноября. 2 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=engineer_Garin's_project",
+      "verified": true,
+      "start": "2026-11-13T19:00:00+03:00",
+      "end": "2026-11-13T18:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-wise-man-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «На всякого мудреца довольно простоты»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "13 и 26 ноября. 3 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=prostota",
+      "verified": true,
+      "start": "2026-11-13T19:00:00+03:00",
+      "end": "2026-11-13T19:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-minor-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Фонвизин — «Недоросль»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "14 ноября. 2 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=nedorosl",
+      "verified": true,
+      "start": "2026-11-14T11:00:00+03:00",
+      "end": "2026-11-14T10:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-tin-soldier-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Андерсен — «Стойкий оловянный солдатик»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "14 ноября. 50 минут.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=stoykiy_olovyannyy_soldatik",
+      "verified": true,
+      "start": "2026-11-14T14:00:00+03:00",
+      "end": "2026-11-14T11:50:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-anna-karenina-2026-11-14",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-11-14T18:00:00+03:00",
+      "end": "2026-11-14T18:30:00.000Z",
+      "title": "Толстой — «Анна Каренина»",
+      "tags": [
+        "psych",
+        "long"
+      ],
+      "visible_tags": [
+        "Андрей Прикотенко",
+        "3 ч 30 мин"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Театральный пр., 1",
+      "location": "Малый театр, Историческая сцена, Москва",
+      "people": "режиссёр-постановщик и автор сценической версии Андрей Прикотенко",
+      "price": "проверить актуально",
+      "why": "Современная режиссёрская работа внутри академической сцены; есть отдельная причина смотреть не из-за одного названия Толстого.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная карточка / даты",
+      "details": "14 и 15 ноября. 3 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=annakarenina",
+      "verified": true,
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-rno-beethoven-brahms-2026-11-14",
@@ -25682,6 +26529,36 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-hangover-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «В чужом пиру похмелье»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "15 и 19 ноября. 1 ч 40 мин без антракта.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=vchuzhompirupohmelye",
+      "verified": true,
+      "start": "2026-11-15T18:30:00+03:00",
+      "end": "2026-11-15T17:10:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "consv-rach-sretensky-youth-choir-2026-11-15",
       "category": "music",
       "horizon": "far",
@@ -26116,6 +26993,39 @@
       "monitor_entities": []
     },
     {
+      "id": "maly-night-tender-2026-11-17",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-11-17T18:30:00+03:00",
+      "end": "2026-11-17T17:20:00.000Z",
+      "title": "Фицджеральд — «Ночь нежна. Дик и Николь»",
+      "tags": [
+        "psych"
+      ],
+      "visible_tags": [
+        "Фицджеральд",
+        "1 ч 50 мин"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр, Камерная сцена, Москва",
+      "people": "постановка Владимира Драгунова",
+      "price": "проверить актуально",
+      "why": "Камерная психологическая работа по Фицджеральду; лучше соответствует профилю, чем большая часть репертуарной классики Малого.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная карточка / даты",
+      "details": "17 и 26 ноября. 1 ч 50 мин без антракта.",
+      "source_label": "Малый театр — Камерная сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=noch_nezhna",
+      "verified": true,
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "consv-bzk-17nov-shostakovich-2026-11-17",
       "category": "music",
       "horizon": "buy",
@@ -26266,6 +27176,36 @@
         "Вадим Репин"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-tartuffe-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Мольер — «Тартюф»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "17 ноября. 2 ч 10 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=tartuf+",
+      "verified": true,
+      "start": "2026-11-17T19:00:00+03:00",
+      "end": "2026-11-17T18:10:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "nations-canary-2026-11-17",
@@ -26525,6 +27465,36 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-balzaminov-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Женитьба Бальзаминова»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "18 ноября; запланированный показ 27 ноября заменён «Ревизором». 3 часа, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=balzaminov",
+      "verified": true,
+      "start": "2026-11-18T19:00:00+03:00",
+      "end": "2026-11-18T19:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "ges2-sysoev-potemkin-2026-11-19",
       "category": "music",
       "horizon": "far",
@@ -26663,6 +27633,96 @@
         "«Перья за ноты»"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-windsor-wives-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шекспир — «Виндзорские жёнушки»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "19 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=merry+wives+of+Windsor",
+      "verified": true,
+      "start": "2026-11-19T19:00:00+03:00",
+      "end": "2026-11-19T18:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-woe-wit-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Грибоедов — «Горе от ума»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "19 ноября. 3 часа, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=goreotuma",
+      "verified": true,
+      "start": "2026-11-19T19:00:00+03:00",
+      "end": "2026-11-19T19:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-white-tent-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Стаднюк — «Белая палатка»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "режиссёр-постановщик Ирина Михайленко",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "20 ноября. 1 ч 40 мин без антракта.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=belaya_palatka",
+      "verified": true,
+      "start": "2026-11-20T18:30:00+03:00",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ],
+      "end": "2026-11-20T17:10:00.000Z"
     },
     {
       "id": "consv-mzk-natalia-trull-2026-11-20",
@@ -26925,6 +27985,36 @@
       "season": "2026/27",
       "sales_status": "в продаже",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-little-tragedies-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Маленькие трагедии»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "20 ноября. 3 часа, два антракта.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=malenkietragedii",
+      "verified": true,
+      "start": "2026-11-20T19:00:00+03:00",
+      "end": "2026-11-20T19:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "nations-ordinary-death-2026-11-20",
@@ -27468,6 +28558,36 @@
       "monitor_entities": []
     },
     {
+      "id": "maly-snow-queen-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Шварц — «Снежная королева»",
+      "tags": [],
+      "visible_tags": [
+        "6+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "22 и 29 ноября. 2 ч 10 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=snowqueen",
+      "verified": true,
+      "start": "2026-11-22T11:00:00+03:00",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ],
+      "end": "2026-11-22T10:10:00.000Z"
+    },
+    {
       "id": "mmdm-6908",
       "category": "music",
       "horizon": "far",
@@ -27680,6 +28800,96 @@
       "card_schema_version": 2,
       "season": "2026/27",
       "sales_status": "есть отдельные билеты"
+    },
+    {
+      "id": "maly-cherry-orchard-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Вишнёвый сад»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "22 ноября. 2 ч 50 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=cherry",
+      "verified": true,
+      "start": "2026-11-22T18:00:00+03:00",
+      "end": "2026-11-22T17:50:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-lev-gurych-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Ленский — «Лев Гурыч Синичкин»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "22 ноября. 2 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=gurych",
+      "verified": true,
+      "start": "2026-11-22T18:00:00+03:00",
+      "end": "2026-11-22T17:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
+      "id": "maly-upset-family-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Екатерина II — «Расстроенная семья»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "22 ноября. 2 часа, один антракт.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=rasstroyennayasemia",
+      "verified": true,
+      "start": "2026-11-22T18:30:00+03:00",
+      "end": "2026-11-22T17:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-gershwin-selected-2026-11-22",
@@ -28394,6 +29604,36 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-truth-happiness-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Островский — «Правда — хорошо, а счастье лучше»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "24 ноября. 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=pravda",
+      "verified": true,
+      "start": "2026-11-24T19:00:00+03:00",
+      "end": "2026-11-24T18:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "ges2-ophelia-2026-11-25",
       "category": "music",
       "horizon": "far",
@@ -28460,6 +29700,36 @@
       "verified": true,
       "organizer": "Театр Наций",
       "monitor_entities": []
+    },
+    {
+      "id": "maly-carefree-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Цвейг — «Беззаботные»",
+      "tags": [],
+      "visible_tags": [
+        "18+ · премьера"
+      ],
+      "venue": "Малый театр — Камерная сцена",
+      "place": "Москва",
+      "location": "Малый театр — Камерная сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "25 ноября. 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Камерная сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=bezzabotnye",
+      "verified": true,
+      "start": "2026-11-25T18:30:00+03:00",
+      "end": "2026-11-25T18:00:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "gnesin-di-cristofano-2026-11-25",
@@ -28748,6 +30018,36 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-marriage-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Гоголь — «Женитьба»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "25 ноября. 2 ч 35 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zhenitba",
+      "verified": true,
+      "start": "2026-11-25T19:00:00+03:00",
+      "end": "2026-11-25T18:35:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "ges2-1881-1921-2026-11-26",
       "category": "music",
       "horizon": "far",
@@ -29028,6 +30328,36 @@
       "card_schema_version": 2
     },
     {
+      "id": "maly-physicists-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Дюрренматт — «Физики»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "26 ноября. 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=fiziki",
+      "verified": true,
+      "start": "2026-11-26T19:00:00+03:00",
+      "end": "2026-11-26T18:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "mamt-romeo-juliette-premiere-2026-11-27",
       "category": "opera",
       "horizon": "far",
@@ -29062,6 +30392,36 @@
         "«Ромео и Джульетта» · премьера"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-soldiers-wife-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Очирова / Юмов — «Жена солдата»",
+      "tags": [],
+      "visible_tags": [
+        "12+ · премьера"
+      ],
+      "venue": "Малый театр — Малая сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "27 и 28 ноября. 1 ч 10 мин без антракта.",
+      "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=zhenasoldata",
+      "verified": true,
+      "start": "2026-11-27T18:30:00+03:00",
+      "end": "2026-11-27T16:40:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-shagimuratova-2026-11-27",
@@ -29337,6 +30697,36 @@
       "program_status": "XIV фестиваль «Будущее джаза»."
     },
     {
+      "id": "maly-player-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Достоевский — «Игрок»",
+      "tags": [],
+      "visible_tags": [
+        "16+ · премьера"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "27 ноября. Показ 18 ноября был заменён «Бесприданницей». 2 ч 30 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=igrok",
+      "verified": true,
+      "start": "2026-11-27T19:00:00+03:00",
+      "end": "2026-11-27T18:30:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "mmdm-6862",
       "category": "music",
       "horizon": "far",
@@ -29405,6 +30795,36 @@
       "sales_status": "есть отдельные билеты"
     },
     {
+      "id": "maly-captains-daughter-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Пушкин — «Капитанская дочка»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "28 ноября: 13:00 и 18:00. 2 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=kapitanskayadochka",
+      "verified": true,
+      "start": "2026-11-28T13:00:00+03:00",
+      "end": "2026-11-28T12:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
+    },
+    {
       "id": "consv-bzk-grand-organ-symphony-gala-2026-11-28",
       "category": "music",
       "horizon": "buy",
@@ -29435,6 +30855,36 @@
       "sales_status": "событие подтверждено; статус продажи проверить",
       "card_schema_version": 2,
       "program_status": "Мультимедийная органно-симфоническая программа; произведения не перечислены."
+    },
+    {
+      "id": "maly-krechinsky-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Колкер — «Свадьба Кречинского»",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Историческая сцена",
+      "place": "Москва",
+      "location": "Малый театр — Историческая сцена, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Репертуарная карточка: сохраняем постановку в полном театральном календаре.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "28 ноября. Мюзикл, 2 ч 20 мин, один антракт.",
+      "source_label": "Малый театр — Историческая сцена",
+      "source_url": "https://www.maly.ru/spectacle/view?name=krechinskiy",
+      "verified": true,
+      "start": "2026-11-28T18:00:00+03:00",
+      "end": "2026-11-28T17:20:00.000Z",
+      "organizer": "Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ]
     },
     {
       "id": "consv-bzk-strauss-gala-2026-11-28",
@@ -30198,6 +31648,36 @@
       "season": "2026/27",
       "sales_status": "в продаже",
       "card_schema_version": 2
+    },
+    {
+      "id": "maly-seagull-iskander-nov26",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "Чехов — «Чайка» · Театр драмы им. Ф. А. Искандера",
+      "tags": [],
+      "visible_tags": [
+        "12+"
+      ],
+      "venue": "Малый театр — Сцена на Б. Ордынке",
+      "place": "Москва",
+      "location": "Малый театр — Сцена на Б. Ордынке, Москва",
+      "people": "режиссёр-постановщик Роман Кочержевский",
+      "price": "проверить актуально",
+      "why": "Гостевой спектакль в опубликованной ноябрьской афише Малого театра; сохраняем как событие фактической московской площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная карточка / даты",
+      "details": "30 ноября. Гостевой спектакль Государственного русского театра драмы им. Ф. А. Искандера. 2 ч 40 мин, один антракт.",
+      "source_label": "Малый театр — Сцена на Б. Ордынке",
+      "source_url": "https://www.maly.ru/spectacle/view?name=chaika",
+      "verified": true,
+      "start": "2026-11-30T19:00:00+03:00",
+      "organizer": "Государственный русский театр драмы им. Ф. А. Искандера / Малый театр",
+      "monitor_entities": [
+        "Малый театр"
+      ],
+      "end": "2026-11-30T18:40:00.000Z"
     },
     {
       "id": "consv-mzk-andrianov-2026-12-01",
