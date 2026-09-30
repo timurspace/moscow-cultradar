@@ -1121,6 +1121,14 @@
   ],
   "monitor_groups": [
     {
+      "name": "Гнесинка",
+      "url": "https://gnesin-academy.ru/",
+      "member_venues": [
+        "Большой зал Музыкального училища имени Гнесиных",
+        "Концертный зал РАМ имени Гнесиных"
+      ]
+    },
+    {
       "name": "Московская консерватория",
       "url": "https://www.mosconsv.ru/afisha/",
       "member_venues": [
