@@ -2,7 +2,7 @@
   "meta": {
     "title": "Культрадар",
     "updated": "2026-09-30",
-    "note": "КЦ «Покровские ворота»: контрольный sweep текущего официального октябрьского слоя. Добавлены открытие выставки с искусствоведческими лекциями 01.10, камерный концерт «Память о солнце» 02.10 и спектакль «Синхронизация в Биркенвальде» 11.10. Ноябрьская афиша на текущей месячной странице ещё не опубликована.",
+    "note": "Ельцин Центр в Москве и Центр Вознесенского: контрольный sweep актуального опубликованного культурного слоя выполнен 30.09.2026. У Ельцин Центра удалена ошибочная дубль-карточка лекции Елены Шаровой на 01.10 (официально подтверждена только 12.10), добавлены писательский курс, лекция Александра Аузана и шесть встреч исторического цикла «Неидеальный лабиринт» до 09.11; generic AI, детские программы и экскурсии не включались. У Центра Вознесенского добавлены опубликованные литературные и исследовательские события до 19.12, включая книжный клуб по отдельным датам, две конференции и поздние лекции циклов; время презентации Унгаретти исправлено с 19:00 на 18:00 по официальной карточке.",
     "source_schema_version": 2
   },
   "events": [
@@ -999,6 +999,33 @@
       ]
     },
     {
+      "id": "voz-lessing-cursed-culture-2026-09-30",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Теодор Лессинг — «Про́клятая культура. Размышления о противоборстве жизни и духа»",
+      "tags": [],
+      "visible_tags": [
+        "философия",
+        "книга"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Александр Михайловский",
+      "price": "по регистрации",
+      "why": "Философская презентация первого русского издания эссе Теодора Лессинга; соответствует философскому talks-контуру.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "30 сентября, 19:30. Презентация первого русского издания эссе Теодора Лессинга «Про́клятая культура».",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/prezentacziya-knigi-teodora-lessinga-proklyataya-kultura-razmyshleniya-o-protivoborstve-zhizni-i-duha/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-09-30T19:30:00+03:00"
+    },
+    {
       "id": "lapp83-tiffany-dream-2026-10-01",
       "category": "talks",
       "horizon": "near",
@@ -1061,30 +1088,31 @@
       "card_schema_version": 2
     },
     {
-      "id": "yeltsin-sharova-artists-2026-10-01",
+      "id": "yeltsin-writing-course-memory-2026-10-01",
       "category": "talks",
       "horizon": "near",
       "featured": false,
-      "title": "Елена Шарова — «Жизнь других: учёба, работа, быт художников в Российской империи»",
+      "title": "Писательский курс «А как всё было на самом деле?»",
       "tags": [],
       "visible_tags": [
-        "лекция"
+        "литература",
+        "писательская практика"
       ],
       "venue": "Ельцин Центр в Москве",
-      "place": "Москва",
-      "location": "Ельцин Центр в Москве, Москва",
-      "people": "Елена Шарова",
-      "price": "проверить",
-      "why": "Содержательная лекция московского филиала Ельцин Центра.",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Анна Зиновьева",
+      "price": "9000 ₽ — абонемент на 8 занятий",
+      "why": "Литературная мастерская о превращении памяти и личного опыта в текст; соответствует литературному talks-контуру.",
       "editorial_status": "attention",
       "ticket_urgency": "no_rush",
-      "details_label": "Даты / детали",
-      "details": "1 октября, 18:00–20:00.",
+      "details_label": "Официальная программа",
+      "details": "Курс из восьми встреч: 1, 8, 15, 22, 29 октября; 5, 12 и 26 ноября, начало в 18:00. В карточке хранится первая дата, полный график указан в деталях.",
       "source_label": "Ельцин Центр в Москве",
-      "source_url": "https://yeltsin.ru/platform/moskovskij-filial-elcin-centra/",
+      "source_url": "https://yeltsin.ru/affair/pisatelskij-kurs-a-kak-vsyo-bylo-na-samom-dele/",
       "verified": true,
-      "start": "2026-10-01T18:00:00+03:00",
-      "end": "2026-10-01T17:00:00.000Z"
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-01T18:00:00+03:00"
     },
     {
       "id": "bolshoi-barber-seville-2026-10-01-1900",
@@ -1817,6 +1845,34 @@
       "organizer": "im SPIEGEL / Московская книжная неделя",
       "monitor_entities": [],
       "start": "2026-10-01T20:00:00+03:00"
+    },
+    {
+      "id": "yeltsin-auzan-cultural-codes-2026-10-02",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Александр Аузан — «Культурные коды экономики: от развития стран к доверию в бизнесе»",
+      "tags": [],
+      "visible_tags": [
+        "культура",
+        "общество",
+        "экономика"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Александр Аузан",
+      "price": "бесплатно, по регистрации",
+      "why": "Лекция о культурных установках, доверии и институтах; содержательный общественно-гуманитарный talks.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "2 октября, 18:00–19:30. Лекция о связи культурных установок, доверия и экономического поведения.",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/aleksandr-auzan-kulturnye-kody-ekonomiki-ot-razvitiya-stran-k-doveriyu-v-biznese/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-02T18:00:00+03:00"
     },
     {
       "id": "maly-sandman-oct26",
@@ -2718,11 +2774,15 @@
       "details_label": "Даты / детали",
       "details": "2 октября, 21:00–22:30, Бальный зал усадьбы.",
       "source_label": "Ельцин Центр в Москве",
-      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "source_url": "https://yeltsin.ru/affair/ot-barokko-do-roka/?id=8688",
       "verified": true,
       "start": "2026-10-02T21:00:00+03:00",
       "end": "2026-10-02T19:30:00.000Z",
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "venue_short": "Ельцин Центр",
+      "program_status": "программа опубликована",
+      "season": "2026/27",
+      "sales_status": "в продаже"
     },
     {
       "id": "mm-golden-royali-2026-10-03",
@@ -2997,6 +3057,34 @@
       "card_schema_version": 2
     },
     {
+      "id": "voz-poetry-outside-image-2026-10-03",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится изображением",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "авангард",
+        "книжный клуб"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Егор Зайцев",
+      "price": "по регистрации",
+      "why": "Книжный клуб об авангарде, визуальной поэзии и книге как художественном объекте.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "3 октября, 14:00. Ильязд, Василий Каменский, Малларме, Аполлинер; визуальная поэзия и архитектура страницы.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-10-03T14:00:00+03:00"
+    },
+    {
       "id": "praktika-good-im-like-this-2026-10-03",
       "category": "theatre",
       "horizon": "near",
@@ -3119,6 +3207,34 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "voz-quiet-book-rave-thaw-2026-10-03",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Тихий книжный рейв. Оттепель»",
+      "tags": [],
+      "visible_tags": [
+        "литература",
+        "чтение",
+        "Оттепель"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "проект «По слогам» · Ad Marginem",
+      "price": "по регистрации",
+      "why": "Литературный коллективный формат: медленное чтение, разговор о тексте и опыте публичной поэзии шестидесятых.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "3 октября, 18:00. Коллективное тихое чтение с последующим обсуждением прочитанного.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/tihij-knizhnyj-rejv-ottepel/",
+      "verified": true,
+      "organizer": "Центр Вознесенского / «По слогам» / Ad Marginem",
+      "start": "2026-10-03T18:00:00+03:00"
     },
     {
       "id": "bolshoi-barber-seville-2026-10-03-1900",
@@ -4164,12 +4280,12 @@
       "place": "Москва",
       "location": "Центр Вознесенского, Москва",
       "people": "издательство «Носорог» · проект «несовременник»",
-      "price": "проверить актуально",
+      "price": "по регистрации",
       "why": "Содержательная программа Центра Вознесенского; добавлена как часть полного прохода источников.",
       "editorial_status": "attention",
       "ticket_urgency": "no_rush",
       "details_label": "Даты / постановка",
-      "details": "Подтверждено официальной страницей события.",
+      "details": "4 октября, 18:00. Презентация книги Джузеппе Унгаретти «Веселье Крушений» издательства «Носорог» и проекта «несовременник».",
       "source_label": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/prezentacziya-knigi-dzhuzeppe-ungaretti-vesele-krushenij/",
       "verified": true,
@@ -4962,6 +5078,33 @@
       "season": "2026/27",
       "sales_status": "вход свободный",
       "card_schema_version": 2
+    },
+    {
+      "id": "yeltsin-chervyakov-crossroads-1-2026-10-05",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Можно ли было спасти Советский Союз?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция о позднем СССР и альтернативных траекториях начала 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "5 октября, 19:00–20:30. Первая лекция цикла «Неидеальный лабиринт: 1990-е годы в истории России».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-1-mozhno-li-bylo-spasti-sovetskij-soyuz/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-05T19:00:00+03:00"
     },
     {
       "id": "rassvet-listening-club-2026-10-05",
@@ -6932,7 +7075,7 @@
       "venue": "Ельцин Центр в Москве",
       "place": "Москва",
       "location": "Ельцин Центр в Москве, Москва",
-      "people": "",
+      "people": "Квартет имени В. А. Берлинского",
       "price": "1500–3000 ₽",
       "why": "Камерный квартетный вечер с сильной программой.",
       "editorial_status": "candidate",
@@ -6940,7 +7083,7 @@
       "details_label": "Даты / детали",
       "details": "8 октября, 19:00–20:15. Чайковский — Квартет №2; Барток — Квартет №4.",
       "source_label": "Ельцин Центр в Москве",
-      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "source_url": "https://yeltsin.ru/affair/kvartet-im-v-a-berlinskogo-dva-mira-chajkovskij-i-bartok/?id=8734",
       "verified": true,
       "start": "2026-10-08T19:00:00+03:00",
       "end": "2026-10-08T17:15:00.000Z",
@@ -6951,7 +7094,11 @@
       "works": [
         "Квартет №4."
       ],
-      "card_schema_version": 2
+      "card_schema_version": 2,
+      "venue_short": "Ельцин Центр",
+      "program_status": "программа опубликована",
+      "season": "2026/27",
+      "sales_status": "в продаже"
     },
     {
       "id": "zaryadye-kramer-akkuratov-2026-10-08",
@@ -10169,15 +10316,15 @@
       "venue": "Ельцин Центр в Москве",
       "place": "Москва",
       "location": "Ельцин Центр в Москве, Москва",
-      "people": "",
+      "people": "Елена Шарова",
       "price": "бесплатно, по регистрации",
       "why": "Содержательная культурно-историческая лекция.",
       "editorial_status": "attention",
       "ticket_urgency": "no_rush",
       "details_label": "Даты / детали",
-      "details": "12 октября, 19:00–20:00; официальный календарь показывает эту дату в цикле.",
+      "details": "12 октября, 19:00–20:00. Первая лекция цикла «Действующие лица. Главные герои и злодеи русской культуры конца XIX – начала XX вв.».",
       "source_label": "Ельцин Центр в Москве",
-      "source_url": "https://yeltsin.ru/affairs/?cid=1",
+      "source_url": "https://yeltsin.ru/affair/elena-sharova-zhizn-drugih-uchyoba-rabota-byt-hudozhnikov-v-rossijskoj-imperii/",
       "verified": true,
       "start": "2026-10-12T19:00:00+03:00",
       "end": "2026-10-12T17:00:00.000Z"
@@ -10264,6 +10411,33 @@
       "season": "2026/27",
       "sales_status": "вход свободный",
       "card_schema_version": 2
+    },
+    {
+      "id": "yeltsin-chervyakov-crossroads-2-2026-10-12",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Можно ли было избежать конфликта президента России и парламента?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция цикла о политической истории России 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "12 октября, 19:00–20:30. Вторая лекция цикла «Неидеальный лабиринт».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-2-mozhno-li-bylo-izbezhat-konflikta-prezidenta-rossii-i-parlamenta/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-12T19:00:00+03:00"
     },
     {
       "id": "rassvet-weeds-foreign-songs-2026-10-12",
@@ -13386,6 +13560,34 @@
       "card_schema_version": 2
     },
     {
+      "id": "voz-poetry-outside-sound-2026-10-17",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится звуком",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "звук",
+        "авангард"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "по регистрации",
+      "why": "Встреча о звуковой поэзии — от футуризма до акустического перформанса.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "17 октября, 14:00. Туфанов, Хлебников, Чичерин, Швиттерс, Анри Шопен, Рауль Хаусман.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-10-17T14:00:00+03:00"
+    },
+    {
       "id": "doc-lonely-hearts-2026-10-17",
       "category": "theatre",
       "horizon": "near",
@@ -15582,6 +15784,33 @@
       "season": "2026/27",
       "sales_status": "проверить актуально",
       "card_schema_version": 2
+    },
+    {
+      "id": "yeltsin-chervyakov-crossroads-3-2026-10-19",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Был ли неизбежен конфликт на Северном Кавказе?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция цикла о ключевых развилках российской истории 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "19 октября, 19:00–20:30. Третья лекция цикла «Неидеальный лабиринт».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-3-byl-li-neizbezhen-konflikt-na-severnom-kavkaze/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-19T19:00:00+03:00"
     },
     {
       "id": "doc-poetry-slam-2026-10-19",
@@ -17945,6 +18174,34 @@
         "Прокофьев"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "voz-offflight-conference-2026-10-24",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Конференция «Отлет: грязь, грибы и (противо)естественная история»",
+      "tags": [],
+      "visible_tags": [
+        "конференция",
+        "культура",
+        "экология"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "проверить условия участия",
+      "why": "Междисциплинарная конференция о натуралистическом повороте, художественных практиках, шуме, экологии и сибирском андеграунде.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "24–25 октября. Двухдневная конференция; точное расписание по времени на текущей официальной странице не опубликовано, поэтому используется date_only.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/konferencziya/otlet-gryaz-griby-i-protivoestestvennaya-istoriya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "date_only": "2026-10-24"
     },
     {
       "id": "prove-how-note-became-music-2026-10-24",
@@ -20455,6 +20712,60 @@
       "card_schema_version": 2
     },
     {
+      "id": "yeltsin-chervyakov-crossroads-4-2026-10-26",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Мог ли в 1996 году победить не Ельцин?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция цикла о ключевых развилках российской истории 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "26 октября, 19:00–20:30. Четвёртая лекция цикла «Неидеальный лабиринт».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-4-mog-li-v-1996-godu-pobedit-ne-elcin/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-10-26T19:00:00+03:00"
+    },
+    {
+      "id": "voz-tvardovsky-one-poem-2026-10-26",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Вечер одного стихотворения: Александр Твардовский»",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "Твардовский"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Александр Берлин",
+      "price": "по регистрации",
+      "why": "Литературный вечер о биографии и поэзии Александра Твардовского.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "26 октября, 19:00. Разговор о жизни Твардовского и чтение его стихов.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/vecher-odnogo-stihotvoreniya-aleksandr-tvardovskij/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-10-26T19:00:00+03:00"
+    },
+    {
       "id": "rassvet-arm-percussion-2026-10-26",
       "category": "music",
       "horizon": "buy",
@@ -22811,6 +23122,34 @@
       "sales_status": "есть отдельные билеты"
     },
     {
+      "id": "voz-poetry-outside-everyday-2026-10-31",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится повседневностью",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "XX век",
+        "книжный клуб"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Кирилл Корчагин",
+      "price": "по регистрации",
+      "why": "Литературный клуб о минимализме, разговорной речи и повседневности в поэзии второй половины XX века.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "31 октября, 14:00. Некрасов, Холин, Сатуновский и международный контекст минималистической поэзии.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-10-31T14:00:00+03:00"
+    },
+    {
       "id": "myaskovsky-amu-students-2026-10-31",
       "category": "music",
       "horizon": "far",
@@ -24064,6 +24403,33 @@
       "venue_short": "КЗЧ",
       "card_schema_version": 2,
       "sales_status": "билеты проданы"
+    },
+    {
+      "id": "yeltsin-chervyakov-crossroads-5-2026-11-02",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Могла ли Россия избежать дефолта?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция цикла о ключевых развилках российской истории 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "2 ноября, 19:00–20:30. Пятая лекция цикла «Неидеальный лабиринт».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-5-mogla-li-rossiya-izbezhat-defolta/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-11-02T19:00:00+03:00"
     },
     {
       "id": "mmdm-7080",
@@ -26664,6 +27030,33 @@
       "start": "2026-11-09T19:00:00+03:00"
     },
     {
+      "id": "yeltsin-chervyakov-crossroads-6-2026-11-09",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Руслан Червяков — «Мог ли Борис Ельцин не уйти в отставку?»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "1990-е"
+      ],
+      "venue": "Ельцин Центр в Москве",
+      "place": "Малая Никитская, 12, стр. 1",
+      "location": "Филиал Ельцин Центра в Москве, Москва",
+      "people": "Руслан Червяков",
+      "price": "бесплатно, по регистрации",
+      "why": "Историческая лекция цикла о ключевых развилках российской истории 1990-х.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "9 ноября, 19:00–20:30. Шестая лекция цикла «Неидеальный лабиринт».",
+      "source_label": "Ельцин Центр в Москве",
+      "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-6-mog-li-boris-elcin-ne-ujti-v-otstavku/",
+      "verified": true,
+      "organizer": "Филиал Ельцин Центра в Москве",
+      "start": "2026-11-09T19:00:00+03:00"
+    },
+    {
       "id": "consv-rach-les-moscovites-2026-11-10",
       "category": "music",
       "horizon": "buy",
@@ -28123,6 +28516,34 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "voz-poetry-outside-space-2026-11-14",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится пространством",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "перформанс",
+        "книжный клуб"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Екатерина Троепольская · Андрей Родионов",
+      "price": "по регистрации",
+      "why": "Встреча о поэзии как инструкции, маршруте, коллективном действии и пространственной практике.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "14 ноября, 14:00. Айги, Мнацаканова, Сапгир, Брехт, Левитт, Голдсмит.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-11-14T14:00:00+03:00"
     },
     {
       "id": "maly-anna-karenina-2026-11-14",
@@ -29840,6 +30261,33 @@
       ]
     },
     {
+      "id": "voz-folklore-own-other-2026-11-19",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Свое и чужое: как устроено пространство русского фольклора»",
+      "tags": [],
+      "visible_tags": [
+        "фольклор",
+        "культурная история"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Андрей Мороз",
+      "price": "проверить актуально",
+      "why": "Фольклор, культурная антропология и историческая память пространства.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "19 ноября, 19:30. Лекция о границе своего и чужого в пространстве русского фольклора.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-svoe-i-chuzhoe-kak-ustroeno-prostranstvo-russkogo-folklora/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-11-19T19:30:00+03:00"
+    },
+    {
       "id": "maly-white-tent-nov26",
       "category": "theatre",
       "horizon": "near",
@@ -30191,6 +30639,34 @@
       "verified": true,
       "organizer": "Театр Наций",
       "monitor_entities": []
+    },
+    {
+      "id": "voz-late-soviet-experiments-conference-2026-11-21",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Конференция «Позднесоветское поле экспериментов: импульсы 1950–1980-х годов»",
+      "tags": [],
+      "visible_tags": [
+        "конференция",
+        "история",
+        "Оттепель"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "проверить условия участия",
+      "why": "Междисциплинарная конференция о позднесоветской истории, культурных практиках, науке, медиа и экспериментальных институциях.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "21–22 ноября. Двухдневная конференция; точное расписание по времени на текущей официальной странице не опубликовано, поэтому используется date_only.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/konferencziya/pozdnesovetskoe-pole-eksperimentov-impulsy-1950-1980-h-godov/",
+      "verified": true,
+      "organizer": "Центр Вознесенского / Центр прикладной отечественной истории Президентской академии",
+      "date_only": "2026-11-21"
     },
     {
       "id": "mmdm-7025",
@@ -32193,6 +32669,34 @@
       ]
     },
     {
+      "id": "voz-letov-life-artistic-gesture-2026-11-25",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Был там один солдат: жизнь как художественный жест»",
+      "tags": [],
+      "visible_tags": [
+        "Егор Летов",
+        "искусство",
+        "контркультура"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Александр Секацкий",
+      "price": "проверить актуально",
+      "why": "Лекция о связи художественного жеста и жизненной практики в творчестве Егора Летова.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "25 ноября, 19:30. Завершающая встреча цикла «Летоведение».",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-byl-tam-odin-soldat-zhizn-kak-hudozhestvennyj-zhest/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-11-25T19:30:00+03:00"
+    },
+    {
       "id": "ges2-1881-1921-2026-11-26",
       "category": "music",
       "horizon": "far",
@@ -33041,6 +33545,34 @@
       "sales_status": "событие подтверждено; статус продажи проверить",
       "card_schema_version": 2,
       "program_status": "Мультимедийная органно-симфоническая программа; произведения не перечислены."
+    },
+    {
+      "id": "voz-poetry-outside-archive-2026-11-28",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится архивом",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "архив",
+        "память"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "по регистрации",
+      "why": "Встреча о документе, памяти и архиве как материале современной поэзии.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "28 ноября, 14:00. Драгомощенко, Скидан, Резникофф, Сьюзен Хау.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-11-28T14:00:00+03:00"
     },
     {
       "id": "maly-krechinsky-nov26",
@@ -34634,6 +35166,34 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "voz-letov-dada-2026-12-03",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Против искусства: дада и Егор Летов»",
+      "tags": [],
+      "visible_tags": [
+        "дада",
+        "Егор Летов",
+        "искусство"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "Константин Дудаков-Кашуро",
+      "price": "проверить актуально",
+      "why": "Лекция о дада, шуме, коллаже, DIY и сходных художественных стратегиях в творчестве Егора Летова.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "3 декабря, 19:30. Лекция цикла «Искусство быть посторонним: Летов и художественные языки XX века».",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-protiv-iskusstva-dada-i-egor-letov/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-12-03T19:30:00+03:00"
     },
     {
       "id": "consv-mzk-filipov-petrova-2026-12-04",
@@ -36963,6 +37523,34 @@
       "card_schema_version": 2
     },
     {
+      "id": "voz-poetry-outside-object-2026-12-12",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится объектом",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "объект",
+        "концептуальное искусство"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "по регистрации",
+      "why": "Встреча о почтовом искусстве, тексте в пространстве выставки и поэзии как объекте.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "12 декабря, 14:00. Ры Никонова, Сергей Сигей, Андрей Вознесенский, Иэн Хэмилтон Финлей, Дженни Хольцер, Лоуренс Вайнер.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-12-12T14:00:00+03:00"
+    },
+    {
       "id": "mmdm-7290",
       "category": "music",
       "horizon": "far",
@@ -39032,6 +39620,34 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "voz-poetry-outside-tape-2026-12-19",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Поэзия вне себя» — Поэзия становится пленкой",
+      "tags": [],
+      "visible_tags": [
+        "поэзия",
+        "звук",
+        "Егор Летов"
+      ],
+      "venue": "Центр Вознесенского",
+      "place": "Большая Ордынка, 46, стр. 3",
+      "location": "Центр Вознесенского, Москва",
+      "people": "",
+      "price": "по регистрации",
+      "why": "Финальная встреча книжного клуба о голосе, записи, шуме и поэзии на пленке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная программа",
+      "details": "19 декабря, 14:00. Егор Летов и Бернар Хайдсик; запись как часть поэтического произведения.",
+      "source_label": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "verified": true,
+      "organizer": "Центр Вознесенского",
+      "start": "2026-12-19T14:00:00+03:00"
     },
     {
       "id": "mmdm-7390",
