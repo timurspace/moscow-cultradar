@@ -999,6 +999,34 @@
       ]
     },
     {
+      "id": "lapp83-tiffany-dream-2026-10-01",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Tiffany & Co: «Драгоценная мечта»",
+      "tags": [],
+      "visible_tags": [
+        "ювелирное искусство",
+        "история дизайна"
+      ],
+      "venue": "L’Appartement 83",
+      "place": "Дом Булгакова на Патриарших, Москва",
+      "location": "L’Appartement 83, Москва",
+      "people": "",
+      "price": "4000 ₽",
+      "why": "Содержательная культурно-историческая встреча об одном из ключевых ювелирных домов; входит в опубликованную афишу камерного лектория.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "1 октября. Официальный магазин L’Appartement 83 подтверждает событие и цену 4000 ₽; точное время в доступной выдаче не опубликовано, поэтому используется date_only.",
+      "source_label": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop",
+      "verified": true,
+      "organizer": "L’Appartement 83",
+      "monitor_entities": [],
+      "date_only": "2026-10-01"
+    },
+    {
       "id": "myaskovsky-koroleva-masterclass-2026-10-01",
       "category": "music",
       "horizon": "far",
@@ -1731,6 +1759,36 @@
       "monitor_entities": [
         "Театр Наций"
       ]
+    },
+    {
+      "id": "ile-sobolev-hiphop-political-history-2026-10-01",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "title": "Олег Соболев — политическая история параллельной Америки через хип-хоп",
+      "tags": [],
+      "visible_tags": [
+        "музыка",
+        "книги",
+        "хип-хоп",
+        "история идей"
+      ],
+      "venue": "Île Thélème",
+      "place": "ул. Правды, 24/11",
+      "location": "Île Thélème, Москва",
+      "people": "Олег Соболев",
+      "price": "от 500 ₽",
+      "why": "Содержательный разговор о музыкальной культуре, политической истории и книге Джеффа Чанга; соответствует talks-профилю проекта.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "1 октября, 20:00. Уроки книги Джеффа Чанга Can’t Stop Won’t Stop: история политических идей, расовых меньшинств США и их отражения в звуковой фактуре хип-хопа. Событие Московской книжной недели.",
+      "source_label": "Île Thélème",
+      "source_url": "https://moscowbookweek.ru/program/",
+      "verified": true,
+      "organizer": "im SPIEGEL / Московская книжная неделя",
+      "monitor_entities": [],
+      "start": "2026-10-01T20:00:00+03:00"
     },
     {
       "id": "maly-sandman-oct26",
@@ -3528,12 +3586,13 @@
       "editorial_status": "attention",
       "ticket_urgency": "no_rush",
       "details_label": "Даты / постановка",
-      "details": "3 октября, 20:00. Время подтверждено афишным анонсом; официальный билетный URL требует дальнейшей сверки.",
+      "details": "3 октября, 20:00. Фёдор Софронов — «От шамана до граммофона»: лекция о ритме, памяти и музыкальной культуре первой половины XX века с портативным граммофоном.",
       "source_label": "Île Thélème",
-      "source_url": "https://ile-theleme.com/",
+      "source_url": "https://moscowbookweek.ru/program/",
       "verified": false,
       "start": "2026-10-03T20:00:00+03:00",
-      "source_scope": "venue"
+      "source_scope": "venue",
+      "organizer": "Московская книжная неделя"
     },
     {
       "id": "praktika-black-blizzard-2026-10-03",
@@ -9690,6 +9749,50 @@
       "card_schema_version": 2
     },
     {
+      "id": "rassvet-weeds-foreign-songs-2026-10-12",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "title": "«Сад сорняков» — Назайкинская / Гривз / Хегги / Караманов",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "вокальная музыка",
+        "редкое",
+        "XX–XXI век"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3, корп. 15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Ольга Краснова (Селиверстова), сопрано · Карина Погосбекова, фортепиано · Ольга Русанова, кларнет",
+      "price": "1800 ₽",
+      "why": "Четыре редко исполняемых вокальных цикла XX–XXI веков; профильный редкий репертуар.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница / детали",
+      "details": "12 октября, 19:30. В программе «Песни иностранки» Ольги Назайкинской, «Сад сорняков» Теренса Гривза, «Тебе» Алемдара Караманова и Natural Selection Джейка Хегги.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/weeds/",
+      "verified": true,
+      "organizer": "ДК Рассвет",
+      "monitor_entities": [],
+      "start": "2026-10-12T19:30:00+03:00",
+      "venue_short": "ДК Рассвет",
+      "composers": [
+        "Ольга Назайкинская",
+        "Теренс Гривз",
+        "Джейк Хегги",
+        "Алемдар Караманов"
+      ],
+      "works": [],
+      "program_status": "«Сад сорняков» — Назайкинская / Гривз / Хегги / Караманов",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "teatrdoc-eisenstein-2026-10-12",
       "category": "theatre",
       "horizon": "near",
@@ -12269,6 +12372,41 @@
       "start": "2026-10-16T19:30:00+03:00"
     },
     {
+      "id": "rassvet-bill-evans-village-vanguard-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "Билл Эванс — «Sunday At The Village Vanguard»",
+      "tags": [],
+      "visible_tags": [
+        "джаз",
+        "Билл Эванс"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3, корп. 15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Элси Варандо, фортепиано · Вадим Ким, контрабас · Ян Алексеев, ударные",
+      "price": "1800 ₽",
+      "why": "Оммаж одному из ключевых альбомов фортепианного трио; содержательный джазовый вечер площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "16 октября, 19:30. Шестой концерт цикла «Оммаж джазу»: программа вокруг альбома Sunday At The Village Vanguard и стандартов из репертуара Билла Эванса.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/evans2026/",
+      "verified": true,
+      "organizer": "ДК Рассвет",
+      "monitor_entities": [],
+      "start": "2026-10-16T19:30:00+03:00",
+      "venue_short": "ДК Рассвет",
+      "composers": [],
+      "works": [],
+      "program_status": "Билл Эванс — «Sunday At The Village Vanguard»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "electro-cricket-2026-10-16",
       "category": "theatre",
       "horizon": "near",
@@ -12880,9 +13018,9 @@
       "editorial_status": "candidate",
       "ticket_urgency": "watch",
       "details_label": "Программа / детали",
-      "details": "Сочинения участников лаборатории Союза композиторов России; среди наставников — Юрий Воронцов и Светлана Лаврова.",
+      "details": "17 октября, 19:00. Финальный концерт лаборатории «Композиторские читки»: восемь современных композиторов, семь мировых премьер; Квартет солистов.",
       "source_label": "Île Thélème",
-      "source_url": "https://unioncomposers.ru/news/2607-tihaya-zhizn-nevidimyh-sushestv/",
+      "source_url": "https://www.unioncomposers.ru/news/2607-tihaya-zhizn-nevidimyh-sushestv/",
       "verified": true,
       "start": "2026-10-17T19:00:00+03:00",
       "organizer": "Союз композиторов России",
@@ -15243,6 +15381,54 @@
       "card_schema_version": 2
     },
     {
+      "id": "rassvet-kharms-repertoire-2026-10-20",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Репертуар Даниила Хармса»",
+      "tags": [
+        "bach",
+        "rare"
+      ],
+      "visible_tags": [
+        "Хармс",
+        "Бах",
+        "музыка и слово"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3, корп. 15",
+      "location": "ДК Рассвет, Москва",
+      "people": "Наталия Учитель, фортепиано · Константин Учитель",
+      "price": "1800 ₽",
+      "why": "Музыкально-историческая программа вокруг Даниила Хармса с редким сочетанием рассказа и живого исполнения.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница / детали",
+      "details": "20 октября, 19:30. Музыка из круга интересов Хармса: Палестрина, Бах, Блоу, Гендель, Моцарт, Бетховен, Глинка, Берг; рассказы и импровизации.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/kharms/",
+      "verified": true,
+      "organizer": "ДК Рассвет",
+      "monitor_entities": [],
+      "start": "2026-10-20T19:30:00+03:00",
+      "venue_short": "ДК Рассвет",
+      "composers": [
+        "Палестрина",
+        "И. С. Бах",
+        "Джон Блоу",
+        "Георг Фридрих Гендель",
+        "Вольфганг Амадей Моцарт",
+        "Людвиг ван Бетховен",
+        "Михаил Глинка",
+        "Альбан Берг"
+      ],
+      "works": [],
+      "program_status": "«Репертуар Даниила Хармса»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "doc-utopia-2026-10-20",
       "category": "theatre",
       "horizon": "near",
@@ -16271,6 +16457,35 @@
         "Изаи, Шоссон, Чайковский, Равель."
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "rassvet-nado-bolshe-radovatsya-2026-10-22",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "title": "«Надо больше радоваться»",
+      "tags": [],
+      "visible_tags": [
+        "современная драматургия",
+        "независимый театр"
+      ],
+      "venue": "ДК Рассвет",
+      "place": "Столярный пер., 3, корп. 15",
+      "location": "ДК Рассвет, Москва",
+      "people": "режиссёр Андрей Кузичев · Денис Котов · Маша Лустина",
+      "price": "проверить актуально",
+      "why": "Независимый современный театр; камерная драмеди по пьесе из шорт-листа «Любимовки».",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "22 октября, 19:00. Театральный проект «Обстоятельство», спектакль по пьесе Алексея Макейчика «Путаница». Продолжительность 1 ч 20 мин без антракта.",
+      "source_label": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/nado5/",
+      "verified": true,
+      "organizer": "Театральный проект «Обстоятельство» / ДК Рассвет",
+      "monitor_entities": [],
+      "start": "2026-10-22T19:00:00+03:00",
+      "end": "2026-10-22T20:20:00+03:00"
     },
     {
       "id": "doc-greeks-oedipus-medea-2026-10-22",
@@ -18557,13 +18772,14 @@
       "editorial_status": "attention",
       "ticket_urgency": "no_rush",
       "details_label": "Даты / постановка",
-      "details": "25 октября, 19:00. Второй вечер фестиваля «Пять вечеров».",
+      "details": "25 октября, 18:00. Второй вечер фестиваля Союза композиторов России «Пять вечеров» — «Узоры и силуэты»: вокальные сочинения современных российских авторов.",
       "source_label": "Île Thélème",
-      "source_url": "https://ile-theleme.com/",
+      "source_url": "https://www.unioncomposers.ru/projects/268/",
       "verified": true,
-      "start": "2026-10-25T19:00:00+03:00",
+      "start": "2026-10-25T18:00:00+03:00",
       "card_schema_version": 2,
-      "source_scope": "venue"
+      "source_scope": "venue",
+      "organizer": "Союз композиторов России"
     },
     {
       "id": "mamt-straussiana-2026-10-25",
