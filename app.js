@@ -162,15 +162,22 @@ function populateVenues(){
       name:g.name,
       member_venues:g.member_venues.filter(v=>sectionSet.has(v))
     })).filter(g=>g.member_venues.length);
-    const grouped=new Set(sectionGroups.flatMap(g=>g.member_venues));
-    const standalone=section.venues.filter(v=>!grouped.has(v));
-    return `<section class="venue-browse-section" data-venue-section="${esc(section.id||'')}">
-      <h4 class="venue-section-title">${esc(section.label||'')}</h4>
-      ${sectionGroups.map(g=>`<div class="venue-group">
+    const venueGroupByMember=new Map();
+    sectionGroups.forEach(g=>g.member_venues.forEach(v=>venueGroupByMember.set(v,g)));
+    const renderedGroups=new Set();
+    const rows=section.venues.map(v=>{
+      const g=venueGroupByMember.get(v);
+      if(!g)return `<div class="venue-children venue-standalone">${venueRow(v)}</div>`;
+      if(renderedGroups.has(g.groupIndex))return '';
+      renderedGroups.add(g.groupIndex);
+      return `<div class="venue-group">
         <label class="venue-check venue-parent"><input type="checkbox" data-venue-group="${g.groupIndex}"><strong>${esc(g.name)}</strong></label>
         <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
-      </div>`).join('')}
-      ${standalone.length?`<div class="venue-children venue-standalone">${standalone.map(venueRow).join('')}</div>`:''}
+      </div>`;
+    }).join('');
+    return `<section class="venue-browse-section" data-venue-section="${esc(section.id||'')}">
+      <h4 class="venue-section-title">${esc(section.label||'')}</h4>
+      ${rows}
     </section>`;
   };
   host.innerHTML=`
