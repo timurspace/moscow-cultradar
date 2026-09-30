@@ -968,6 +968,37 @@
       "card_schema_version": 2
     },
     {
+      "id": "drugoe-literary-club-12-2026-09-30",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-09-30T19:30:00+03:00",
+      "title": "Литературный клуб «Двенадцать»",
+      "tags": [],
+      "visible_tags": [
+        "литература",
+        "камерный клуб"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Михаил Свердлов",
+      "price": "проверить актуально",
+      "why": "Регулярный содержательный литературный клуб малой независимой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "30 сентября, 19:30. Регулярная серия: двенадцать участников обсуждают высокую литературу за общим столом; ведущий — кандидат филологических наук Михаил Свердлов.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/2155552/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
+    },
+    {
       "id": "myaskovsky-koroleva-masterclass-2026-10-01",
       "category": "music",
       "horizon": "far",
@@ -1578,6 +1609,38 @@
         "Милюков / Андрианов / МГСО / Иван Рудин"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "drugoe-slovo-2026-10-01",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-01T19:00:00+03:00",
+      "title": "«Слово» — независимый театр «Сван»",
+      "tags": [],
+      "visible_tags": [
+        "камерный театр",
+        "литература"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Дарья Савинова · Тамара Краузе · Кристина Москвитина",
+      "price": "проверить актуально",
+      "why": "Камерный независимый театр на малой площадке; содержательная работа вокруг «Слова о полку Игореве» и филологической загадки авторства.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "1 октября, 19:00–21:00. Спектакль независимого театра «Сван»; сбор гостей в 19:00, начало спектакля в 19:30.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4126176/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело» / театр «Сван»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-01T21:00:00+03:00"
     },
     {
       "id": "ile-dhrupad-nirmalya-2026-10-01",
@@ -2270,6 +2333,46 @@
       "card_schema_version": 2
     },
     {
+      "id": "drugoe-shameless-cabaret-2026-10-02",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-02T19:00:00+03:00",
+      "title": "Кабаре «Бесстыжие» — джаз, панк и электроника",
+      "tags": [],
+      "visible_tags": [
+        "кабаре",
+        "джаз",
+        "электроника"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Boudoir Trickster",
+      "price": "проверить актуально",
+      "why": "Содержательный межжанровый камерный проект независимой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "2 октября, 19:00–21:00. Кабаре-программа Boudoir Trickster: джаз, панк, электроника и театральная форма.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4194694/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-02T21:00:00+03:00",
+      "venue_short": "Другое Дело",
+      "composers": [],
+      "works": [],
+      "program_status": "Кабаре «Бесстыжие» — джаз, панк и электроника",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "rassvet-stravinsky-2026-10-02",
       "category": "music",
       "horizon": "near",
@@ -2326,6 +2429,55 @@
       "source_url": "https://www.voznesenskycenter.ru/events/pokaz-dokumentalnogo-filma-hardzhiev-poslednij-russkij-futurist/",
       "verified": true,
       "start": "2026-10-02T19:30:00+03:00"
+    },
+    {
+      "id": "niko-martynov-grindenko-bach-shostakovich-cage-2026-10-02",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-02T19:30:00+03:00",
+      "title": "«Бах и Шостакович вопрошают Кейджа о смысле Бытия»",
+      "tags": [
+        "bach",
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Мартынов",
+        "Гринденко",
+        "Бах",
+        "Шостакович",
+        "Кейдж"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Владимир Мартынов · Татьяна Гринденко",
+      "price": "2500 ₽",
+      "why": "Прямой watchlist: Владимир Мартынов + Татьяна Гринденко; Бах, Шостакович и Кейдж в одной концептуальной программе.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "buy",
+      "details_label": "Официальная страница / детали",
+      "details": "2 октября, 19:30. Концерт современной музыки; официальная афиша заявляет Владимира Мартынова и Татьяну Гринденко.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/vladimir-martynov-tatyana-grindenko-bakh-i-shostakovich-voproshayut-keydzha-o-smysle-bytiya/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [
+        "Владимир Мартынов",
+        "Татьяна Гринденко"
+      ],
+      "venue_short": "Нико",
+      "composers": [
+        "И. С. Бах",
+        "Дмитрий Шостакович",
+        "Джон Кейдж"
+      ],
+      "works": [],
+      "program_status": "«Бах и Шостакович вопрошают Кейджа о смысле Бытия»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
     },
     {
       "id": "doc-150-reasons-2026-10-02",
@@ -3318,6 +3470,45 @@
       "card_schema_version": 2
     },
     {
+      "id": "drugoe-velvet-new-york-2026-10-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-03T19:00:00+03:00",
+      "title": "«Бархатный Нью-Йорк» — винтажный поп-джаз",
+      "tags": [],
+      "visible_tags": [
+        "джаз",
+        "винтаж"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Эллен Болсанова · «ЭЛЛЕНБЭНД»",
+      "price": "проверить актуально",
+      "why": "Подтверждённая камерная джазовая программа малой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "3 октября, 19:00–21:00. Поп-хиты в винтажных джазовых аранжировках.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4167548/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-03T21:00:00+03:00",
+      "venue_short": "Другое Дело",
+      "composers": [],
+      "works": [],
+      "program_status": "«Бархатный Нью-Йорк» — винтажный поп-джаз",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "iletheleme-sofronov-2026-10-03",
       "category": "talks",
       "horizon": "near",
@@ -3374,6 +3565,40 @@
       "source_label": "Практика",
       "source_url": "https://praktikatheatre.ru/events/purga",
       "verified": true
+    },
+    {
+      "id": "prove-big-cinema-2026-10-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-03T20:00:00+03:00",
+      "title": "«Искусство красиво жить»: музыка кино и классики",
+      "tags": [],
+      "visible_tags": [
+        "музыка кино"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённая программа камерной площадки; широкий календарь не исключает crossover и музыку кино.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "3 октября, 20:00. Вечер музыки кино и классики в усадьбе.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/",
+      "verified": true,
+      "organizer": "OFF-MUTE / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "«Искусство красиво жить»: музыка кино и классики",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
     },
     {
       "id": "maly-cinderella-oct26",
@@ -5207,6 +5432,73 @@
       "venue_short": "Зарядье · Большой",
       "season": "2026/27",
       "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
+      "id": "drugoe-poison-crown-2026-10-06",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-06T19:00:00+03:00",
+      "title": "«Яд и Корона. Тайны Московского царства»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "Москва"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Ангелина Дронова",
+      "price": "проверить актуально",
+      "why": "Содержательная историческая лекция независимой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "6 октября, 19:00–21:00. Лекция-детектив о придворных интригах, ядах и исторических версиях смертей русских правителей.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4204343/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-06T21:00:00+03:00"
+    },
+    {
+      "id": "niko-islyamov-barlykova-2026-10-06",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-06T19:30:00+03:00",
+      "title": "Вечер скрипичной музыки — Равиль Ислямов / Шолпан Барлыкова",
+      "tags": [],
+      "visible_tags": [
+        "скрипка",
+        "фортепиано"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Равиль Ислямов, скрипка · Шолпан Барлыкова, фортепиано",
+      "price": "2000 ₽",
+      "why": "Камерный инструментальный концерт новой малой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "6 октября, 19:30. Вечер скрипичной музыки; точная программа в обзорной афише не раскрыта.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/ravil-islyamov-skripka-sholpan-barlykova-fortepiano-/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "программа не раскрыта в обзорной афише",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -7243,6 +7535,42 @@
       ]
     },
     {
+      "id": "prove-musical-playroom-harp-flute-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-10T11:00:00+03:00",
+      "title": "«Музыкальная игротека»: арфа и флейта",
+      "tags": [],
+      "visible_tags": [
+        "детям",
+        "арфа",
+        "флейта"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённый камерный концерт для самых маленьких; оставляем в широком календаре площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "10 октября, 11:00. Концерт классической музыки и сенсорное погружение для детей 0–2 лет.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://mozart-for-kids.ru/afisha/tproduct/1623299611-211042536673-muzikalnaya-igroteka-arfa-i-fleita-10-ok",
+      "verified": true,
+      "organizer": "Mozart for Kids / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "«Музыкальная игротека»: арфа и флейта",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "bolshoi-sylphide-2026-10-10-1200",
       "category": "opera",
       "horizon": "far",
@@ -7278,6 +7606,42 @@
         "Сильфида"
       ],
       "program_status": "Балет «Сильфида»",
+      "card_schema_version": 2
+    },
+    {
+      "id": "prove-little-prince-2026-10-10",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-10T12:30:00+03:00",
+      "title": "«Маленький принц» — арфа и флейта",
+      "tags": [],
+      "visible_tags": [
+        "детям",
+        "арфа",
+        "флейта"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённая музыкально-литературная программа площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "10 октября, 12:30. Музыкальное путешествие по Сент-Экзюпери в сопровождении дуэта арфы и флейты.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://mozart-for-kids.ru/afisha/tproduct/1623299611-160841706313-malenkii-prints-10-oktyabrya-sb-1230-m-k",
+      "verified": true,
+      "organizer": "Mozart for Kids / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "«Маленький принц» — арфа и флейта",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -8875,6 +9239,51 @@
       "card_schema_version": 2
     },
     {
+      "id": "niko-grindenko-opus-posth-2026-10-11",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-10-11T19:30:00+03:00",
+      "title": "«Музыка великой тишины» — Куперен / Бибер",
+      "tags": [
+        "early",
+        "rare"
+      ],
+      "visible_tags": [
+        "Гринденко",
+        "Куперен",
+        "Бибер",
+        "барокко"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Татьяна Гринденко · Наталья Павлова · Фёдор Строганов · OPUS POSTH",
+      "price": "2500 ₽",
+      "why": "Прямой watchlist: Татьяна Гринденко; редкая барочная программа Куперена и Бибера.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "buy",
+      "details_label": "Официальная страница / детали",
+      "details": "11 октября, 19:30. OPUS POSTH — «Музыка великой тишины»; Куперен и Бибер.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/tatyana-grindenko-opus-posth-muzyka-velikoy-tishiny-kuperen-biber-/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [
+        "Татьяна Гринденко"
+      ],
+      "venue_short": "Нико",
+      "composers": [
+        "Франсуа Куперен",
+        "Генрих Игнац Франц Бибер"
+      ],
+      "works": [],
+      "program_status": "«Музыка великой тишины» — Куперен / Бибер",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "phil-rachmaninoff-bells-2026-10-11",
       "category": "music",
       "horizon": "near",
@@ -9687,6 +10096,38 @@
         "Шостакович"
       ],
       "card_schema_version": 2
+    },
+    {
+      "id": "drugoe-own-repertoire-2026-10-13",
+      "category": "theatre",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-13T19:00:00+03:00",
+      "title": "«В своём репертуаре» — камерные читки мировой драматургии",
+      "tags": [],
+      "visible_tags": [
+        "драматургия",
+        "читка",
+        "камерный формат"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Дарья Савинова",
+      "price": "проверить актуально",
+      "why": "Независимый participatory-формат вокруг мировой драматургии; релевантен театральному discovery-контуру.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "Октябрьские встречи 13 и 26 октября, сбор в 19:00, начало в 19:30. Участники читают по ролям случайно выбранные тексты мировой драматургии.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/3393096/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ]
     },
     {
       "id": "doc-magritte-2026-10-13",
@@ -10986,6 +11427,45 @@
       "card_schema_version": 2
     },
     {
+      "id": "niko-papoyan-chopin-liszt-2026-10-15",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-15T19:30:00+03:00",
+      "title": "Илья Папоян — Шопен / Лист",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано",
+        "Шопен",
+        "Лист"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Илья Папоян, фортепиано",
+      "price": "2500 ₽",
+      "why": "Сильный молодой пианист и классическая сольная программа на камерной площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "15 октября, 19:30. Фортепианный вечер: Шопен, Лист.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/ilya-papoyan-fortepiano-shopen-list/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [
+        "Фридерик Шопен",
+        "Ференц Лист"
+      ],
+      "works": [],
+      "program_status": "Илья Папоян — Шопен / Лист",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "doc-exit-2026-10-15",
       "category": "theatre",
       "horizon": "near",
@@ -11722,6 +12202,45 @@
         "Зал Зарядье"
       ],
       "venue_short": "Зарядье · Большой",
+      "card_schema_version": 2
+    },
+    {
+      "id": "drugoe-new-wave-grammy-2026-10-16",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-16T19:00:00+03:00",
+      "title": "«Грэмми Новой волны» — джаз XXI века",
+      "tags": [],
+      "visible_tags": [
+        "джаз",
+        "XXI век"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Анна Дикай · Наталья Скворцова · Елизавета Владимирова · Павел Тимофеев",
+      "price": "проверить актуально",
+      "why": "Современная джазовая программа с репертуаром последних лауреатов и номинантов Grammy.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "16 октября, 19:00–21:00. Программа современной джазовой сцены: Самара Джой, Джазмейя Хорн, Курт Эллинг, Бенни Грин и др.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4216481/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-16T21:00:00+03:00",
+      "venue_short": "Другое Дело",
+      "composers": [],
+      "works": [],
+      "program_status": "«Грэмми Новой волны» — джаз XXI века",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -13372,6 +13891,57 @@
       "sales_status": "есть отдельные билеты"
     },
     {
+      "id": "drugoe-flowers-birds-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-10-18T18:00:00+03:00",
+      "title": "«Цветы и птицы» — арфа и цимбалы",
+      "tags": [
+        "rare"
+      ],
+      "visible_tags": [
+        "Дебюсси",
+        "Сати",
+        "Шнитке",
+        "Рамо"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Редкое сочетание арфы и цимбал; французский импрессионизм, барокко, Рамо и Шнитке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница / детали",
+      "details": "18 октября, 18:00–20:30. В программе Дебюсси, Сати, Сен-Санс, Шнитке, Массне, Куперен и Рамо; камерный концерт-ретрит.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4220409/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-18T20:30:00+03:00",
+      "venue_short": "Другое Дело",
+      "composers": [
+        "Дебюсси",
+        "Сати",
+        "Сен-Санс",
+        "Шнитке",
+        "Массне",
+        "Куперен",
+        "Рамо"
+      ],
+      "works": [],
+      "program_status": "«Цветы и птицы» — арфа и цимбалы",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "consv-bzk-carmina-burana-2026-10-18",
       "category": "music",
       "horizon": "buy",
@@ -13764,6 +14334,41 @@
         "Фортепианный квинтет",
         "Струнный квартет №2."
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "prove-queen-muse-2026-10-18",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-18T19:00:00+03:00",
+      "title": "Рок в особняке: Queen & Muse",
+      "tags": [],
+      "visible_tags": [
+        "рок",
+        "симфонический crossover"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённая повторная программа камерной площадки; crossover не исключается из широкого календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "18 октября, 19:00. Рок-программа Queen, Muse, Radiohead, The Animals, Pink Floyd и др. в камерном формате.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/",
+      "verified": true,
+      "organizer": "OFF-MUTE / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "Рок в особняке: Queen & Muse",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -15303,8 +15908,8 @@
       "category": "talks",
       "horizon": "near",
       "featured": false,
-      "start": "2026-10-22T19:00:00+03:00",
-      "end": "2026-10-22T21:00:00+03:00",
+      "start": "2026-10-21T19:00:00+03:00",
+      "end": "2026-10-21T21:00:00+03:00",
       "title": "«Дом, который помнит»",
       "tags": [],
       "visible_tags": [
@@ -15320,7 +15925,7 @@
       "editorial_status": "attention",
       "ticket_urgency": "watch",
       "details_label": "Описание",
-      "details": "Лекция-беседа с основателями галереи.",
+      "details": "Актуальная дата — 21 октября, 19:00–21:00. Лекция-беседа с основателями галереи Владиславой и Полиной Марковыми; ранее событие было опубликовано на 22 октября.",
       "source_label": "Другое Дело",
       "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
       "verified": true,
@@ -16240,6 +16845,83 @@
       "composers": [
         "Прокофьев"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "prove-how-note-became-music-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-24T11:00:00+03:00",
+      "title": "«Как нотка стала музыкой»",
+      "tags": [],
+      "visible_tags": [
+        "детям",
+        "флейта",
+        "скрипка",
+        "виолончель"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённая детская камерная программа площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "24 октября, 11:00. Музыкальные игры и загадки с трио флейты, скрипки и виолончели.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://mozart-for-kids.ru/afisha/tproduct/1623299611-745756786633-kak-notka-stala-muzikoi-24-oktyabrya-sb",
+      "verified": true,
+      "organizer": "Mozart for Kids / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "«Как нотка стала музыкой»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
+      "id": "prove-sleeping-beauty-ballerina-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-24T12:30:00+03:00",
+      "title": "«Спящая красавица» — концерт с балериной",
+      "tags": [],
+      "visible_tags": [
+        "Чайковский",
+        "детям",
+        "балет"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Фрагменты Чайковского в камерном детском формате с балериной; подтверждено официальной афишей площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "24 октября, 12:30. Фрагменты из балета Чайковского в исполнении флейты, виолончели, рояля и балерины Нины Бирюковой.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://mozart-for-kids.ru/afisha/tproduct/1623299611-462419251533-kontsert-s-balerinoi-spyaschaya-krasavit",
+      "verified": true,
+      "organizer": "Mozart for Kids / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [
+        "П. И. Чайковский"
+      ],
+      "works": [
+        "Спящая красавица"
+      ],
+      "program_status": "«Спящая красавица» — концерт с балериной",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -17169,6 +17851,47 @@
         "In Croce · 95 лет",
         "Струнный квартет № 4 с магнитофонной лентой"
       ],
+      "card_schema_version": 2
+    },
+    {
+      "id": "niko-kopachevsky-rudin-korzhenevich-2026-10-24",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-24T19:30:00+03:00",
+      "title": "Шоссон / Брамс / Брух — Копачевский, Рудин, Корженевич",
+      "tags": [],
+      "visible_tags": [
+        "камерная музыка",
+        "Шоссон",
+        "Брамс",
+        "Брух"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Филипп Копачевский · Александр Рудин · Елена Корженевич · солисты Musica viva",
+      "price": "3500 ₽",
+      "why": "Сильный камерный состав и содержательная романтическая программа.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "24 октября, 19:30. Вечер камерной музыки: Шоссон, Брамс, Брух.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/filipp-kopachevskiy-aleksandr-rudin-elena-korzhenevich-shosson-brams-brukh-/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [
+        "Эрнест Шоссон",
+        "Иоганнес Брамс",
+        "Макс Брух"
+      ],
+      "works": [],
+      "program_status": "Шоссон / Брамс / Брух — Копачевский, Рудин, Корженевич",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -18113,6 +18836,41 @@
       "venue_short": "Зарядье · Большой",
       "season": "2026/27",
       "sales_status": "в продаже",
+      "card_schema_version": 2
+    },
+    {
+      "id": "prove-queen-muse-2026-10-25",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-25T19:00:00+03:00",
+      "title": "Рок в особняке: Queen & Muse",
+      "tags": [],
+      "visible_tags": [
+        "рок",
+        "симфонический crossover"
+      ],
+      "venue": "Усадьба Прове–Калиш",
+      "place": "Новая Басманная, 22/2, стр. 1",
+      "location": "Усадьба Прове–Калиш, Москва",
+      "people": "",
+      "price": "проверить актуально",
+      "why": "Подтверждённая повторная программа камерной площадки; crossover не исключается из широкого календаря.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "25 октября, 19:00. Рок-программа Queen, Muse, Radiohead, The Animals, Pink Floyd и др. в камерном формате.",
+      "source_label": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/",
+      "verified": true,
+      "organizer": "OFF-MUTE / Усадьба Прове–Калиш",
+      "monitor_entities": [],
+      "venue_short": "Прове–Калиш",
+      "composers": [],
+      "works": [],
+      "program_status": "Рок в особняке: Queen & Muse",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -20661,6 +21419,41 @@
       "monitor_entities": []
     },
     {
+      "id": "niko-ginzburg-mammadov-duos-2026-10-30",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-30T19:30:00+03:00",
+      "title": "Вечер дуэтов — Юра Гинзбург / Риад Маммадов",
+      "tags": [],
+      "visible_tags": [
+        "кларнет",
+        "фортепиано"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Юра Гинзбург, кларнет · Риад Маммадов, фортепиано",
+      "price": "2200 ₽",
+      "why": "Камерный дуэт кларнета и фортепиано на новой независимой площадке.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "30 октября, 19:30. Вечер дуэтов; точная программа в обзорной афише не раскрыта.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/yura-ginzburg-klarnet-riad-mammadov-fortepiano/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "программа не раскрыта в обзорной афише",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "mmdm-6941",
       "category": "music",
       "horizon": "buy",
@@ -20906,6 +21699,38 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "drugoe-werewolf-2026-10-31",
+      "category": "talks",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-10-31T18:00:00+03:00",
+      "title": "«Оборотень. Как убить монстра пуговицей»",
+      "tags": [],
+      "visible_tags": [
+        "история",
+        "фольклор"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Пётр Ершов",
+      "price": "проверить актуально",
+      "why": "Историко-культурная лекция о происхождении мифа об оборотнях, основанная на фольклоре и архивном материале.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "31 октября, 18:00–21:00. Историческая лекция о европейском фольклоре и эволюции образа оборотня.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4214515/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-10-31T21:00:00+03:00"
     },
     {
       "id": "bolshoi-pagliacci-2026-10-31-1900",
@@ -22537,6 +23362,40 @@
       "source_label": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
       "verified": true,
+      "card_schema_version": 2
+    },
+    {
+      "id": "niko-parin-pelle-doca-2026-11-03",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-11-03T19:30:00+03:00",
+      "title": "«И музыка, и слово» — Алексей Парин / Pelle d'oca",
+      "tags": [],
+      "visible_tags": [
+        "музыка и слово"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Алексей Парин · Тимофей Доля · Мария Алиханова · ансамбль Pelle d'oca",
+      "price": "2500 ₽",
+      "why": "Музыкально-поэтическая камерная программа опубликованного ноябрьского хвоста.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "3 ноября, 19:30. Музыкально-поэтический вечер «И музыка, и слово».",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/aleksey-parin-i-ansambl-pelle-d-oca-i-muzyka-i-slovo/",
+      "verified": true,
+      "organizer": "Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "«И музыка, и слово» — Алексей Парин / Pelle d'oca",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -25999,6 +26858,40 @@
       ]
     },
     {
+      "id": "niko-kashpurin-temptation-beauty-2026-11-13",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-11-13T19:30:00+03:00",
+      "title": "Александр Кашпурин — «Искушение красотой»",
+      "tags": [],
+      "visible_tags": [
+        "фортепиано"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Александр Кашпурин, фортепиано",
+      "price": "2500 ₽",
+      "why": "Сольный фортепианный вечер в опубликованной афише новой малой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "13 ноября, 19:30. Фортепианный вечер «Искушение красотой».",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/aleksandr-kashpurin-fortepiano-iskushenie-krasotoy/",
+      "verified": true,
+      "organizer": "Apriori Arts Agency / Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "точная программа не раскрыта в обзорной афише",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
+    },
+    {
       "id": "maly-minor-nov26",
       "category": "theatre",
       "horizon": "near",
@@ -26330,6 +27223,46 @@
         "Московская филармония"
       ],
       "venue_short": "КЗЧ",
+      "card_schema_version": 2
+    },
+    {
+      "id": "drugoe-spanish-sun-2026-11-14",
+      "category": "music",
+      "horizon": "near",
+      "featured": false,
+      "start": "2026-11-14T19:00:00+03:00",
+      "title": "«Под испанским солнцем» — концерт-дегустация",
+      "tags": [],
+      "visible_tags": [
+        "Испания",
+        "вокал",
+        "гитара"
+      ],
+      "venue": "Другое Дело",
+      "place": "Старая Басманная, 15А, стр. 4",
+      "location": "Другое Дело, Москва",
+      "people": "Мила Динерштейн · гитара · сомелье Астра Гаспарян",
+      "price": "проверить актуально",
+      "why": "Подтверждённый музыкальный вечер в текущем опубликованном хвосте малой площадки.",
+      "editorial_status": "attention",
+      "ticket_urgency": "no_rush",
+      "details_label": "Официальная страница / детали",
+      "details": "14 ноября, 19:00–21:00. Испанская музыка и вокал с гитарой в формате камерного вечера.",
+      "source_label": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4162217/",
+      "verified": true,
+      "organizer": "Галерея «Другое Дело»",
+      "monitor_entities": [
+        "Другое дело",
+        "Галерея «Другое Дело»"
+      ],
+      "end": "2026-11-14T21:00:00+03:00",
+      "venue_short": "Другое Дело",
+      "composers": [],
+      "works": [],
+      "program_status": "«Под испанским солнцем» — концерт-дегустация",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
       "card_schema_version": 2
     },
     {
@@ -27206,6 +28139,45 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "niko-ars-gallica-ncaged-masm-2026-11-17",
+      "category": "music",
+      "horizon": "near",
+      "featured": true,
+      "start": "2026-11-17T19:30:00+03:00",
+      "title": "ARS GALLICA — «Естественные истории»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "ARS GALLICA",
+        "современная музыка",
+        "французская музыка"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "N’Caged · МАСМ · Ольга Россини · Арина Зверева · Сергей Малинин · Илья Лаптев · Константин Ефимов · Олег Танцов · Евгений Субботин · Ольга Дёмина · Михаил Дубов",
+      "price": "2200 ₽",
+      "why": "Содержательная программа французской музыки с ансамблями N’Caged и МАСМ.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница / детали",
+      "details": "17 ноября, 19:30. Первый концерт цикла ARS GALLICA — «Естественные истории».",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/ars-gallica-kontsert-pervyy-n-caged-masm-estestvennye-istorii/",
+      "verified": true,
+      "organizer": "ARS GALLICA / Галерея Нико",
+      "monitor_entities": [],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "ARS GALLICA — «Естественные истории»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
     },
     {
       "id": "nations-canary-2026-11-17",
@@ -30725,6 +31697,47 @@
       "monitor_entities": [
         "Малый театр"
       ]
+    },
+    {
+      "id": "niko-studio-new-music-created-nature-2026-11-27",
+      "category": "music",
+      "horizon": "buy",
+      "featured": true,
+      "start": "2026-11-27T19:30:00+03:00",
+      "title": "Студия новой музыки — «Сотворенная природа»",
+      "tags": [
+        "modern",
+        "rare"
+      ],
+      "visible_tags": [
+        "Студия новой музыки",
+        "ARS GALLICA",
+        "современная музыка"
+      ],
+      "venue": "Галерея Нико",
+      "place": "Большой Тишинский пер., 19, стр. 1",
+      "location": "Галерея Нико, Москва",
+      "people": "Ансамбль солистов «Студия новой музыки»",
+      "price": "2200 ₽",
+      "why": "Прямой watchlist: Студия новой музыки; отдельный концерт цикла ARS GALLICA.",
+      "editorial_status": "candidate",
+      "ticket_urgency": "watch",
+      "details_label": "Официальная страница / детали",
+      "details": "27 ноября, 19:30. Концерт «Сотворенная природа» в цикле ARS GALLICA.",
+      "source_label": "Галерея Нико",
+      "source_url": "https://nikoartgallery.com/afisha/studiya-novoy-muzyki-sotvorennaya-priroda-/",
+      "verified": true,
+      "organizer": "ARS GALLICA / Галерея Нико",
+      "monitor_entities": [
+        "Студия новой музыки"
+      ],
+      "venue_short": "Нико",
+      "composers": [],
+      "works": [],
+      "program_status": "Студия новой музыки — «Сотворенная природа»",
+      "season": "2026/27",
+      "sales_status": "есть отдельные билеты",
+      "card_schema_version": 2
     },
     {
       "id": "mmdm-6862",
