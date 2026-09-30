@@ -47,6 +47,8 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .venue-section-title{margin:0 4px 2px;font-size:12px;line-height:1.4;font-weight:700;color:var(--muted)}
 .venue-browse-section .venue-group{border-top:0;padding-top:2px}
 .venue-standalone{padding-left:0}
+.venue-child{margin-left:18px}
+.venue-children .venue-child{margin-left:0}
 .venue-unclassified .venue-section-title{color:var(--danger)}
 .venue-group{border-top:1px solid var(--line);padding-top:8px}
 .venue-check{display:flex;align-items:flex-start;gap:8px;font-size:13px;line-height:1.35;cursor:pointer;padding:5px 4px;border-radius:8px}

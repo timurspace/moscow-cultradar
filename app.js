@@ -172,7 +172,7 @@ function populateVenues(){
       renderedGroups.add(g.groupIndex);
       return `<div class="venue-group">
         <label class="venue-check venue-parent"><input type="checkbox" data-venue-group="${g.groupIndex}"><strong>${esc(g.name)}</strong></label>
-        <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
+        <div class="venue-children">${g.member_venues.filter(member=>member!==g.name).map(venueRow).join('')}</div>
       </div>`;
     }).join('');
     return `<section class="venue-browse-section" data-venue-section="${esc(section.id||'')}">
