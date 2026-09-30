@@ -43,6 +43,11 @@ section{padding:26px 0 8px}.section-head{display:flex;justify-content:space-betw
 .venue-filter-panel{position:absolute;z-index:20;top:calc(100% + 8px);left:0;width:min(520px,calc(100vw - 28px));max-height:70vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:0 14px 36px rgba(0,0,0,.14);padding:12px}
 .venue-filter-head{display:none}
 .venue-groups{display:grid;gap:8px;margin-top:8px}
+.venue-browse-section{display:grid;gap:4px;border-top:1px solid var(--line);padding-top:10px}
+.venue-section-title{margin:0 4px 2px;font-size:11px;line-height:1.3;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.venue-browse-section .venue-group{border-top:0;padding-top:2px}
+.venue-standalone{padding-left:0}
+.venue-unclassified .venue-section-title{color:var(--danger)}
 .venue-group{border-top:1px solid var(--line);padding-top:8px}
 .venue-check{display:flex;align-items:flex-start;gap:8px;font-size:13px;line-height:1.35;cursor:pointer;padding:5px 4px;border-radius:8px}
 .venue-check:hover{background:var(--chip)}

@@ -6,6 +6,7 @@ let category = 'all';
 let tags = new Set();
 let selectedVenues = new Set();
 let venueGroups = [];
+let venueBrowseSections = [];
 let venueUrls = {};
 let rangeDays = 'all';
 let cardTag = 'all';
@@ -147,18 +148,37 @@ function populateVenues(){
     name:g.name,
     member_venues:(g.member_venues||[]).filter(v=>eventVenueSet.has(v))
   })).filter(g=>g.member_venues.length);
-  const grouped=new Set(groups.flatMap(g=>g.member_venues));
-  const others=eventVenues.filter(v=>!grouped.has(v));
+  const sections=(venueBrowseSections||[]).map(section=>({
+    ...section,
+    venues:(section.venues||[]).filter(v=>eventVenueSet.has(v))
+  })).filter(section=>section.venues.length);
+  const configured=new Set(sections.flatMap(section=>section.venues));
+  const unclassified=eventVenues.filter(v=>!configured.has(v));
   const venueRow=v=>`<label class="venue-check venue-child"><input type="checkbox" data-venue="${esc(v)}"><span>${esc(v)}</span></label>`;
+  const renderSection=section=>{
+    const sectionSet=new Set(section.venues);
+    const sectionGroups=groups.map((g,groupIndex)=>({
+      groupIndex,
+      name:g.name,
+      member_venues:g.member_venues.filter(v=>sectionSet.has(v))
+    })).filter(g=>g.member_venues.length);
+    const grouped=new Set(sectionGroups.flatMap(g=>g.member_venues));
+    const standalone=section.venues.filter(v=>!grouped.has(v));
+    return `<section class="venue-browse-section" data-venue-section="${esc(section.id||'')}">
+      <h4 class="venue-section-title">${esc(section.label||'')}</h4>
+      ${sectionGroups.map(g=>`<div class="venue-group">
+        <label class="venue-check venue-parent"><input type="checkbox" data-venue-group="${g.groupIndex}"><strong>${esc(g.name)}</strong></label>
+        <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
+      </div>`).join('')}
+      ${standalone.length?`<div class="venue-children venue-standalone">${standalone.map(venueRow).join('')}</div>`:''}
+    </section>`;
+  };
   host.innerHTML=`
     <div class="venue-filter-head"><strong>Площадки</strong><button type="button" class="venue-close" aria-label="Свернуть выбор площадок">Свернуть</button></div>
     <label class="venue-check venue-all"><input type="checkbox" data-venue-all><span>Все площадки</span></label>
     <div class="venue-groups">
-      ${groups.map((g,i)=>`<div class="venue-group">
-        <label class="venue-check venue-parent"><input type="checkbox" data-venue-group="${i}"><strong>${esc(g.name)}</strong></label>
-        <div class="venue-children">${g.member_venues.map(venueRow).join('')}</div>
-      </div>`).join('')}
-      ${others.length?`<div class="venue-group"><div class="venue-parent venue-other-title"><strong>Другие площадки</strong></div><div class="venue-children">${others.map(venueRow).join('')}</div></div>`:''}
+      ${sections.map(renderSection).join('')}
+      ${unclassified.length?`<section class="venue-browse-section venue-unclassified"><h4 class="venue-section-title">Не классифицировано</h4><div class="venue-children venue-standalone">${unclassified.map(venueRow).join('')}</div></section>`:''}
     </div><div class="venue-filter-foot"><button type="button" class="venue-close venue-close-bottom" aria-label="Свернуть выбор площадок">Свернуть площадки</button></div>`;
   host._venueGroupData=groups;
   updateVenueFilterUI();
@@ -429,9 +449,11 @@ async function init(){
     if(sourcesRes.ok){
       const sourceData=await sourcesRes.json();
       venueGroups=sourceData.monitor_groups||[];
+      venueBrowseSections=sourceData.venue_browse_sections||[];
       venueUrls=Object.fromEntries((sourceData.venues||[]).filter(v=>v.name&&v.url).map(v=>[v.name,v.url]));
     }else{
       venueGroups=[];
+      venueBrowseSections=[];
       venueUrls={};
     }
     if(data.meta?.updated){const n=document.getElementById('dataNote');const d=new Date(`${data.meta.updated}T12:00:00+03:00`);const label=new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Moscow'}).format(d);n.textContent=`Афиша обновлена ${label}.`;n.hidden=false;}
