@@ -210,6 +210,17 @@ Discovery-граф старинной музыки включает Марию �
 
 `id`, `category`, `horizon`, `featured`, `start`/`end` или `date_only`, `title`, `display_title`, `tags`, `visible_tags`, `venue`, `place`, `location`, `people`, `price`, `why`, `editorial_status`, `ticket_urgency`, `details`, `source_label`, `source_url`, `verified`.
 
+### Публичные поля `why` / `details`
+
+`why` — необязательная содержательная редакционная причина, почему событие заслуживает внимания. Поле заполняется только конкретным содержанием: редкой программой, сильным составом, премьерой, важным режиссёром/дирижёром/исполнителем, необычным форматом или другой предметной особенностью. Отсутствие `why` нормально; collector/automation не должны создавать placeholder-текст ради заполненности.
+
+`details` — только полезная пользователю фактическая информация о событии: программа, состав, исполнители, режиссёр, формат, длительность, особенности постановки и другие факты.
+
+В `why` / `details` не хранится технический provenance: sweep/coverage/discovery, контрольные или системные проходы и сверки, факт добавления/подтверждения позиции, упоминания `events.json`, QA и внутреннего процесса, а также generic-заглушки. Проверка по официальному источнику сама по себе не является ответом на «Почему попало».
+
+Технический provenance хранится в Git history, coverage/source metadata и QA/run reports. Перед commit данных collector/automation должны запускать public-text guard в `validate.js`; validator только сигнализирует и ничего не переписывает.
+
+
 Для `music` / `opera` card schema v2 использовать по возможности:
 
 - `composers: []`;

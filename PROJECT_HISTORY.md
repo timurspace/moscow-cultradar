@@ -178,3 +178,13 @@ Export schema приватных данных повышена до **v4**. `loc
 - Бетховенский зал добавлен в registry как физическая площадка Большого; для программы «Петя и волк. Великан» 27–29.10 точное время не подставлялось без первичного подтверждения.
 - Все 56 октябрьских карточек имеют прямые официальные `bolshoi.ru/performances/...` source_url.
 - Нулевой coverage ноября/декабря не трактуется как отсутствие событий: эти месяцы ждут отдельной официальной публикации.
+
+## 2026-10-04 — cleanup публичных `why` / `details` и regression guard
+
+- На фактическом `main` перед изменением: 1399 событий, 1399 unique ID; `why` заполнен у 1385, `details` — у 1190.
+- Построен детерминированный mapping по каждому `(id, field)`; после второго semantic pass итог: 1438 high-confidence removals technical/generic текста и 155 rewrite-existing-content-only.
+- После cleanup: 1399 событий, 1399 unique ID; `why` заполнен у 365, `details` — у 772. Поля событий вне `why/details` не менялись.
+- Повторный semantic pass разрешил все 17 прежних low-confidence случаев; оставшихся manual-review случаев **0**.
+- `PROJECT_RULES.md` закрепил семантику публичных полей; `validate.js` получил warning-only public-text guard для technical и generic/process provenance с отдельным списком allowlisted false positives.
+- Interface и Collector follow-up сформулированы в QA report / текущем state и не смешивались с этой миграцией.
+
