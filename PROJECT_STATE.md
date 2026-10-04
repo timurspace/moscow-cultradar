@@ -130,7 +130,7 @@
 
 ### Данные / QA
 
-- 2026-10-04 завершён controlled remediation публичных `why` / `details` с повторным semantic pass: **1399 событий / 1399 unique ID**; заполнены `why` у **365**, `details` у **772** карточек. Итоговый mapping: **1438** high-confidence removals technical/generic текста и **155** rewrite-existing-content-only; manual-review случаев осталось **0**.
+- 2026-10-04 завершён controlled remediation публичных `why` / `details` с повторным semantic pass и финальным независимым QA: **1399 событий / 1399 unique ID**; заполнены `why` у **362**, `details` у **772** карточек. Итоговый mapping: **1441** high-confidence removals technical/generic текста и **157** rewrite-existing-content-only; manual-review случаев осталось **0**.
 - Public-text guard в `validate.js` сигнализирует об obvious technical **и generic/process** provenance, включая presence/radar/contour/calendar/mandatory-venue шаблоны; report содержит `id`, поле, fragment и отдельный allowlist false positives. После второго pass текущих public-text warnings ожидается **0**, allowlisted false positives: **0**.
 - Interface follow-up (в этом изменении **не выполнялся**): скрывать «Почему попало» при пустом/отсутствующем `why`, не делать fallback `details → why`, отдельно проверить `.ics` и Google Calendar, не экспортировать пустые подписи/technical provenance.
 - Collector/automation follow-up: не использовать `why/details` как журнал sweep/verification, не заполнять `why` ради заполненности, provenance хранить в run report / coverage / Git history и запускать public-text guard перед commit.

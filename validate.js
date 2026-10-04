@@ -89,6 +89,11 @@ const publicTextTechnicalPatterns = [
   { name: 'mandatory_venue_policy', re: /обязательн[а-яё]*\s+(?:мал[а-яё]*\s+|независим[а-яё]*\s+)?площадк/iu },
   { name: 'calendar_inclusion_policy', re: /(?:сохраняем|должен|должна|должно|обязан[а-яё]*|не\s+должн[а-яё]*\s+пропуск).{0,100}(?:календар|радар|пул|баз[аеуы])/iu },
   { name: 'radar_inclusion_policy', re: /(?:радар|контур|пул).{0,100}(?:должен|должна|виден|сохраня|обязан|не\s+пропуск)/iu },
+  { name: 'current_base_reflection_policy', re: /текущ[а-яё]*\s+баз[а-яё]*.{0,100}должн[а-яё]*\s+отраж/iu },
+  { name: 'published_listing_inclusion', re: /вход[а-яё]*\s+в\s+опубликованн[а-яё]*\s+афиш/iu },
+  { name: 'wide_pool_inclusion', re: /оставляем\s+в\s+широк[а-яё]*\s+пул/iu },
+  { name: 'editorial_line_must_be_present', re: /(?:оперн|театральн|музыкальн)[а-яё]*\s+лини[а-яё]*.{0,100}должн[а-яё]*\s+быть\s+представлен/iu },
+  { name: 'published_listing_venue_only', re: /в\s+опубликованн[а-яё]*\s+афиш[а-яё]*\s+(?:нов[а-яё]*\s+)?(?:мал[а-яё]*\s+)?площадк[а-яё]*/iu },
 ];
 
 const publicTextFalsePositiveKeys = new Set([]);
