@@ -1,0 +1,981 @@
+[
+  {
+    "id": "phil-stravinsky-2027-02-04",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-04T19:00:00+03:00",
+    "title": "«Весь Стравинский». Пятый год цикла",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Стравинский",
+      "цикл",
+      "перенесён с 20 января"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "РНМСО · Фёдор Леднёв · Ярослав Тимофеев",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/kzch-2027-01-20/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Стравинский"
+    ],
+    "works": [
+      "Симфония в трёх частях",
+      "Четыре норвежских настроения",
+      "Эбеновый концерт",
+      "Ода",
+      "Концертные танцы",
+      "Скерцо a la russe"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "абонемент; отдельные билеты не подтверждены"
+  },
+  {
+    "id": "consv-bzk-khachikyan-2027-02-05",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-05T19:00:00+03:00",
+    "title": "Константин Хачикян — фортепианный абонемент",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано",
+      "БЗК"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "venue_short": "БЗК",
+    "place": "Москва",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Константин Хачикян, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-05",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-kravchenko-sergeeva-2027-02-05",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-05T19:00:00+03:00",
+    "title": "Орган плюс — Олеся Кравченко / Надежда Сергеева",
+    "tags": [],
+    "visible_tags": [
+      "орган",
+      "арфа"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Олеся Кравченко, орган · Надежда Сергеева, арфа",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-05",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "камерная музыка",
+      "Луганский"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-lugansky-chamber-2027-02-05",
+    "start": "2027-02-05T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "Камерный концерт — Николай Луганский / Татьяна Самуил / Елена Таросян / Андрей Усов / Александр Князев",
+    "composers": [
+      "Шуберт",
+      "Форе",
+      "Дворжак"
+    ],
+    "people": "Николай Луганский · Татьяна Самуил · Елена Таросян · Андрей Усов · Александр Князев",
+    "program_status": "официальная страница перечисляет Шуберта, Форе и Дворжака без названий произведений в доступном сниппете",
+    "sales_status": "абонемент продан; отдельные билеты проверить",
+    "source_url": "https://meloman.ru/concert/kzch-2027-02-05/"
+  },
+  {
+    "id": "consv-mzk-shmitov-bach-2027-02-07",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-07T19:00:00+03:00",
+    "title": "Алексей Шмитов — И. С. Бах и мировая органная культура",
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "орган"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Алексей Шмитов, орган",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-07",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Репин",
+      "Рудин",
+      "Мартину",
+      "Респиги"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Мартину — «Фрески Пьеро делла Франческа»; Респиги — «Триптих Боттичелли»; Брух — Концерт №1; Лист — «Фауст-симфония».",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-rno-rudin-repin-2027-02-07",
+    "start": "2027-02-07T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "РНО / Александр Рудин / Вадим Репин",
+    "composers": [
+      "Мартину",
+      "Респиги",
+      "Брух",
+      "Лист"
+    ],
+    "works": [
+      "«Фрески Пьеро делла Франческа», H.352",
+      "«Триптих Боттичелли», P.151",
+      "Концерт № 1 для скрипки с оркестром соль минор, соч. 26",
+      "«Фауст-симфония» S.108"
+    ],
+    "people": "Российский национальный оркестр · Александр Рудин · Вадим Репин · хор имени Свешникова",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить",
+    "source_url": "https://meloman.ru/concert/kzch-2027-02-07/"
+  },
+  {
+    "id": "shostakovich-quartets-5",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-07T19:00:00+03:00",
+    "end": "2027-02-07T21:00:00+03:00",
+    "title": "Шостакович. Квартеты · V вечер",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Шостакович",
+      "цикл"
+    ],
+    "venue": "Малый зал «Зарядья»",
+    "place": "Варварка, 6, стр. 4 · Китай-город",
+    "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+    "people": "Государственный квартет имени Бородина",
+    "price": "от 500 ₽",
+    "why": "Финал полного цикла — поздние квартеты № 13–15.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Шостакович — Струнные квартеты № 13 си-бемоль минор, ор. 138; № 14 фа-диез мажор, ор. 142; № 15 ми-бемоль минор, ор. 144.",
+    "source_label": "Малый зал «Зарядья»",
+    "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+    "verified": true,
+    "organizer": "Культура.РФ / Зал Зарядье",
+    "monitor_entities": [
+      "Зал Зарядье"
+    ],
+    "venue_short": "Зарядье · Малый",
+    "composers": [
+      "Шостакович"
+    ],
+    "works": [
+      "Струнные квартеты № 13 си-бемоль минор, ор. 138"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "zaryadye-barber-film-2027-02-09",
+    "category": "opera",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-09T19:00:00+03:00",
+    "title": "Россини — «Севильский цирюльник». Фильм-опера",
+    "tags": [],
+    "visible_tags": [
+      "опера",
+      "кинопоказ",
+      "перенесён с 28 февраля"
+    ],
+    "venue": "Малый зал «Зарядья»",
+    "venue_short": "Зарядье · Малый",
+    "place": "Москва",
+    "location": "Малый зал «Зарядья», Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал «Зарядья»",
+    "source_url": "https://zaryadyehall.ru/events/reschedules-and-cancellations/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Россини"
+    ],
+    "works": [
+      "Севильский цирюльник"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить"
+  },
+  {
+    "id": "consv-mzk-bugaev-zaitseva-2027-02-11",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-11T19:00:00+03:00",
+    "title": "Олег Бугаев / Мария Зайцева — виолончельный вечер",
+    "tags": [],
+    "visible_tags": [
+      "виолончель"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Олег Бугаев · Мария Зайцева, виолончель",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-11",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-bach-goldberg-trio-2027-02-12",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-12T19:00:00+03:00",
+    "title": "Бах — «Гольдберг-вариации» для струнного трио",
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "Гольдберг-вариации"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "Даниил Коган · Андрей Усов · Борис Андрианов · Александра Нагорнова",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/bah-340-2025-5/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [
+      "Гольдберг-вариации BWV 988 — версия Дмитрия Ситковецкого для струнного трио"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "абонемент продан; отдельные билеты проверить"
+  },
+  {
+    "id": "zaryadye-donizetti-elixir-2027-02-14",
+    "category": "opera",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-14T19:00:00+03:00",
+    "title": "Доницетти — опера «Любовный напиток»",
+    "tags": [],
+    "visible_tags": [
+      "опера",
+      "Доницетти",
+      "120 мин"
+    ],
+    "venue": "Большой зал «Зарядья»",
+    "venue_short": "Зарядье · Большой",
+    "place": "Москва",
+    "location": "Большой зал «Зарядья», Москва",
+    "people": "Кристина Мхитарян · Сергей Скороходов · Василий Ладюк · Хор имени Свешникова · МГАСО · Алексей Верещагин",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал «Зарядья»",
+    "source_url": "https://zaryadyehall.ru/events/opera/9923/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Доницетти"
+    ],
+    "works": [
+      "Любовный напиток"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "consv-bzk-verdi-oberto-2027-02-16",
+    "category": "opera",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-16T19:00:00+03:00",
+    "title": "Верди — «Оберто, граф ди Сан-Бонифачо»",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "опера",
+      "Верди",
+      "редкий репертуар"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "venue_short": "БЗК",
+    "place": "Москва",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-16",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "Верди"
+    ],
+    "works": [
+      "Оберто, граф ди Сан-Бонифачо"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-other-space-2027-02-17",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-17T19:00:00+03:00",
+    "title": "«Другое пространство» — РНМСО / Фёдор Леднёв",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Другое пространство",
+      "современная музыка"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "РНМСО · Фёдор Леднёв · Ярослав Тимофеев",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "подробная программа на странице абонемента пока не извлечена",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить"
+  },
+  {
+    "id": "consv-rach-golden-age-2027-02-18",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-18T19:00:00+03:00",
+    "title": "Барочная капелла «Золотой век» — «Магия барокко»",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "барокко",
+      "историческое исполнительство"
+    ],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "venue_short": "Рахманиновский",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "Барочная капелла «Золотой век»",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-18",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "композиторы и произведения не перечислены в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-pisarev-2027-02-20",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-20T19:00:00+03:00",
+    "title": "Андрей Писарев — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Андрей Писарев, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-20",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-masm-2027-02-20",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-20T19:00:00+03:00",
+    "title": "МАСМ — Фелдман / Шельси / Лурье / Фернихоу / Раева / Карманов",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "МАСМ",
+      "XX–XXI"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "venue_short": "Камерный · Филармония",
+    "place": "Москва",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Московский ансамбль современной музыки",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/kzf-2027-02-20/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Фелдман",
+      "Шельси",
+      "Лурье",
+      "Фернихоу",
+      "Раева",
+      "Карманов"
+    ],
+    "works": [
+      "Viola in My Life",
+      "To the Master",
+      "Плач Богородицы",
+      "Cassandra’s Dream Song",
+      "Путешествие к звёздам",
+      "Cambridge Music"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "zaryadye-stop-moment-2027-02-21",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-21T13:00:00+03:00",
+    "title": "«Остановись, мгновенье!» — виола да гамба / клавесин",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "барокко",
+      "виола да гамба",
+      "клавесин"
+    ],
+    "venue": "Малый зал «Зарядья»",
+    "venue_short": "Зарядье · Малый",
+    "place": "Москва",
+    "location": "Малый зал «Зарядья», Москва",
+    "people": "Ангелина Николовска, виола да гамба · Ирина Красная, клавесин",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал «Зарядья»",
+    "source_url": "https://www.zaryadyehall.ru/events/baroque/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "композиторы и произведения уточнить на странице концерта",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "consv-mzk-katsnelson-2027-02-21",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-21T19:00:00+03:00",
+    "title": "Яков Кацнельсон — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Яков Кацнельсон, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-21",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-davnis-2027-02-22",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-22T19:00:00+03:00",
+    "title": "Ольга Давнис — Бах / Брамс / Шуман",
+    "tags": [
+      "bach"
+    ],
+    "visible_tags": [
+      "Бах",
+      "молодые таланты"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "venue_short": "Камерный · Филармония",
+    "place": "Москва",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Ольга Давнис, фортепиано",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/kzf-2027-02-22/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "И. С. Бах",
+      "Брамс",
+      "Шуман"
+    ],
+    "works": [
+      "Партита № 1 BWV 825",
+      "Вариации и фуга на тему Генделя, соч. 24",
+      "Фантастические пьесы, соч. 12"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "билеты проданы"
+  },
+  {
+    "id": "consv-mzk-anchevskaya-kuksova-2027-02-24",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-24T19:00:00+03:00",
+    "title": "Ариадна Анчевская / Ирина Куксова",
+    "tags": [],
+    "visible_tags": [
+      "скрипка",
+      "камерная музыка"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Ариадна Анчевская, скрипка · Ирина Куксова, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-24",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-knorre-glavatskikh-2027-02-26",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-26T19:00:00+03:00",
+    "title": "Ксения Кнорре / Сергей Главатских",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Ксения Кнорре · Сергей Главатских, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-26",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-bzk-pisarev-2027-02-28",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-28T19:00:00+03:00",
+    "title": "Андрей Писарев / Концертный симфонический оркестр МГК",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано",
+      "оркестр"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "venue_short": "БЗК",
+    "place": "Москва",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Андрей Писарев, фортепиано · Концертный симфонический оркестр Московской консерватории",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-mrvic-2027-02-28",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-28T19:00:00+03:00",
+    "title": "Катарина Мрвич — скрипичный вечер",
+    "tags": [],
+    "visible_tags": [
+      "скрипка"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Катарина Мрвич, скрипка",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-rach-wind-dynasties-2027-02-28",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-02-28T19:00:00+03:00",
+    "title": "«Духовые династии»",
+    "tags": [],
+    "visible_tags": [
+      "духовые",
+      "камерная музыка"
+    ],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "venue_short": "Рахманиновский",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-02-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "композиторы и произведения не перечислены в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  }
+]

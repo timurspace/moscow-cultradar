@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "data/events/**"
+      - "scripts/build-events.js"
       - "events.json"
+      - "events-index.json"
       - "sources.json"
       - "validate.js"
       - "app.js"
@@ -23,8 +26,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Check app.js syntax
-        run: node --check app.js
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check validate.js
+          node --check scripts/build-events.js
+
+      - name: Rebuild generated event artifacts
+        run: node scripts/build-events.js
+
+      - name: Check generated artifacts are current
+        run: git diff --exit-code -- events.json events-index.json
 
       - name: Run audit
         run: node validate.js --md

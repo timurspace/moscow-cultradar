@@ -1,0 +1,469 @@
+[
+  {
+    "id": "consv-myaskovsky-dialogue-artist-2027-01-10",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-10T19:00:00+03:00",
+    "title": "«Диалог с художником… Видим музыку»",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "Viva la tromba",
+      "музыка + живопись"
+    ],
+    "venue": "Концертный зал имени Н.Я. Мясковского",
+    "venue_short": "Мясковского",
+    "place": "Москва",
+    "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+    "people": "ансамбль Viva la tromba",
+    "price": "проверить актуально",
+    "why": "Камерный междисциплинарный цикл зала Мясковского: музыка вступает в прямой диалог с визуальным искусством.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени Н.Я. Мясковского",
+    "source_url": "https://www.mosconsv.ru/ru/concerts.aspx?hall=6",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона; продажу отдельных билетов проверить"
+  },
+  {
+    "id": "shostakovich-quartets-4",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-10T19:00:00+03:00",
+    "end": "2027-01-10T21:00:00+03:00",
+    "title": "Шостакович. Квартеты · IV вечер",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Шостакович",
+      "цикл"
+    ],
+    "venue": "Малый зал «Зарядья»",
+    "place": "Варварка, 6, стр. 4 · Китай-город",
+    "location": "Зал Зарядье, Варварка, 6, стр. 4, Москва",
+    "people": "Государственный квартет имени Бородина",
+    "price": "от 500 ₽",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Шостакович — Струнные квартеты № 10 ля-бемоль мажор, ор. 118; № 11 фа минор, ор. 122; № 12 ре-бемоль мажор, ор. 133.",
+    "source_label": "Малый зал «Зарядья»",
+    "source_url": "https://www.culture.ru/events/6798630/cikl-koncertov-shostakovich-kvartety",
+    "verified": true,
+    "organizer": "Культура.РФ / Зал Зарядье",
+    "monitor_entities": [
+      "Зал Зарядье"
+    ],
+    "venue_short": "Зарядье · Малый",
+    "composers": [
+      "Шостакович"
+    ],
+    "works": [
+      "Струнные квартеты № 10 ля-бемоль мажор, ор. 118"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "phil-stars21-2027-01-17",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-17T19:00:00+03:00",
+    "title": "«Звёзды XXI века» — Бетховен / Брамс",
+    "tags": [],
+    "visible_tags": [
+      "Бетховен",
+      "Брамс",
+      "молодые солисты"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "Иван Наборщиков · Елена Таросян · Иван Сендецкий · Константин Хачикян · Госоркестр России · Алексей Рубин",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/kzch-2027-01-17/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Бетховен",
+      "Брамс"
+    ],
+    "works": [
+      "Концерт для скрипки, виолончели и фортепиано с оркестром до мажор, соч. 56",
+      "Концерт для скрипки с оркестром ре мажор, соч. 77"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "phil-handel-baroque-2027-01-18",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-18T19:00:00+03:00",
+    "title": "Камерный оркестр России — Гендель",
+    "tags": [
+      "early"
+    ],
+    "visible_tags": [
+      "Гендель",
+      "барокко"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "Камерный оркестр России · Елене Гвритишвили · Илья Мовчан · Ася Гречищева · Дарья Гуща",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Гендель"
+    ],
+    "works": [
+      "Кантата «Лукреция», HWV 145",
+      "Sinfonia си-бемоль мажор, HWV 339",
+      "Арии из опер и ораторий",
+      "Concerto grosso ля минор, HWV 322"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить"
+  },
+  {
+    "id": "zaryadye-kolesnikov-2027-01-23",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-23T13:00:00+03:00",
+    "title": "Александр Колесников — скрипичный вечер",
+    "tags": [],
+    "visible_tags": [
+      "скрипка",
+      "перенесён с 13 декабря"
+    ],
+    "venue": "Новое концертное пространство «Зарядья»",
+    "venue_short": "Зарядье · Новое пространство",
+    "place": "Москва",
+    "location": "Новое концертное пространство «Зарядья», Москва",
+    "people": "Александр Колесников, скрипка",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Новое концертное пространство «Зарядья»",
+    "source_url": "https://www.zaryadyehall.ru/events/zaradys/10058/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Шуберт",
+      "Чайковский",
+      "Барток",
+      "Паганини"
+    ],
+    "works": [
+      "Сонатина ре мажор op. 137 № 1",
+      "Мелодия op. 42 № 3; Размышление op. 42 № 1; Вальс-скерцо op. 34",
+      "Румынские народные танцы BB 68",
+      "Каприс № 24; Cantabile op. 17; I Palpiti"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "consv-mzk-shevchenko-organ-2027-01-24",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-24T19:00:00+03:00",
+    "title": "Алексей Шевченко — И. С. Бах и мировая органная культура",
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "орган"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Алексей Шевченко, орган",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-01-24",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Малер",
+      "Филипп Чижевский",
+      "80 мин"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Малер — Симфония № 10. Лекция-концерт в одном отделении, около 80 минут.",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-mahler10-2027-01-28",
+    "start": "2027-01-28T20:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "«Вещь в себе» — Малер, Симфония № 10",
+    "composers": [
+      "Малер"
+    ],
+    "works": [
+      "Симфония № 10"
+    ],
+    "people": "ГАСО России имени Е. Ф. Светланова · Филипп Чижевский · Ярослав Тимофеев",
+    "sales_status": "абонемент продан; отдельные билеты проверить",
+    "source_url": "https://meloman.ru/concert/kzch-2027-01-28/",
+    "why": "Малер №10 и Чижевский — один из наиболее содержательно сильных пунктов дальнего сезона."
+  },
+  {
+    "id": "phil-105-2027-01-29",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-29T19:00:00+03:00",
+    "title": "105 лет Московской филармонии — Бетховен",
+    "tags": [],
+    "visible_tags": [
+      "Бетховен",
+      "105 лет Филармонии"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "РНМСО · Хор имени Свешникова · Фёдор Безносиков · Константин Емельянов",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/kzch-2027-01-29/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Бетховен"
+    ],
+    "works": [
+      "Концерт № 5 для фортепиано с оркестром ми-бемоль мажор, соч. 73",
+      "Симфония № 9 ре минор, соч. 125 в редакции Малера"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "абонемент продан; отдельные билеты проверить"
+  },
+  {
+    "id": "zaryadye-baroque-europe-2027-01-29",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-29T19:00:00+03:00",
+    "title": "«Галопом по Европе» — музыкальная карта барокко",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "барокко",
+      "старинная музыка"
+    ],
+    "venue": "Малый зал «Зарядья»",
+    "venue_short": "Зарядье · Малый",
+    "place": "Москва",
+    "location": "Малый зал «Зарядья», Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал «Зарядья»",
+    "source_url": "https://www.zaryadyehall.ru/events/baroque/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "композиторы и произведения уточнить на странице концерта",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "phil-rno-bach-2027-01-30",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-30T19:00:00+03:00",
+    "title": "Бах — La voce strumentale / Дмитрий Синьковский",
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "Синьковский",
+      "барокко"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "La voce strumentale · хор Нижегородского театра оперы и балета · Дмитрий Синьковский · Галина Круч · Александр Воронов",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [
+      "Увертюра из Сюиты № 3 BWV 1068",
+      "Сюита № 4 BWV 1069",
+      "Кантата BWV 51 Jauchzet Gott in allen Landen!",
+      "Кантата BWV 82 Ich habe genug"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить"
+  },
+  {
+    "id": "consv-mzk-melnikov-2027-01-31",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-01-31T19:00:00+03:00",
+    "title": "Алексей Мельников — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Алексей Мельников, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-01-31",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  }
+]

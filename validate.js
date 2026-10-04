@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const buildEvents = require('./scripts/build-events');
 
 const root = __dirname;
 const markdownMode = process.argv.includes('--md');
@@ -25,13 +26,28 @@ function isValidDateOnly(value) {
 }
 
 const eventsData = loadJson('events.json');
+const eventsIndexData = loadJson('events-index.json');
 const sourcesData = loadJson('sources.json');
-const events = Array.isArray(eventsData) ? eventsData : eventsData.events || [];
+let canonicalCorpus = { meta: null, entries: [], events: [] };
+let canonicalLoadError = null;
+try {
+  canonicalCorpus = buildEvents.loadCanonicalCorpus();
+} catch (err) {
+  canonicalLoadError = err;
+}
+const events = canonicalCorpus.events;
+const generatedEvents = Array.isArray(eventsData) ? eventsData : eventsData.events || [];
 const venues = Array.isArray(sourcesData) ? sourcesData : sourcesData.venues || [];
 
 const report = {
   total: events.length,
   errors: {
+    canonical_structure: [],
+    generated_count_mismatch: [],
+    generated_id_mismatch: [],
+    generated_semantic_mismatch: [],
+    generated_bundle_drift: [],
+    index_drift: [],
     duplicate_ids: [],
     missing_fields: [],
     source_label_mismatch: [],
@@ -98,6 +114,40 @@ const publicTextTechnicalPatterns = [
 ];
 
 const publicTextFalsePositiveKeys = new Set([]);
+
+if (canonicalLoadError) {
+  report.errors.canonical_structure.push(canonicalLoadError.message);
+} else {
+  const expectedBundle = buildEvents.buildGeneratedBundle(canonicalCorpus);
+  const expectedIndex = buildEvents.buildIndex(canonicalCorpus);
+
+  if (generatedEvents.length !== events.length) {
+    report.errors.generated_count_mismatch.push({ canonical: events.length, generated: generatedEvents.length });
+  }
+
+  const canonicalIds = new Set(events.map(event => event.id));
+  const generatedIds = new Set(generatedEvents.map(event => event.id));
+  const missing = [...canonicalIds].filter(id => !generatedIds.has(id));
+  const extra = [...generatedIds].filter(id => !canonicalIds.has(id));
+  if (missing.length || extra.length || generatedIds.size !== generatedEvents.length) {
+    report.errors.generated_id_mismatch.push({ missing, extra, generated_unique: generatedIds.size, generated_total: generatedEvents.length });
+  }
+
+  const generatedById = new Map(generatedEvents.map(event => [event.id, event]));
+  for (const event of events) {
+    const generated = generatedById.get(event.id);
+    if (!generated || JSON.stringify(generated) !== JSON.stringify(event)) {
+      report.errors.generated_semantic_mismatch.push(event.id);
+    }
+  }
+
+  if (JSON.stringify(eventsData) !== JSON.stringify(expectedBundle)) {
+    report.errors.generated_bundle_drift.push('events.json');
+  }
+  if (JSON.stringify(eventsIndexData) !== JSON.stringify(expectedIndex)) {
+    report.errors.index_drift.push('events-index.json');
+  }
+}
 
 function publicTextFragment(value) {
   return String(value || '').replace(/\s+/g, ' ').trim().slice(0, 180);
@@ -193,6 +243,12 @@ function issueIds(items) {
 }
 function issueDetailLines(r) {
   const groups = [
+    ['Canonical shard structure', r.errors.canonical_structure],
+    ['Generated count mismatch', r.errors.generated_count_mismatch],
+    ['Generated ID mismatch', r.errors.generated_id_mismatch],
+    ['Generated semantic mismatch', r.errors.generated_semantic_mismatch],
+    ['Generated bundle drift', r.errors.generated_bundle_drift],
+    ['Index drift', r.errors.index_drift],
     ['Дубли id', r.errors.duplicate_ids],
     ['Пропущенные обязательные поля', r.errors.missing_fields],
     ['Несовпадение source_label и venue', r.errors.source_label_mismatch],
@@ -254,6 +310,12 @@ function markdown(r) {
     ...Object.entries(r.categories).map(([k,v]) => `- ${k}: ${v}`),
     '',
     '## Ошибки',
+    `Canonical shard structure: ${r.errors.canonical_structure.length}`,
+    `Generated count mismatch: ${r.errors.generated_count_mismatch.length}`,
+    `Generated ID mismatch: ${r.errors.generated_id_mismatch.length}`,
+    `Generated semantic mismatch: ${r.errors.generated_semantic_mismatch.length}`,
+    `Generated bundle drift: ${r.errors.generated_bundle_drift.length}`,
+    `Index drift: ${r.errors.index_drift.length}`,
     `Дубли id: ${r.errors.duplicate_ids.length}`,
     `Пропущенные обязательные поля: ${r.errors.missing_fields.length}`,
     `Несовпадение source_label и venue: ${r.errors.source_label_mismatch.length}`,
@@ -287,6 +349,12 @@ console.log(output);
 if (markdownMode) fs.writeFileSync(path.join(root, 'audit-report.md'), output);
 
 if (
+  report.errors.canonical_structure.length ||
+  report.errors.generated_count_mismatch.length ||
+  report.errors.generated_id_mismatch.length ||
+  report.errors.generated_semantic_mismatch.length ||
+  report.errors.generated_bundle_drift.length ||
+  report.errors.index_drift.length ||
   report.errors.duplicate_ids.length ||
   report.errors.missing_fields.length ||
   report.errors.source_label_mismatch.length ||

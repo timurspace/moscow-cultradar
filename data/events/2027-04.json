@@ -1,0 +1,959 @@
+[
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "хоровая музыка",
+      "Чайковский",
+      "Римский-Корсаков"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-era-tchaikovsky-2027-04-02",
+    "start": "2027-04-02T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "«Эпоха Чайковского» — русская хоровая музыка",
+    "composers": [
+      "Балакирев",
+      "Римский-Корсаков",
+      "Чайковский"
+    ],
+    "people": "Хор имени А. В. Свешникова · Екатерина Антоненко · Ярослав Тимофеев",
+    "program_status": "Балакирев, Римский-Корсаков, Чайковский; также зарубежные авторы, повлиявшие на русскую хоровую музыку",
+    "sales_status": "есть отдельные билеты и абонемент",
+    "source_url": "https://meloman.ru/concert/kzch-2027-04-02/"
+  },
+  {
+    "id": "consv-mzk-osipova-kashunin-2027-04-03",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-03T19:00:00+03:00",
+    "title": "Ирина Осипова / Кирилл Кашунин — два рояля",
+    "tags": [],
+    "visible_tags": [
+      "два рояля"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Ирина Осипова · Кирилл Кашунин, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-03",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-rach-marcello-falla-2027-04-04",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-04T19:00:00+03:00",
+    "title": "Бенедетто Марчелло — Мануэль де Фалья. «Двойные портреты»",
+    "tags": [],
+    "visible_tags": [
+      "Двойные портреты",
+      "редкая программа"
+    ],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "venue_short": "Рахманиновский",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-04",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "Бенедетто Марчелло",
+      "Мануэль де Фалья"
+    ],
+    "works": [],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Рахманинов",
+      "Чайковский"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-rachmaninoff-days-2027-04-04",
+    "start": "2027-04-04T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "«Рахманиновские дни» — Александр Лазарев / Вадим Руденко",
+    "composers": [
+      "Рахманинов",
+      "Чайковский"
+    ],
+    "works": [
+      "Концерт № 1 для фортепиано с оркестром",
+      "Сюита № 3 для оркестра"
+    ],
+    "people": "ГАСО России имени Е. Ф. Светланова · Александр Лазарев · Вадим Руденко",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить",
+    "source_url": "https://meloman.ru/concert/kzch-2027-04-04/"
+  },
+  {
+    "id": "zaryadye-rhythms-east-2027-04-07",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-07T19:00:00+03:00",
+    "title": "Groove Garden — «Ритмы Востока»",
+    "tags": [],
+    "visible_tags": [
+      "этно",
+      "Восток"
+    ],
+    "venue": "Большой зал «Зарядья»",
+    "venue_short": "Зарядье · Большой",
+    "place": "Москва",
+    "location": "Большой зал «Зарядья», Москва",
+    "people": "Андрей Танзю · Кирилл Ошеров · Арслан Хазрети · Правин · Амир Хатае · Карина Клавихо",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал «Зарядья»",
+    "source_url": "https://www.zaryadyehall.ru/events/ethno/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "consv-mzk-virsaladze-oistrakh-2027-04-10",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-10T19:00:00+03:00",
+    "title": "Элисо Вирсаладзе / Квартет имени Д. Ф. Ойстраха",
+    "tags": [],
+    "visible_tags": [
+      "Вирсаладзе",
+      "струнный квартет"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Элисо Вирсаладзе, фортепиано · Квартет имени Д. Ф. Ойстраха",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-10",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-emelyanov-2027-04-11",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-11T19:00:00+03:00",
+    "title": "Константин Емельянов — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "Емельянов",
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Константин Емельянов, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-11",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-mndoyants-2027-04-14",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-14T19:00:00+03:00",
+    "title": "Никита Мндоянц — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Никита Мндоянц, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-14",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "Месса си минор",
+      "Филипп Чижевский"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "И. С. Бах — Месса для солистов, хора и оркестра си минор BWV 232.",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-bach-bminor-mass-2027-04-16",
+    "start": "2027-04-16T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "Бах — Месса си минор BWV 232",
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [
+      "Месса си минор BWV 232"
+    ],
+    "people": "Государственный академический камерный оркестр России · хор Questa Musica · Филипп Чижевский",
+    "sales_status": "абонемент продан; отдельные билеты пока не подтверждены",
+    "source_url": "https://meloman.ru/concert/kzch-2027-04-16-1/",
+    "why": ""
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "орган",
+      "Бах"
+    ],
+    "place": "Москва",
+    "location": "Большой зал «Зарядья», Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Бах, Дюрюфле, Регер, Лист, Сатмари, Вьерн.",
+    "source_label": "Большой зал «Зарядья»",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "id": "zaryadye-ablonci-organ-2027-04-16",
+    "start": "2027-04-16T19:00:00+03:00",
+    "venue": "Большой зал «Зарядья»",
+    "venue_short": "Зарядье · Большой",
+    "title": "Берталан Аблонци — орган",
+    "composers": [
+      "И. С. Бах",
+      "Дюрюфле",
+      "Регер",
+      "Лист",
+      "Сатмари",
+      "Вьерн"
+    ],
+    "works": [
+      "Токката, адажио и фуга BWV 564",
+      "Скерцо для органа, op. 2",
+      "Прелюдия и фуга на тему B-A-C-H, S.260",
+      "Симфония для органа № 3"
+    ],
+    "people": "Берталан Аблонци, орган",
+    "sales_status": "есть отдельные билеты",
+    "source_url": "https://zaryadyehall.ru/events/"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Пушкин",
+      "литература + музыка"
+    ],
+    "place": "Москва",
+    "location": "Малый зал «Зарядья», Москва",
+    "price": "проверить актуально",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал «Зарядья»",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "id": "zaryadye-pushkin-playlist-2027-04-17",
+    "start": "2027-04-17T13:00:00+03:00",
+    "venue": "Малый зал «Зарядья»",
+    "venue_short": "Зарядье · Малый",
+    "title": "«Писатели-меломаны. Плейлист Пушкина»",
+    "people": "Ирина Чижик и музыканты проекта «Сказки Чижика»",
+    "sales_status": "есть отдельные билеты",
+    "source_url": "https://zaryadyehall.ru/events/",
+    "program_status": "музыкальная программа строится вокруг произведений, связанных с кругом интересов Пушкина"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Бетховен",
+      "Р. Штраус",
+      "Березовский"
+    ],
+    "place": "Москва",
+    "location": "Большой зал «Зарядья», Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал «Зарядья»",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "id": "zaryadye-berezovsky-sladkovsky-2027-04-17",
+    "start": "2027-04-17T19:00:00+03:00",
+    "venue": "Большой зал «Зарядья»",
+    "venue_short": "Зарядье · Большой",
+    "title": "Борис Березовский / ГАСО Татарстана / Александр Сладковский",
+    "composers": [
+      "Бетховен",
+      "Р. Штраус"
+    ],
+    "works": [
+      "Музыка к трагедии «Эгмонт»",
+      "Концерт № 5 для фортепиано с оркестром",
+      "Симфоническая сюита из оперы «Кавалер розы»"
+    ],
+    "people": "Борис Березовский · ГАСО Республики Татарстан · Александр Сладковский",
+    "sales_status": "есть отдельные билеты",
+    "source_url": "https://zaryadyehall.com/events/classics/6590/"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "фольклор",
+      "традиционная культура"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени Н.Я. Мясковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "id": "consv-myaskovsky-russian-folklore-2027-04-18",
+    "start": "2027-04-18T19:00:00+03:00",
+    "venue": "Концертный зал имени Н.Я. Мясковского",
+    "venue_short": "Мясковского",
+    "title": "«Образ доброго молодца в русском фольклоре»",
+    "people": "Фольклорный ансамбль Московской консерватории",
+    "program_status": "программа не опубликована в календарном анонсе",
+    "sales_status": "событие сезона; продажу отдельных билетов проверить",
+    "source_url": "https://www.mosconsv.ru/ru/concert-date.aspx?sel_date=2027-4-18"
+  },
+  {
+    "id": "consv-mzk-semenov-bach-organ-2027-04-18",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-18T19:00:00+03:00",
+    "title": "Алексей Семёнов — И. С. Бах и мировая органная культура",
+    "tags": [
+      "bach",
+      "early"
+    ],
+    "visible_tags": [
+      "Бах",
+      "орган"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Алексей Семёнов, орган",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-18",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "И. С. Бах"
+    ],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Моцарт",
+      "духовые"
+    ],
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "id": "consv-rach-mozart-winds-2027-04-18",
+    "start": "2027-04-18T19:00:00+03:00",
+    "venue": "Рахманиновский зал Московской консерватории",
+    "venue_short": "Рахманиновский",
+    "title": "Моцарт — шедевры для духовых",
+    "composers": [
+      "Моцарт"
+    ],
+    "people": "духовые ансамбли",
+    "program_status": "точный перечень произведений не опубликован в доступном анонсе",
+    "sales_status": "событие сезона; продажу отдельных билетов проверить",
+    "source_url": "https://www.mosconsv.ru/ru/concert/202296"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Шопен",
+      "Брух",
+      "Равель"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-stars21-2027-04-18",
+    "start": "2027-04-18T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "«Звёзды XXI века» — Шопен / Брух / Равель",
+    "composers": [
+      "Шопен",
+      "Брух",
+      "Равель"
+    ],
+    "works": [
+      "Концерт № 2 для фортепиано с оркестром",
+      "Концерт № 1 для скрипки с оркестром",
+      "Концерт № 1 для фортепиано с оркестром"
+    ],
+    "people": "Даниил Коган · Владимир Вишневский · Валентин Малинин · Фёдор Безносиков · ГАСО России имени Е. Ф. Светланова",
+    "sales_status": "есть отдельные билеты",
+    "source_url": "https://meloman.ru/concert/kzch-2027-04-18-1/"
+  },
+  {
+    "id": "consv-bzk-mozart-requiem-beethoven-2027-04-19",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-19T19:00:00+03:00",
+    "title": "Моцарт — Реквием / Бетховен — Хоровая фантазия",
+    "tags": [],
+    "visible_tags": [
+      "Моцарт",
+      "Бетховен",
+      "хор"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "venue_short": "БЗК",
+    "place": "Москва",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Камерный хор и оркестр Московской консерватории · Александр Соловьёв",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-19",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "Моцарт",
+      "Бетховен"
+    ],
+    "works": [
+      "Реквием",
+      "Фантазия для фортепиано, хора и оркестра"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-masm-2027-04-19",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-19T19:00:00+03:00",
+    "title": "МАСМ — Губайдулина / Денисов / Дебюсси / Даллапиккола / К. Ф. Э. Бах",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "МАСМ",
+      "Губайдулина",
+      "Денисов"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "venue_short": "Камерный · Филармония",
+    "place": "Москва",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Московский ансамбль современной музыки",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/kzf-2027-04-19/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Губайдулина",
+      "Денисов",
+      "Дебюсси",
+      "Даллапиккола",
+      "К. Ф. Э. Бах"
+    ],
+    "works": [
+      "Точки, линии, зигзаги",
+      "Вариации на тему Шуберта",
+      "Послеполуденный отдых фавна — камерное переложение",
+      "Sonatina canonica su Capricci di Niccolo Paganini",
+      "Трио-соната «Сангвиник и меланхолик»"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "билеты проданы"
+  },
+  {
+    "id": "consv-mzk-knyazev-brahms-2027-04-20",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-20T19:00:00+03:00",
+    "title": "Александр Князев — «Любите ли вы Брамса?»",
+    "tags": [],
+    "visible_tags": [
+      "Брамс",
+      "Князев"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Александр Князев, виолончель / орган / фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-20",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [
+      "Брамс"
+    ],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-berezovsky-2027-04-21",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-21T19:00:00+03:00",
+    "title": "Борис Березовский — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "Березовский",
+      "фортепиано"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "Борис Березовский, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в доступном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "абонемент продан; отдельные билеты проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Пётр Лаул",
+      "фортепиано",
+      "вальсы"
+    ],
+    "place": "Москва",
+    "location": "Малый зал «Зарядья», Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал «Зарядья»",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "id": "zaryadye-laul-waltzes-2027-04-21",
+    "start": "2027-04-21T19:00:00+03:00",
+    "venue": "Малый зал «Зарядья»",
+    "venue_short": "Зарядье · Малый",
+    "title": "Пётр Лаул — вальсы",
+    "composers": [
+      "Шуберт",
+      "Глинка",
+      "Чайковский",
+      "Дебюсси",
+      "Равель",
+      "Шопен"
+    ],
+    "people": "Пётр Лаул, фортепиано",
+    "sales_status": "есть отдельные билеты",
+    "source_url": "https://zaryadyehall.ru/events/",
+    "program_status": "вальсы Шуберта, Глинки, Чайковского, Дебюсси, Равеля и Шопена"
+  },
+  {
+    "id": "consv-mzk-kazazyan-2027-04-22",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-22T19:00:00+03:00",
+    "title": "Гайк Казазян — скрипичный вечер",
+    "tags": [],
+    "visible_tags": [
+      "скрипка"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Гайк Казазян, скрипка",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-22",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-sayamov-2027-04-23",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-23T19:00:00+03:00",
+    "title": "Даниил Саямов — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Даниил Саямов, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-23",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-borodin-quartet-2027-04-24",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-04-24T19:00:00+03:00",
+    "title": "Государственный квартет имени Бородина",
+    "tags": [],
+    "visible_tags": [
+      "Квартет имени Бородина",
+      "струнный квартет"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Государственный квартет имени Бородина",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-04-24",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  }
+]

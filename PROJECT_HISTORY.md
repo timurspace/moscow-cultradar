@@ -189,3 +189,27 @@ Export schema приватных данных повышена до **v4**. `loc
 - `PROJECT_RULES.md` закрепил семантику публичных полей; `validate.js` получил warning-only public-text guard для technical и generic/process provenance с отдельным списком allowlisted false positives.
 - Interface и Collector follow-up сформулированы в QA report / текущем state и не смешивались с этой миграцией.
 
+
+
+## 2026-10-05 — monthly canonical shards
+
+Причина: корневой `events.json` вырос примерно до 2.1 MB, и обычный GitHub file-content API стал ненадёжной рабочей единицей для чатов/инструментов.
+
+Сделано:
+- canonical event storage перенесён в `data/events/YYYY-MM.json`;
+- две карточки без определяемого месяца (`rameau`, `wtc1`) сохранены в `data/events/undated.json`;
+- top-level metadata вынесена в `data/events/meta.json`;
+- `scripts/build-events.js` детерминированно генерирует root `events.json` и lightweight `events-index.json`;
+- `validate.js` и GitHub Actions проверяют canonical shards и generated-artifact drift;
+- сайт продолжает читать прежний root `events.json`.
+
+Migration proof:
+- before: 1399 events / 1399 unique IDs;
+- after canonical: 1399 / 1399;
+- generated: 1399;
+- missing IDs: 0;
+- extra IDs: 0;
+- duplicate IDs: 0;
+- semantic event changes caused by migration: 0.
+
+Content/editorial поля миграцией не изменялись.
