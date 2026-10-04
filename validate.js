@@ -94,6 +94,7 @@ const publicTextTechnicalPatterns = [
   { name: 'wide_pool_inclusion', re: /оставляем\s+в\s+широк[а-яё]*\s+пул/iu },
   { name: 'editorial_line_must_be_present', re: /(?:оперн|театральн|музыкальн)[а-яё]*\s+лини[а-яё]*.{0,100}должн[а-яё]*\s+быть\s+представлен/iu },
   { name: 'published_listing_venue_only', re: /в\s+опубликованн[а-яё]*\s+афиш[а-яё]*\s+(?:нов[а-яё]*\s+)?(?:мал[а-яё]*\s+)?площадк[а-яё]*/iu },
+  { name: 'public_text_date_only_token', re: /\bdate_only\b/i },
 ];
 
 const publicTextFalsePositiveKeys = new Set([]);

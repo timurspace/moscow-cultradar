@@ -11,13 +11,13 @@
 - `why`: **362** заполнено / **1037** пусто
 - `details`: **772** заполнено / **627** пусто
 - High-confidence removals technical/generic: **1441**
-- rewrite_existing_content_only: **157**
+- rewrite_existing_content_only: **158**
 - Remaining manual review: **0**
 - Изменений event-полей вне `why/details`: **0**
 
 ## Второй semantic pass
 
-Относительно предыдущей версии PR применено **212 removals** и **86 rewrites**.
+Относительно предыдущей версии PR применено **212 removals** и **87 rewrites**.
 
 Обязательные generic/process семейства устранены полностью:
 - 70 × `Опубликованное событие сезона 2026/27 базовой музыкальной площадки; включено в дальний радар.` → 0
@@ -39,6 +39,8 @@
 
 Mapping синхронизирован с этими решениями; unresolved manual review остаётся **0**.
 
+Follow-up final QA: `lapp83-tiffany-dream-2026-10-01` / `details` переписан в `1 октября. Цена 4000 ₽. Точное время не опубликовано.`; source-verification и implementation-токен `date_only` удалены из публичного текста.
+
 ## Прежние 17 manual-review случаев
 
 Все 17 разрешены high-confidence решением; unresolved rows: **0**. `QA_Cultradar_public_text_manual_review.csv` содержит только заголовок.
@@ -47,6 +49,6 @@ Mapping синхронизирован с этими решениями; unresol
 
 ## Validator
 
-Guard расширяется на generic/process шаблоны второго прохода и пять узких residual-сигнатур финального QA: current-base reflection, published-listing inclusion, wide-pool inclusion, editorial-line must-be-present и published-listing venue-only. Regex намеренно узкие; validator остаётся warning-only и ничего не переписывает.
+Guard расширяется на generic/process шаблоны второго прохода, пять узких residual-сигнатур финального QA и буквальный технический токен `date_only` в публичных `why/details`. Regex намеренно узкие; validator остаётся warning-only и ничего не переписывает.
 
 Interface и Collector follow-up в этом PR не выполняются.

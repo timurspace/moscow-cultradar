@@ -182,9 +182,10 @@ Export schema приватных данных повышена до **v4**. `loc
 ## 2026-10-04 — cleanup публичных `why` / `details` и regression guard
 
 - На фактическом `main` перед изменением: 1399 событий, 1399 unique ID; `why` заполнен у 1385, `details` — у 1190.
-- Построен детерминированный mapping по каждому `(id, field)`; после второго semantic pass и финального независимого QA итог: 1441 high-confidence removals technical/generic текста и 157 rewrite-existing-content-only.
+- Построен детерминированный mapping по каждому `(id, field)`; после второго semantic pass и финального независимого QA итог: 1441 high-confidence removals technical/generic текста и 158 rewrite-existing-content-only.
 - После cleanup: 1399 событий, 1399 unique ID; `why` заполнен у 362, `details` — у 772. Поля событий вне `why/details` не менялись.
 - Повторный semantic pass разрешил все 17 прежних low-confidence случаев; оставшихся manual-review случаев **0**.
+- Финальный follow-up QA дополнительно очистил `lapp83-tiffany-dream-2026-10-01.details`: сохранены дата, цена и факт отсутствия опубликованного времени; source-verification и `date_only` implementation wording удалены.
 - `PROJECT_RULES.md` закрепил семантику публичных полей; `validate.js` получил warning-only public-text guard для technical и generic/process provenance с отдельным списком allowlisted false positives.
 - Interface и Collector follow-up сформулированы в QA report / текущем state и не смешивались с этой миграцией.
 
