@@ -3,7 +3,7 @@
 > Актуальное состояние проекта. Обновлять после существенных изменений данных, интерфейса, схемы или automation.
 > Исторические counts и закрытые этапы хранятся в `PROJECT_HISTORY.md`.
 
-**Срез:** 2026-10-01.  
+**Срез:** 2026-10-04.  
 **Проверено по:** ветке `main`, фактическим `events.json`, `sources.json`, `app.js`, `validate.js`, GitHub Actions и текущей automation.
 
 ## Коротко
@@ -130,6 +130,11 @@
 
 ### Данные / QA
 
+- 2026-10-04 завершён controlled remediation публичных `why` / `details` с повторным semantic pass и финальным независимым QA: **1399 событий / 1399 unique ID**; заполнены `why` у **362**, `details` у **772** карточек. Итоговый mapping: **1441** high-confidence removals technical/generic текста и **158** rewrite-existing-content-only; manual-review случаев осталось **0**.
+- Public-text guard в `validate.js` сигнализирует об obvious technical **и generic/process** provenance, включая presence/radar/contour/calendar/mandatory-venue шаблоны и буквальный `date_only` в публичном тексте; report содержит `id`, поле, fragment и отдельный allowlist false positives. После второго pass текущих public-text warnings ожидается **0**, allowlisted false positives: **0**.
+- Interface follow-up (в этом изменении **не выполнялся**): скрывать «Почему попало» при пустом/отсутствующем `why`, не делать fallback `details → why`, отдельно проверить `.ics` и Google Calendar, не экспортировать пустые подписи/technical provenance.
+- Collector/automation follow-up: не использовать `why/details` как журнал sweep/verification, не заполнять `why` ради заполненности, provenance хранить в run report / coverage / Git history и запускать public-text guard перед commit.
+
 - `validate.js` теперь фатально проверяет стабильное правило `source_label === venue` для событий с физической площадкой; текущих расхождений **0**.
 - Текущий validator даёт **11** `weak_music_context` warnings. Это сигналы на ревью, а не автоматически ошибки: часть программ может быть корректно подтверждена иначе.
 - `validate.js` теперь фатально проверяет допустимые значения `category`, `horizon`, `editorial_status`, `ticket_urgency`; текущих enum-ошибок **0**. Также фатально проверяются валидность `start`/`end`, строгий `date_only` (`YYYY-MM-DD` + реальная календарная дата), явный timezone у `start`/`end` (`Z` или `±HH:MM`), `end >= start` и отсутствие конфликта `start` + `date_only`; текущих ошибок этого блока **0**. В данных есть 69 корректных `end` в UTC (`Z`), поэтому validator проверяет наличие явного timezone, а не требует только `+03:00`. `sources.meta.schema_version === 2` и `card_schema_version === 2` для всех `music`/`opera` теперь проверяются фатально; текущих schema-ошибок **0**. Markdown audit-report теперь выводит конкретные ID для непустых категорий ошибок и предупреждений (до 50 ID на категорию). Согласованность coverage пока не проверяется.
@@ -148,13 +153,13 @@
 
 ### Данные
 
-`events.json` около 1.19 MB и 739 карточек. Для текущего масштаба один публичный JSON остаётся управляемым: он прост для ручного diff, GitHub Pages и client-side загрузки. **Разбивать файл сейчас преждевременно.** Shards/generated files стоит вводить только при измеримой проблеме загрузки, merge-conflicts или сборки. `sources.json` компактный и логично разделяет venues / discovery / monitor entities / groups.
+`events.json` около 2.05 MB и 1399 карточек. Для текущего масштаба один публичный JSON остаётся управляемым: он прост для ручного diff, GitHub Pages и client-side загрузки. **Разбивать файл сейчас преждевременно.** Shards/generated files стоит вводить только при измеримой проблеме загрузки, merge-conflicts или сборки. `sources.json` компактный и логично разделяет venues / discovery / monitor entities / groups.
 
 Public/private граница выдержана: публичные карточки живут в GitHub, личные статусы и snapshots — в `localStorage` и ручном export/import.
 
 ### Интерфейс
 
-Сайт рендерит все карточки в DOM и скрывает неподходящие фильтрами. При 739 событиях это приемлемо, но рост в несколько раз потребует замера mobile performance перед любым усложнением. Сейчас полезнее поиск и reset, чем framework migration.
+Сайт рендерит все карточки в DOM и скрывает неподходящие фильтрами. При 1399 событиях это приемлемо, но рост в несколько раз потребует замера mobile performance перед любым усложнением. Сейчас полезнее поиск и reset, чем framework migration.
 
 ### QA / workflow
 
