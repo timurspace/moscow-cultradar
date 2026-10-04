@@ -3,7 +3,7 @@
 > Актуальное состояние проекта. Обновлять после существенных изменений данных, интерфейса, схемы или automation.
 > Исторические counts и закрытые этапы хранятся в `PROJECT_HISTORY.md`.
 
-**Срез:** 2026-10-04.  
+**Срез:** 2026-10-05.  
 **Проверено по:** ветке `main`, фактическим `events.json`, `sources.json`, `app.js`, `validate.js`, GitHub Actions и текущей automation.
 
 ## Коротко
@@ -132,7 +132,7 @@
 
 - 2026-10-04 завершён controlled remediation публичных `why` / `details` с повторным semantic pass и финальным независимым QA: **1399 событий / 1399 unique ID**; заполнены `why` у **362**, `details` у **772** карточек. Итоговый mapping: **1441** high-confidence removals technical/generic текста и **158** rewrite-existing-content-only; manual-review случаев осталось **0**.
 - Public-text guard в `validate.js` сигнализирует об obvious technical **и generic/process** provenance, включая presence/radar/contour/calendar/mandatory-venue шаблоны и буквальный `date_only` в публичном тексте; report содержит `id`, поле, fragment и отдельный allowlist false positives. После второго pass текущих public-text warnings ожидается **0**, allowlisted false positives: **0**.
-- Interface follow-up (в этом изменении **не выполнялся**): скрывать «Почему попало» при пустом/отсутствующем `why`, не делать fallback `details → why`, отдельно проверить `.ics` и Google Calendar, не экспортировать пустые подписи/technical provenance.
+- Interface follow-up 2026-10-05 выполнен: «Почему попало» рендерится только при непустом `why`; `details` не используется как fallback для `why`. `.ics` и Google Calendar используют один `descriptionFor()`: пустые `why`/`details` не дают пустых полей, точный дубль `why === details` не повторяется, содержательный `why` сохраняется.
 - Collector/automation follow-up: не использовать `why/details` как журнал sweep/verification, не заполнять `why` ради заполненности, provenance хранить в run report / coverage / Git history и запускать public-text guard перед commit.
 
 - `validate.js` теперь фатально проверяет стабильное правило `source_label === venue` для событий с физической площадкой; текущих расхождений **0**.
@@ -163,7 +163,7 @@ Public/private граница выдержана: публичные карто�
 
 ### QA / workflow
 
-Workflow хорошо ловит JSON parse через запуск Node и фатальные duplicate/missing-field ошибки, но покрытие схемы неполное. Также workflow запускается только при изменениях `events.json`, `sources.json`, `validate.js`; отдельного `node --check app.js` нет. Это разумный следующий QA-шаг, но generated state/count-файлы сейчас не нужны.
+Workflow ловит JSON parse и фатальные duplicate/missing-field ошибки через `validate.js`, а также запускается при изменениях `events.json`, `sources.json`, `validate.js` и `app.js`. Для интерфейсных изменений уже выполняется `node --check app.js`; generated state/count-файлы сейчас не нужны.
 
 ## Приоритетный backlog
 
@@ -172,7 +172,7 @@ Workflow хорошо ловит JSON parse через запуск Node и фа
 1. Завершить split документации и держать `PROJECT_STATE.md` единственным местом для текущих counts/status.
 2. Добавить client-side поиск с объединением с существующими фильтрами; минимум: `title`, `display_title`, `composers`, `works`, `people`/`performers`.
 3. Добавить одну кнопку **«Сбросить фильтры»**, сбрасывающую category/range/tags/venues/card-tag/editorial/search.
-4. Отдельно решить, добавлять ли `node --check app.js` в GitHub Actions; не смешивать это решение с data-validator. Coverage QA рассматривать отдельным этапом только при понятных правилах полноты.
+4. Coverage QA рассматривать отдельным этапом только при понятных правилах полноты; `node --check app.js` уже входит в GitHub Actions для интерфейсных изменений.
 5. Филармония октябрь–декабрь закрыта контрольными sweep 27.09.2026; далее поддерживать delta maintenance.
 6. Контрольный sweep Зарядья до 31.12 и затем opera/theatre/talks по мере публикации.
 7. Утвердить регламент очистки прошедших публичных событий; приватный visited snapshot уже защищает личную историю.

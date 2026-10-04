@@ -53,6 +53,7 @@ function setDensity(value){
   applyDensity();
 }
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function cleanText(value){ return typeof value==='string' ? value.trim() : ''; }
 function eventById(id){ return events.find(e => e.id === id); }
 function eventLink(e){ return e?.source_url || venueUrls[e?.venue] || ''; }
 function dateObj(e){ if(e.start) return new Date(e.start); if(e.date_only) return new Date(e.date_only+'T12:00:00+03:00'); return null; }
@@ -84,6 +85,8 @@ function renderCard(e){
   const source = sourceHref ? `<a class="button event-source" href="${esc(sourceHref)}" target="_blank" rel="noopener" title="${esc(e.source_label||e.venue||'Источник')}">${sourceIsVenue?'Сайт площадки ↗':'Открыть событие ↗'}</a>` : '';
   const price = e.price ? `<span class="price">${esc(e.price)}</span>` : '';
   const calendarHint = r.state==='bought' && !r.calendar ? `<span class="calendar-added">билет куплен — добавьте событие в календарь</span>` : (r.calendar ? `<span class="calendar-added">календарь отмечен</span>` : '');
+  const whyText = cleanText(e.why);
+  const detailsText = cleanText(e.details);
   const inner = `
     ${timofey}
     <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${e.venue_short?`<button type="button" class="tag venue-short card-venue" data-card-venue="${esc(e.venue)}" title="Показать события этой площадки">${esc(e.venue_short)}</button>`:''}${visibleTags}</div>
@@ -94,10 +97,10 @@ function renderCard(e){
     <div class="venue">${esc(e.venue)}</div>
     <div class="place">${esc(e.place||'')}</div>
     ${(e.people||price) ? `<div class="line">${esc(e.people||'')}${e.people&&price?' · ':''}${price}</div>` : ''}
-    <div class="why"><strong>Почему попало:</strong> ${esc(e.why||'')}</div>
+    ${whyText ? `<div class="why"><strong>Почему попало:</strong> ${esc(whyText)}</div>` : ''}
     ${urgency ? `<div class="statusline"><span class="status ${urgencyClass(e.ticket_urgency)}">Билеты: ${esc(urgency)}</span>${e.sales_status?`<span class="status sales-status">${esc(e.sales_status)}</span>`:''}</div>` : (e.sales_status?`<div class="statusline"><span class="status sales-status">${esc(e.sales_status)}</span></div>`:'')}
     ${e.verified===false ? `<div class="unverified">Рабочая карточка: дату/цену/ссылку нужно перепроверить перед покупкой.</div>` : ''}
-    ${e.details ? `<div class="details"><details><summary>${esc(e.details_label||'Подробнее')}</summary><div class="full">${esc(e.details)}</div></details></div>` : ''}
+    ${detailsText ? `<div class="details"><details><summary>${esc(e.details_label||'Подробнее')}</summary><div class="full">${esc(detailsText)}</div></details></div>` : ''}
     <details class="private-notes">
       <summary>Личные заметки</summary>
       <div class="note-grid">
@@ -380,14 +383,21 @@ function saveNote(id,kind,value){
 }
 function icsEscape(s=''){return String(s).replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');}
 function fmtICS(dt){if(!dt)return '';const d=new Date(dt);const p=n=>String(n).padStart(2,'0');return d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+'T'+p(d.getUTCHours())+p(d.getUTCMinutes())+p(d.getUTCSeconds())+'Z';}
-function descriptionFor(e){const url=eventLink(e);return [e.details,e.why,url?`Источник: ${url}`:''].filter(Boolean).join('\n\n');}
+function descriptionFor(e){
+  const details=cleanText(e.details); const why=cleanText(e.why); const url=eventLink(e);
+  return [details,why&&why!==details?why:'',url?`Источник: ${url}`:''].filter(Boolean).join('\n\n');
+}
+function calendarLocation(e){ return cleanText(e.location)||cleanText(e.venue); }
 function markCalendar(id){personal[id]=personal[id]||{}; personal[id].calendar=true; savePersonal(); renderMain();}
 function downloadICS(e){
-  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Cultradar//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${e.id}@cultradar`,`DTSTART:${fmtICS(e.start)}`,`DTEND:${fmtICS(e.end||e.start)}`,`SUMMARY:${icsEscape(e.title)}`,`LOCATION:${icsEscape(e.location||e.venue||'')}`,`DESCRIPTION:${icsEscape(descriptionFor(e))}`,eventLink(e)?`URL:${eventLink(e)}`:'','END:VEVENT','END:VCALENDAR'].filter(Boolean);
+  const description=descriptionFor(e); const location=calendarLocation(e);
+  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Cultradar//RU','CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${e.id}@cultradar`,`DTSTART:${fmtICS(e.start)}`,`DTEND:${fmtICS(e.end||e.start)}`,`SUMMARY:${icsEscape(e.title)}`,location?`LOCATION:${icsEscape(location)}`:'',description?`DESCRIPTION:${icsEscape(description)}`:'',eventLink(e)?`URL:${eventLink(e)}`:'','END:VEVENT','END:VCALENDAR'].filter(Boolean);
   const blob=new Blob([lines.join('\r\n')],{type:'text/calendar;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${e.id}.ics`;a.click();URL.revokeObjectURL(a.href);markCalendar(e.id);
 }
 function googleCalendar(e){
-  const q=new URLSearchParams({action:'TEMPLATE',text:e.title,dates:`${fmtICS(e.start)}/${fmtICS(e.end||e.start)}`,details:descriptionFor(e),location:e.location||e.venue||'',ctz:'Europe/Moscow'});
+  const description=descriptionFor(e); const location=calendarLocation(e);
+  const q=new URLSearchParams({action:'TEMPLATE',text:e.title,dates:`${fmtICS(e.start)}/${fmtICS(e.end||e.start)}`,ctz:'Europe/Moscow'});
+  if(description)q.set('details',description); if(location)q.set('location',location);
   window.open(`https://calendar.google.com/calendar/render?${q.toString()}`,'_blank','noopener'); markCalendar(e.id);
 }
 function setupStaticControls(){
