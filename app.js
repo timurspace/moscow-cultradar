@@ -85,7 +85,8 @@ function renderCard(e){
   const source = sourceHref ? `<a class="button event-source" href="${esc(sourceHref)}" target="_blank" rel="noopener" title="${esc(e.source_label||e.venue||'Источник')}">${sourceIsVenue?'Сайт площадки ↗':'Открыть событие ↗'}</a>` : '';
   const price = e.price ? `<span class="price">${esc(e.price)}</span>` : '';
   const calendarHint = r.state==='bought' && !r.calendar ? `<span class="calendar-added">билет куплен — добавьте событие в календарь</span>` : (r.calendar ? `<span class="calendar-added">календарь отмечен</span>` : '');
-  const whyText = cleanText(e.why); const detailsText = cleanText(e.details);
+  const whyText = cleanText(e.why);
+  const detailsText = cleanText(e.details);
   const inner = `
     ${timofey}
     <div class="meta"><button type="button" class="tag card-category ${esc(e.category)}" data-card-category="${esc(e.category)}" title="Фильтровать по разделу">${esc(categoryLabels[e.category]||e.category)}</button>${e.venue_short?`<button type="button" class="tag venue-short card-venue" data-card-venue="${esc(e.venue)}" title="Показать события этой площадки">${esc(e.venue_short)}</button>`:''}${visibleTags}</div>
