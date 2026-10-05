@@ -1,0 +1,47 @@
+[
+  {
+    "id": "zaryadye-lady-macbeth-2027-06-09",
+    "category": "opera",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-06-09T19:00:00+03:00",
+    "title": "Шостакович — опера «Леди Макбет Мценского уезда»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Шостакович",
+      "опера",
+      "перенесён с 17 июня"
+    ],
+    "venue": "Большой зал «Зарядья»",
+    "venue_short": "Зарядье · Большой",
+    "place": "Москва",
+    "location": "Большой зал «Зарядья», Москва",
+    "people": "Государственная академическая симфоническая капелла России · Валерий Полянский",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал «Зарядья»",
+    "source_url": "https://zaryadyehall.ru/events/opera/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [
+      "Шостакович"
+    ],
+    "works": [
+      "Леди Макбет Мценского уезда"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  }
+]

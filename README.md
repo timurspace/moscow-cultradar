@@ -15,7 +15,10 @@
 - `index.html` — каркас интерфейса.
 - `styles.css` — оформление.
 - `app.js` — фильтры, карточки, личные статусы, заметки и календарь.
-- `events.json` — публичные события.
+- `data/events/meta.json` и `data/events/*.json` — canonical metadata и месячные shards событий.
+- `events.json` — generated compatibility bundle для текущего сайта.
+- `events-index.json` — generated lightweight index для быстрого routing/deduplication.
+- `scripts/build-events.js` — детерминированная сборка generated artifacts.
 - `sources.json` — физические площадки, группы мониторинга и discovery-источники.
 - `validate.js` — машинный аудит данных.
 - `PROJECT_HANDOFF.md` — короткая точка входа для нового чата.
@@ -54,13 +57,14 @@
 Локально:
 
 ```bash
+node scripts/build-events.js
 node validate.js
 node validate.js --md
 ```
 
-GitHub Actions автоматически запускает аудит при изменениях `events.json`, `sources.json` и `validate.js` и сохраняет `audit-report.md` как artifact.
+GitHub Actions автоматически пересобирает `events.json` и `events-index.json` из canonical shards, проверяет отсутствие generated-artifact drift, затем запускает аудит и сохраняет `audit-report.md` как artifact.
 
-Аудит проверяет дубли ID, обязательные поля, даты, соответствие площадок `sources.venues`, наличие ссылок у датированных событий, очевидные агрегаторы в `source_url` и качество музыкального контекста.
+Аудит проверяет parse и размещение canonical shards, глобальную уникальность ID, совпадение generated bundle/index с canonical corpus, а также прежние проверки обязательных полей, дат, `sources.venues`, ссылок и публичного текста.
 
 
 ## Эмблема и favicon

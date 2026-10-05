@@ -295,19 +295,27 @@ Discovery-граф старинной музыки включает Марию �
 Warnings validator — повод для ревью, а не автоматическое доказательство дефекта. Fatal должны быть ошибки, которые однозначно делают данные некорректными.
 
 
-### Работа с большим `events.json` через GitHub connector
+### Canonical event shards и generated artifacts
 
-`events.json` уже достаточно большой, поэтому обычное чтение файла через GitHub file-content endpoint / `fetch_file` может вернуть пустое или усечённое содержимое. Ошибка `JSON.parse` после такого чтения **не означает автоматически, что файл повреждён**.
+Canonical source событий — `data/events/*.json`:
 
-Для полного чтения `events.json`:
+- `data/events/meta.json` хранит top-level metadata корпуса;
+- `data/events/YYYY-MM.json` хранит карточки, чья основная дата относится к соответствующему календарному месяцу;
+- `data/events/undated.json` хранит только карточки, для которых месяц нельзя определить без выдумывания даты.
 
-1. Получить актуальный SHA файла из GitHub.
-2. Прочитать содержимое через Git blob по SHA, а не полагаться на обычный file-content response.
-3. Выполнять массовый анализ или изменение только после успешного полного `JSON.parse`.
-4. Перед записью проверить ожидаемое количество событий и ключевые инварианты, относящиеся к задаче.
-5. После commit проверить соответствующий GitHub data-audit; если менялись публикуемые файлы — также Pages deployment.
+Правило shard: если есть `start`, используется его `YYYY-MM`; иначе используется `date_only`. Дополнительные `occurrences`, если появятся, не создают копий карточки в других shards. Один `id` существует ровно в одном canonical shard.
 
-**Нельзя перезаписывать `events.json`, если полученная копия была усечена, пуста или не прошла полный `JSON.parse`.**
+Корневой `events.json` — **generated compatibility bundle** для текущего сайта и не редактируется вручную. `events-index.json` — generated lightweight index для routing/deduplication; он не заменяет полную карточку.
+
+После любого изменения canonical shards обязательно запускать:
+
+1. `node scripts/build-events.js`;
+2. `node validate.js` или `node validate.js --md`;
+3. перед commit убедиться, что `events.json` и `events-index.json` соответствуют canonical corpus.
+
+Build обязан быть детерминированным. Validator проверяет parse всех shards, глобальную уникальность ID, соответствие карточки имени shard, равенство count/ID/semantic content generated bundle и соответствие index.
+
+Collector / Work должен идти по цепочке: `PROJECT_RULES.md` → collector runbook → `events-index.json` → нужные `data/events/YYYY-MM.json` → официальный источник → proposed delta. Полный generated `events.json` читать для обычного content-run больше не требуется.
 
 ## 18. GitHub workflow
 
@@ -315,9 +323,9 @@ Warnings validator — повод для ревью, а не автоматич�
 
 1. Прочитать `PROJECT_HANDOFF.md`, `PROJECT_STATE.md`, `PROJECT_RULES.md`.
 2. Проверить фактический `main` и Actions; GitHub выше документации по приоритету.
-3. Собрать/проверить события и источники.
+3. Собрать/проверить события и источники; для событий работать через index и нужные canonical shards.
 4. Менять только нужные файлы; не трогать UI при content-only задаче.
-5. Прогнать data QA / validator.
+5. Если менялись canonical event shards, выполнить `node scripts/build-events.js`, затем data QA / validator.
 6. Делать атомарный commit.
 7. Дождаться Pages build и data audit, если он был триггернут.
 8. Обновить `PROJECT_STATE.md`, если изменились counts, coverage, automation, schema или ближайшие задачи.

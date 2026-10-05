@@ -10,7 +10,8 @@
 
 - Репозиторий: `timurspace/moscow-cultradar`, ветка `main`, public.
 - Публичный сайт: https://timurspace.github.io/moscow-cultradar/
-- `events.json`: **1399 событий**.
+- Canonical corpus: **1399 событий / 1399 unique IDs** в `data/events/*.json`.
+- `events.json`: generated compatibility bundle для сайта; `events-index.json`: generated lightweight index.
 - `sources.json`: **72 физических площадки**; события сейчас представлены на 68 из них. Ещё одна служебная площадка в событиях — `Watchlist`.
 - Категории: `music` — **890**, `theatre` — **312**, `opera` — **132**, `talks` — **65**.
 - `sources.json` — **schema v2**. В `events.json` нет отдельного top-level schema version; `events.meta.source_schema_version = 2`.
@@ -153,7 +154,9 @@
 
 ### Данные
 
-`events.json` около 2.05 MB и 1399 карточек. Для текущего масштаба один публичный JSON остаётся управляемым: он прост для ручного diff, GitHub Pages и client-side загрузки. **Разбивать файл сейчас преждевременно.** Shards/generated files стоит вводить только при измеримой проблеме загрузки, merge-conflicts или сборки. `sources.json` компактный и логично разделяет venues / discovery / monitor entities / groups.
+Измеримая проблема большого `events.json` подтверждена: file-content API может возвращать усечённый payload. Canonical storage переведён на месячные shards в `data/events/`; недатированные карточки вынесены в `undated.json`, без выдумывания дат. Корневой `events.json` сохранён как generated compatibility bundle для GitHub Pages, а `events-index.json` — как лёгкий routing/deduplication слой.
+
+Baseline миграции: 1399 событий, 1399 unique IDs; semantic event changes caused by migration: 0. Build детерминирован, validator и CI проверяют shard placement, global ID uniqueness и drift generated artifacts. `sources.json` остаётся отдельным compact canonical source для venues / discovery / monitor entities / groups.
 
 Public/private граница выдержана: публичные карточки живут в GitHub, личные статусы и snapshots — в `localStorage` и ручном export/import.
 
@@ -177,6 +180,10 @@ Workflow ловит JSON parse и фатальные duplicate/missing-field о�
 6. Контрольный sweep Зарядья до 31.12 и затем opera/theatre/talks по мере публикации.
 7. Утвердить регламент очистки прошедших публичных событий; приватный visited snapshot уже защищает личную историю.
 
+### Architecture follow-up
+
+Collector / Work при content-run должен читать `events-index.json` и только нужные месячные shards, а не полный generated `events.json`. Дальнейшее дробление canonical storage или изменение клиентской загрузки сейчас не требуется.
+
 ### Потом
 
 - counts в UI;
@@ -187,8 +194,8 @@ Workflow ловит JSON parse и фатальные duplicate/missing-field о�
 
 ### Не делать пока
 
-- не дробить `events.json` на месяцы/категории без измеримой причины;
-- не вводить generated state/count files как новый источник истины;
+- не дробить месячные event shards дополнительно по категориям/площадкам без измеримой причины;
+- не переводить клиент на загрузку нескольких shards, пока единый generated `events.json` остаётся простым и достаточным;
 - не мигрировать на SPA/framework ради самого рефакторинга;
 - не строить backend/OAuth sync для приватного слоя;
 - не делать мобильное приложение без нативной потребности.

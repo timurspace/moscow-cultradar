@@ -24,7 +24,10 @@
 - `index.html` — каркас интерфейса;
 - `styles.css` — оформление и responsive layout;
 - `app.js` — render, filters, private state, visited, calendar, export/import;
-- `events.json` — публичные события;
+- `data/events/meta.json` + `data/events/YYYY-MM.json` / `undated.json` — canonical события;
+- `events.json` — generated compatibility bundle для сайта;
+- `events-index.json` — generated lightweight index для Collector / Work / QA;
+- `scripts/build-events.js` — детерминированная сборка generated event artifacts;
 - `sources.json` — physical venues, discovery sources, monitor entities/groups и coverage;
 - `validate.js` — машинный аудит данных;
 - `.github/workflows/audit.yml` — data audit workflow;
@@ -47,10 +50,10 @@ Weekly automation — отдельный content-maintenance контур. Её 
 
 1. Открыть repo и убедиться, что работа идёт с актуальным `main`.
 2. Прочитать `PROJECT_STATE.md` и `PROJECT_RULES.md`.
-3. Проверить фактические `events.json`, `sources.json`, relevant code и последние Actions; не доверять старому числу только потому, что оно написано в Markdown. Для большого `events.json` следовать правилу полного чтения через Git blob из `PROJECT_RULES.md`.
+3. Проверить фактические `sources.json`, `events-index.json`, нужные `data/events/*.json`, relevant code и последние Actions; не доверять старому числу только потому, что оно написано в Markdown. Корневой `events.json` generated и нужен прежде всего сайту/compatibility QA.
 4. Выбрать **одну** ближайшую задачу из STATE.
 5. Менять минимальный набор файлов; content-only задача не должна случайно превращаться в UI refactor.
-6. Перед commit прогнать доступный QA/validator и проверить JSON/schema assumptions.
+6. Если менялись события, сначала выполнить `node scripts/build-events.js`; затем прогнать QA/validator и проверить JSON/schema assumptions.
 7. Делать атомарный commit.
 8. После commit проверить GitHub Actions / Pages deployment.
 9. Если изменились counts, coverage, schema, automation или backlog — обновить `PROJECT_STATE.md`.

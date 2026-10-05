@@ -1,0 +1,395 @@
+[
+  {
+    "id": "consv-mzk-kramer-2027-05-13",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-13T19:00:00+03:00",
+    "title": "Даниил Крамер — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "джаз",
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Даниил Крамер, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-05-13",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-musica-sacra-schnittke-2027-05-14",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-14T19:00:00+03:00",
+    "title": "Musica sacra nova — Шнитке, Симфония № 2 «Святой Флориан»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Шнитке",
+      "Musica sacra nova"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "Госоркестр России · Филипп Чижевский",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/subscription/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Шнитке"
+    ],
+    "works": [
+      "Симфония № 2 «Святой Флориан» для солистов, хора и симфонического оркестра"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить"
+  },
+  {
+    "id": "consv-myaskovsky-trumpet-ensemble-2027-05-16",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-16T19:00:00+03:00",
+    "title": "«Музыка для трубы в ансамбле»",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "труба",
+      "камерный ансамбль"
+    ],
+    "venue": "Концертный зал имени Н.Я. Мясковского",
+    "venue_short": "Мясковского",
+    "place": "Москва",
+    "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+    "people": "ансамбль Viva la tromba",
+    "price": "проверить актуально",
+    "why": "Редкий инструментальный камерный формат в отдельном зале Консерватории.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени Н.Я. Мясковского",
+    "source_url": "https://www.mosconsv.ru/ru/concerts.aspx?hall=6",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "подробная программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона; продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-rach-remembering-future-2027-05-18",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-18T19:00:00+03:00",
+    "title": "«Вспоминая будущее» — Камерный оркестр Московской консерватории",
+    "tags": [],
+    "visible_tags": [
+      "камерный оркестр"
+    ],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "venue_short": "Рахманиновский",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "Камерный оркестр Московской консерватории",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-05-18",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "phil-rnmso-2027-05-20",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-20T19:00:00+03:00",
+    "title": "РНМСО / Дмитрий Синьковский / Елена Таросян",
+    "tags": [],
+    "visible_tags": [
+      "Мендельсон",
+      "Бизе",
+      "Синьковский"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "people": "РНМСО · Дмитрий Синьковский · Елена Таросян",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/kzch-2027-05-20/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "composers": [
+      "Мендельсон",
+      "Бизе"
+    ],
+    "works": [
+      "Симфония № 4 «Итальянская»",
+      "Концерт для скрипки с оркестром ми минор, соч. 64",
+      "Две сюиты из музыки к «Арлезианке»"
+    ],
+    "program_status": "",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "доступен по абонементу; отдельные билеты проверить"
+  },
+  {
+    "id": "phil-french-baroque-2027-05-22",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-22T19:00:00+03:00",
+    "title": "«Роскошь французского барокко»",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "французское барокко",
+      "клавесин"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "venue_short": "Камерный · Филармония",
+    "place": "Москва",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Марина Катаржнова, скрипка · Ольга Мартынова, клавесин · Август Крепак, виолончель",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/changes/",
+    "verified": true,
+    "organizer": "МКЗ «Зарядье»",
+    "monitor_entities": [
+      "Зарядье"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "композиторы и произведения уточнить на странице концерта",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "consv-mzk-favorin-2027-05-25",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-25T19:00:00+03:00",
+    "title": "Юрий Фаворин — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [
+      "Фаворин",
+      "фортепиано"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Юрий Фаворин, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-05-25",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-bzk-nersesyan-2027-05-26",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-26T19:00:00+03:00",
+    "title": "Павел Нерсесьян / Концертный симфонический оркестр МГК",
+    "tags": [],
+    "visible_tags": [
+      "Нерсесьян",
+      "оркестр"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "venue_short": "БЗК",
+    "place": "Москва",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Павел Нерсесьян, фортепиано · Концертный симфонический оркестр Московской консерватории",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-05-26",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "id": "consv-mzk-brahms-trio-2027-05-27",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": "2027-05-27T19:00:00+03:00",
+    "title": "Трио имени Брамса",
+    "tags": [],
+    "visible_tags": [
+      "фортепианное трио",
+      "Брамс"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "venue_short": "МЗК",
+    "place": "Москва",
+    "location": "Малый зал Московской консерватории, Москва",
+    "people": "Трио имени Брамса",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2027-05-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "программа не опубликована в календарном анонсе",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "событие сезона / продажу отдельных билетов проверить"
+  },
+  {
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "tags": [],
+    "visible_tags": [
+      "Чайковский",
+      "Шехеразада"
+    ],
+    "place": "Москва",
+    "location": "Концертный зал имени П. И. Чайковского, Москва",
+    "price": "проверить актуально",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "verified": true,
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "id": "phil-great-concerts-2027-05-27",
+    "start": "2027-05-27T19:00:00+03:00",
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "venue_short": "КЗЧ",
+    "title": "«Великие инструментальные концерты» — Кристоф Барати / РНО",
+    "composers": [
+      "Чайковский",
+      "Римский-Корсаков"
+    ],
+    "works": [
+      "Концерт для скрипки с оркестром ре мажор, соч. 35",
+      "«Шехеразада», симфоническая сюита"
+    ],
+    "people": "Кристоф Барати · Российский национальный оркестр · Фёдор Безносиков",
+    "sales_status": "абонемент продан; отдельные билеты проверить",
+    "source_url": "https://meloman.ru/concert/kzch-2027-05-27/"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "rameau",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": null,
+    "end": null,
+    "title": "Жан-Филипп Рамо",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "Рамо",
+      "клавир",
+      "барокко"
+    ],
+    "venue": "Watchlist",
+    "place": "Ждём содержательную большую программу",
+    "location": "Москва",
+    "people": "Клавирная музыка Рамо на современном рояле",
+    "price": "",
+    "why": "Редкая интерпретационная линия; важны исполнитель и масштаб программы.",
+    "editorial_status": "attention",
+    "ticket_urgency": "none",
+    "details_label": "Почему в watchlist",
+    "details": "",
+    "source_label": "Watchlist",
+    "source_url": "",
+    "verified": true,
+    "composers": [
+      "Рамо"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "wtc1",
+    "category": "music",
+    "horizon": "far",
+    "featured": false,
+    "start": null,
+    "end": null,
+    "title": "ХТК, I том — живое исполнение",
+    "tags": [
+      "bach",
+      "rare"
+    ],
+    "visible_tags": [
+      "Бах",
+      "watchlist"
+    ],
+    "venue": "Watchlist",
+    "place": "Площадка и дата ещё не найдены",
+    "location": "Москва",
+    "people": "",
+    "price": "",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "none",
+    "details_label": "Почему в watchlist",
+    "details": "",
+    "source_label": "Watchlist",
+    "source_url": "",
+    "verified": true,
+    "composers": [
+      "И. С. Бах"
+    ],
+    "card_schema_version": 2
+  }
+]

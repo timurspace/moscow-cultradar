@@ -1,0 +1,1020 @@
+[
+  {
+    "id": "bzk-papoyan-malinin-2026-09-26",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-26T19:00:00+03:00",
+    "end": "2026-09-26T21:30:00+03:00",
+    "title": "Илья Папоян, Валентин Малинин / «Академия Русской Музыки»",
+    "tags": [],
+    "visible_tags": [
+      "БЗК",
+      "фортепиано",
+      "оркестр"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "place": "Большая Никитская, 13/6",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Илья Папоян, Валентин Малинин · Симфонический оркестр «Академия Русской Музыки» · Иван Никифорчин",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "buy",
+    "details_label": "Официальная афиша",
+    "details": "26 сентября 2026, 19:00. Большой зал Московской консерватории.",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-26",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "БЗК",
+    "card_schema_version": 2
+  },
+  {
+    "id": "phil-nekrassov-impressions-2026-09-26",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-26T19:00:00+03:00",
+    "end": "2026-09-26T21:00:00+03:00",
+    "title": "Impressions — от би-бопа до европейской импровизационной музыки",
+    "tags": [],
+    "visible_tags": [
+      "джаз"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "place": "Триумфальная площадь, 4/31",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Квартет Тимура Некрасова · Михаил Митропольский",
+    "price": "проверить актуально",
+    "editorial_status": "attention",
+    "ticket_urgency": "buy",
+    "details_label": "Официальная афиша",
+    "details": "Импровизационная программа от би-бопа к европейской сцене.",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "Камерный · Филармония",
+    "card_schema_version": 2
+  },
+  {
+    "id": "pokrovskie-new-wine-2026-09-26",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "Елена Степанова — «Новое вино и старые мехи»",
+    "tags": [],
+    "visible_tags": [
+      "презентация / разговор"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "Москва",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Елена Степанова",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Даты / постановка",
+    "details": "26 сентября, 19:00–21:00, Покровка, 27.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://pokrovka27.com/",
+    "verified": true,
+    "start": "2026-09-26T19:00:00+03:00",
+    "organizer": "КЦ Покровские ворота",
+    "monitor_entities": [
+      "КЦ Покровские ворота"
+    ],
+    "source_scope": "venue"
+  },
+  {
+    "id": "phil-kzch-history-rehearsal-2026-09-27",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-27T10:30:00+03:00",
+    "title": "Зал Чайковского: контрапункты истории — открытая репетиция-экскурсия",
+    "tags": [],
+    "visible_tags": [
+      "история зала",
+      "экскурсия"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "place": "Триумфальная площадь, 4",
+    "location": "КЗЧ, Москва",
+    "people": "Наталия Сурнина, ведущая",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "Открытая репетиция-экскурсия по Концертному залу имени П. И. Чайковского.",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/hall/koncertnyj-zal-chajkovskogo/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "КЗЧ",
+    "season": "2026/27",
+    "sales_status": "билеты проданы",
+    "card_schema_version": 2
+  },
+  {
+    "id": "dost-tolstoy-khamovniki-2026-09-27",
+    "category": "talks",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-27T12:00:00+03:00",
+    "end": "2026-09-27T14:00:00+03:00",
+    "title": "«В гости к Льву Толстому»",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "Толстой",
+      "литература",
+      "музей"
+    ],
+    "venue": "Музей-усадьба Л.Н. Толстого в Хамовниках",
+    "place": "ул. Льва Толстого, 21, стр. 1",
+    "location": "Музей-усадьба Л.Н. Толстого в Хамовниках, Москва",
+    "people": "экскурсовод Екатерина Асланян",
+    "price": "билет организатора + вход в музей",
+    "why": "Литература не как отвлечённая лекция, а через реальное пространство жизни Толстого и разговор о его позднем творчестве и духовных поисках.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Формат",
+    "details": "Экскурсия по дому Толстого в Хамовниках; около 2 часов.",
+    "source_label": "Музей-усадьба Л.Н. Толстого в Хамовниках",
+    "source_url": "https://dostoverno.ru/events/v-gosti-k-lvu-tolstomu-2026-09-27",
+    "verified": true,
+    "organizer": "Лекторий «Достоевский»",
+    "discovery_source": "Лекторий «Достоевский»",
+    "monitor_entities": [
+      "Лекторий «Достоевский»"
+    ]
+  },
+  {
+    "id": "phil-language-opera-2026-09-27",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-27T13:00:00+03:00",
+    "title": "«Язык музыки. Опера» — интерактивный концерт",
+    "tags": [],
+    "visible_tags": [
+      "опера",
+      "12+"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "place": "Триумфальная площадь, 4",
+    "location": "КЗЧ, Москва",
+    "people": "Ярослав Тимофеев · Мария Холкина · Академический симфонический оркестр Московской филармонии · Большой хор «Мастера хорового пения» · Андрей Колясников",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "Фрагменты опер от Монтеверди и Пёрселла до Гласса и Десятникова.",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/hall/koncertnyj-zal-chajkovskogo/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "КЗЧ",
+    "season": "2026/27",
+    "sales_status": "билеты проданы",
+    "card_schema_version": 2,
+    "composers": [
+      "Монтеверди",
+      "Пёрселл",
+      "Моцарт",
+      "Беллини",
+      "Вагнер",
+      "Верди",
+      "Пуччини",
+      "Гласс",
+      "Десятников",
+      "Чайковский"
+    ],
+    "program_status": "Фрагменты опер от Монтеверди и Пёрселла до Гласса и Десятникова."
+  },
+  {
+    "id": "consv-bzk-vocal-masterpieces-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T14:00:00+03:00",
+    "title": "Шедевры вокального искусства",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Большой зал Московской консерватории",
+    "place": "Большая Никитская, 13/6",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Студенты и ассистенты-стажёры вокального факультета Московской консерватории",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Программа концерта вокального факультета на странице календаря не раскрыта.",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "БЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Программа концерта вокального факультета на странице календаря не раскрыта."
+  },
+  {
+    "id": "consv-mzk-rasputina-memory-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T14:00:00+03:00",
+    "title": "Памяти органистки и музыковеда М. В. Распутиной",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Малый зал Московской консерватории",
+    "place": "Большая Никитская, 13/6 · Арбатская / Библиотека им. Ленина",
+    "location": "Малый зал Московской консерватории, Большая Никитская ул., 13/6, Москва",
+    "people": "Концерт памяти М. В. Распутиной",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Программа в календарном анонсе не раскрыта.",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "МЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Программа в календарном анонсе не раскрыта."
+  },
+  {
+    "id": "consv-rach-brass-percussion-festival-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T14:00:00+03:00",
+    "title": "V Фестиваль ансамблей медных духовых и ударных инструментов",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "Открытие V Фестиваля ансамблей медных духовых и ударных инструментов",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Программа открытия фестиваля не детализирована.",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "Рахманиновский",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Программа открытия фестиваля не детализирована."
+  },
+  {
+    "id": "consv-bzk-arm-mokhorev-klyuchko-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "title": "Академия Русской Музыки / Максим Мохорев / Александр Ключко",
+    "tags": [],
+    "visible_tags": [
+      "Чайковский",
+      "Рахманинов"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "place": "Большая Никитская, 13/6",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Симфонический оркестр «Академия Русской Музыки» · Максим Мохорев · Александр Ключко, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Конкретные произведения в календарном анонсе не перечислены.",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "БЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "composers": [
+      "Чайковский",
+      "Рахманинов"
+    ],
+    "program_status": "Конкретные произведения в календарном анонсе не перечислены."
+  },
+  {
+    "id": "consv-myaskovsky-mishin-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "title": "Михаил Мишин — фортепианный вечер",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Концертный зал имени Н.Я. Мясковского",
+    "place": "Москва",
+    "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+    "people": "Михаил Мишин, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Вечер фортепианной музыки; программа не раскрыта.",
+    "source_label": "Концертный зал имени Н.Я. Мясковского",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "Мясковского",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Вечер фортепианной музыки; программа не раскрыта."
+  },
+  {
+    "id": "consv-mzk-gaso90-soloists-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "title": "К 90-летию ГАСО — солисты оркестра",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Малый зал Московской консерватории",
+    "place": "Большая Никитская, 13/6 · Арбатская / Библиотека им. Ленина",
+    "location": "Малый зал Московской консерватории, Большая Никитская ул., 13/6, Москва",
+    "people": "Солисты ГАСО имени Е. Ф. Светланова",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Программа солистов в календарном анонсе не раскрыта.",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "МЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Программа солистов в календарном анонсе не раскрыта."
+  },
+  {
+    "id": "consv-rach-immensa-musica-2026-09-27",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "title": "Камерный оркестр «Immensa Musica»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "Камерный оркестр «Immensa Musica»",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Сентябрьский фестиваль «Творческая молодёжь Московской консерватории»; программа не раскрыта.",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-27",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "Рахманиновский",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Сентябрьский фестиваль «Творческая молодёжь Московской консерватории»; программа не раскрыта."
+  },
+  {
+    "id": "helikon-lady-macbeth-2026-09-27",
+    "category": "opera",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-27T19:00:00+03:00",
+    "end": "2026-09-27T22:30:00+03:00",
+    "title": "Шостакович — «Леди Макбет Мценского уезда»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Шостакович",
+      "фестиваль"
+    ],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "в рамках фестиваля «Шостакович вместо сумбура»",
+    "price": "проверить актуально",
+    "why": "Одна из центральных опер Шостаковича в профильном фестивальном контексте.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "buy",
+    "details_label": "Источник",
+    "details": "27 сентября, зал «Стравинский».",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/playbill",
+    "verified": true,
+    "composers": [
+      "Стравинский",
+      "Шостакович"
+    ],
+    "works": [
+      "«Леди Макбет Мценского уезда»"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "phil-bessonov-nikiforchin-2026-09-27",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "title": "МГАСО / Иван Никифорчин / Иван Бессонов — Рахманинов / Скрябин",
+    "tags": [],
+    "visible_tags": [
+      "Рахманинов",
+      "Скрябин"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "place": "Триумфальная площадь, 4",
+    "location": "КЗЧ, Москва",
+    "people": "Московский государственный академический симфонический оркестр · Иван Никифорчин · Иван Бессонов, фортепиано",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "Рахманинов — Концерт №3 для фортепиано с оркестром; Скрябин — Симфония №3 «Божественная поэма»",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/kzch-2026-09-27/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "КЗЧ",
+    "season": "2026/27",
+    "sales_status": "билеты проданы",
+    "card_schema_version": 2,
+    "composers": [
+      "Рахманинов",
+      "Скрябин"
+    ],
+    "works": [
+      "Рахманинов — Концерт №3 для фортепиано с оркестром",
+      "Скрябин — Симфония №3 «Божественная поэма»"
+    ]
+  },
+  {
+    "id": "phil-laul-mozart-2026-09-27",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-27T19:00:00+03:00",
+    "end": "2026-09-27T21:00:00+03:00",
+    "title": "Пётр Лаул — Моцарт: играет и рассказывает",
+    "tags": [],
+    "visible_tags": [
+      "Моцарт",
+      "фортепиано"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "place": "Триумфальная площадь, 4/31",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Пётр Лаул, фортепиано",
+    "price": "билеты проданы",
+    "why": "Полноценная моцартовская сольная программа.",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "Рондо, сонаты и фантазии Моцарта.",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/~2026/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "Камерный · Филармония",
+    "composers": [
+      "Моцарт"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "consv-bzk-revueltas-mexico-2026-09-28",
+    "category": "music",
+    "horizon": "buy",
+    "featured": true,
+    "start": "2026-09-28T19:00:00+03:00",
+    "title": "Ревуэльтас — «Да здравствует Мексика!»",
+    "tags": [],
+    "visible_tags": [
+      "Сильвестре Ревуэльтас"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "place": "Большая Никитская, 13/6",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Концертный симфонический оркестр Московской консерватории · Эдуардо Гарсия Барриос",
+    "price": "проверить актуально",
+    "why": "Ревуэльтас — «Да здравствует Мексика!».",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Музыка к фильму «Да здравствует Мексика!»",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "БЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "composers": [
+      "Сильвестре Ревуэльтас"
+    ],
+    "works": [
+      "Музыка к фильму «Да здравствует Мексика!»"
+    ]
+  },
+  {
+    "id": "consv-mzk-bolshoi-rigoletto-2026-09-28",
+    "category": "opera",
+    "horizon": "buy",
+    "featured": true,
+    "start": "2026-09-28T19:00:00+03:00",
+    "title": "Верди — «Риголетто» / солисты Большого театра",
+    "tags": [],
+    "visible_tags": [
+      "Верди"
+    ],
+    "venue": "Малый зал Московской консерватории",
+    "place": "Большая Никитская, 13/6 · Арбатская / Библиотека им. Ленина",
+    "location": "Малый зал Московской консерватории, Большая Никитская ул., 13/6, Москва",
+    "people": "Дзамболат Дулаев · Валерий Макаров · Лада Меркульева · Злата Рубинова · Станислав Дяченко",
+    "price": "проверить актуально",
+    "why": "Верди — «Риголетто» / солисты Большого театра.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "«Риголетто» — опера в концертном исполнении",
+    "source_label": "Малый зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "МЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "composers": [
+      "Верди"
+    ],
+    "works": [
+      "«Риголетто» — опера в концертном исполнении"
+    ]
+  },
+  {
+    "id": "consv-rach-tulskaya-igumnova-2026-09-28",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-09-28T19:00:00+03:00",
+    "title": "Виктория Тульская / Наталья Игумнова",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Рахманиновский зал Московской консерватории",
+    "place": "Москва",
+    "location": "Рахманиновский зал Московской консерватории, Москва",
+    "people": "Виктория Тульская, скрипка · Наталья Игумнова, фортепиано",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "Программа в календарном анонсе не раскрыта.",
+    "source_label": "Рахманиновский зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-28",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "Рахманиновский",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "program_status": "Программа в календарном анонсе не раскрыта."
+  },
+  {
+    "id": "phil-laul-mozart-2026-09-28",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-28T19:00:00+03:00",
+    "end": "2026-09-28T21:00:00+03:00",
+    "title": "Пётр Лаул — Моцарт: играет и рассказывает",
+    "tags": [],
+    "visible_tags": [
+      "Моцарт",
+      "фортепиано"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "place": "Триумфальная площадь, 4/31",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Пётр Лаул, фортепиано",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Программа",
+    "details": "Рондо, сонаты и фантазии Моцарта.",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/~2026/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "Камерный · Филармония",
+    "composers": [
+      "Моцарт"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "rassvet-duo-inspiro-2026-09-28",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-28T19:30:00+03:00",
+    "end": "2026-09-28T21:30:00+03:00",
+    "title": "Duo Inspiro — «Сонаты эпохи войны»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Вайнберг",
+      "Хиндемит",
+      "Прокофьев"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Москва",
+    "people": "Duo Inspiro",
+    "price": "проверить актуально",
+    "why": "Вайнберг, Хиндемит и Прокофьев в камерной программе.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Сонаты эпохи войны: Вайнберг, Хиндемит, Прокофьев.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/",
+    "verified": true,
+    "composers": [
+      "Прокофьев",
+      "Вайнберг"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "consv-bzk-carmina-burana-organ-2026-09-29",
+    "category": "music",
+    "horizon": "buy",
+    "featured": true,
+    "start": "2026-09-29T19:00:00+03:00",
+    "title": "Орф — «Кармина Бурана» / органная мультимедийная версия",
+    "tags": [],
+    "visible_tags": [
+      "Карл Орф"
+    ],
+    "venue": "Большой зал Московской консерватории",
+    "place": "Большая Никитская, 13/6",
+    "location": "Большой зал Московской консерватории, Москва",
+    "people": "Сильвио Челегини, орган · хор, солисты и оркестр",
+    "price": "проверить актуально",
+    "why": "Орф — «Кармина Бурана» / органная мультимедийная версия.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "«Кармина Бурана»",
+    "source_label": "Большой зал Московской консерватории",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-09-29",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "monitor_entities": [
+      "Московская консерватория"
+    ],
+    "venue_short": "БЗК",
+    "season": "2026/27",
+    "sales_status": "событие подтверждено; статус продажи проверить",
+    "card_schema_version": 2,
+    "composers": [
+      "Карл Орф"
+    ],
+    "works": [
+      "«Кармина Бурана»"
+    ]
+  },
+  {
+    "id": "phil-grindenko-bach-biber-2026-09-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-29T19:00:00+03:00",
+    "end": "2026-09-29T21:00:00+03:00",
+    "title": "Музыка барокко: И. С. Бах, Бибер",
+    "tags": [
+      "bach",
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "Бах",
+      "Бибер",
+      "Гринденко"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "place": "Триумфальная площадь, 4/31",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "«Академия старинной музыки» · Татьяна Гринденко, скрипка · Александра Коренева, клавесин",
+    "price": "билеты проданы",
+    "why": "Гринденко + барокко + Бах.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "soldout",
+    "details_label": "Официальная афиша",
+    "details": "Барочная программа Баха и Бибера.",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/~2026/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "Камерный · Филармония",
+    "composers": [
+      "И. С. Бах",
+      "Бибер"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "phil-prokofiev-nevsky-2026-09-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-29T19:00:00+03:00",
+    "end": "2026-09-29T21:30:00+03:00",
+    "title": "Прокофьев — «Александр Невский» и «Ромео и Джульетта»",
+    "tags": [
+      "modern"
+    ],
+    "visible_tags": [
+      "Прокофьев",
+      "хор",
+      "оркестр"
+    ],
+    "venue": "Концертный зал имени П. И. Чайковского",
+    "place": "Триумфальная площадь, 4",
+    "location": "КЗЧ, Москва",
+    "people": "Государственная академическая симфоническая капелла России · Валерий Полянский · Евгения Сегенюк",
+    "price": "проверить актуально",
+    "why": "Крупная прокофьевская программа с хором и оркестром.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Кантата «Александр Невский» и большая сюита из балета «Ромео и Джульетта».",
+    "source_label": "Концертный зал имени П. И. Чайковского",
+    "source_url": "https://meloman.ru/concert/~2026/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "КЗЧ",
+    "composers": [
+      "Прокофьев"
+    ],
+    "works": [
+      "«Александр Невский» и «Ромео и Джульетта»"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "rassvet-batagov-dreamer-2026-09-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-09-29T19:30:00+03:00",
+    "end": "2026-09-29T21:30:00+03:00",
+    "title": "Антон Батагов — «Мечтатель»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Батагов"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Москва",
+    "people": "Антон Батагов",
+    "price": "проверить актуально",
+    "why": "Watchlist-исполнитель и программа из 12 пьес, написанных для театра, кино и телевидения.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Описание",
+    "details": "12 пьес, когда-то написанных для театра, кино и телевидения.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/",
+    "verified": true,
+    "card_schema_version": 2
+  },
+  {
+    "id": "dost-battle-moscow-2026-09-30",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-30T19:00:00+03:00",
+    "title": "Михаил Мягков — «Битва за Москву»",
+    "tags": [],
+    "visible_tags": [
+      "история",
+      "1941",
+      "лекция"
+    ],
+    "venue": "Музей военной формы",
+    "place": "Большая Никитская ул., 46/17с1",
+    "location": "Музей военной формы, Москва",
+    "people": "Михаил Мягков",
+    "price": "проверить актуально",
+    "why": "Содержательная публичная историческая лекция с опорой на архивные источники, мемуары, дневники и письма.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Тема",
+    "details": "Хронология Битвы за Москву, планы сторон и международный контекст.",
+    "source_label": "Музей военной формы",
+    "source_url": "https://dostoverno.ru/events/bitva-za-moskvu",
+    "verified": true,
+    "organizer": "Лекторий «Достоевский»",
+    "discovery_source": "Лекторий «Достоевский»",
+    "monitor_entities": [
+      "Лекторий «Достоевский»"
+    ]
+  },
+  {
+    "id": "phil-madrigal-new-shores-2026-09-30",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-30T19:00:00+03:00",
+    "end": "2026-09-30T21:00:00+03:00",
+    "title": "«К новым берегам» — ансамбль «Мадригал»",
+    "tags": [
+      "early"
+    ],
+    "visible_tags": [
+      "Мадригал",
+      "старинная музыка"
+    ],
+    "venue": "Камерный зал Московской филармонии",
+    "place": "Триумфальная площадь, 4/31",
+    "location": "Камерный зал Московской филармонии, Москва",
+    "people": "Ансамбль солистов «Мадригал» Московской филармонии",
+    "price": "билеты проданы",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "soldout",
+    "details_label": "Официальная афиша",
+    "details": "Ансамбль «Мадригал».",
+    "source_label": "Камерный зал Московской филармонии",
+    "source_url": "https://meloman.ru/concert/~ophg/",
+    "verified": true,
+    "organizer": "Московская филармония",
+    "monitor_entities": [
+      "Московская филармония"
+    ],
+    "venue_short": "Камерный · Филармония",
+    "card_schema_version": 2
+  },
+  {
+    "id": "drugoe-literary-club-12-2026-09-30",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-09-30T19:30:00+03:00",
+    "title": "Литературный клуб «Двенадцать»",
+    "tags": [],
+    "visible_tags": [
+      "литература",
+      "камерный клуб"
+    ],
+    "venue": "Другое Дело",
+    "place": "Старая Басманная, 15А, стр. 4",
+    "location": "Другое Дело, Москва",
+    "people": "Михаил Свердлов",
+    "price": "проверить актуально",
+    "why": "Регулярный содержательный литературный клуб малой независимой площадки.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница / детали",
+    "details": "30 сентября, 19:30. Регулярная серия: двенадцать участников обсуждают высокую литературу за общим столом; ведущий — кандидат филологических наук Михаил Свердлов.",
+    "source_label": "Другое Дело",
+    "source_url": "https://galereya-drugoe.timepad.ru/event/2155552/",
+    "verified": true,
+    "organizer": "Галерея «Другое Дело»",
+    "monitor_entities": [
+      "Другое дело",
+      "Галерея «Другое Дело»"
+    ]
+  },
+  {
+    "id": "voz-lessing-cursed-culture-2026-09-30",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "Теодор Лессинг — «Про́клятая культура. Размышления о противоборстве жизни и духа»",
+    "tags": [],
+    "visible_tags": [
+      "философия",
+      "книга"
+    ],
+    "venue": "Центр Вознесенского",
+    "place": "Большая Ордынка, 46, стр. 3",
+    "location": "Центр Вознесенского, Москва",
+    "people": "Александр Михайловский",
+    "price": "по регистрации",
+    "why": "Философская презентация первого русского издания эссе Теодора Лессинга.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная программа",
+    "details": "30 сентября, 19:30. Презентация первого русского издания эссе Теодора Лессинга «Про́клятая культура».",
+    "source_label": "Центр Вознесенского",
+    "source_url": "https://www.voznesenskycenter.ru/events/prezentacziya-knigi-teodora-lessinga-proklyataya-kultura-razmyshleniya-o-protivoborstve-zhizni-i-duha/",
+    "verified": true,
+    "organizer": "Центр Вознесенского",
+    "start": "2026-09-30T19:30:00+03:00"
+  }
+]
