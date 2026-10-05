@@ -4,7 +4,7 @@
 > Исторические counts и закрытые этапы хранятся в `PROJECT_HISTORY.md`.
 
 **Срез:** 2026-10-05.  
-**Проверено по:** ветке `main`, фактическим `events.json`, `sources.json`, `app.js`, `validate.js`, GitHub Actions и текущей automation.
+**Проверено по:** ветке `main`, canonical `data/events/*.json`, generated `events.json` / `events-index.json`, `sources.json`, `scripts/build-events.js`, `app.js`, `validate.js`, GitHub Actions и текущей automation.
 
 ## Коротко
 
@@ -166,7 +166,7 @@ Public/private граница выдержана: публичные карто�
 
 ### QA / workflow
 
-Workflow ловит JSON parse и фатальные duplicate/missing-field ошибки через `validate.js`, а также запускается при изменениях `events.json`, `sources.json`, `validate.js` и `app.js`. Для интерфейсных изменений уже выполняется `node --check app.js`; generated state/count-файлы сейчас не нужны.
+Workflow ловит JSON parse и фатальные duplicate/missing-field ошибки через `validate.js`, а также запускается при изменениях `data/events/**`, `scripts/build-events.js`, `events.json`, `events-index.json`, `sources.json`, `validate.js` и `app.js`. Для интерфейсных изменений уже выполняется `node --check app.js`; generated state/count-файлы сейчас не нужны.
 
 ## Приоритетный backlog
 
