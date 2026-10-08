@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <title>Культрадар — музыка, театр, опера, балет и разговоры в Москве</title>
   <link rel="icon" href="favicon-v3.png?v=20260927h" type="image/png">
-  <link rel="stylesheet" href="styles.css?v=20260930a">
+  <link rel="stylesheet" href="styles.css?v=20261008a">
 </head>
 <body>
   <div class="shell">
@@ -37,6 +37,12 @@
         <button data-density="1" title="Одна крупная карточка в строке">1</button>
         <button class="active" data-density="2" title="Две карточки в строке">2</button>
         <button data-density="3" title="Три компактные карточки в строке">3</button>
+      </div>
+
+      <div class="searchbar" role="search" aria-label="Поиск событий">
+        <label for="eventSearch">Поиск по афише</label>
+        <input id="eventSearch" type="search" placeholder="Название, композитор, произведение или исполнитель" aria-describedby="searchHint" autocomplete="off">
+        <span id="searchHint" class="note">Все слова запроса · вместе с выбранными фильтрами</span>
       </div>
 
       <div class="filters" id="tagFilters">
@@ -96,6 +102,6 @@
       Публичная афиша хранится в репозитории. Личные статусы и заметки — только в Вашем браузере. «Что осталось?» — не рейтинг и не отзыв, а короткий след события.
     </footer>
   </div>
-  <script src="app.js?v=20261005a" defer></script>
+  <script src="app.js?v=20261008a" defer></script>
 </body>
 </html>

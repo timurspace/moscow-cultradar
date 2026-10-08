@@ -12,6 +12,7 @@ let rangeDays = 'all';
 let cardTag = 'all';
 let editorialFilter = 'all';
 let cardDensity = '2';
+let searchQuery = '';
 
 const editorialLabels = {
   attention: 'ОБРАТИТЬ ВНИМАНИЕ',
@@ -54,6 +55,16 @@ function setDensity(value){
 }
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function cleanText(value){ return typeof value==='string' ? value.trim() : ''; }
+function normalizeSearch(value){ return String(value||'').normalize('NFKC').toLowerCase().replace(/ё/g,'е').replace(/\s+/g,' ').trim(); }
+function searchFieldText(value){
+  if(typeof value==='string')return value;
+  if(Array.isArray(value))return value.map(searchFieldText).join(' ');
+  if(value&&typeof value==='object')return Object.values(value).map(searchFieldText).join(' ');
+  return '';
+}
+function eventSearchText(e){
+  return normalizeSearch([e.title,e.display_title,e.composers,e.works,e.people,e.performers].map(searchFieldText).join(' '));
+}
 function eventById(id){ return events.find(e => e.id === id); }
 function eventLink(e){ return e?.source_url || venueUrls[e?.venue] || ''; }
 function dateObj(e){ if(e.start) return new Date(e.start); if(e.date_only) return new Date(e.date_only+'T12:00:00+03:00'); return null; }
@@ -240,6 +251,7 @@ function handleVenueFilterChange(e){
 }
 function applyFilters(){
   let visible = 0;
+  const searchTerms=normalizeSearch(searchQuery).split(' ').filter(Boolean);
   document.querySelectorAll('section[data-horizon]').forEach(section=>{
     let sectionVisible = 0;
     section.querySelectorAll('.event').forEach(c=>{
@@ -250,6 +262,8 @@ function applyFilters(){
       const cVisibleTags=(c.dataset.visibleTags||'').split('||').filter(Boolean);
       const cardTagOk=cardTag==='all'||cVisibleTags.includes(cardTag);
       const ev=eventById(c.dataset.id);
+      const searchText=searchTerms.length&&ev?eventSearchText(ev):'';
+      const searchOk=searchTerms.every(term=>searchText.includes(term));
       const editorialOk=editorialFilter==='all'||ev?.editorial_status===editorialFilter;
       let rangeOk=true;
       if(rangeDays!=='all'){
@@ -261,7 +275,7 @@ function applyFilters(){
           rangeOk=d>=now&&d<=until;
         }
       }
-      const match=catOk&&tagOk&&venueOk&&cardTagOk&&editorialOk&&rangeOk;
+      const match=catOk&&tagOk&&venueOk&&cardTagOk&&editorialOk&&rangeOk&&searchOk;
       c.classList.toggle('hidden',!match);
       c.style.display=match?'':'none';
       if(match){visible++;sectionVisible++;}
@@ -274,7 +288,8 @@ function applyFilters(){
     const rangeText=rangeDays==='all'?'весь горизонт':`${rangeDays} дней`;
     const tagText=cardTag==='all'?'':` · метка: ${cardTag}`;
     const editorialText=editorialFilter==='all'?'':` · статус: ${editorialLabels[editorialFilter]||editorialFilter}`;
-    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}${editorialText}`;
+    const searchText=searchTerms.length?` · поиск: «${searchQuery.trim().replace(/\s+/g,' ')}»`:'';
+    summary.textContent=`Показано: ${visible} · ${venueText} · ${rangeText}${tagText}${editorialText}${searchText}`;
   }
 }
 function countRange(days){
@@ -401,6 +416,10 @@ function googleCalendar(e){
   window.open(`https://calendar.google.com/calendar/render?${q.toString()}`,'_blank','noopener'); markCalendar(e.id);
 }
 function setupStaticControls(){
+  document.getElementById('eventSearch').addEventListener('input',e=>{
+    searchQuery=e.target.value;
+    applyFilters();
+  });
   document.querySelectorAll('#categoryNav button').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;document.querySelectorAll('#categoryNav button').forEach(x=>x.classList.toggle('active',x===b));applyFilters();}));
   document.querySelectorAll('#densityNav button').forEach(b=>b.addEventListener('click',()=>setDensity(b.dataset.density)));
   document.querySelectorAll('#rangeNav button').forEach(b=>b.addEventListener('click',()=>{

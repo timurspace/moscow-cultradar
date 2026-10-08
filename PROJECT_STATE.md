@@ -173,7 +173,7 @@ Workflow ловит JSON parse и фатальные duplicate/missing-field о�
 ### Сейчас
 
 1. Завершить split документации и держать `PROJECT_STATE.md` единственным местом для текущих counts/status.
-2. Добавить client-side поиск с объединением с существующими фильтрами; минимум: `title`, `display_title`, `composers`, `works`, `people`/`performers`.
+2. Client-side поиск добавлен 08.10.2026: `title`, `display_title`, `composers`, `works`, `people`/`performers`; все слова запроса объединяются через AND с существующими фильтрами, без учёта регистра и различия е/ё. Активный запрос показан в `filterSummary`. Клиент по-прежнему загружает generated `events.json`.
 3. Добавить одну кнопку **«Сбросить фильтры»**, сбрасывающую category/range/tags/venues/card-tag/editorial/search.
 4. Coverage QA рассматривать отдельным этапом только при понятных правилах полноты; `node --check app.js` уже входит в GitHub Actions для интерфейсных изменений.
 5. Филармония октябрь–декабрь закрыта контрольными sweep 27.09.2026; далее поддерживать delta maintenance.
