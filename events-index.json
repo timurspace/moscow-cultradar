@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1399,
+    "event_count": 1422,
     "source_schema_version": 2
   },
   "events": [
@@ -6613,6 +6613,105 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "ph2-rno-ravel-2026-10-09",
+      "title": "РНО / Константин Емельянов — два концерта Равеля",
+      "category": "music",
+      "date": "2026-10-09",
+      "venue": "Филармония-2 — Концертный зал имени С. В. Рахманинова",
+      "source_url": "https://meloman.ru/concert/kzch-2026-10-09/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "cathedral-minin-schnittke-2026-10-10",
+      "title": "Хор Минина — Бах и «Реквием» Шнитке",
+      "category": "music",
+      "date": "2026-10-10",
+      "venue": "Кафедральный собор святых Петра и Павла",
+      "source_url": "https://collegiummusicum.ru/concerts/hor-minina-mezhdu-svetom-i-tmoj-bah-i-shnitke-10-10-2026-1800/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "scriabin-affects-2026-10-22",
+      "title": "«Теория аффектов. Созерцание» — ансамбль «АКлассика»",
+      "category": "music",
+      "date": "2026-10-22",
+      "venue": "Дом-музей А. Н. Скрябина — концертный зал",
+      "source_url": "https://scriabinmuseum.ru/afisha/concert-hall/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-tsarskaya-2026-10-08",
+      "title": "Римский-Корсаков — «Царская невеста»",
+      "category": "opera",
+      "date": "2026-10-08",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-bolero-2026-10-10",
+      "title": "«Болеро+» — танцевальный дивертисмент",
+      "category": "opera",
+      "date": "2026-10-10",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-rigoletto-2026-10-15",
+      "title": "Верди — «Риголетто»",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-boris-2026-10-18",
+      "title": "Мусоргский — «Борис Годунов»",
+      "category": "opera",
+      "date": "2026-10-18",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-lucia-2026-10-25",
+      "title": "Доницетти — «Лючия ди Ламмермур»",
+      "category": "opera",
+      "date": "2026-10-25",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-aida-2026-10-15",
+      "title": "Верди — «Аида»",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-pagliacci-2026-10-22",
+      "title": "Леонкавалло — «Паяцы»",
+      "category": "opera",
+      "date": "2026-10-22",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-onegin-2026-10-29",
+      "title": "Чайковский — «Евгений Онегин»",
+      "category": "opera",
+      "date": "2026-10-29",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -8913,7 +9012,7 @@
       "category": "opera",
       "date": "2026-11-25",
       "venue": "Геликон-опера",
-      "source_url": "https://www.helikon.ru/ru/playbill",
+      "source_url": "https://www.helikon.ru/ru/performances/norma.html",
       "shard": "2026-11.json"
     },
     {
@@ -9427,6 +9526,105 @@
       "date": "2026-11-30",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=chaika",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-faust-2026-11-04",
+      "title": "Гуно — «Фауст»",
+      "category": "opera",
+      "date": "2026-11-04",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-butterfly-2026-11-06",
+      "title": "Пуччини — «Мадам Баттерфляй»",
+      "category": "opera",
+      "date": "2026-11-06",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-barber-2026-11-07",
+      "title": "Россини — «Севильский цирюльник»",
+      "category": "opera",
+      "date": "2026-11-07",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-carmen-2026-11-15",
+      "title": "Бизе — «Кармен»",
+      "category": "opera",
+      "date": "2026-11-15",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-igor-2026-11-22",
+      "title": "Бородин — «Князь Игорь»",
+      "category": "opera",
+      "date": "2026-11-22",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-trovatore-2026-11-26",
+      "title": "Верди — «Трубадур»",
+      "category": "opera",
+      "date": "2026-11-26",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-tsarskaya-nov-2026-11-28",
+      "title": "Римский-Корсаков — «Царская невеста»",
+      "category": "opera",
+      "date": "2026-11-28",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-traviata-2026-11-05",
+      "title": "Верди — «Травиата»",
+      "category": "opera",
+      "date": "2026-11-05",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-tosca-2026-11-12",
+      "title": "Пуччини — «Тоска»",
+      "category": "opera",
+      "date": "2026-11-12",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-key-2026-11-20",
+      "title": "Оффенбах — «Ключ на мостовой»",
+      "category": "opera",
+      "date": "2026-11-20",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-rakursy3-2026-11-20",
+      "title": "«Балет Москва. Ракурсы 3» — премьера",
+      "category": "opera",
+      "date": "2026-11-20",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/plays/balet/balet-moskva-rakursy-3/",
       "shard": "2026-11.json"
     },
     {
@@ -11758,6 +11956,15 @@
       "date": "2026-12-31",
       "venue": "Дом музыки — Театральный зал",
       "source_url": "https://www.mmdm.ru/event/novogodnee-puteshestvie-s-ansamblem-solistov-ermitazh?event_pk=7366",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "helikon-newyear-2026-12-31",
+      "title": "«Новогодний бал княгини Шаховской» — премьера",
+      "category": "opera",
+      "date": "2026-12-31",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
       "shard": "2026-12.json"
     },
     {
