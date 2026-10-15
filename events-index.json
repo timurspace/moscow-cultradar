@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1399,
+    "event_count": 1401,
     "source_schema_version": 2
   },
   "events": [
@@ -6610,6 +6610,24 @@
       "date": "2026-10-31",
       "venue": "Практика",
       "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "ton-aidu-moscow-petushki-2026-10-15",
+      "title": "Пётр Айду — «Москва — Петушки» · премьера",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "ТОН-ЦЕНТР",
+      "source_url": "https://ton-center.ru/program/moscow-petushki",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "finuniver-gubaidulina-2026-10-29",
+      "title": "«Между материей и духом» — памяти Софии Губайдулиной",
+      "category": "music",
+      "date": "2026-10-29",
+      "venue": "Большой зал Финансового университета",
+      "source_url": "https://angela-vavilova.ru/news/show/Mezhdu-materiei-i-duhom-%E2%80%93-koncert-pamyati-Sofii-Gubaidulinoi/1333",
       "shard": "2026-10.json"
     },
     {

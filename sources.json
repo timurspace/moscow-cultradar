@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-01",
+    "updated": "2026-10-15",
     "schema_version": 2,
     "rule": "Для role=venue поле name обязано буквально совпадать с events[].venue. source_url события по возможности ведёт на первичную официальную страницу события; агрегаторы используются только для discovery и могут сохраняться в discovery_url.",
     "audit_horizon_end": "2027-06-30",
@@ -1112,6 +1112,34 @@
         "december": 0
       },
       "coverage_note": "Контрольный sweep публичного октябрьского слоя выполнен 01.10.2026 по официальной афише РАМ имени Гнесиных. Внутренние мастер-классы «только для студентов» и технические конкурсные прослушивания не копировались; открытие/гала конкурсов, публичные концерты, оперы и просветительские программы включены. Ноябрь представлен уже опубликованными подтверждёнными событиями; декабрь пока не считать закрытым."
+    },
+    {
+      "name": "ТОН-ЦЕНТР",
+      "role": "venue",
+      "url": "https://ton-center.ru/program",
+      "last_checked": "2026-10-15",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "partial",
+      "coverage_note": "Опера «Москва — Петушки» 15–17 октября; ноябрь/декабрь музыкальной афиши пока не опубликованы."
+    },
+    {
+      "name": "Большой зал Финансового университета",
+      "role": "venue",
+      "url": "https://angela-vavilova.ru/news/show/Mezhdu-materiei-i-duhom-%E2%80%93-koncert-pamyati-Sofii-Gubaidulinoi/1333",
+      "last_checked": "2026-10-15",
+      "event_count": 1,
+      "coverage_2026": {
+        "october": 1,
+        "november": 0,
+        "december": 0
+      },
+      "coverage_status": "partial",
+      "coverage_note": "Разовый концерт 29 октября; последующие месяцы не проверены."
     }
   ],
   "discovery_sources": [
@@ -1119,7 +1147,7 @@
       "name": "ClassicalMusicNews",
       "url": "https://www.classicalmusicnews.ru/",
       "role": "discovery",
-      "last_checked": "2026-09-26",
+      "last_checked": "2026-10-15",
       "note": "Обязательный ранний discovery-проход: новые публикации → кандидаты → сверка на официальной площадке → events.json."
     },
     {
