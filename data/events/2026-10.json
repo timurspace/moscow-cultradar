@@ -23827,5 +23827,84 @@
     "verified": true,
     "start": "2026-10-31T20:00:00+03:00",
     "end": "2026-10-31T18:30:00.000Z"
+  },
+  {
+    "id": "ton-aidu-moscow-petushki-2026-10-15",
+    "category": "opera",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-10-15T20:00:00+03:00",
+    "title": "Пётр Айду — «Москва — Петушки»",
+    "tags": [
+      "premiere",
+      "rare"
+    ],
+    "visible_tags": [
+      "премьера",
+      "18+"
+    ],
+    "venue": "ТОН-ЦЕНТР",
+    "place": "Круговое депо, Комсомольская площадь, 3/30, стр. 1",
+    "location": "ТОН-ЦЕНТР, Москва",
+    "people": "Григорий Кротенко, Персимфанс, N’Caged; режиссёр Катя Бочавар",
+    "price": "уточнить",
+    "why": "Новая опера Айду по Ерофееву в архитектуре исторического депо.",
+    "editorial_status": "priority",
+    "ticket_urgency": "now",
+    "details": "Показы 15, 16 и 17 октября, начало в 20:00; возраст 18+.",
+    "occurrences": [
+      "2026-10-15T20:00:00+03:00",
+      "2026-10-16T20:00:00+03:00",
+      "2026-10-17T20:00:00+03:00"
+    ],
+    "source_label": "ТОН-ЦЕНТР",
+    "source_url": "https://ton-center.ru/",
+    "discovery_source": "ClassicalMusicNews",
+    "organizer": "ТОН-ЦЕНТР",
+    "verified": true,
+    "composers": [
+      "Пётр Айду"
+    ],
+    "works": [
+      "Москва — Петушки"
+    ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "finuniv-gubaidulina-2026-10-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-29T19:00:00+03:00",
+    "title": "«Между материей и духом» — концерт памяти Софии Губайдулиной",
+    "tags": [],
+    "visible_tags": [
+      "современная музыка",
+      "благотворительный концерт"
+    ],
+    "venue": "Большой зал Финансового университета",
+    "place": "Ленинградский проспект, 49/2",
+    "location": "Финансовый университет, Москва",
+    "people": "Альбина Шагимуратова, Эльмира Калимуллина, Филюс Кагиров, Альбина Латипова; оркестр Центра современной музыки С. Губайдулиной, дирижёр Дмитрий Железнов",
+    "price": "благотворительный взнос 1000 ₽",
+    "why": "Памяти Софии Губайдулиной, к 95-летию со дня рождения.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details": "29 октября, 19:00. Вход по списку и паспорту; билеты в Полпредстве Татарстана.",
+    "source_label": "Большой зал Финансового университета",
+    "source_url": "https://angela-vavilova.ru/news/show/Mezhdu-materiei-i-duhom-%E2%80%93-koncert-pamyati-Sofii-Gubaidulinoi/1333",
+    "organizer": "Полпредство Республики Татарстан в РФ",
+    "discovery_source": "ClassicalMusicNews",
+    "verified": true,
+    "composers": [
+      "Шостакович",
+      "Шнитке",
+      "Жиганов",
+      "Сайдашев",
+      "Яхин",
+      "Низамов"
+    ],
+    "works": [],
+    "card_schema_version": 2
   }
 ]
