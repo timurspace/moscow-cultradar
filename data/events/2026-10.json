@@ -16601,7 +16601,7 @@
     "details_label": "Источник",
     "details": "«Кофейная кантата» И. С. Баха.",
     "source_label": "Геликон-опера",
-    "source_url": "https://www.helikon.ru/ru/playbill",
+    "source_url": "https://www.helikon.ru/ru/performances/kofeynaya-kantata.html",
     "verified": true,
     "composers": [
       "И. С. Бах"
@@ -16609,7 +16609,14 @@
     "works": [
       "«Кофейная кантата»"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "scene": "Белоколонный зал княгини Шаховской",
+    "occurrences": [
+      "2026-10-21T19:00:00+03:00",
+      "2026-10-21T20:30:00+03:00",
+      "2026-11-17T19:00:00+03:00",
+      "2026-11-17T20:30:00+03:00"
+    ]
   },
   {
     "id": "mmdm-6929",
@@ -18627,7 +18634,12 @@
     "works": [
       "«Алеко»"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "scene": "Белоколонный зал княгини Шаховской",
+    "occurrences": [
+      "2026-10-24T16:00:00+03:00",
+      "2026-10-25T16:00:00+03:00"
+    ]
   },
   {
     "id": "karennina",
@@ -23894,5 +23906,253 @@
     "discovery_source": "ClassicalMusicNews",
     "discovery_url": "https://www.classicalmusicnews.ru/anons/moscow-concert-for-sofia-gubaidulinas-95th-anniversary/",
     "details": "Вход по списку при наличии паспорта; билеты через Полпредство."
+  },
+  {
+    "id": "helikon-aida-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-15T19:00:00+03:00",
+    "title": "Верди — «Аида»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/performances/aida.html",
+    "verified": true,
+    "organizer": "Театр «Геликон-опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Зал «Стравинский»",
+    "director": "Дмитрий Бертман",
+    "duration": "3 часа",
+    "composers": [
+      "Верди"
+    ],
+    "occurrences": [
+      "2026-10-15T19:00:00+03:00",
+      "2026-10-16T19:00:00+03:00",
+      "2026-10-17T19:00:00+03:00",
+      "2026-10-18T16:00:00+03:00"
+    ]
+  },
+  {
+    "id": "helikon-pagliacci-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-22T19:00:00+03:00",
+    "title": "Леонкавалло — «Паяцы»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/performances/payacy.html-0",
+    "verified": true,
+    "organizer": "Театр «Геликон-опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Зал «Стравинский»",
+    "director": "Дмитрий Белянушкин",
+    "duration": "2 часа",
+    "composers": [
+      "Леонкавалло"
+    ],
+    "occurrences": [
+      "2026-10-22T19:00:00+03:00",
+      "2026-10-23T19:00:00+03:00",
+      "2026-10-24T19:00:00+03:00",
+      "2026-10-25T19:00:00+03:00"
+    ]
+  },
+  {
+    "id": "helikon-onegin-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-29T19:00:00+03:00",
+    "title": "Чайковский — «Евгений Онегин»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Воссоздание исторической постановки Станиславского.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/performances/evgeniy-onegin.html",
+    "verified": true,
+    "organizer": "Театр «Геликон-опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Зал «Стравинский»",
+    "director": "Дмитрий Бертман, Галина Тимакова",
+    "duration": "3 часа 20 минут",
+    "composers": [
+      "Чайковский"
+    ],
+    "occurrences": [
+      "2026-10-29T19:00:00+03:00",
+      "2026-10-30T19:00:00+03:00",
+      "2026-10-31T19:00:00+03:00",
+      "2026-11-01T16:00:00+03:00"
+    ]
+  },
+  {
+    "id": "helikon-portrait-grechishkina-2026",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-20T19:00:00+03:00",
+    "title": "Концерт-портрет Анны Гречишкиной",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "Анна Гречишкина",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/playbill",
+    "verified": true,
+    "organizer": "Театр «Геликон-опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Зал «Покровский»"
+  },
+  {
+    "id": "newopera-rigoletto-oct-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-15T19:00:00+03:00",
+    "title": "Верди — «Риголетто»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Новая Опера",
+    "place": "Каретный Ряд, 3, стр. 2",
+    "location": "Новая Опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Новая Опера",
+    "source_url": "https://novayaopera.ru/playbill/",
+    "verified": true,
+    "organizer": "Театр «Новая Опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Основная сцена",
+    "duration": "3 часа 5 минут",
+    "composers": [
+      "Верди"
+    ],
+    "occurrences": [
+      "2026-10-15T19:00:00+03:00",
+      "2026-10-16T19:00:00+03:00",
+      "2026-12-04T19:00:00+03:00"
+    ]
+  },
+  {
+    "id": "newopera-boris-godunov-oct-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-18T18:00:00+03:00",
+    "title": "Мусоргский — «Борис Годунов»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Новая Опера",
+    "place": "Каретный Ряд, 3, стр. 2",
+    "location": "Новая Опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Новая Опера",
+    "source_url": "https://novayaopera.ru/playbill/",
+    "verified": true,
+    "organizer": "Театр «Новая Опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Основная сцена",
+    "duration": "2 часа 40 минут",
+    "composers": [
+      "Мусоргский"
+    ],
+    "occurrences": [
+      "2026-10-18T18:00:00+03:00",
+      "2026-10-20T19:00:00+03:00",
+      "2026-12-06T18:00:00+03:00"
+    ]
+  },
+  {
+    "id": "newopera-lucia-oct-2026",
+    "category": "opera",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-25T18:00:00+03:00",
+    "title": "Доницетти — «Лючия ди Ламмермур»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Новая Опера",
+    "place": "Каретный Ряд, 3, стр. 2",
+    "location": "Новая Опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Новая Опера",
+    "source_url": "https://novayaopera.ru/playbill/",
+    "verified": true,
+    "organizer": "Театр «Новая Опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Основная сцена",
+    "duration": "2 часа 30 минут",
+    "composers": [
+      "Доницетти"
+    ],
+    "occurrences": [
+      "2026-10-25T18:00:00+03:00",
+      "2026-10-27T19:00:00+03:00"
+    ]
   }
 ]

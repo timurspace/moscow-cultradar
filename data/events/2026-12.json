@@ -458,14 +458,21 @@
     "source_label": "Геликон-опера",
     "source_url": "https://www.helikon.ru/ru/playbill",
     "verified": true,
-    "date_only": "2026-12-03",
     "composers": [
       "Бизе"
     ],
     "works": [
       "«Кармен» · 30 лет постановке"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-12-03T19:00:00+03:00",
+    "scene": "Зал «Стравинский»",
+    "occurrences": [
+      "2026-12-03T19:00:00+03:00",
+      "2026-12-04T19:00:00+03:00",
+      "2026-12-05T19:00:00+03:00",
+      "2026-12-06T16:00:00+03:00"
+    ]
   },
   {
     "id": "maly-white-tent-dec26",
@@ -1120,8 +1127,13 @@
     "source_label": "Геликон-опера",
     "source_url": "https://www.helikon.ru/ru/playbill",
     "verified": true,
-    "date_only": "2026-12-05",
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-12-05T16:00:00+03:00",
+    "scene": "Белоколонный зал княгини Шаховской",
+    "occurrences": [
+      "2026-12-05T16:00:00+03:00",
+      "2026-12-06T20:00:00+03:00"
+    ]
   },
   {
     "id": "maly-cinderella-dec26",
@@ -6194,14 +6206,22 @@
     "source_label": "Геликон-опера",
     "source_url": "https://www.helikon.ru/ru/playbill",
     "verified": true,
-    "date_only": "2026-12-22",
     "composers": [
       "И. Штраус"
     ],
     "works": [
       "«Летучая мышь»"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-12-22T19:00:00+03:00",
+    "scene": "Белоколонный зал княгини Шаховской",
+    "occurrences": [
+      "2026-12-22T19:00:00+03:00",
+      "2026-12-26T19:00:00+03:00",
+      "2026-12-27T19:00:00+03:00",
+      "2026-12-29T19:00:00+03:00",
+      "2026-12-30T19:00:00+03:00"
+    ]
   },
   {
     "id": "mmdm-6810",
@@ -6458,8 +6478,16 @@
     "source_label": "Геликон-опера",
     "source_url": "https://www.helikon.ru/ru/playbill",
     "verified": true,
-    "date_only": "2026-12-23",
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-12-23T19:00:00+03:00",
+    "scene": "Зал «Стравинский»",
+    "occurrences": [
+      "2026-12-23T19:00:00+03:00",
+      "2026-12-24T19:00:00+03:00",
+      "2026-12-25T19:00:00+03:00",
+      "2026-12-26T16:00:00+03:00",
+      "2026-12-27T16:00:00+03:00"
+    ]
   },
   {
     "id": "maly-sandman-dec26",
@@ -8799,5 +8827,32 @@
     "card_schema_version": 2,
     "season": "2026/27",
     "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "helikon-new-year-ball-2026",
+    "category": "opera",
+    "horizon": "far",
+    "featured": false,
+    "start": "2026-12-31T17:00:00+03:00",
+    "title": "«Новогодний бал княгини Шаховской» · премьера",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Геликон-опера",
+    "place": "Большая Никитская, 19/16",
+    "location": "Геликон-опера, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "Постановка в опубликованном репертуаре.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Геликон-опера",
+    "source_url": "https://www.helikon.ru/ru/playbill",
+    "verified": true,
+    "organizer": "Театр «Геликон-опера»",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "scene": "Зал «Стравинский»"
   }
 ]

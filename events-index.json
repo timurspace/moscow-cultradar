@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1401,
+    "event_count": 1415,
     "source_schema_version": 2
   },
   "events": [
@@ -6631,6 +6631,69 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "helikon-aida-2026",
+      "title": "Верди — «Аида»",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/aida.html",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-pagliacci-2026",
+      "title": "Леонкавалло — «Паяцы»",
+      "category": "opera",
+      "date": "2026-10-22",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/payacy.html-0",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-onegin-2026",
+      "title": "Чайковский — «Евгений Онегин»",
+      "category": "opera",
+      "date": "2026-10-29",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/evgeniy-onegin.html",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "helikon-portrait-grechishkina-2026",
+      "title": "Концерт-портрет Анны Гречишкиной",
+      "category": "music",
+      "date": "2026-10-20",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-rigoletto-oct-2026",
+      "title": "Верди — «Риголетто»",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-boris-godunov-oct-2026",
+      "title": "Мусоргский — «Борис Годунов»",
+      "category": "opera",
+      "date": "2026-10-18",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "newopera-lucia-oct-2026",
+      "title": "Доницетти — «Лючия ди Ламмермур»",
+      "category": "opera",
+      "date": "2026-10-25",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/playbill/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -9448,6 +9511,60 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "helikon-traviata-2026",
+      "title": "Верди — «Травиата»",
+      "category": "opera",
+      "date": "2026-11-05",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/traviata.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-tosca-2026",
+      "title": "Пуччини — «Тоска»",
+      "category": "opera",
+      "date": "2026-11-12",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/toska.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-offenbach-key-2026",
+      "title": "Оффенбах — «Ключ на мостовой»",
+      "category": "opera",
+      "date": "2026-11-20",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/performances/klyuch-na-mostovoy.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-cello-jubilee-2026",
+      "title": "«Юбилей виолончели»",
+      "category": "music",
+      "date": "2026-11-04",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "helikon-zhumaeva-salon-2026",
+      "title": "Гостиная Людмилы Жумаевой",
+      "category": "music",
+      "date": "2026-11-18",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-rakursy3-2026",
+      "title": "«Балет Москва. Ракурсы 3» · премьера",
+      "category": "opera",
+      "date": "2026-11-20",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/plays/balet/balet-moskva-rakursy-3/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-mzk-andrianov-2026-12-01",
       "title": "Борис Андрианов — виолончельный вечер",
       "category": "music",
@@ -11776,6 +11893,15 @@
       "date": "2026-12-31",
       "venue": "Дом музыки — Театральный зал",
       "source_url": "https://www.mmdm.ru/event/novogodnee-puteshestvie-s-ansamblem-solistov-ermitazh?event_pk=7366",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "helikon-new-year-ball-2026",
+      "title": "«Новогодний бал княгини Шаховской» · премьера",
+      "category": "opera",
+      "date": "2026-12-31",
+      "venue": "Геликон-опера",
+      "source_url": "https://www.helikon.ru/ru/playbill",
       "shard": "2026-12.json"
     },
     {

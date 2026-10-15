@@ -132,14 +132,15 @@
       "role": "venue",
       "parent_org": null,
       "url": "https://www.helikon.ru/ru/playbill",
-      "last_checked": "2026-09-26",
-      "event_count": 11,
+      "last_checked": "2026-10-15",
+      "event_count": 21,
       "coverage_2026": {
-        "october": 4,
-        "november": 2,
-        "december": 4
+        "october": 8,
+        "november": 7,
+        "december": 5
       },
-      "coverage_status": "active"
+      "coverage_status": "active",
+      "coverage_note": " 15.10.2026: официальный календарь октября–декабря сверен, повторные показы объединены в occurrences."
     },
     {
       "name": "ГЭС-2",
@@ -577,14 +578,15 @@
       "role": "venue",
       "parent_org": null,
       "url": "https://novayaopera.ru/playbill/",
-      "last_checked": "2026-09-26",
-      "event_count": 10,
+      "last_checked": "2026-10-15",
+      "event_count": 14,
       "coverage_2026": {
-        "october": 3,
-        "november": 1,
+        "october": 6,
+        "november": 2,
         "december": 6
       },
-      "coverage_status": "active"
+      "coverage_status": "partial",
+      "coverage_note": " 15.10.2026: добавлены октябрьские оперы и премьера «Ракурсы 3»; полное покрытие не закрыто."
     },
     {
       "name": "Практика",
