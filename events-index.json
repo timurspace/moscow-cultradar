@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1399,
+    "event_count": 1402,
     "source_schema_version": 2
   },
   "events": [
@@ -6613,6 +6613,24 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "ton-aidu-moscow-petushki-2026-10-15",
+      "title": "Пётр Айду — «Москва — Петушки»",
+      "category": "opera",
+      "date": "2026-10-15",
+      "venue": "ТОН-ЦЕНТР",
+      "source_url": "https://ton-center.ru/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "finuniv-gubaidulina-2026-10-29",
+      "title": "«Между материей и духом» — концерт памяти Софии Губайдулиной",
+      "category": "music",
+      "date": "2026-10-29",
+      "venue": "Большой зал Финансового университета",
+      "source_url": "https://angela-vavilova.ru/news/show/Mezhdu-materiei-i-duhom-%E2%80%93-koncert-pamyati-Sofii-Gubaidulinoi/1333",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -9427,6 +9445,15 @@
       "date": "2026-11-30",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=chaika",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "newopera-rakursy3-2026-11-20",
+      "title": "Балет Москва — «Ракурсы 3»",
+      "category": "opera",
+      "date": "2026-11-20",
+      "venue": "Новая Опера",
+      "source_url": "https://novayaopera.ru/plays/balet/balet-moskva-rakursy-3/",
       "shard": "2026-11.json"
     },
     {
