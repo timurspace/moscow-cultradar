@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1555,
+    "event_count": 1574,
     "source_schema_version": 2
   },
   "events": [
@@ -10843,6 +10843,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-b-2026-12-01-1900",
+      "title": "Государственная академическая симфоническая капелла России — Валерий Полянский",
+      "category": "music",
+      "date": "2026-12-01",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204754",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "mamt-lady-macbeth-2026-12-02",
       "title": "Шостакович — «Леди Макбет Мценского уезда»",
       "category": "opera",
@@ -11002,6 +11011,15 @@
       "date": "2026-12-03",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-protiv-iskusstva-dada-i-egor-letov/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-b-2026-12-03-1900",
+      "title": "Николай Луганский, Вадим Руденко, Екатерина Мечетина — памяти Сергея Доренского",
+      "category": "music",
+      "date": "2026-12-03",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204874",
       "shard": "2026-12.json"
     },
     {
@@ -11194,6 +11212,24 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-b-2026-12-05-1900",
+      "title": "В. А. Моцарт. Иоганн Штраус — Государственный Кремлёвский оркестр",
+      "category": "music",
+      "date": "2026-12-05",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204753",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-m-2026-12-05-1900",
+      "title": "Бах и Моцарт — концерты для двух фортепиано с оркестром",
+      "category": "music",
+      "date": "2026-12-05",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204940",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "maly-snow-queen-dec26",
       "title": "Шварц — «Снежная королева»",
       "category": "theatre",
@@ -11281,6 +11317,24 @@
       "date": "2026-12-06",
       "venue": "Малый зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/classics/6490/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-06-petya-i-volk",
+      "title": "Петя и волк",
+      "category": "music",
+      "date": "2026-12-06",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/petya-i-volk.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-06-i-pervaya-stala-chetvyortoj",
+      "title": "И Первая стала Четвёртой…",
+      "category": "talks",
+      "date": "2026-12-06",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/serious-lecture/i-pervaya-stala-chetvyortoj.html",
       "shard": "2026-12.json"
     },
     {
@@ -11590,6 +11644,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-r-2026-12-11-1900",
+      "title": "«С Международным днём танго!»",
+      "category": "music",
+      "date": "2026-12-11",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204954",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "mmdm-6819",
       "title": "Harry Potter. Magic music",
       "category": "music",
@@ -11704,6 +11767,24 @@
       "date": "2026-12-12",
       "venue": "Малый зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/zaradys/8281/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-12-dzhaz-v-lunnuyu-noch",
+      "title": "Джаз в лунную ночь",
+      "category": "music",
+      "date": "2026-12-12",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/dzhaz-v-lunnuyu-noch.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-m-2026-12-12-1900",
+      "title": "Бетховен — сонаты для фортепиано",
+      "category": "music",
+      "date": "2026-12-12",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-12-12",
       "shard": "2026-12.json"
     },
     {
@@ -11824,6 +11905,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-b-2026-12-13-1900",
+      "title": "«Шедевры русской симфонической музыки» — Кремлёвский оркестр",
+      "category": "music",
+      "date": "2026-12-13",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204884",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "mmdm-7325",
       "title": "Мужской хор Logos. Рождественский концерт",
       "category": "music",
@@ -11857,6 +11947,15 @@
       "date": "2026-12-14",
       "venue": "Концертный зал имени П. И. Чайковского",
       "source_url": "https://meloman.ru/concert/kzch-2026-12-14/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-b-2026-12-14-1900",
+      "title": "Чайковский — Симфония № 6 / Рахманинов — Концерт № 2",
+      "category": "music",
+      "date": "2026-12-14",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204750",
       "shard": "2026-12.json"
     },
     {
@@ -12247,6 +12346,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-b-2026-12-19-1900",
+      "title": "Российский национальный оркестр — Клеман Нонсьё",
+      "category": "music",
+      "date": "2026-12-19",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204885",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "maly-buratino-dec26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -12346,6 +12454,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-m-2026-12-20-1900",
+      "title": "Алексей Мельников — Мусоргский и Рахманинов",
+      "category": "music",
+      "date": "2026-12-20",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204749",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "mmdm-6983",
       "title": "Фламенко-спектакль «Мастер и Маргарита»",
       "category": "opera",
@@ -12406,6 +12523,15 @@
       "date": "2026-12-21",
       "venue": "Большой зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/festival/10173/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-m-2026-12-21-1900",
+      "title": "Камерный оркестр Большого театра — Михаил Цинман",
+      "category": "music",
+      "date": "2026-12-21",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204581",
       "shard": "2026-12.json"
     },
     {
@@ -12562,6 +12688,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-m-2026-12-23-1900",
+      "title": "Константин Хачикян — Чайковский и Шуман",
+      "category": "music",
+      "date": "2026-12-23",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204569",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "newopera-quiet-evening-2026-12-24",
       "title": "«Тихий вечер. Концерт в канун Рождества»",
       "category": "music",
@@ -12631,6 +12766,24 @@
       "date": "2026-12-24",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/rozhdestvenskaya-noch-valsy-i-polki-shtrausov?event_pk=7087",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-b-2026-12-24-1900",
+      "title": "Новогодний концерт — балеты Чайковского",
+      "category": "music",
+      "date": "2026-12-24",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204886",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-r-2026-12-24-1900",
+      "title": "«С Рождеством!»",
+      "category": "music",
+      "date": "2026-12-24",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204955",
       "shard": "2026-12.json"
     },
     {
@@ -12913,6 +13066,42 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "rmm-2026-12-27-skazka-o-shhelkunchike",
+      "title": "Сказка о Щелкунчике",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/kontserty/skazka-o-shhelkunchike.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-27-dvenadczat-mesyaczev",
+      "title": "Двенадцать месяцев",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/dvenadczat-mesyaczev.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-m-2026-12-27-1900",
+      "title": "«Магия танца»",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204942",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-delta-r-2026-12-27-1900",
+      "title": "«Чайковский-гала»",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204957",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "consv-mzk-knyazev-brahms-2026-12-28",
       "title": "Александр Князев — «Любите ли вы Брамса?»",
       "category": "music",
@@ -13021,6 +13210,15 @@
       "shard": "2026-12.json"
     },
     {
+      "id": "consv-delta-b-2026-12-29-1900",
+      "title": "Большой новогодний концерт — Российский национальный оркестр",
+      "category": "music",
+      "date": "2026-12-29",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204887",
+      "shard": "2026-12.json"
+    },
+    {
       "id": "mmdm-7396",
       "title": "Новогодний сказочный балет «Щелкунчик»",
       "category": "opera",
@@ -13120,48 +13318,21 @@
       "shard": "2026-12.json"
     },
     {
-      "id": "rmm-2026-12-06-petya-i-volk",
-      "title": "Петя и волк",
+      "id": "consv-delta-r-2026-12-31-1200",
+      "title": "«Времена года» — Вивальди / Пьяццолла",
       "category": "music",
-      "date": "2026-12-06",
-      "venue": "Музей С.С. Прокофьева",
-      "source_url": "https://music-museum.ru/events/kontserty/petya-i-volk.html",
+      "date": "2026-12-31",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204890",
       "shard": "2026-12.json"
     },
     {
-      "id": "rmm-2026-12-06-i-pervaya-stala-chetvyortoj",
-      "title": "И Первая стала Четвёртой…",
-      "category": "talks",
-      "date": "2026-12-06",
-      "venue": "Музей П.И. Чайковского в Москве",
-      "source_url": "https://music-museum.ru/events/serious-lecture/i-pervaya-stala-chetvyortoj.html",
-      "shard": "2026-12.json"
-    },
-    {
-      "id": "rmm-2026-12-12-dzhaz-v-lunnuyu-noch",
-      "title": "Джаз в лунную ночь",
+      "id": "consv-delta-r-2026-12-31-1900",
+      "title": "Новый год в Консерватории — «Музыкальные шедевры»",
       "category": "music",
-      "date": "2026-12-12",
-      "venue": "Музей С.С. Прокофьева",
-      "source_url": "https://music-museum.ru/events/kontserty/dzhaz-v-lunnuyu-noch.html",
-      "shard": "2026-12.json"
-    },
-    {
-      "id": "rmm-2026-12-27-skazka-o-shhelkunchike",
-      "title": "Сказка о Щелкунчике",
-      "category": "music",
-      "date": "2026-12-27",
-      "venue": "Музей П.И. Чайковского в Москве",
-      "source_url": "https://music-museum.ru/events/kontserty/skazka-o-shhelkunchike.html",
-      "shard": "2026-12.json"
-    },
-    {
-      "id": "rmm-2026-12-27-dvenadczat-mesyaczev",
-      "title": "Двенадцать месяцев",
-      "category": "music",
-      "date": "2026-12-27",
-      "venue": "Музей Музыки",
-      "source_url": "https://music-museum.ru/events/kontserty/dvenadczat-mesyaczev.html",
+      "date": "2026-12-31",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204891",
       "shard": "2026-12.json"
     },
     {
