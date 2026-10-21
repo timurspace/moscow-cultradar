@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1411,
+    "event_count": 1421,
     "source_schema_version": 2
   },
   "events": [
@@ -5101,6 +5101,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "prove-dolce-vita-cinema-2026-10-23",
+      "title": "«Сладкая жизнь»: кинохиты ХХ века",
+      "category": "music",
+      "date": "2026-10-23",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "mm-prokofiev-architects-2026-10-24",
       "title": "«Архитекторы звука: Прокофьев, Гедике, Регер»",
       "category": "music",
@@ -6046,6 +6055,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "prove-belle-epoque-2026-10-28",
+      "title": "«Прекрасная эпоха»: Равель и Дебюсси",
+      "category": "music",
+      "date": "2026-10-28",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "bolshoi-peter-wolf-giant-2026-10-29",
       "title": "Прокофьев — «Петя и волк. Великан»",
       "category": "opera",
@@ -6178,6 +6196,15 @@
       "date": "2026-10-29",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-ushedshie-v-les-v-poiskah-podlinnosti-egor-letov-i-lesnaya-filosofiya-mihaila-prishvina/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "prove-belle-epoque-2026-10-29",
+      "title": "«Прекрасная эпоха»: Равель и Дебюсси",
+      "category": "music",
+      "date": "2026-10-29",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-10.json"
     },
     {
@@ -6394,6 +6421,15 @@
       "date": "2026-10-30",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/nochnoe-organnoe-shou-prizrak-opery?event_pk=6941",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "prove-halloween-night-music-2026-10-30",
+      "title": "«Хэллоуин: музыка ночи»",
+      "category": "music",
+      "date": "2026-10-30",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/conzerty",
       "shard": "2026-10.json"
     },
     {
@@ -6622,6 +6658,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "prove-cinema-soundtracks-2026-10-31",
+      "title": "«Страшно красиво»: музыка из культовых фильмов",
+      "category": "music",
+      "date": "2026-10-31",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -6753,7 +6798,7 @@
       "category": "music",
       "date": "2026-11-01",
       "venue": "Усадьба Прове–Калиш",
-      "source_url": "https://prove-kalish.ru/afisha",
+      "source_url": "https://prove-kalish.ru/shostakovich",
       "shard": "2026-11.json"
     },
     {
@@ -7339,6 +7384,24 @@
       "date": "2026-11-07",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/gruppa-kvatro-s-orkestrom-vse-hity-andrea-bochelli?event_pk=7217",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "prove-playroom-flute-cello-2026-11-07",
+      "title": "«Музыкальная игротека»: флейта и виолончель",
+      "category": "music",
+      "date": "2026-11-07",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "prove-harry-potter-2026-11-07",
+      "title": "«Гарри Поттер»: магия в особняке",
+      "category": "music",
+      "date": "2026-11-07",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-11.json"
     },
     {
@@ -8044,6 +8107,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "prove-harry-potter-2026-11-14",
+      "title": "«Гарри Поттер»: магия в особняке",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-6897",
       "title": "Ансамбль песни и пляски имени В. С. Локтева",
       "category": "music",
@@ -8644,6 +8716,15 @@
       "date": "2026-11-21",
       "venue": "Театр Наций — Малая сцена",
       "source_url": "https://theatreofnations.ru/performances/obyiknovennaya-smert",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "prove-queen-muse-rock-2026-11-21",
+      "title": "Рок-симфония: Queen & Muse",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/conzerty",
       "shard": "2026-11.json"
     },
     {
@@ -9391,6 +9472,15 @@
       "date": "2026-11-28",
       "venue": "Концертный зал имени П. И. Чайковского",
       "source_url": "https://meloman.ru/concert/kzch-2026-11-28/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "prove-queen-muse-rock-2026-11-28",
+      "title": "Рок-симфония: Queen & Muse",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://off-mute.ru/conzerty",
       "shard": "2026-11.json"
     },
     {

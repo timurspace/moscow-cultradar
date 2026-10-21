@@ -18144,6 +18144,42 @@
     ]
   },
   {
+    "id": "prove-dolce-vita-cinema-2026-10-23",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-23T20:00:00+03:00",
+    "title": "«Сладкая жизнь»: кинохиты ХХ века",
+    "tags": [],
+    "visible_tags": [
+      "музыка кино",
+      "Нино Рота",
+      "Эннио Морриконе"
+    ],
+    "venue": "Усадьба Прове–Калиш",
+    "place": "Новая Басманная, 22/2, стр. 1",
+    "location": "Усадьба Прове–Калиш, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Музыка Нино Рота, Эннио Морриконе и других кинокомпозиторов в исполнении балалайки, двух домр, баяна, гитары, рояля и ударных.",
+    "source_label": "Усадьба Прове–Калиш",
+    "source_url": "https://prove-kalish.ru/afisha",
+    "verified": true,
+    "venue_short": "Прове–Калиш",
+    "composers": [
+      "Нино Рота",
+      "Эннио Морриконе"
+    ],
+    "works": [],
+    "program_status": "Программа опубликована частично",
+    "season": "2026/27",
+    "card_schema_version": 2
+  },
+  {
     "id": "mm-prokofiev-architects-2026-10-24",
     "category": "music",
     "horizon": "near",
@@ -21757,6 +21793,42 @@
     "card_schema_version": 2
   },
   {
+    "id": "prove-belle-epoque-2026-10-28",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-28T19:30:00+03:00",
+    "title": "«Прекрасная эпоха»: Равель и Дебюсси",
+    "tags": [],
+    "visible_tags": [
+      "Равель",
+      "Дебюсси",
+      "камерная музыка"
+    ],
+    "venue": "Усадьба Прове–Калиш",
+    "place": "Новая Басманная, 22/2, стр. 1",
+    "location": "Усадьба Прове–Калиш, Москва",
+    "people": "Сергей Главатских · Дмитрий Герман · Олег Бугаев",
+    "price": "проверить актуально",
+    "why": "Французская камерная музыка рубежа XIX–XX веков в исполнении Сергея Главатских, Дмитрия Германа и Олега Бугаева.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Камерный концерт с произведениями Равеля и Дебюсси. Исполнители: Сергей Главатских, Дмитрий Герман, Олег Бугаев.",
+    "source_label": "Усадьба Прове–Калиш",
+    "source_url": "https://prove-kalish.ru/afisha",
+    "verified": true,
+    "venue_short": "Прове–Калиш",
+    "composers": [
+      "Морис Равель",
+      "Клод Дебюсси"
+    ],
+    "works": [],
+    "program_status": "Программа опубликована частично",
+    "season": "2026/27",
+    "card_schema_version": 2
+  },
+  {
     "id": "bolshoi-peter-wolf-giant-2026-10-29",
     "category": "opera",
     "horizon": "far",
@@ -22262,6 +22334,42 @@
     "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-ushedshie-v-les-v-poiskah-podlinnosti-egor-letov-i-lesnaya-filosofiya-mihaila-prishvina/",
     "verified": true,
     "start": "2026-10-29T19:30:00+03:00"
+  },
+  {
+    "id": "prove-belle-epoque-2026-10-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-29T19:30:00+03:00",
+    "title": "«Прекрасная эпоха»: Равель и Дебюсси",
+    "tags": [],
+    "visible_tags": [
+      "Равель",
+      "Дебюсси",
+      "камерная музыка"
+    ],
+    "venue": "Усадьба Прове–Калиш",
+    "place": "Новая Басманная, 22/2, стр. 1",
+    "location": "Усадьба Прове–Калиш, Москва",
+    "people": "Сергей Главатских · Дмитрий Герман · Олег Бугаев",
+    "price": "проверить актуально",
+    "why": "Французская камерная музыка рубежа XIX–XX веков в исполнении Сергея Главатских, Дмитрия Германа и Олега Бугаева.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Камерный концерт с произведениями Равеля и Дебюсси. Исполнители: Сергей Главатских, Дмитрий Герман, Олег Бугаев.",
+    "source_label": "Усадьба Прове–Калиш",
+    "source_url": "https://prove-kalish.ru/afisha",
+    "verified": true,
+    "venue_short": "Прове–Калиш",
+    "composers": [
+      "Морис Равель",
+      "Клод Дебюсси"
+    ],
+    "works": [],
+    "program_status": "Программа опубликована частично",
+    "season": "2026/27",
+    "card_schema_version": 2
   },
   {
     "id": "gnesin-folk-gala-2026-10-30",
@@ -23058,6 +23166,44 @@
     "card_schema_version": 2,
     "season": "2026/27",
     "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "prove-halloween-night-music-2026-10-30",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-30T20:00:00+03:00",
+    "title": "«Хэллоуин: музыка ночи»",
+    "tags": [],
+    "visible_tags": [
+      "музыка кино",
+      "crossover"
+    ],
+    "venue": "Усадьба Прове–Калиш",
+    "place": "Новая Басманная, 22/2, стр. 1",
+    "location": "Усадьба Прове–Калиш, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Музыка Дэнни Элфмана, Анджело Бадаламенти, Джона Уильямса, Эндрю Ллойда Уэббера и других композиторов известных кино- и театральных тем.",
+    "source_label": "Усадьба Прове–Калиш",
+    "source_url": "https://off-mute.ru/conzerty",
+    "verified": true,
+    "organizer": "OFF-MUTE",
+    "venue_short": "Прове–Калиш",
+    "composers": [
+      "Дэнни Элфман",
+      "Анджело Бадаламенти",
+      "Джон Уильямс",
+      "Эндрю Ллойд Уэббер"
+    ],
+    "works": [],
+    "program_status": "Программа опубликована частично",
+    "season": "2026/27",
+    "card_schema_version": 2
   },
   {
     "id": "doc-island-2026-10-31",
@@ -23884,5 +24030,37 @@
     "verified": true,
     "start": "2026-10-31T20:00:00+03:00",
     "end": "2026-10-31T18:30:00.000Z"
+  },
+  {
+    "id": "prove-cinema-soundtracks-2026-10-31",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-31T20:00:00+03:00",
+    "title": "«Страшно красиво»: музыка из культовых фильмов",
+    "tags": [],
+    "visible_tags": [
+      "саундтреки",
+      "музыка кино"
+    ],
+    "venue": "Усадьба Прове–Калиш",
+    "place": "Новая Басманная, 22/2, стр. 1",
+    "location": "Усадьба Прове–Калиш, Москва",
+    "people": "творческое объединение «Такт»",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Киномузыкальный вечер объединения «Такт»: темы из «Гарри Поттера», «Властелина колец», «Игры престолов» и других фильмов и сериалов.",
+    "source_label": "Усадьба Прове–Калиш",
+    "source_url": "https://prove-kalish.ru/afisha",
+    "verified": true,
+    "venue_short": "Прове–Калиш",
+    "composers": [],
+    "works": [],
+    "program_status": "Программа опубликована частично",
+    "season": "2026/27",
+    "card_schema_version": 2
   }
 ]
