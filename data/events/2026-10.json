@@ -5160,33 +5160,6 @@
     "end": "2026-10-06T18:00:00.000Z"
   },
   {
-    "id": "lapp83-opera-carmen-2026-10-06",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-07T20:00:00+03:00",
-    "end": "2026-10-07T22:00:00+03:00",
-    "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
-    "tags": [],
-    "visible_tags": [
-      "опера",
-      "лекция"
-    ],
-    "venue": "L’Appartement 83",
-    "place": "Москва",
-    "location": "L’Appartement 83, Москва",
-    "people": "Даниил Топилин",
-    "price": "4000 ₽",
-    "why": "Содержательный разговор об опере в камерном формате; дорогой, но релевантный talks-кандидат.",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Источник",
-    "details": "Цикл «Оперы мира». Разговор о партитуре и либретто «Кармен» Бизе, истории создания и постановок.",
-    "source_label": "L’Appartement 83",
-    "source_url": "https://lappartement83.com/shop/karmen",
-    "verified": true
-  },
-  {
     "id": "praktika-junk-2026-10-07",
     "category": "theatre",
     "horizon": "near",
@@ -5752,6 +5725,33 @@
     "source_url": "https://dkrassvet.space/",
     "verified": true,
     "card_schema_version": 2
+  },
+  {
+    "id": "lapp83-opera-carmen-2026-10-06",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-07T20:00:00+03:00",
+    "end": "2026-10-07T22:00:00+03:00",
+    "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
+    "tags": [],
+    "visible_tags": [
+      "опера",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Даниил Топилин",
+    "price": "4000 ₽",
+    "why": "Содержательный разговор об опере в камерном формате; дорогой, но релевантный talks-кандидат.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Источник",
+    "details": "Цикл «Оперы мира». Разговор о партитуре и либретто «Кармен» Бизе, истории создания и постановок.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/karmen",
+    "verified": true
   },
   {
     "id": "mmdm-7283",
@@ -8873,6 +8873,33 @@
     "sales_status": "билеты проданы"
   },
   {
+    "id": "voz-letov-collages-restoration-2026-10-11",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "Егор Летов: мир коллажей и история их восстановления",
+    "tags": [],
+    "visible_tags": [
+      "Егор Летов",
+      "искусство",
+      "коллаж"
+    ],
+    "venue": "Центр Вознесенского",
+    "place": "ул. Большая Ордынка, 46, стр. 3, Москва",
+    "location": "Центр Вознесенского, Москва",
+    "people": "Владимир Александров",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная программа",
+    "details": "Художник-реставратор рассказывает о восстановлении коллажей Егора Летова, утраченных деталях и книгах, ставших материалами его художественных работ.",
+    "source_label": "Центр Вознесенского",
+    "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
+    "verified": true,
+    "organizer": "Центр Вознесенского",
+    "start": "2026-10-11T17:00:00+03:00"
+  },
+  {
     "id": "bolshoi-orchestra-guide-2026-10-11-1800",
     "category": "music",
     "horizon": "far",
@@ -9462,33 +9489,6 @@
       "«Колокола»"
     ],
     "card_schema_version": 2
-  },
-  {
-    "id": "voz-letov-collages-restoration-2026-10-11",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "title": "Егор Летов: мир коллажей и история их восстановления",
-    "tags": [],
-    "visible_tags": [
-      "Егор Летов",
-      "искусство",
-      "коллаж"
-    ],
-    "venue": "Центр Вознесенского",
-    "place": "ул. Большая Ордынка, 46, стр. 3, Москва",
-    "location": "Центр Вознесенского, Москва",
-    "people": "Владимир Александров",
-    "price": "уточнить у организатора",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная программа",
-    "details": "Художник-реставратор рассказывает о восстановлении коллажей Егора Летова, утраченных деталях и книгах, ставших материалами его художественных работ.",
-    "source_label": "Центр Вознесенского",
-    "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
-    "verified": true,
-    "organizer": "Центр Вознесенского",
-    "start": "2026-10-11T17:00:00+03:00"
   },
   {
     "id": "myaskovsky-horn-competition-prep-2026-10-12",
@@ -10589,6 +10589,40 @@
     ]
   },
   {
+    "id": "maly-zashchita-luzhina-2026-10-06",
+    "category": "theatre",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-10-14T18:30:00+03:00",
+    "end": "2026-10-14T17:45:00.000Z",
+    "title": "Набоков — «Защита Лужина»",
+    "tags": [
+      "psych",
+      "rare"
+    ],
+    "visible_tags": [
+      "Набоков",
+      "2 ч 15 мин"
+    ],
+    "venue": "Малый театр — Малая сцена на Б. Ордынке",
+    "place": "Большая Ордынка, 69",
+    "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
+    "people": "режиссёр Владимир Данай",
+    "price": "проверить актуально",
+    "why": "Набоков и психологическая история шахматиста на малой сцене.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная карточка / даты",
+    "details": "6 октября спектакль отменён. Активные октябрьские показы: 14 и 25 октября. 2 ч 15 мин, один антракт.",
+    "source_label": "Малый театр — Малая сцена на Б. Ордынке",
+    "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
+    "verified": true,
+    "organizer": "Малый театр",
+    "monitor_entities": [
+      "Малый театр"
+    ]
+  },
+  {
     "id": "composers-moscow-autumn-snm-2026-10-14",
     "category": "music",
     "horizon": "near",
@@ -10631,40 +10665,6 @@
     "program_status": "программа опубликована",
     "season": "2026/27",
     "sales_status": "проверить актуально"
-  },
-  {
-    "id": "maly-zashchita-luzhina-2026-10-06",
-    "category": "theatre",
-    "horizon": "near",
-    "featured": true,
-    "start": "2026-10-14T18:30:00+03:00",
-    "end": "2026-10-14T17:45:00.000Z",
-    "title": "Набоков — «Защита Лужина»",
-    "tags": [
-      "psych",
-      "rare"
-    ],
-    "visible_tags": [
-      "Набоков",
-      "2 ч 15 мин"
-    ],
-    "venue": "Малый театр — Малая сцена на Б. Ордынке",
-    "place": "Большая Ордынка, 69",
-    "location": "Малый театр — Малая сцена на Б. Ордынке, Москва",
-    "people": "режиссёр Владимир Данай",
-    "price": "проверить актуально",
-    "why": "Набоков и психологическая история шахматиста на малой сцене.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Официальная карточка / даты",
-    "details": "6 октября спектакль отменён. Активные октябрьские показы: 14 и 25 октября. 2 ч 15 мин, один антракт.",
-    "source_label": "Малый театр — Малая сцена на Б. Ордынке",
-    "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
-    "verified": true,
-    "organizer": "Малый театр",
-    "monitor_entities": [
-      "Малый театр"
-    ]
   },
   {
     "id": "bolshoi-player-ballet-2026-10-14",
@@ -15691,6 +15691,33 @@
     "end": "2026-10-19T21:00:00+03:00"
   },
   {
+    "id": "pokrovskie-dreyer-christianity-cinema-2026-10-19",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-19T19:00:00+03:00",
+    "title": "«Христианство и кинематограф»: Карл Теодор Дрейер — «День гнева» и «Слово»",
+    "tags": [],
+    "visible_tags": [
+      "кино",
+      "Карл Теодор Дрейер",
+      "философия"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Августина До Егито",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Пятая лекция авторского цикла о религиозном содержании ключевых фильмов XX–XXI веков; фильмы Дрейера «День гнева» и «Слово».",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»"
+  },
+  {
     "id": "doc-poetry-slam-2026-10-19",
     "category": "theatre",
     "horizon": "near",
@@ -15717,33 +15744,6 @@
     "monitor_entities": [
       "Театр.doc"
     ]
-  },
-  {
-    "id": "pokrovskie-dreyer-christianity-cinema-2026-10-19",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-19T19:00:00+03:00",
-    "title": "«Христианство и кинематограф»: Карл Теодор Дрейер — «День гнева» и «Слово»",
-    "tags": [],
-    "visible_tags": [
-      "кино",
-      "Карл Теодор Дрейер",
-      "философия"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Августина До Егито",
-    "price": "уточнить у организатора",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Пятая лекция авторского цикла о религиозном содержании ключевых фильмов XX–XXI веков; фильмы Дрейера «День гнева» и «Слово».",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»"
   },
   {
     "id": "praktika-beethoven-2026-10-20",
@@ -16373,6 +16373,33 @@
     "end": "2026-10-20T21:00:00+03:00"
   },
   {
+    "id": "pokrovskie-solovki-new-martyrs-2026-10-20",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-20T19:00:00+03:00",
+    "title": "«Соловецкий лагерь особого назначения: новомученики и исповедники Соловецкие»",
+    "tags": [],
+    "visible_tags": [
+      "история",
+      "XX век",
+      "Соловки"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Диакон Михаил Гар (ПСТГУ)",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Историческая лекция о Соловецком лагере особого назначения и судьбах новомучеников и исповедников.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»"
+  },
+  {
     "id": "rassvet-kharms-repertoire-2026-10-20",
     "category": "music",
     "horizon": "near",
@@ -16447,33 +16474,6 @@
     "monitor_entities": [
       "Театр.doc"
     ]
-  },
-  {
-    "id": "pokrovskie-solovki-new-martyrs-2026-10-20",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-20T19:00:00+03:00",
-    "title": "«Соловецкий лагерь особого назначения: новомученики и исповедники Соловецкие»",
-    "tags": [],
-    "visible_tags": [
-      "история",
-      "XX век",
-      "Соловки"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Диакон Михаил Гар (ПСТГУ)",
-    "price": "уточнить у организатора",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Историческая лекция о Соловецком лагере особого назначения и судьбах новомучеников и исповедников.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»"
   },
   {
     "id": "bolshoi-lohengrin-2026-10-21-1800",
@@ -16922,45 +16922,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "rassvet-butsko-2026-10-21",
-    "category": "music",
-    "horizon": "near",
-    "featured": true,
-    "start": "2026-10-21T19:30:00+03:00",
-    "end": "2026-10-21T21:30:00+03:00",
-    "title": "Юрий Буцко — «Безмолвие осени»",
-    "tags": [
-      "modern",
-      "rare"
-    ],
-    "visible_tags": [
-      "Буцко",
-      "Prometheus"
-    ],
-    "venue": "ДК Рассвет",
-    "place": "Столярный пер., 3к15",
-    "location": "ДК Рассвет, Москва",
-    "people": "Prometheus · Михаил Калицкий (дирижёр) · Николай Якушев (виолончель)",
-    "price": "1800 ₽",
-    "why": "Редкий Буцко и камерный оркестр — один из самых очевидных кандидатов месяца.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Источник",
-    "details": "«Симфония-афоризм» (1965) и Концертная симфония № 3 «Безмолвие осени» (2009) для виолончели, фортепиано и оркестра.",
-    "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/events/butsko/",
-    "verified": true,
-    "composers": [
-      "Буцко"
-    ],
-    "works": [
-      "«Симфония-афоризм»",
-      "«Безмолвие осени»"
-    ],
-    "card_schema_version": 2,
-    "sales_status": "в продаже"
-  },
-  {
     "id": "drugoe-house-memory-2026-10-22",
     "category": "talks",
     "horizon": "near",
@@ -17020,6 +16981,45 @@
     "end": "2026-10-21T21:00:00+03:00"
   },
   {
+    "id": "rassvet-butsko-2026-10-21",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-10-21T19:30:00+03:00",
+    "end": "2026-10-21T21:30:00+03:00",
+    "title": "Юрий Буцко — «Безмолвие осени»",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Буцко",
+      "Prometheus"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Москва",
+    "people": "Prometheus · Михаил Калицкий (дирижёр) · Николай Якушев (виолончель)",
+    "price": "1800 ₽",
+    "why": "Редкий Буцко и камерный оркестр — один из самых очевидных кандидатов месяца.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Источник",
+    "details": "«Симфония-афоризм» (1965) и Концертная симфония № 3 «Безмолвие осени» (2009) для виолончели, фортепиано и оркестра.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/butsko/",
+    "verified": true,
+    "composers": [
+      "Буцко"
+    ],
+    "works": [
+      "«Симфония-афоризм»",
+      "«Безмолвие осени»"
+    ],
+    "card_schema_version": 2,
+    "sales_status": "в продаже"
+  },
+  {
     "id": "voz-letov-ezra-pound-golubovich-2026-10-21",
     "category": "talks",
     "horizon": "near",
@@ -17047,46 +17047,6 @@
     "organizer": "Центр Вознесенского",
     "why": "Неожиданное сопоставление Летова и Паунда через поэтику монтажа и модернистское цитирование.",
     "start": "2026-10-21T19:30:00+03:00"
-  },
-  {
-    "id": "ges2-rosary-2026-10-22",
-    "category": "music",
-    "horizon": "buy",
-    "featured": false,
-    "title": "«Розарий»",
-    "tags": [
-      "early",
-      "rare"
-    ],
-    "visible_tags": [
-      "Бибер",
-      "скрипка"
-    ],
-    "venue": "ГЭС-2",
-    "place": "Болотная наб., 15",
-    "location": "Дом культуры ГЭС-2, Москва",
-    "people": "Оркестр Pratum Integrum · Сергей Фильченко · ведущий Ярослав Тимофеев",
-    "price": "2600 ₽ (льготный — 1000 ₽)",
-    "why": "«Розарий» Бибера — редкий репертуар.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Источник",
-    "details": "Полный цикл из 16 «Сонат Розария» Генриха Игнаца Франца фон Бибера для скрипки и basso continuo; историческое исполнительство. 19:00–22:00.",
-    "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/the-rosary-sonatas",
-    "verified": true,
-    "composers": [
-      "Генрих Игнац Франц фон Бибер"
-    ],
-    "card_schema_version": 2,
-    "start": "2026-10-22T19:00:00+03:00",
-    "end": "2026-10-22T22:00:00+03:00",
-    "works": [
-      "Сонаты Розария (все 16 сонат)"
-    ],
-    "program_status": "программа опубликована",
-    "season": "2026/27",
-    "sales_status": "в продаже"
   },
   {
     "id": "mm-golden-old-salon-2026-10-22",
@@ -17145,6 +17105,46 @@
     "monitor_entities": [
       "Малый театр"
     ]
+  },
+  {
+    "id": "ges2-rosary-2026-10-22",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "title": "«Розарий»",
+    "tags": [
+      "early",
+      "rare"
+    ],
+    "visible_tags": [
+      "Бибер",
+      "скрипка"
+    ],
+    "venue": "ГЭС-2",
+    "place": "Болотная наб., 15",
+    "location": "Дом культуры ГЭС-2, Москва",
+    "people": "Оркестр Pratum Integrum · Сергей Фильченко · ведущий Ярослав Тимофеев",
+    "price": "2600 ₽ (льготный — 1000 ₽)",
+    "why": "«Розарий» Бибера — редкий репертуар.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Источник",
+    "details": "Полный цикл из 16 «Сонат Розария» Генриха Игнаца Франца фон Бибера для скрипки и basso continuo; историческое исполнительство. 19:00–22:00.",
+    "source_label": "ГЭС-2",
+    "source_url": "https://ges-2.org/the-rosary-sonatas",
+    "verified": true,
+    "composers": [
+      "Генрих Игнац Франц фон Бибер"
+    ],
+    "card_schema_version": 2,
+    "start": "2026-10-22T19:00:00+03:00",
+    "end": "2026-10-22T22:00:00+03:00",
+    "works": [
+      "Сонаты Розария (все 16 сонат)"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже"
   },
   {
     "id": "consv-bzk-matsuev-rudin-2026-10-22",
@@ -17659,34 +17659,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "doc-greeks-oedipus-medea-2026-10-22",
-    "category": "theatre",
-    "horizon": "near",
-    "featured": false,
-    "title": "«Греки. Эдип. Медея»",
-    "tags": [],
-    "visible_tags": [],
-    "venue": "Театр.doc — Док на Лесной",
-    "place": "Москва",
-    "location": "Театр.doc — Док на Лесной, Москва",
-    "people": "",
-    "price": "проверить актуально",
-    "why": "",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Даты / постановка",
-    "details": "22 октября. 1 ч 30 мин.",
-    "source_label": "Театр.doc — Док на Лесной",
-    "source_url": "https://www.teatrdoc.ru/schedule/",
-    "verified": true,
-    "start": "2026-10-22T20:00:00+03:00",
-    "end": "2026-10-22T18:30:00.000Z",
-    "organizer": "Театр.doc",
-    "monitor_entities": [
-      "Театр.doc"
-    ]
-  },
-  {
     "id": "pokrovskie-meeting-festival-sedakova-2026-10-22",
     "category": "talks",
     "horizon": "near",
@@ -17713,6 +17685,34 @@
     "verified": true,
     "organizer": "КЦ «Покровские ворота»",
     "start": "2026-10-22T19:00:00+03:00"
+  },
+  {
+    "id": "doc-greeks-oedipus-medea-2026-10-22",
+    "category": "theatre",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Греки. Эдип. Медея»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Театр.doc — Док на Лесной",
+    "place": "Москва",
+    "location": "Театр.doc — Док на Лесной, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Даты / постановка",
+    "details": "22 октября. 1 ч 30 мин.",
+    "source_label": "Театр.doc — Док на Лесной",
+    "source_url": "https://www.teatrdoc.ru/schedule/",
+    "verified": true,
+    "start": "2026-10-22T20:00:00+03:00",
+    "end": "2026-10-22T18:30:00.000Z",
+    "organizer": "Театр.doc",
+    "monitor_entities": [
+      "Театр.doc"
+    ]
   },
   {
     "id": "mm-main-piano-keys-2026-10-23",
@@ -18204,6 +18204,84 @@
     "card_schema_version": 2
   },
   {
+    "id": "niko-karen-kornienko-tchaikovsky-royal-ballet-2026-10-23",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-23T19:00:00+03:00",
+    "title": "Карен Корниенко — «Tchaikovsky. Royal Ballet Gala»",
+    "tags": [],
+    "visible_tags": [
+      "Чайковский",
+      "балет",
+      "фортепиано"
+    ],
+    "venue": "Галерея Нико",
+    "place": "Большой Тишинский пер., 19, стр. 1",
+    "location": "Галерея Нико, Москва",
+    "people": "Карен Корниенко, фортепиано",
+    "price": "от 1500 ₽",
+    "why": "Авторские концертные аранжировки балетной музыки Чайковского для фортепиано.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Виртуозные фортепианные переложения фрагментов «Лебединого озера», «Спящей красавицы» и «Щелкунчика», преимущественно в аранжировках Карена Корниенко; также сюита М. Плетнёва по «Щелкунчику».",
+    "source_label": "Галерея Нико",
+    "source_url": "https://quicktickets.ru/tour/finalOrganisationId/4947/organisationId/4694/s5",
+    "verified": true,
+    "organizer": "Студия Карена Корниенко",
+    "venue_short": "Нико",
+    "composers": [
+      "Пётр Ильич Чайковский"
+    ],
+    "works": [
+      "Лебединое озеро — фрагменты",
+      "Спящая красавица — вальсы",
+      "Щелкунчик — концертные аранжировки"
+    ],
+    "program_status": "Программа опубликована",
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты",
+    "card_schema_version": 2
+  },
+  {
+    "id": "pokrovskie-meeting-akhmatova-shostakovich-2026-10-23",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-23T19:00:00+03:00",
+    "title": "«Я была тогда с моим народом» — Шостакович и Ахматова",
+    "tags": [],
+    "visible_tags": [
+      "Шостакович",
+      "Ахматова",
+      "музыка и слово",
+      "фестиваль"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Участники фестиваля «Место встречи»; архиепископ Павел Пецци",
+    "price": "вход свободный по регистрации",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Музыкально-поэтический вечер фестиваля «Место встречи», посвящённый музыке Дмитрия Шостаковича и поэзии Анны Ахматовой.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "composers": [
+      "Дмитрий Шостакович"
+    ],
+    "works": [],
+    "venue_short": "Покровские ворота",
+    "program_status": "исполнители и литературно-музыкальная тема объявлены, список произведений не опубликован",
+    "season": "2026/27",
+    "sales_status": "вход свободный по регистрации",
+    "card_schema_version": 2
+  },
+  {
     "id": "rassvet-exotique-2026-10-23",
     "category": "music",
     "horizon": "near",
@@ -18280,84 +18358,6 @@
     "works": [],
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
-    "card_schema_version": 2
-  },
-  {
-    "id": "niko-karen-kornienko-tchaikovsky-royal-ballet-2026-10-23",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-23T19:00:00+03:00",
-    "title": "Карен Корниенко — «Tchaikovsky. Royal Ballet Gala»",
-    "tags": [],
-    "visible_tags": [
-      "Чайковский",
-      "балет",
-      "фортепиано"
-    ],
-    "venue": "Галерея Нико",
-    "place": "Большой Тишинский пер., 19, стр. 1",
-    "location": "Галерея Нико, Москва",
-    "people": "Карен Корниенко, фортепиано",
-    "price": "от 1500 ₽",
-    "why": "Авторские концертные аранжировки балетной музыки Чайковского для фортепиано.",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Программа",
-    "details": "Виртуозные фортепианные переложения фрагментов «Лебединого озера», «Спящей красавицы» и «Щелкунчика», преимущественно в аранжировках Карена Корниенко; также сюита М. Плетнёва по «Щелкунчику».",
-    "source_label": "Галерея Нико",
-    "source_url": "https://quicktickets.ru/tour/finalOrganisationId/4947/organisationId/4694/s5",
-    "verified": true,
-    "organizer": "Студия Карена Корниенко",
-    "venue_short": "Нико",
-    "composers": [
-      "Пётр Ильич Чайковский"
-    ],
-    "works": [
-      "Лебединое озеро — фрагменты",
-      "Спящая красавица — вальсы",
-      "Щелкунчик — концертные аранжировки"
-    ],
-    "program_status": "Программа опубликована",
-    "season": "2026/27",
-    "sales_status": "есть отдельные билеты",
-    "card_schema_version": 2
-  },
-  {
-    "id": "pokrovskie-meeting-akhmatova-shostakovich-2026-10-23",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-23T19:00:00+03:00",
-    "title": "«Я была тогда с моим народом» — Шостакович и Ахматова",
-    "tags": [],
-    "visible_tags": [
-      "Шостакович",
-      "Ахматова",
-      "музыка и слово",
-      "фестиваль"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Участники фестиваля «Место встречи»; архиепископ Павел Пецци",
-    "price": "вход свободный по регистрации",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Музыкально-поэтический вечер фестиваля «Место встречи», посвящённый музыке Дмитрия Шостаковича и поэзии Анны Ахматовой.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»",
-    "composers": [
-      "Дмитрий Шостакович"
-    ],
-    "works": [],
-    "venue_short": "Покровские ворота",
-    "program_status": "исполнители и литературно-музыкальная тема объявлены, список произведений не опубликован",
-    "season": "2026/27",
-    "sales_status": "вход свободный по регистрации",
     "card_schema_version": 2
   },
   {
@@ -18823,6 +18823,34 @@
     "end": "2026-10-24T17:00:00+03:00"
   },
   {
+    "id": "pokrovskie-meeting-claudel-satin-slipper-2026-10-24",
+    "category": "theatre",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-24T15:30:00+03:00",
+    "title": "«Крючок Бога» — этюды по пьесе Поля Клоделя «Атласный башмачок»",
+    "tags": [],
+    "visible_tags": [
+      "Поль Клодель",
+      "фестиваль",
+      "театр",
+      "французская драматургия"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Елизавета Тихонова, театральный педагог; участники студийного проекта",
+    "price": "вход свободный по регистрации",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Театральные этюды по поэтической драме Поля Клоделя «Атласный башмачок» о тайне любви, свободе и провидении. Формат — избранные сцены, не полная постановка.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»"
+  },
+  {
     "id": "helikon-aleko-2026-10-24",
     "category": "opera",
     "horizon": "buy",
@@ -18982,6 +19010,34 @@
     "source_label": "Театр «Сфера»",
     "source_url": "https://spheratheatre.nakaretnom3.ru/performances/obyknovennaya-istoriya/",
     "verified": true
+  },
+  {
+    "id": "pokrovskie-meeting-bersanelli-universe-2026-10-24",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-24T18:30:00+03:00",
+    "title": "«Взирая на небеса Твои» — Вселенная и человек от Данте до наших дней",
+    "tags": [],
+    "visible_tags": [
+      "астрономия",
+      "Данте",
+      "история науки",
+      "фестиваль"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Марко Берсанелли",
+    "price": "вход свободный по регистрации",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Встреча с астрофизиком, профессором астрономии Миланского университета: как менялись представления о Вселенной и месте человека в ней от Данте до современности.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»"
   },
   {
     "id": "bolshoi-ballo-2026-10-24-1900",
@@ -19498,92 +19554,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "pokrovskie-meeting-claudel-satin-slipper-2026-10-24",
-    "category": "theatre",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-24T15:30:00+03:00",
-    "title": "«Крючок Бога» — этюды по пьесе Поля Клоделя «Атласный башмачок»",
-    "tags": [],
-    "visible_tags": [
-      "Поль Клодель",
-      "фестиваль",
-      "театр",
-      "французская драматургия"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Елизавета Тихонова, театральный педагог; участники студийного проекта",
-    "price": "вход свободный по регистрации",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Театральные этюды по поэтической драме Поля Клоделя «Атласный башмачок» о тайне любви, свободе и провидении. Формат — избранные сцены, не полная постановка.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»"
-  },
-  {
-    "id": "pokrovskie-meeting-bersanelli-universe-2026-10-24",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-24T18:30:00+03:00",
-    "title": "«Взирая на небеса Твои» — Вселенная и человек от Данте до наших дней",
-    "tags": [],
-    "visible_tags": [
-      "астрономия",
-      "Данте",
-      "история науки",
-      "фестиваль"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Марко Берсанелли",
-    "price": "вход свободный по регистрации",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Встреча с астрофизиком, профессором астрономии Миланского университета: как менялись представления о Вселенной и месте человека в ней от Данте до современности.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»"
-  },
-  {
-    "id": "gnesin-shpiller-gala-2026-10-25",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "title": "XIII Международный конкурс вокалистов Наталии Шпиллер — гала-концерт",
-    "tags": [],
-    "visible_tags": [
-      "Гнесинка"
-    ],
-    "venue": "Концертный зал РАМ имени Гнесиных",
-    "place": "Малый Ржевский пер., 1",
-    "location": "Концертный зал РАМ имени Гнесиных, Малый Ржевский пер., 1, Москва",
-    "people": "лауреаты XIII Международного конкурса вокалистов имени Наталии Шпиллер",
-    "price": "проверить актуально",
-    "why": "",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Даты / постановка",
-    "details": "25 октября, 14:00. Церемония награждения и гала-концерт конкурса «Шедевры русской музыки».",
-    "source_label": "Концертный зал РАМ имени Гнесиных",
-    "source_url": "https://gnesin-academy.ru/events/xiii-mezhdunarodnyy-konkurs-vokalistov-natalii-shpiller-shedevry-russkoy-muzyki-25/",
-    "verified": true,
-    "card_schema_version": 2,
-    "start": "2026-10-25T14:00:00+03:00",
-    "venue_short": "КЗ РАМ",
-    "program_status": "гала-концерт",
-    "season": "2026/27",
-    "sales_status": "в продаже"
-  },
-  {
     "id": "vishnevskaya-centenary-2026-10-25",
     "category": "opera",
     "horizon": "near",
@@ -19609,6 +19579,33 @@
     "verified": true,
     "date_only": "2026-10-25",
     "card_schema_version": 2
+  },
+  {
+    "id": "lapp83-esenin-anna-snegina-2026-10-25",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
+    "tags": [],
+    "visible_tags": [
+      "литература",
+      "Есенин",
+      "художественное чтение"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Любовь Толкалина",
+    "price": "5000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Литературные чтения по поэме Сергея Есенина; точное время на доступной официальной афише не указано.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/events",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "date_only": "2026-10-25"
   },
   {
     "id": "bolshoi-ballo-2026-10-25-1200",
@@ -19856,6 +19853,36 @@
     "program_status": "Разговор и чтение «Медного всадника»."
   },
   {
+    "id": "gnesin-shpiller-gala-2026-10-25",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "title": "XIII Международный конкурс вокалистов Наталии Шпиллер — гала-концерт",
+    "tags": [],
+    "visible_tags": [
+      "Гнесинка"
+    ],
+    "venue": "Концертный зал РАМ имени Гнесиных",
+    "place": "Малый Ржевский пер., 1",
+    "location": "Концертный зал РАМ имени Гнесиных, Малый Ржевский пер., 1, Москва",
+    "people": "лауреаты XIII Международного конкурса вокалистов имени Наталии Шпиллер",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Даты / постановка",
+    "details": "25 октября, 14:00. Церемония награждения и гала-концерт конкурса «Шедевры русской музыки».",
+    "source_label": "Концертный зал РАМ имени Гнесиных",
+    "source_url": "https://gnesin-academy.ru/events/xiii-mezhdunarodnyy-konkurs-vokalistov-natalii-shpiller-shedevry-russkoy-muzyki-25/",
+    "verified": true,
+    "card_schema_version": 2,
+    "start": "2026-10-25T14:00:00+03:00",
+    "venue_short": "КЗ РАМ",
+    "program_status": "гала-концерт",
+    "season": "2026/27",
+    "sales_status": "в продаже"
+  },
+  {
     "id": "consv-bzk-student-orchestra-2026-10-25",
     "category": "music",
     "horizon": "buy",
@@ -19989,6 +20016,33 @@
     ]
   },
   {
+    "id": "pokrovskie-meeting-first-heart-2026-10-25",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-25T15:30:00+03:00",
+    "title": "«Первое дело — твое сердце»: свидетельства из Сирии и Святой Земли",
+    "tags": [],
+    "visible_tags": [
+      "история культуры",
+      "Ближний Восток",
+      "фестиваль"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "",
+    "price": "вход свободный по регистрации",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Встреча фестиваля «Место встречи», посвящённая свидетельствам людей из Сирии и Святой Земли.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»"
+  },
+  {
     "id": "mayakovsky-karenina-2026-10-25",
     "category": "theatre",
     "horizon": "near",
@@ -20065,6 +20119,35 @@
     "season": "2026/27",
     "sales_status": "проверить актуально",
     "card_schema_version": 2
+  },
+  {
+    "id": "iletheleme-five-evenings-2026-10-25",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "title": "Фестиваль «Пять вечеров» — «Узоры и силуэты»",
+    "tags": [],
+    "visible_tags": [
+      "современная музыка",
+      "фестиваль"
+    ],
+    "venue": "Île Thélème",
+    "place": "Москва",
+    "location": "Île Thélème, Москва",
+    "people": "исполнители фестиваля Союза композиторов",
+    "price": "проверить актуально",
+    "why": "Современная камерная музыка на независимой площадке.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Даты / постановка",
+    "details": "25 октября, 18:00. Второй вечер фестиваля Союза композиторов России «Пять вечеров» — «Узоры и силуэты»: вокальные сочинения современных российских авторов.",
+    "source_label": "Île Thélème",
+    "source_url": "https://www.unioncomposers.ru/projects/268/",
+    "verified": true,
+    "start": "2026-10-25T18:00:00+03:00",
+    "card_schema_version": 2,
+    "source_scope": "venue",
+    "organizer": "Союз композиторов России"
   },
   {
     "id": "bolshoi-shostakovich-triptych-2026-10-25-1900",
@@ -20245,35 +20328,6 @@
     ],
     "venue_short": "Рахманиновский",
     "card_schema_version": 2
-  },
-  {
-    "id": "iletheleme-five-evenings-2026-10-25",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "title": "Фестиваль «Пять вечеров» — «Узоры и силуэты»",
-    "tags": [],
-    "visible_tags": [
-      "современная музыка",
-      "фестиваль"
-    ],
-    "venue": "Île Thélème",
-    "place": "Москва",
-    "location": "Île Thélème, Москва",
-    "people": "исполнители фестиваля Союза композиторов",
-    "price": "проверить актуально",
-    "why": "Современная камерная музыка на независимой площадке.",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Даты / постановка",
-    "details": "25 октября, 18:00. Второй вечер фестиваля Союза композиторов России «Пять вечеров» — «Узоры и силуэты»: вокальные сочинения современных российских авторов.",
-    "source_label": "Île Thélème",
-    "source_url": "https://www.unioncomposers.ru/projects/268/",
-    "verified": true,
-    "start": "2026-10-25T18:00:00+03:00",
-    "card_schema_version": 2,
-    "source_scope": "venue",
-    "organizer": "Союз композиторов России"
   },
   {
     "id": "mamt-straussiana-2026-10-25",
@@ -20584,6 +20638,40 @@
     "card_schema_version": 2
   },
   {
+    "id": "pokrovskie-meeting-sunny-side-singers-2026-10-25",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-25T19:00:00+03:00",
+    "title": "«And before I’ll be a slave…» — госпел-хор Sunny Side Singers",
+    "tags": [],
+    "visible_tags": [
+      "госпел",
+      "хоровая музыка",
+      "фестиваль"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Госпел-хор Sunny Side Singers",
+    "price": "вход свободный по регистрации",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "Заключительный концерт фестиваля «Место встречи»: выступление госпел-хора Sunny Side Singers.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "composers": [],
+    "works": [],
+    "venue_short": "Покровские ворота",
+    "program_status": "исполнитель объявлен, список произведений не опубликован",
+    "season": "2026/27",
+    "sales_status": "вход свободный по регистрации",
+    "card_schema_version": 2
+  },
+  {
     "id": "gnesin-cagmo-naruto-2026-10-25",
     "category": "music",
     "horizon": "near",
@@ -20616,94 +20704,6 @@
     "program_status": "программа опубликована",
     "season": "2026/27",
     "sales_status": "в продаже",
-    "card_schema_version": 2
-  },
-  {
-    "id": "lapp83-esenin-anna-snegina-2026-10-25",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
-    "tags": [],
-    "visible_tags": [
-      "литература",
-      "Есенин",
-      "художественное чтение"
-    ],
-    "venue": "L’Appartement 83",
-    "place": "Большая Садовая, 10, Москва",
-    "location": "L’Appartement 83, Москва",
-    "people": "Любовь Толкалина",
-    "price": "5000 ₽",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная страница",
-    "details": "Литературные чтения по поэме Сергея Есенина; точное время на доступной официальной афише не указано.",
-    "source_label": "L’Appartement 83",
-    "source_url": "https://lappartement83.com/shop/events",
-    "verified": true,
-    "organizer": "L’Appartement 83",
-    "date_only": "2026-10-25"
-  },
-  {
-    "id": "pokrovskie-meeting-first-heart-2026-10-25",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-25T15:30:00+03:00",
-    "title": "«Первое дело — твое сердце»: свидетельства из Сирии и Святой Земли",
-    "tags": [],
-    "visible_tags": [
-      "история культуры",
-      "Ближний Восток",
-      "фестиваль"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "",
-    "price": "вход свободный по регистрации",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Встреча фестиваля «Место встречи», посвящённая свидетельствам людей из Сирии и Святой Земли.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»"
-  },
-  {
-    "id": "pokrovskie-meeting-sunny-side-singers-2026-10-25",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-25T19:00:00+03:00",
-    "title": "«And before I’ll be a slave…» — госпел-хор Sunny Side Singers",
-    "tags": [],
-    "visible_tags": [
-      "госпел",
-      "хоровая музыка",
-      "фестиваль"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Госпел-хор Sunny Side Singers",
-    "price": "вход свободный по регистрации",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная афиша",
-    "details": "Заключительный концерт фестиваля «Место встречи»: выступление госпел-хора Sunny Side Singers.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»",
-    "composers": [],
-    "works": [],
-    "venue_short": "Покровские ворота",
-    "program_status": "исполнитель объявлен, список произведений не опубликован",
-    "season": "2026/27",
-    "sales_status": "вход свободный по регистрации",
     "card_schema_version": 2
   },
   {
@@ -22187,6 +22187,34 @@
     "card_schema_version": 2
   },
   {
+    "id": "pokrovskie-italy-santangelo-2026-10-28",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Неизвестная Италия»: аббатство Сант-Анджело-ин-Формис",
+    "tags": [],
+    "visible_tags": [
+      "история искусства",
+      "Италия",
+      "средневековье"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Джованна Парравичини",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Фрески XI века аббатства Сант-Анджело-ин-Формис в Капуе, программа аббата Дезидерия и христианские образы.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4216584/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-10-28T19:00:00+03:00",
+    "end": "2026-10-28T21:00:00+03:00"
+  },
+  {
     "id": "prove-belle-epoque-2026-10-28",
     "category": "music",
     "horizon": "near",
@@ -22221,34 +22249,6 @@
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
     "card_schema_version": 2
-  },
-  {
-    "id": "pokrovskie-italy-santangelo-2026-10-28",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "title": "«Неизвестная Италия»: аббатство Сант-Анджело-ин-Формис",
-    "tags": [],
-    "visible_tags": [
-      "история искусства",
-      "Италия",
-      "средневековье"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Джованна Парравичини",
-    "price": "регистрация на странице организатора",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная страница",
-    "details": "Фрески XI века аббатства Сант-Анджело-ин-Формис в Капуе, программа аббата Дезидерия и христианские образы.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://kts-pokrovsk.timepad.ru/event/4216584/",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»",
-    "start": "2026-10-28T19:00:00+03:00",
-    "end": "2026-10-28T21:00:00+03:00"
   },
   {
     "id": "bolshoi-peter-wolf-giant-2026-10-29",
@@ -22731,6 +22731,39 @@
     "verified": true,
     "organizer": "Театр «Современник»",
     "monitor_entities": []
+  },
+  {
+    "id": "consv26-2026-10-29-m-violin-tikhonova-igonina",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-29T19:00:00+03:00",
+    "title": "Классный вечер доцентов О. О. Тихоновой и Ю. В. Игониной (скрипка)",
+    "tags": [],
+    "visible_tags": [
+      "камерная музыка",
+      "Мясковского"
+    ],
+    "venue": "Концертный зал имени Н.Я. Мясковского",
+    "place": "Большая Никитская, 13/6",
+    "location": "Концертный зал имени Н.Я. Мясковского, Москва",
+    "people": "Студенты классов О. О. Тихоновой и Ю. В. Игониной",
+    "price": "300 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Концертный зал имени Н.Я. Мясковского",
+    "source_url": "https://www.mosconsv.ru/afisha/2026-10-29",
+    "verified": true,
+    "organizer": "Московская консерватория",
+    "venue_short": "Мясковского",
+    "card_schema_version": 2,
+    "composers": [],
+    "works": [],
+    "season": "2026/27",
+    "program_status": "программа полностью не опубликована",
+    "sales_status": "статус продажи не проверен"
   },
   {
     "id": "voz-letov-prishvin-2026-10-29",
@@ -23556,40 +23589,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "mmdm-6941",
-    "category": "music",
-    "horizon": "buy",
-    "featured": false,
-    "start": "2026-10-30T22:30:00+03:00",
-    "title": "Ночное органное шоу «Призрак оперы»",
-    "tags": [],
-    "visible_tags": [],
-    "venue": "Дом музыки — Светлановский зал",
-    "venue_short": "ММДМ · Светлановский",
-    "place": "Космодамианская наб., 52, стр. 8",
-    "location": "Дом музыки — Светлановский зал, Москва",
-    "people": "",
-    "price": "проверить актуально",
-    "why": "",
-    "editorial_status": "attention",
-    "ticket_urgency": "watch",
-    "details_label": "Официальная афиша",
-    "details": "",
-    "source_label": "Дом музыки — Светлановский зал",
-    "source_url": "https://www.mmdm.ru/event/nochnoe-organnoe-shou-prizrak-opery?event_pk=6941",
-    "verified": true,
-    "organizer": "Московский международный Дом музыки",
-    "monitor_entities": [
-      "Московский Дом музыки"
-    ],
-    "composers": [],
-    "works": [],
-    "program_status": "Подробная программа — на официальной карточке ММДМ.",
-    "card_schema_version": 2,
-    "season": "2026/27",
-    "sales_status": "есть отдельные билеты"
-  },
-  {
     "id": "prove-halloween-night-music-2026-10-30",
     "category": "music",
     "horizon": "near",
@@ -23626,6 +23625,40 @@
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
     "card_schema_version": 2
+  },
+  {
+    "id": "mmdm-6941",
+    "category": "music",
+    "horizon": "buy",
+    "featured": false,
+    "start": "2026-10-30T22:30:00+03:00",
+    "title": "Ночное органное шоу «Призрак оперы»",
+    "tags": [],
+    "visible_tags": [],
+    "venue": "Дом музыки — Светлановский зал",
+    "venue_short": "ММДМ · Светлановский",
+    "place": "Космодамианская наб., 52, стр. 8",
+    "location": "Дом музыки — Светлановский зал, Москва",
+    "people": "",
+    "price": "проверить актуально",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Официальная афиша",
+    "details": "",
+    "source_label": "Дом музыки — Светлановский зал",
+    "source_url": "https://www.mmdm.ru/event/nochnoe-organnoe-shou-prizrak-opery?event_pk=6941",
+    "verified": true,
+    "organizer": "Московский международный Дом музыки",
+    "monitor_entities": [
+      "Московский Дом музыки"
+    ],
+    "composers": [],
+    "works": [],
+    "program_status": "Подробная программа — на официальной карточке ММДМ.",
+    "card_schema_version": 2,
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты"
   },
   {
     "id": "doc-island-2026-10-31",
@@ -23840,6 +23873,34 @@
     "card_schema_version": 2
   },
   {
+    "id": "lapp83-hats-fashion-history-2026-10-31",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Снимите шляпку, мадам» — история женского головного убора",
+    "tags": [],
+    "visible_tags": [
+      "история моды",
+      "история культуры",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Элина Мухаметшина",
+    "price": "4000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "История женской шляпки от капора и клоша до тюрбана и вуалетки; мода как социальный язык.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/shljapka",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "start": "2026-10-31T15:00:00+03:00",
+    "end": "2026-10-31T17:00:00+03:00"
+  },
+  {
     "id": "maly-golovlevs-oct26",
     "category": "theatre",
     "horizon": "near",
@@ -23932,6 +23993,45 @@
     "program_status": "программа опубликована",
     "season": "2026/27",
     "sales_status": "в продаже",
+    "card_schema_version": 2
+  },
+  {
+    "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-31T18:30:00+03:00",
+    "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
+    "tags": [],
+    "visible_tags": [
+      "камерная музыка",
+      "Шуберт",
+      "Брамс",
+      "Регер"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Аделина Выборова · София Ветрова · Ксения Маргашова · Илона Аникеенко · Артур Исанов · Мария Сидорович · Савва Сероус · Надежда Горлова; комментарии Татьяны Кухтиной",
+    "price": "вход свободный",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальный анонс",
+    "details": "Произведения Франца Шуберта, Иоганнеса Брамса и Макса Регера в исполнении студентов РАМ имени Гнесиных. Вступительное слово — Татьяна Кухтина.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "composers": [
+      "Франц Шуберт",
+      "Иоганнес Брамс",
+      "Макс Регер"
+    ],
+    "works": [],
+    "venue_short": "Покровские ворота",
+    "program_status": "композиторы опубликованы",
+    "season": "2026/27",
+    "sales_status": "вход свободный",
     "card_schema_version": 2
   },
   {
@@ -24483,73 +24583,6 @@
     "works": [],
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
-    "card_schema_version": 2
-  },
-  {
-    "id": "lapp83-hats-fashion-history-2026-10-31",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "title": "«Снимите шляпку, мадам» — история женского головного убора",
-    "tags": [],
-    "visible_tags": [
-      "история моды",
-      "история культуры",
-      "лекция"
-    ],
-    "venue": "L’Appartement 83",
-    "place": "Большая Садовая, 10, Москва",
-    "location": "L’Appartement 83, Москва",
-    "people": "Элина Мухаметшина",
-    "price": "4000 ₽",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальная страница",
-    "details": "История женской шляпки от капора и клоша до тюрбана и вуалетки; мода как социальный язык.",
-    "source_label": "L’Appartement 83",
-    "source_url": "https://lappartement83.com/shop/shljapka",
-    "verified": true,
-    "organizer": "L’Appartement 83",
-    "start": "2026-10-31T15:00:00+03:00",
-    "end": "2026-10-31T17:00:00+03:00"
-  },
-  {
-    "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
-    "category": "music",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-31T18:30:00+03:00",
-    "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
-    "tags": [],
-    "visible_tags": [
-      "камерная музыка",
-      "Шуберт",
-      "Брамс",
-      "Регер"
-    ],
-    "venue": "КЦ «Покровские ворота»",
-    "place": "ул. Покровка, 27, стр. 1",
-    "location": "КЦ «Покровские ворота», Москва",
-    "people": "Аделина Выборова · София Ветрова · Ксения Маргашова · Илона Аникеенко · Артур Исанов · Мария Сидорович · Савва Сероус · Надежда Горлова; комментарии Татьяны Кухтиной",
-    "price": "вход свободный",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Официальный анонс",
-    "details": "Произведения Франца Шуберта, Иоганнеса Брамса и Макса Регера в исполнении студентов РАМ имени Гнесиных. Вступительное слово — Татьяна Кухтина.",
-    "source_label": "КЦ «Покровские ворота»",
-    "source_url": "https://t.me/pokrovka27",
-    "verified": true,
-    "organizer": "КЦ «Покровские ворота»",
-    "composers": [
-      "Франц Шуберт",
-      "Иоганнес Брамс",
-      "Макс Регер"
-    ],
-    "works": [],
-    "venue_short": "Покровские ворота",
-    "program_status": "композиторы опубликованы",
-    "season": "2026/27",
-    "sales_status": "вход свободный",
     "card_schema_version": 2
   }
 ]

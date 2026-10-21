@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1447,
+    "event_count": 1530,
     "source_schema_version": 2
   },
   "events": [
@@ -1663,15 +1663,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "lapp83-opera-carmen-2026-10-06",
-      "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
-      "category": "talks",
-      "date": "2026-10-07",
-      "venue": "L’Appartement 83",
-      "source_url": "https://lappartement83.com/shop/karmen",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "praktika-junk-2026-10-07",
       "title": "«Барахло»",
       "category": "theatre",
@@ -1822,6 +1813,15 @@
       "date": "2026-10-07",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-opera-carmen-2026-10-06",
+      "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
+      "category": "talks",
+      "date": "2026-10-07",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/karmen",
       "shard": "2026-10.json"
     },
     {
@@ -2662,6 +2662,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "voz-letov-collages-restoration-2026-10-11",
+      "title": "Егор Летов: мир коллажей и история их восстановления",
+      "category": "talks",
+      "date": "2026-10-11",
+      "venue": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "bolshoi-orchestra-guide-2026-10-11-1800",
       "title": "«Путеводитель по оркестру. Карнавал животных»",
       "category": "music",
@@ -2812,15 +2821,6 @@
       "date": "2026-10-11",
       "venue": "Концертный зал имени П. И. Чайковского",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-11/",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "voz-letov-collages-restoration-2026-10-11",
-      "title": "Егор Летов: мир коллажей и история их восстановления",
-      "category": "talks",
-      "date": "2026-10-11",
-      "venue": "Центр Вознесенского",
-      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
       "shard": "2026-10.json"
     },
     {
@@ -3103,21 +3103,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "composers-moscow-autumn-snm-2026-10-14",
-      "title": "«Московская осень» — Студия новой музыки",
-      "category": "music",
-      "date": "2026-10-14",
-      "venue": "Дом композиторов",
-      "source_url": "https://mosunicom.ru/mo26/14october",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "maly-zashchita-luzhina-2026-10-06",
       "title": "Набоков — «Защита Лужина»",
       "category": "theatre",
       "date": "2026-10-14",
       "venue": "Малый театр — Малая сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=zashchita-luzhina",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "composers-moscow-autumn-snm-2026-10-14",
+      "title": "«Московская осень» — Студия новой музыки",
+      "category": "music",
+      "date": "2026-10-14",
+      "venue": "Дом композиторов",
+      "source_url": "https://mosunicom.ru/mo26/14october",
       "shard": "2026-10.json"
     },
     {
@@ -4471,21 +4471,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "doc-poetry-slam-2026-10-19",
-      "title": "«Московский поэтический слэм. II тур»",
-      "category": "theatre",
-      "date": "2026-10-19",
-      "venue": "Театр.doc — Док на Лесной",
-      "source_url": "https://www.teatrdoc.ru/schedule/",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "pokrovskie-dreyer-christianity-cinema-2026-10-19",
       "title": "«Христианство и кинематограф»: Карл Теодор Дрейер — «День гнева» и «Слово»",
       "category": "talks",
       "date": "2026-10-19",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "doc-poetry-slam-2026-10-19",
+      "title": "«Московский поэтический слэм. II тур»",
+      "category": "theatre",
+      "date": "2026-10-19",
+      "venue": "Театр.doc — Док на Лесной",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
       "shard": "2026-10.json"
     },
     {
@@ -4651,6 +4651,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-solovki-new-martyrs-2026-10-20",
+      "title": "«Соловецкий лагерь особого назначения: новомученики и исповедники Соловецкие»",
+      "category": "talks",
+      "date": "2026-10-20",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "rassvet-kharms-repertoire-2026-10-20",
       "title": "«Репертуар Даниила Хармса»",
       "category": "music",
@@ -4666,15 +4675,6 @@
       "date": "2026-10-20",
       "venue": "Театр.doc — Док на Лесной",
       "source_url": "https://www.teatrdoc.ru/schedule/",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "pokrovskie-solovki-new-martyrs-2026-10-20",
-      "title": "«Соловецкий лагерь особого назначения: новомученики и исповедники Соловецкие»",
-      "category": "talks",
-      "date": "2026-10-20",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
@@ -4786,15 +4786,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "rassvet-butsko-2026-10-21",
-      "title": "Юрий Буцко — «Безмолвие осени»",
-      "category": "music",
-      "date": "2026-10-21",
-      "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/events/butsko/",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "drugoe-house-memory-2026-10-22",
       "title": "«Дом, который помнит»",
       "category": "talks",
@@ -4813,21 +4804,21 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "rassvet-butsko-2026-10-21",
+      "title": "Юрий Буцко — «Безмолвие осени»",
+      "category": "music",
+      "date": "2026-10-21",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/butsko/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "voz-letov-ezra-pound-golubovich-2026-10-21",
       "title": "Егор Летов и Эзра Паунд: «Мы же не какие-то евтушенки или вознесенские»",
       "category": "talks",
       "date": "2026-10-21",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-my-zhe-ne-kakie-to-evtushenki-ili-voznesenskie-my-ezra-paundy-egor-letov-i-kontrkultura/",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "ges2-rosary-2026-10-22",
-      "title": "«Розарий»",
-      "category": "music",
-      "date": "2026-10-22",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/the-rosary-sonatas",
       "shard": "2026-10.json"
     },
     {
@@ -4846,6 +4837,15 @@
       "date": "2026-10-22",
       "venue": "Малый театр — Малая сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=vchuzhompirupohmelye",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "ges2-rosary-2026-10-22",
+      "title": "«Розарий»",
+      "category": "music",
+      "date": "2026-10-22",
+      "venue": "ГЭС-2",
+      "source_url": "https://ges-2.org/the-rosary-sonatas",
       "shard": "2026-10.json"
     },
     {
@@ -4984,21 +4984,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "doc-greeks-oedipus-medea-2026-10-22",
-      "title": "«Греки. Эдип. Медея»",
-      "category": "theatre",
-      "date": "2026-10-22",
-      "venue": "Театр.doc — Док на Лесной",
-      "source_url": "https://www.teatrdoc.ru/schedule/",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "pokrovskie-meeting-festival-sedakova-2026-10-22",
       "title": "«Желание, воля и звезды» — Ольга Седакова о Данте",
       "category": "talks",
       "date": "2026-10-22",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "doc-greeks-oedipus-medea-2026-10-22",
+      "title": "«Греки. Эдип. Медея»",
+      "category": "theatre",
+      "date": "2026-10-22",
+      "venue": "Театр.doc — Док на Лесной",
+      "source_url": "https://www.teatrdoc.ru/schedule/",
       "shard": "2026-10.json"
     },
     {
@@ -5128,24 +5128,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "rassvet-exotique-2026-10-23",
-      "title": "Exotique — Дебюсси, Равель, Заваро, Коннессон",
-      "category": "music",
-      "date": "2026-10-23",
-      "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/events/exotique/",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "prove-dolce-vita-cinema-2026-10-23",
-      "title": "«Сладкая жизнь»: кинохиты ХХ века",
-      "category": "music",
-      "date": "2026-10-23",
-      "venue": "Усадьба Прове–Калиш",
-      "source_url": "https://prove-kalish.ru/afisha",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "niko-karen-kornienko-tchaikovsky-royal-ballet-2026-10-23",
       "title": "Карен Корниенко — «Tchaikovsky. Royal Ballet Gala»",
       "category": "music",
@@ -5161,6 +5143,24 @@
       "date": "2026-10-23",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "rassvet-exotique-2026-10-23",
+      "title": "Exotique — Дебюсси, Равель, Заваро, Коннессон",
+      "category": "music",
+      "date": "2026-10-23",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/exotique/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "prove-dolce-vita-cinema-2026-10-23",
+      "title": "«Сладкая жизнь»: кинохиты ХХ века",
+      "category": "music",
+      "date": "2026-10-23",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-10.json"
     },
     {
@@ -5290,6 +5290,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-meeting-claudel-satin-slipper-2026-10-24",
+      "title": "«Крючок Бога» — этюды по пьесе Поля Клоделя «Атласный башмачок»",
+      "category": "theatre",
+      "date": "2026-10-24",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "helikon-aleko-2026-10-24",
       "title": "Рахманинов — «Алеко»",
       "category": "opera",
@@ -5332,6 +5341,15 @@
       "date": "2026-10-24",
       "venue": "Театр «Сфера»",
       "source_url": "https://spheratheatre.nakaretnom3.ru/performances/obyknovennaya-istoriya/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-meeting-bersanelli-universe-2026-10-24",
+      "title": "«Взирая на небеса Твои» — Вселенная и человек от Данте до наших дней",
+      "category": "talks",
+      "date": "2026-10-24",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
@@ -5470,39 +5488,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "pokrovskie-meeting-claudel-satin-slipper-2026-10-24",
-      "title": "«Крючок Бога» — этюды по пьесе Поля Клоделя «Атласный башмачок»",
-      "category": "theatre",
-      "date": "2026-10-24",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://t.me/pokrovka27",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "pokrovskie-meeting-bersanelli-universe-2026-10-24",
-      "title": "«Взирая на небеса Твои» — Вселенная и человек от Данте до наших дней",
-      "category": "talks",
-      "date": "2026-10-24",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://t.me/pokrovka27",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "gnesin-shpiller-gala-2026-10-25",
-      "title": "XIII Международный конкурс вокалистов Наталии Шпиллер — гала-концерт",
-      "category": "music",
-      "date": "2026-10-25",
-      "venue": "Концертный зал РАМ имени Гнесиных",
-      "source_url": "https://gnesin-academy.ru/events/xiii-mezhdunarodnyy-konkurs-vokalistov-natalii-shpiller-shedevry-russkoy-muzyki-25/",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "vishnevskaya-centenary-2026-10-25",
       "title": "К 100-летию со дня рождения Галины Вишневской",
       "category": "opera",
       "date": "2026-10-25",
       "venue": "Центр оперного пения Галины Вишневской",
       "source_url": "https://opera-centre.ru/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-esenin-anna-snegina-2026-10-25",
+      "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
+      "category": "talks",
+      "date": "2026-10-25",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
       "shard": "2026-10.json"
     },
     {
@@ -5569,6 +5569,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "gnesin-shpiller-gala-2026-10-25",
+      "title": "XIII Международный конкурс вокалистов Наталии Шпиллер — гала-концерт",
+      "category": "music",
+      "date": "2026-10-25",
+      "venue": "Концертный зал РАМ имени Гнесиных",
+      "source_url": "https://gnesin-academy.ru/events/xiii-mezhdunarodnyy-konkurs-vokalistov-natalii-shpiller-shedevry-russkoy-muzyki-25/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "consv-bzk-student-orchestra-2026-10-25",
       "title": "Симфонический оркестр студентов Московской консерватории",
       "category": "music",
@@ -5605,6 +5614,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-meeting-first-heart-2026-10-25",
+      "title": "«Первое дело — твое сердце»: свидетельства из Сирии и Святой Земли",
+      "category": "talks",
+      "date": "2026-10-25",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "mayakovsky-karenina-2026-10-25",
       "title": "Толстой — «Каренина. Том второй»",
       "category": "theatre",
@@ -5620,6 +5638,15 @@
       "date": "2026-10-25",
       "venue": "Дом композиторов",
       "source_url": "https://mosunicom.ru/mo26/25october",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "iletheleme-five-evenings-2026-10-25",
+      "title": "Фестиваль «Пять вечеров» — «Узоры и силуэты»",
+      "category": "music",
+      "date": "2026-10-25",
+      "venue": "Île Thélème",
+      "source_url": "https://www.unioncomposers.ru/projects/268/",
       "shard": "2026-10.json"
     },
     {
@@ -5665,15 +5692,6 @@
       "date": "2026-10-25",
       "venue": "Рахманиновский зал Московской консерватории",
       "source_url": "https://www.mosconsv.ru/ru/concert/202282",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "iletheleme-five-evenings-2026-10-25",
-      "title": "Фестиваль «Пять вечеров» — «Узоры и силуэты»",
-      "category": "music",
-      "date": "2026-10-25",
-      "venue": "Île Thélème",
-      "source_url": "https://www.unioncomposers.ru/projects/268/",
       "shard": "2026-10.json"
     },
     {
@@ -5758,39 +5776,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "gnesin-cagmo-naruto-2026-10-25",
-      "title": "Оркестр CAGMO — «Симфония Наруто»",
-      "category": "music",
-      "date": "2026-10-25",
-      "venue": "Концертный зал РАМ имени Гнесиных",
-      "source_url": "https://gnesin-academy.ru/events/",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "lapp83-esenin-anna-snegina-2026-10-25",
-      "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
-      "category": "talks",
-      "date": "2026-10-25",
-      "venue": "L’Appartement 83",
-      "source_url": "https://lappartement83.com/shop/events",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "pokrovskie-meeting-first-heart-2026-10-25",
-      "title": "«Первое дело — твое сердце»: свидетельства из Сирии и Святой Земли",
-      "category": "talks",
-      "date": "2026-10-25",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://t.me/pokrovka27",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "pokrovskie-meeting-sunny-side-singers-2026-10-25",
       "title": "«And before I’ll be a slave…» — госпел-хор Sunny Side Singers",
       "category": "music",
       "date": "2026-10-25",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "gnesin-cagmo-naruto-2026-10-25",
+      "title": "Оркестр CAGMO — «Симфония Наруто»",
+      "category": "music",
+      "date": "2026-10-25",
+      "venue": "Концертный зал РАМ имени Гнесиных",
+      "source_url": "https://gnesin-academy.ru/events/",
       "shard": "2026-10.json"
     },
     {
@@ -6172,21 +6172,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "prove-belle-epoque-2026-10-28",
-      "title": "«Прекрасная эпоха»: Равель и Дебюсси",
-      "category": "music",
-      "date": "2026-10-28",
-      "venue": "Усадьба Прове–Калиш",
-      "source_url": "https://prove-kalish.ru/afisha",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "pokrovskie-italy-santangelo-2026-10-28",
       "title": "«Неизвестная Италия»: аббатство Сант-Анджело-ин-Формис",
       "category": "talks",
       "date": "2026-10-28",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://kts-pokrovsk.timepad.ru/event/4216584/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "prove-belle-epoque-2026-10-28",
+      "title": "«Прекрасная эпоха»: Равель и Дебюсси",
+      "category": "music",
+      "date": "2026-10-28",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-10.json"
     },
     {
@@ -6313,6 +6313,15 @@
       "date": "2026-10-29",
       "venue": "Театр «Современник» — Другая сцена",
       "source_url": "https://sovremennik.ru/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "consv26-2026-10-29-m-violin-tikhonova-igonina",
+      "title": "Классный вечер доцентов О. О. Тихоновой и Ю. В. Игониной (скрипка)",
+      "category": "music",
+      "date": "2026-10-29",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-10-29",
       "shard": "2026-10.json"
     },
     {
@@ -6541,21 +6550,21 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "mmdm-6941",
-      "title": "Ночное органное шоу «Призрак оперы»",
-      "category": "music",
-      "date": "2026-10-30",
-      "venue": "Дом музыки — Светлановский зал",
-      "source_url": "https://www.mmdm.ru/event/nochnoe-organnoe-shou-prizrak-opery?event_pk=6941",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "prove-halloween-night-music-2026-10-30",
       "title": "«Хэллоуин: музыка ночи»",
       "category": "music",
       "date": "2026-10-30",
       "venue": "Усадьба Прове–Калиш",
       "source_url": "https://off-mute.ru/conzerty",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "mmdm-6941",
+      "title": "Ночное органное шоу «Призрак оперы»",
+      "category": "music",
+      "date": "2026-10-30",
+      "venue": "Дом музыки — Светлановский зал",
+      "source_url": "https://www.mmdm.ru/event/nochnoe-organnoe-shou-prizrak-opery?event_pk=6941",
       "shard": "2026-10.json"
     },
     {
@@ -6622,6 +6631,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "lapp83-hats-fashion-history-2026-10-31",
+      "title": "«Снимите шляпку, мадам» — история женского головного убора",
+      "category": "talks",
+      "date": "2026-10-31",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/shljapka",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-golovlevs-oct26",
       "title": "Салтыков-Щедрин — «Господа Головлёвы»",
       "category": "theatre",
@@ -6646,6 +6664,15 @@
       "date": "2026-10-31",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/molokans/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
+      "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
+      "category": "music",
+      "date": "2026-10-31",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
@@ -6793,24 +6820,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "lapp83-hats-fashion-history-2026-10-31",
-      "title": "«Снимите шляпку, мадам» — история женского головного убора",
-      "category": "talks",
-      "date": "2026-10-31",
-      "venue": "L’Appartement 83",
-      "source_url": "https://lappartement83.com/shop/shljapka",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
-      "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
-      "category": "music",
-      "date": "2026-10-31",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://t.me/pokrovka27",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -6844,6 +6853,24 @@
       "date": "2026-11-01",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/hity-mirovyh-myuziklov-russkaya-filarmoniya?event_pk=7238",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-01-m-andronov",
+      "title": "Глеб Андронов, виолончель — навстречу V Всероссийскому музыкальному конкурсу",
+      "category": "music",
+      "date": "2026-11-01",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-01-b-aleko",
+      "title": "Рахманинов — опера «Алеко»",
+      "category": "opera",
+      "date": "2026-11-01",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
       "shard": "2026-11.json"
     },
     {
@@ -6946,21 +6973,39 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "rassvet-sonus-verus-2026-11-01",
-      "title": "Sonus Verus — «Работать, чтобы ничего не слышать»",
-      "category": "music",
-      "date": "2026-11-01",
-      "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/events/travailler/",
-      "shard": "2026-11.json"
-    },
-    {
       "id": "pokrovskie-air-keys-strings-2026-11-01",
       "title": "«Воздух, клавиши и струны» — Мендельсон, трио ре минор op. 49",
       "category": "music",
       "date": "2026-11-01",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-01-m-maeda",
+      "title": "Маэда Канаэ, фортепиано",
+      "category": "music",
+      "date": "2026-11-01",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-01-b-piazzolla-carmen",
+      "title": "Пьяццолла «Времена года» / Бизе–Щедрин «Кармен-сюита»",
+      "category": "music",
+      "date": "2026-11-01",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-sonus-verus-2026-11-01",
+      "title": "Sonus Verus — «Работать, чтобы ничего не слышать»",
+      "category": "music",
+      "date": "2026-11-01",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/travailler/",
       "shard": "2026-11.json"
     },
     {
@@ -6997,6 +7042,33 @@
       "date": "2026-11-02",
       "venue": "Ельцин Центр в Москве",
       "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-5-mogla-li-rossiya-izbezhat-defolta/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-02-m-serov",
+      "title": "Никита Серов, виолончель",
+      "category": "music",
+      "date": "2026-11-02",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-02",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-02-b-winds-competition-closing",
+      "title": "XVII Конкурс духовых и ударных инструментов — награждение и заключительный концерт",
+      "category": "music",
+      "date": "2026-11-02",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-02",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-02-s-bochkova-memory",
+      "title": "«В день рождения Учителя» — памяти Ирины Бочковой",
+      "category": "music",
+      "date": "2026-11-02",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-02",
       "shard": "2026-11.json"
     },
     {
@@ -7117,6 +7189,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-03-m-bikulova",
+      "title": "Класс профессора И. Бикуловой — сольное пение",
+      "category": "music",
+      "date": "2026-11-03",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-03",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-hodila-izba-2026-11-03",
       "title": "Варвара Чуракова — «У бела моря» (хоровая опера)",
       "category": "opera",
@@ -7177,6 +7258,15 @@
       "date": "2026-11-04",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/dmitrij-malikov-pianomaniya-2?event_pk=7493",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-04-m-ledeneva",
+      "title": "Класс доцента Е. А. Леденёвой — фортепиано",
+      "category": "music",
+      "date": "2026-11-04",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-04",
       "shard": "2026-11.json"
     },
     {
@@ -7270,6 +7360,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-04-m-titova",
+      "title": "Класс доцента Т. Г. Титовой — фортепиано",
+      "category": "music",
+      "date": "2026-11-04",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-04",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-bzk-vostokov-jazz-orchestra-2026-11-05",
       "title": "Пётр Востоков и Большой джазовый оркестр",
       "category": "music",
@@ -7342,21 +7441,39 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "mmdm-7279",
-      "title": "«Любовные письма. Виртуальный роман»",
-      "category": "theatre",
-      "date": "2026-11-05",
-      "venue": "Дом музыки — Театральный зал",
-      "source_url": "https://www.mmdm.ru/event/lyubovnye-pisma-virtualnyj-roman?event_pk=7279",
-      "shard": "2026-11.json"
-    },
-    {
       "id": "pokrovskie-italy-saint-peter-2026-11-05",
       "title": "«Неизвестная Италия»: гробница апостола Петра",
       "category": "talks",
       "date": "2026-11-05",
       "venue": "КЦ «Покровские ворота»",
       "source_url": "https://kts-pokrovsk.timepad.ru/event/4224822/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-05-m-glavatskikh",
+      "title": "Класс доцента С. А. Главатских — фортепиано",
+      "category": "music",
+      "date": "2026-11-05",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-05",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-05-s-french-chamber",
+      "title": "Французская камерная музыка — «Солисты Москвы» и Денис Чефанов",
+      "category": "music",
+      "date": "2026-11-05",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-05",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "mmdm-7279",
+      "title": "«Любовные письма. Виртуальный роман»",
+      "category": "theatre",
+      "date": "2026-11-05",
+      "venue": "Дом музыки — Театральный зал",
+      "source_url": "https://www.mmdm.ru/event/lyubovnye-pisma-virtualnyj-roman?event_pk=7279",
       "shard": "2026-11.json"
     },
     {
@@ -7441,12 +7558,30 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-06-m-kudryakov",
+      "title": "Класс доцента С. Н. Кудрякова — фортепиано",
+      "category": "music",
+      "date": "2026-11-06",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-06",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "maly-cinderella-nov26",
       "title": "Шварц — «Золушка»",
       "category": "theatre",
       "date": "2026-11-07",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=zolushka",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "prove-playroom-flute-cello-2026-11-07",
+      "title": "«Музыкальная игротека»: флейта и виолончель",
+      "category": "music",
+      "date": "2026-11-07",
+      "venue": "Усадьба Прове–Калиш",
+      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-11.json"
     },
     {
@@ -7549,21 +7684,21 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-07-m-tchaikovsky-encores",
+      "title": "«Бисы П. И. Чайковского» — фортепианный вечер",
+      "category": "music",
+      "date": "2026-11-07",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-07",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-7217",
       "title": "Группа «Кватро» с оркестром. Все хиты Андреа Бочелли",
       "category": "music",
       "date": "2026-11-07",
       "venue": "Дом музыки — Светлановский зал",
       "source_url": "https://www.mmdm.ru/event/gruppa-kvatro-s-orkestrom-vse-hity-andrea-bochelli?event_pk=7217",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "prove-playroom-flute-cello-2026-11-07",
-      "title": "«Музыкальная игротека»: флейта и виолончель",
-      "category": "music",
-      "date": "2026-11-07",
-      "venue": "Усадьба Прове–Калиш",
-      "source_url": "https://prove-kalish.ru/afisha",
       "shard": "2026-11.json"
     },
     {
@@ -7600,6 +7735,15 @@
       "date": "2026-11-08",
       "venue": "Рахманиновский зал Московской консерватории",
       "source_url": "https://www.mosconsv.ru/ru/concert/202339",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-08-m-gushlevskaya",
+      "title": "Екатерина Гушлевская, скрипка",
+      "category": "music",
+      "date": "2026-11-08",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-08",
       "shard": "2026-11.json"
     },
     {
@@ -7684,6 +7828,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-08-m-weber",
+      "title": "«Посвящение К. М. Веберу»",
+      "category": "music",
+      "date": "2026-11-08",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-08",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-collegium-musicum-far-worlds-2026-11-08",
       "title": "«Далекие миры» — Чюрленис, Шуман, Рубинштейн",
       "category": "music",
@@ -7747,6 +7900,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "pokrovskie-pastors-freud-2026-11-09",
+      "title": "«Русские пастыри Серебряного века и Зигмунд Фрейд»",
+      "category": "talks",
+      "date": "2026-11-09",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200135/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-09-m-cello-dept",
+      "title": "Кафедра виолончели и контрабаса — концерт студентов и ассистентов-стажёров",
+      "category": "music",
+      "date": "2026-11-09",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-09",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-09-r-percussion",
+      "title": "Класс ударных инструментов — к 160-летию Консерватории",
+      "category": "music",
+      "date": "2026-11-09",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-09",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-immensa-zagni-kurlyandsky-2026-11-09",
       "title": "«Магические звезды» — Загний и Курляндский",
       "category": "music",
@@ -7765,12 +7945,12 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "pokrovskie-pastors-freud-2026-11-09",
-      "title": "«Русские пастыри Серебряного века и Зигмунд Фрейд»",
+      "id": "lapp83-war-and-peace-mitrofanova-2026-11-10",
+      "title": "«Большой роман»: Лев Толстой — «Война и мир»",
       "category": "talks",
-      "date": "2026-11-09",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200135/",
+      "date": "2026-11-10",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
       "shard": "2026-11.json"
     },
     {
@@ -7837,6 +8017,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-10-m-composition-dept",
+      "title": "Кафедра сочинения — музыка студентов и ассистентов-стажёров",
+      "category": "music",
+      "date": "2026-11-10",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-10",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-10-s-mamt-opera-theatres",
+      "title": "МАМТ имени Станиславского и Немировича-Данченко — оперные театры Москвы",
+      "category": "music",
+      "date": "2026-11-10",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-10",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-petrova-volkov-2026-11-10",
       "title": "Эвелина Петрова и Владимир Волков — «Воображаемый фольклор»",
       "category": "music",
@@ -7852,15 +8050,6 @@
       "date": "2026-11-10",
       "venue": "Театр Наций — Малая сцена",
       "source_url": "https://theatreofnations.ru/",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "lapp83-war-and-peace-mitrofanova-2026-11-10",
-      "title": "«Большой роман»: Лев Толстой — «Война и мир»",
-      "category": "talks",
-      "date": "2026-11-10",
-      "venue": "L’Appartement 83",
-      "source_url": "https://lappartement83.com/shop/events",
       "shard": "2026-11.json"
     },
     {
@@ -7972,6 +8161,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-11-m-kotlyarevsky",
+      "title": "Класс профессора И. Л. Котляревского — концертмейстерское искусство",
+      "category": "music",
+      "date": "2026-11-11",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204912",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-11-r-flute-class",
+      "title": "Класс флейты",
+      "category": "music",
+      "date": "2026-11-11",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-11",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-11-b-ginzburg-shostakovich",
+      "title": "«Посвящение Лео Гинзбургу» — Шостакович, симфонии № 9 и № 15",
+      "category": "music",
+      "date": "2026-11-11",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-11",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-rudin-kasprov-musica-viva-2026-11-11",
       "title": "«Четверо»: Пярт, Пелецис, Мансурян, Сильвестров",
       "category": "music",
@@ -8041,6 +8257,33 @@
       "date": "2026-11-12",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=wolves",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-12-m-kopylov",
+      "title": "Класс доцента Д. Э. Копылова — фортепиано",
+      "category": "music",
+      "date": "2026-11-12",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-12",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-12-r-fisii",
+      "title": "ФИСИИ — концерт студентов и ассистентов-стажёров",
+      "category": "music",
+      "date": "2026-11-12",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-12",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-12-s-vocal-faculty",
+      "title": "Вечер вокального факультета — концерт студентов",
+      "category": "music",
+      "date": "2026-11-12",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-12",
       "shard": "2026-11.json"
     },
     {
@@ -8170,6 +8413,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-13-m-bychkova",
+      "title": "Ангелина Бычкова, фортепиано",
+      "category": "music",
+      "date": "2026-11-13",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-13",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-13-r-vorona",
+      "title": "«Классная история» — Валерий Ворона, ученики и друзья",
+      "category": "music",
+      "date": "2026-11-13",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-13",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-13-s-mozart-known-unknown",
+      "title": "«Моцарт. Известный и неизвестный»",
+      "category": "music",
+      "date": "2026-11-13",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-13",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "niko-kashpurin-temptation-beauty-2026-11-13",
       "title": "Александр Кашпурин — «Искушение красотой»",
       "category": "music",
@@ -8212,6 +8482,33 @@
       "date": "2026-11-14",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-14-r-uspenskaya",
+      "title": "«Клавир и голос» — Мария Успенская",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-14",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-14-s-ivanov-violin-class",
+      "title": "Кафедра скрипки — класс профессора В. М. Иванова",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-14",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-14-m-sapelkin",
+      "title": "Никита Сапелкин, туба",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-14",
       "shard": "2026-11.json"
     },
     {
@@ -8296,6 +8593,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-14-m-afonina",
+      "title": "Мария Афонина, сопрано",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-14",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "nations-julie-2026-11-14",
       "title": "«Жюли»",
       "category": "theatre",
@@ -8356,6 +8662,42 @@
       "date": "2026-11-15",
       "venue": "Малый зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/baroque/9864/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-15-m-interfaculty-piano",
+      "title": "Межфакультетская кафедра фортепиано — концерт студентов",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-15-r-martynova",
+      "title": "Класс профессора О. В. Мартыновой — клавесин и старинный камерный ансамбль",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-15-b-soyuzmultfilm",
+      "title": "«Союзмультфильм. Попурри!» — мультконцерт",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-15-s-chamber-ensemble-classes",
+      "title": "Концерт студентов — камерные ансамбли классов Бондурянского, Красотиной, Рубинштейн и Пурыжинского",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
       "shard": "2026-11.json"
     },
     {
@@ -8431,6 +8773,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-15-m-shibko-mozart",
+      "title": "Доцент А. В. Шибко и ученики — три фортепианных концерта Моцарта",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-15-s-petrov-tsinman-chamber",
+      "title": "Вечер камерной музыки — Сергей Петров, Михаил и Игорь Цинманы",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-15",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-vivacello-new-cello-orchestra-2026-11-15",
       "title": "Vivacello — новая музыка для виолончели и оркестра",
       "category": "music",
@@ -8473,6 +8833,15 @@
       "date": "2026-11-16",
       "venue": "Большой зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/classics/6203/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-16-r-trumpet",
+      "title": "Класс трубы Московской консерватории",
+      "category": "music",
+      "date": "2026-11-16",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-16",
       "shard": "2026-11.json"
     },
     {
@@ -8539,6 +8908,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "pokrovskie-transcendental-film-2026-11-17",
+      "title": "«Увидеть незримое»: трансцендентальный стиль в кинематографе",
+      "category": "talks",
+      "date": "2026-11-17",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4224644/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-17-m-gavrilova-parabolas",
+      "title": "«Параболы» — концерт памяти Н. А. Гавриловой",
+      "category": "music",
+      "date": "2026-11-17",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-17",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-17-r-dyachenko",
+      "title": "Класс профессора С. Д. Дяченко — симфоническое дирижирование и камерный ансамбль",
+      "category": "music",
+      "date": "2026-11-17",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-17",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "niko-ars-gallica-ncaged-masm-2026-11-17",
       "title": "ARS GALLICA — «Естественные истории»",
       "category": "music",
@@ -8554,15 +8950,6 @@
       "date": "2026-11-17",
       "venue": "Театр Наций — Малая сцена",
       "source_url": "https://theatreofnations.ru/",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "pokrovskie-transcendental-film-2026-11-17",
-      "title": "«Увидеть незримое»: трансцендентальный стиль в кинематографе",
-      "category": "talks",
-      "date": "2026-11-17",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://kts-pokrovsk.timepad.ru/event/4224644/",
       "shard": "2026-11.json"
     },
     {
@@ -8629,6 +9016,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-18-m-cello-class",
+      "title": "Кафедра виолончели и контрабаса — концерт студентов и ассистентов-стажёров",
+      "category": "music",
+      "date": "2026-11-18",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-18",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-18-b-popov-anniversary",
+      "title": "35-летие Академии хорового искусства имени В. С. Попова — юбилейный концерт",
+      "category": "music",
+      "date": "2026-11-18",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-18",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-18-s-bonduryansky-shostakovich",
+      "title": "«Александр Бондурянский приглашает…» — приношение Дмитрию Шостаковичу",
+      "category": "music",
+      "date": "2026-11-18",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-18",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-6905",
       "title": "От барокко до наших дней. Шедевры для скрипки и альта",
       "category": "music",
@@ -8671,6 +9085,33 @@
       "date": "2026-11-19",
       "venue": "Малый театр — Историческая сцена",
       "source_url": "https://www.maly.ru/spectacle/view?name=goreotuma",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-19-m-cello-generations",
+      "title": "Российское музыкальное общество — фестиваль «Виолончельные поколения»",
+      "category": "music",
+      "date": "2026-11-19",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204923",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-19-r-studio-new-music",
+      "title": "Студия новой музыки — «Магия присутствия»",
+      "category": "music",
+      "date": "2026-11-19",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204603",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-19-b-new-russia-piazzolla",
+      "title": "ГСО «Новая Россия» — Пьяццолла, Родриго, Равель",
+      "category": "music",
+      "date": "2026-11-19",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-19",
       "shard": "2026-11.json"
     },
     {
@@ -8764,6 +9205,33 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-20-m-musical-living-room",
+      "title": "«Встречи в музыкальной гостиной»",
+      "category": "music",
+      "date": "2026-11-20",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204924",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-20-r-accompaniment",
+      "title": "Кафедра концертмейстерского искусства — концерт",
+      "category": "music",
+      "date": "2026-11-20",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-20",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-20-b-partitura-closing",
+      "title": "IV Всероссийский конкурс молодых композиторов «Партитура» — закрытие",
+      "category": "music",
+      "date": "2026-11-20",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-20",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "nations-ordinary-death-2026-11-20",
       "title": "Толстой — «Обыкновенная смерть»",
       "category": "theatre",
@@ -8809,12 +9277,39 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-21-r-berliner",
+      "title": "Б. Берлинер — «Сотворение мира. Глас Божий»",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-21-s-grach-class",
+      "title": "Кафедра скрипки — класс профессора Э. Д. Грача",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-7286",
       "title": "Музыкальные хиты Голливуда. Русская филармония",
       "category": "music",
       "date": "2026-11-21",
       "venue": "Дом музыки — Театральный зал",
       "source_url": "https://www.mmdm.ru/event/muzykalnye-hity-gollivuda-russkaya-filarmoniya?event_pk=7286",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-21-m-gasanov",
+      "title": "Класс доцента Э. В. Гасанова — фортепиано",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
       "shard": "2026-11.json"
     },
     {
@@ -8899,6 +9394,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-21-m-zvereva",
+      "title": "Александра Зверева — «Забытые мелодии для флейты»",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-21-r-strukov",
+      "title": "Класс профессора А. С. Струкова — фортепиано",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-xenakis-reich-2026-11-21",
       "title": "Ксенакис | Райх — перкуссия и клавесин",
       "category": "music",
@@ -8980,6 +9493,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-22-m-ilyushina",
+      "title": "Валерия Илюшина, скрипка",
+      "category": "music",
+      "date": "2026-11-22",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-22-s-webers-200",
+      "title": "Университет музыкальной культуры — к 200-летию со дня смерти К. М. Вебера",
+      "category": "music",
+      "date": "2026-11-22",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-7276",
       "title": "Стинг. Золотые хиты. Русская филармония",
       "category": "music",
@@ -9004,6 +9535,15 @@
       "date": "2026-11-22",
       "venue": "Малый театр — Историческая сцена",
       "source_url": "https://www.maly.ru/spectacle/view?name=gurych",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-22-r-kaprin-transfer",
+      "title": "Класс профессора Д. А. Каприна — фортепиано, камерный ансамбль",
+      "category": "music",
+      "date": "2026-11-22",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
       "shard": "2026-11.json"
     },
     {
@@ -9079,12 +9619,12 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "ges2-fireworks-2026-11-23",
-      "title": "«Фейерверки» — Дебюсси / Юрий Фаворин",
+      "id": "consv26-2026-11-22-m-composers-cycle",
+      "title": "Композиторы Московской консерватории — цикл к 160-летию",
       "category": "music",
-      "date": "2026-11-23",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/fireworks",
+      "date": "2026-11-22",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
       "shard": "2026-11.json"
     },
     {
@@ -9094,6 +9634,24 @@
       "date": "2026-11-23",
       "venue": "Театр Наций — Основная сцена",
       "source_url": "https://theatreofnations.ru/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "pokrovskie-christmas-apocrypha-2026-11-23",
+      "title": "«Рождественские апокрифы: тексты и предания» — первая встреча",
+      "category": "talks",
+      "date": "2026-11-23",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200257/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "ges2-fireworks-2026-11-23",
+      "title": "«Фейерверки» — Дебюсси / Юрий Фаворин",
+      "category": "music",
+      "date": "2026-11-23",
+      "venue": "ГЭС-2",
+      "source_url": "https://ges-2.org/fireworks",
       "shard": "2026-11.json"
     },
     {
@@ -9124,21 +9682,39 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-23-m-astakhov-sazonkina",
+      "title": "Классы В. А. Астахова и А. А. Сазонкиной — альт",
+      "category": "music",
+      "date": "2026-11-23",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-23",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-23-r-clarinet",
+      "title": "Класс кларнета Московской консерватории",
+      "category": "music",
+      "date": "2026-11-23",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-23",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-23-s-special-piano-class",
+      "title": "Кафедра специального фортепиано — концерт",
+      "category": "music",
+      "date": "2026-11-23",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-23",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-trio-lumiere-france-2026-11-23",
       "title": "«Свет Франции» — Дебюсси, Равель, Сати, Пуленк",
       "category": "music",
       "date": "2026-11-23",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/lumiere/",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "pokrovskie-christmas-apocrypha-2026-11-23",
-      "title": "«Рождественские апокрифы: тексты и предания» — первая встреча",
-      "category": "talks",
-      "date": "2026-11-23",
-      "venue": "КЦ «Покровские ворота»",
-      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200257/",
       "shard": "2026-11.json"
     },
     {
@@ -9229,6 +9805,15 @@
       "date": "2026-11-24",
       "venue": "Малый театр — Историческая сцена",
       "source_url": "https://www.maly.ru/spectacle/view?name=pravda",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-24-m-brykina",
+      "title": "Класс профессора Г. Н. Брыкиной — концертмейстерское искусство",
+      "category": "music",
+      "date": "2026-11-24",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-24",
       "shard": "2026-11.json"
     },
     {
@@ -9340,21 +9925,30 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-25-m-bashmet-class",
+      "title": "Класс преподавателя К. Ю. Башмет — камерный ансамбль",
+      "category": "music",
+      "date": "2026-11-25",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-25",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-25-r-kalinin-choir",
+      "title": "Концерт хоровой музыки к юбилею С. С. Калинина",
+      "category": "music",
+      "date": "2026-11-25",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-25",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "voz-letov-life-artistic-gesture-2026-11-25",
       "title": "«Был там один солдат: жизнь как художественный жест»",
       "category": "talks",
       "date": "2026-11-25",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-byl-tam-odin-soldat-zhizn-kak-hudozhestvennyj-zhest/",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "ges2-1881-1921-2026-11-26",
-      "title": "«1881 / 1921» — Брукнер / Boulez Ensemble",
-      "category": "music",
-      "date": "2026-11-26",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/1881-1921",
       "shard": "2026-11.json"
     },
     {
@@ -9430,12 +10024,39 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-26-m-dyachenko",
+      "title": "Класс профессора С. Д. Дяченко — камерный ансамбль",
+      "category": "music",
+      "date": "2026-11-26",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-26",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-26-b-akkuratov-novaya-rossiya",
+      "title": "Рахманинов, Дебюсси, Гершвин — Олег Аккуратов и ГСО «Новая Россия»",
+      "category": "music",
+      "date": "2026-11-26",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-26",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "rassvet-opensound-quartets-vol2-2026-11-26",
       "title": "String quartets. Vol. 2 — OpensoundOrchestra × FancyMusic",
       "category": "music",
       "date": "2026-11-26",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/quartets/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "ges2-1881-1921-2026-11-26",
+      "title": "«1881 / 1921» — Брукнер / Boulez Ensemble",
+      "category": "music",
+      "date": "2026-11-26",
+      "venue": "ГЭС-2",
+      "source_url": "https://ges-2.org/1881-1921",
       "shard": "2026-11.json"
     },
     {
@@ -9538,6 +10159,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-27-m-belousova",
+      "title": "Класс профессора М. Н. Белоусовой — концертмейстерское искусство",
+      "category": "music",
+      "date": "2026-11-27",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-27",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-27-r-ivanov-class",
+      "title": "Класс профессора В. М. Иванова — скрипка",
+      "category": "music",
+      "date": "2026-11-27",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-27",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "niko-studio-new-music-created-nature-2026-11-27",
       "title": "Студия новой музыки — «Сотворенная природа»",
       "category": "music",
@@ -9598,6 +10237,33 @@
       "date": "2026-11-28",
       "venue": "Центр Вознесенского",
       "source_url": "https://www.voznesenskycenter.ru/events/knizhnyj-klub-poeziya-vne-sebya/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-28-r-winter-moscow",
+      "title": "Фестиваль «Зимняя Москва» — дневная программа",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-28-s-military-institute",
+      "title": "Военный институт имени князя Александра Невского — концерт",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-28-m-karpinskaya-messner",
+      "title": "Классы Е. С. Карпинской и Е. П. Месснер — концерт студентов",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
       "shard": "2026-11.json"
     },
     {
@@ -9682,6 +10348,24 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-28-m-yakovenko",
+      "title": "София Яковенко, скрипка",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-28-r-vivaldi-piazzolla",
+      "title": "«Времена года»: Вивальди и Пьяццолла",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-28",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "prove-queen-muse-rock-2026-11-28",
       "title": "Рок-симфония: Queen & Muse",
       "category": "music",
@@ -9718,12 +10402,48 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "consv26-2026-11-29-m-blazhevich",
+      "title": "«В. М. Блажевич. К 145-летию со дня рождения» — презентация диска и концерт",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204936",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-29-r-apalko-yanchishina",
+      "title": "Классы К. В. Апалько и А. Р. Янчишиной — камерный ансамбль, струнный квартет",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-29",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-29-b-francesca-da-rimini",
+      "title": "Сергей Рахманинов — опера «Франческа да Римини»",
+      "category": "opera",
+      "date": "2026-11-29",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204796",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-7438-2026-11-29-1700",
       "title": "«Щелкунчик» с песочной анимацией. Квартет «Мелодион»",
       "category": "music",
       "date": "2026-11-29",
       "venue": "Дом музыки — Камерный зал",
       "source_url": "https://www.mmdm.ru/event/shelkunchik-s-pesochnoj-animaciej-kvartet-melodion?event_pk=7438",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "ruf-alexander-demidov-improvisations-2026-11-29",
+      "title": "Александр Демидов — «Музыка — зеркало души»",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Руфъ",
+      "source_url": "https://5ea95e1aa2440333d8255f2c.ticketscloud.org/e/6ad52a05c7798e79f5cc5e5c?partner_id=5ea95e1aa2440333d8255f2c",
       "shard": "2026-11.json"
     },
     {
@@ -9781,12 +10501,12 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "ruf-alexander-demidov-improvisations-2026-11-29",
-      "title": "Александр Демидов — «Музыка — зеркало души»",
+      "id": "consv26-2026-11-29-m-kravchenko",
+      "title": "Класс профессора М. И. Кравченко — концертмейстерское искусство",
       "category": "music",
       "date": "2026-11-29",
-      "venue": "Руфъ",
-      "source_url": "https://5ea95e1aa2440333d8255f2c.ticketscloud.org/e/6ad52a05c7798e79f5cc5e5c?partner_id=5ea95e1aa2440333d8255f2c",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-29",
       "shard": "2026-11.json"
     },
     {
@@ -9832,6 +10552,33 @@
       "date": "2026-11-30",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=chaika",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-30-m-nasonov",
+      "title": "Сергей Насонов, барочная флейта",
+      "category": "music",
+      "date": "2026-11-30",
+      "venue": "Концертный зал имени Н.Я. Мясковского",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-30",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-30-r-winter-moscow",
+      "title": "Фестиваль «Зимняя Москва» — вечерняя программа",
+      "category": "music",
+      "date": "2026-11-30",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-30",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv26-2026-11-30-s-trull-class",
+      "title": "Класс профессора Н. В. Трулль — юбилейный концерт",
+      "category": "music",
+      "date": "2026-11-30",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/afisha/2026-11-30",
       "shard": "2026-11.json"
     },
     {
