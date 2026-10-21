@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1574,
+    "event_count": 1575,
     "source_schema_version": 2
   },
   "events": [
@@ -6929,11 +6929,11 @@
     },
     {
       "id": "consv-bzk-mozart-requiem-2026-11-01",
-      "title": "Моцарт — Симфония №40 / Реквием",
+      "title": "Григ — «Пер Гюнт» / Шопен — Концерт № 1 / Чайковский — балеты",
       "category": "music",
       "date": "2026-11-01",
       "venue": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-01",
+      "source_url": "https://www.concert.ru/kontserty/grig-shopen-chajkovskij/",
       "shard": "2026-11.json"
     },
     {
@@ -7563,7 +7563,7 @@
       "category": "music",
       "date": "2026-11-06",
       "venue": "Концертный зал имени Н.Я. Мясковского",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-06",
+      "source_url": "https://www.mosconsv.ru/ru/bilet/204907",
       "shard": "2026-11.json"
     },
     {
@@ -8194,15 +8194,6 @@
       "date": "2026-11-11",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/rudin/",
-      "shard": "2026-11.json"
-    },
-    {
-      "id": "consv-bzk-tchaikovsky4-rachmaninov2-2026-11-12",
-      "title": "Чайковский — Симфония №4 / Рахманинов — Концерт №2",
-      "category": "music",
-      "date": "2026-11-12",
-      "venue": "Большой зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/ru/concert/204458",
       "shard": "2026-11.json"
     },
     {
@@ -9282,7 +9273,7 @@
       "category": "music",
       "date": "2026-11-21",
       "venue": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-21",
+      "source_url": "https://i1.mosconsv.ru/ru/bilet/204606",
       "shard": "2026-11.json"
     },
     {
@@ -9543,7 +9534,7 @@
       "category": "music",
       "date": "2026-11-22",
       "venue": "Рахманиновский зал Московской консерватории",
-      "source_url": "https://www.mosconsv.ru/afisha/2026-11-22",
+      "source_url": "https://mosconsv.ru/ru/eventdet/204836",
       "shard": "2026-11.json"
     },
     {
@@ -10777,6 +10768,15 @@
       "date": "2026-11-29",
       "venue": "Музей П.И. Чайковского в Москве",
       "source_url": "https://music-museum.ru/events/kontserty/za-granyu-klavish-raxmaninov-i-debyussi.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "consv-bzk-beethoven-four-sonatas-2026-11-12",
+      "title": "Бетховен — великие фортепианные сонаты",
+      "category": "music",
+      "date": "2026-11-12",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204797",
       "shard": "2026-11.json"
     },
     {
@@ -13333,6 +13333,15 @@
       "date": "2026-12-31",
       "venue": "Рахманиновский зал Московской консерватории",
       "source_url": "https://www.mosconsv.ru/ru/concert/204891",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-bzk-tchaikovsky4-rachmaninov2-2026-11-12",
+      "title": "Моцарт — «Маленькая ночная серенада» / Чайковский — Концерт № 1 / Римский-Корсаков — «Снегурочка»",
+      "category": "music",
+      "date": "2026-12-06",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.ticketland.ru/koncertnye-zaly/moskovskaya-konservatoriya/mocart-malenkaya-nochnaya-serenada-chaykovskiy-koncert1-rimskiy-korsakov-snegurochka/",
       "shard": "2026-12.json"
     },
     {
