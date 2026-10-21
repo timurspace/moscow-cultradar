@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1584,
+    "event_count": 1590,
     "source_schema_version": 2
   },
   "events": [
@@ -6817,6 +6817,60 @@
       "date": "2026-10-31",
       "venue": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-dostoevsky-karamazov-2026-10-08",
+      "title": "«Большой роман»: Достоевский — «Братья Карамазовы»",
+      "category": "talks",
+      "date": "2026-10-08",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-andrei-rublev-2026-10-10",
+      "title": "«Картина мира»: Андрей Рублёв",
+      "category": "talks",
+      "date": "2026-10-10",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-postmodern-philosophy-2026-10-12",
+      "title": "«Грани сознания»: философия эпохи постмодерна",
+      "category": "talks",
+      "date": "2026-10-12",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-konchalovsky-cinema-2026-10-15",
+      "title": "«Синематека»: одиссея Андрея Кончаловского",
+      "category": "talks",
+      "date": "2026-10-15",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-letters-changed-world-2026-10-16",
+      "title": "«Письма, изменившие мир» — литературный спектакль Александра Ананьева",
+      "category": "theatre",
+      "date": "2026-10-16",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-tolstoy-dostoevsky-2026-10-20",
+      "title": "«Архитектура личности»: Толстой и Достоевский",
+      "category": "talks",
+      "date": "2026-10-20",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
       "shard": "2026-10.json"
     },
     {
