@@ -4701,42 +4701,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "ges2-music-unbound-papoyan-2026-10-06",
-    "category": "music",
-    "horizon": "near",
-    "featured": true,
-    "start": "2026-10-06T19:00:00+03:00",
-    "end": "2026-10-06T21:00:00+03:00",
-    "title": "Music Unbound — Илья Папоян: «Трансцендентные этюды»",
-    "tags": [
-      "bach",
-      "rare"
-    ],
-    "visible_tags": [
-      "Бах",
-      "Бетховен",
-      "Music Unbound"
-    ],
-    "venue": "ГЭС-2",
-    "place": "Болотная наб., 15",
-    "location": "Дом культуры ГЭС-2, Москва",
-    "people": "Илья Папоян, фортепиано",
-    "price": "проверить актуально",
-    "why": "Бах и Бетховен в кураторском цикле ГЭС‑2; сильный сольный вечер.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Программа",
-    "details": "И. С. Бах, Людвиг ван Бетховен.",
-    "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/en/projects/music-unbound",
-    "verified": true,
-    "composers": [
-      "И. С. Бах",
-      "Бетховен"
-    ],
-    "card_schema_version": 2
-  },
-  {
     "id": "maly-cranes-oct26",
     "category": "theatre",
     "horizon": "near",
@@ -9498,6 +9462,33 @@
       "«Колокола»"
     ],
     "card_schema_version": 2
+  },
+  {
+    "id": "voz-letov-collages-restoration-2026-10-11",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "Егор Летов: мир коллажей и история их восстановления",
+    "tags": [],
+    "visible_tags": [
+      "Егор Летов",
+      "искусство",
+      "коллаж"
+    ],
+    "venue": "Центр Вознесенского",
+    "place": "ул. Большая Ордынка, 46, стр. 3, Москва",
+    "location": "Центр Вознесенского, Москва",
+    "people": "Владимир Александров",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная программа",
+    "details": "Художник-реставратор рассказывает о восстановлении коллажей Егора Летова, утраченных деталях и книгах, ставших материалами его художественных работ.",
+    "source_label": "Центр Вознесенского",
+    "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
+    "verified": true,
+    "organizer": "Центр Вознесенского",
+    "start": "2026-10-11T17:00:00+03:00"
   },
   {
     "id": "myaskovsky-horn-competition-prep-2026-10-12",
@@ -16975,11 +16966,39 @@
     "end": "2026-10-21T21:00:00+03:00"
   },
   {
+    "id": "voz-letov-ezra-pound-golubovich-2026-10-21",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "Егор Летов и Эзра Паунд: «Мы же не какие-то евтушенки или вознесенские»",
+    "tags": [],
+    "visible_tags": [
+      "Егор Летов",
+      "Эзра Паунд",
+      "поэзия",
+      "лекция"
+    ],
+    "venue": "Центр Вознесенского",
+    "place": "ул. Большая Ордынка, 46, стр. 3, Москва",
+    "location": "Центр Вознесенского, Москва",
+    "people": "Ксения Голубович",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная программа",
+    "details": "Ксения Голубович о модернистских стратегиях Егора Летова и Эзры Паунда, цитировании и присвоении чужих голосов.",
+    "source_label": "Центр Вознесенского",
+    "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-my-zhe-ne-kakie-to-evtushenki-ili-voznesenskie-my-ezra-paundy-egor-letov-i-kontrkultura/",
+    "verified": true,
+    "organizer": "Центр Вознесенского",
+    "why": "Неожиданное сопоставление Летова и Паунда через поэтику монтажа и модернистское цитирование.",
+    "start": "2026-10-21T19:30:00+03:00"
+  },
+  {
     "id": "ges2-rosary-2026-10-22",
     "category": "music",
     "horizon": "buy",
     "featured": false,
-    "date_only": "2026-10-22",
     "title": "«Розарий»",
     "tags": [
       "early",
@@ -16992,20 +17011,28 @@
     "venue": "ГЭС-2",
     "place": "Болотная наб., 15",
     "location": "Дом культуры ГЭС-2, Москва",
-    "people": "состав перепроверить на странице события",
-    "price": "проверить актуально",
+    "people": "Оркестр Pratum Integrum · Сергей Фильченко · ведущий Ярослав Тимофеев",
+    "price": "2600 ₽ (льготный — 1000 ₽)",
     "why": "«Розарий» Бибера — редкий репертуар.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Источник",
-    "details": "Концерт в музыкальной программе ГЭС‑2; официальный раздел будущих музыкальных событий указывает дату 22 октября.",
+    "details": "Полный цикл из 16 «Сонат Розария» Генриха Игнаца Франца фон Бибера для скрипки и basso continuo; историческое исполнительство. 19:00–22:00.",
     "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/?areas=music&current_interval=future",
+    "source_url": "https://ges-2.org/the-rosary-sonatas",
     "verified": true,
     "composers": [
-      "Бибер"
+      "Генрих Игнац Франц фон Бибер"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-10-22T19:00:00+03:00",
+    "end": "2026-10-22T22:00:00+03:00",
+    "works": [
+      "Сонаты Розария (все 16 сонат)"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже"
   },
   {
     "id": "mm-golden-old-salon-2026-10-22",
@@ -17606,6 +17633,34 @@
     ]
   },
   {
+    "id": "pokrovskie-meeting-festival-sedakova-2026-10-22",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Место встречи»: Ольга Седакова — «Любовь, что движет солнце и светила»",
+    "tags": [],
+    "visible_tags": [
+      "Данте",
+      "литература",
+      "философия",
+      "фестиваль"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Ольга Седакова",
+    "price": "уточнить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная программа",
+    "details": "Открывающая лекция шестого фестиваля «Место встречи» о финальных словах «Божественной комедии» Данте и их философском смысле. Точное время в доступном первичном анонсе не опубликовано.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "date_only": "2026-10-22"
+  },
+  {
     "id": "mm-main-piano-keys-2026-10-23",
     "category": "music",
     "horizon": "near",
@@ -17803,40 +17858,6 @@
     "monitor_entities": [
       "Лекторий «Достоевский»"
     ]
-  },
-  {
-    "id": "ges2-boulez100-2026-10-23",
-    "category": "music",
-    "horizon": "buy",
-    "featured": true,
-    "start": "2026-10-23T19:00:00+03:00",
-    "end": "2026-10-23T21:00:00+03:00",
-    "title": "Boulez-100",
-    "tags": [
-      "modern",
-      "rare"
-    ],
-    "visible_tags": [
-      "Булез",
-      "новая музыка"
-    ],
-    "venue": "ГЭС-2",
-    "place": "Болотная наб., 15",
-    "location": "Дом культуры ГЭС-2, Москва",
-    "people": "Фёдор Леднев · Даниил Коган · Boulez Ensemble",
-    "price": "проверить актуально",
-    "why": "Булез целиком и профильный ансамбль — один из наиболее точных современных кандидатов.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Программа",
-    "details": "Пьер Булез.",
-    "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/en/projects/music-unbound",
-    "verified": true,
-    "composers": [
-      "Булез"
-    ],
-    "card_schema_version": 2
   },
   {
     "id": "mmdm-6931",
@@ -24283,5 +24304,44 @@
     "organizer": "L’Appartement 83",
     "start": "2026-10-31T15:00:00+03:00",
     "end": "2026-10-31T17:00:00+03:00"
+  },
+  {
+    "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-31T18:30:00+03:00",
+    "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
+    "tags": [],
+    "visible_tags": [
+      "камерная музыка",
+      "Шуберт",
+      "Брамс",
+      "Регер"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Аделина Выборова · София Ветрова · Ксения Маргашова · Илона Аникеенко · Артур Исанов · Мария Сидорович · Савва Сероус · Надежда Горлова; комментарии Татьяны Кухтиной",
+    "price": "вход свободный",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальный анонс",
+    "details": "Произведения Франца Шуберта, Иоганнеса Брамса и Макса Регера в исполнении студентов РАМ имени Гнесиных. Вступительное слово — Татьяна Кухтина.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "composers": [
+      "Франц Шуберт",
+      "Иоганнес Брамс",
+      "Макс Регер"
+    ],
+    "works": [],
+    "venue_short": "Покровские ворота",
+    "program_status": "композиторы опубликованы",
+    "season": "2026/27",
+    "sales_status": "вход свободный",
+    "card_schema_version": 2
   }
 ]

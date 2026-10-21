@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1439,
+    "event_count": 1440,
     "source_schema_version": 2
   },
   "events": [
@@ -1537,15 +1537,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "ges2-music-unbound-papoyan-2026-10-06",
-      "title": "Music Unbound — Илья Папоян: «Трансцендентные этюды»",
-      "category": "music",
-      "date": "2026-10-06",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "maly-cranes-oct26",
       "title": "Розов — «Летят журавли»",
       "category": "theatre",
@@ -2821,6 +2812,15 @@
       "date": "2026-10-11",
       "venue": "Концертный зал имени П. И. Чайковского",
       "source_url": "https://meloman.ru/concert/kzch-2026-10-11/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "voz-letov-collages-restoration-2026-10-11",
+      "title": "Егор Летов: мир коллажей и история их восстановления",
+      "category": "talks",
+      "date": "2026-10-11",
+      "venue": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-egor-letov-mir-kollazhej-i-istoriya-ih-vosstanovleniya/",
       "shard": "2026-10.json"
     },
     {
@@ -4795,12 +4795,21 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "voz-letov-ezra-pound-golubovich-2026-10-21",
+      "title": "Егор Летов и Эзра Паунд: «Мы же не какие-то евтушенки или вознесенские»",
+      "category": "talks",
+      "date": "2026-10-21",
+      "venue": "Центр Вознесенского",
+      "source_url": "https://www.voznesenskycenter.ru/events/lekcziya-my-zhe-ne-kakie-to-evtushenki-ili-voznesenskie-my-ezra-paundy-egor-letov-i-kontrkultura/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "ges2-rosary-2026-10-22",
       "title": "«Розарий»",
       "category": "music",
       "date": "2026-10-22",
       "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/?areas=music&current_interval=future",
+      "source_url": "https://ges-2.org/the-rosary-sonatas",
       "shard": "2026-10.json"
     },
     {
@@ -4966,6 +4975,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-meeting-festival-sedakova-2026-10-22",
+      "title": "«Место встречи»: Ольга Седакова — «Любовь, что движет солнце и светила»",
+      "category": "talks",
+      "date": "2026-10-22",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "mm-main-piano-keys-2026-10-23",
       "title": "«Рояль и клавиши»",
       "category": "music",
@@ -5017,15 +5035,6 @@
       "date": "2026-10-23",
       "venue": "Государственный исторический музей",
       "source_url": "https://dostoverno.ru/index.php/events/dokopalis-do-gosudareva-dvora-kak-lichnaya-vlast-stala-sistemoy",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "ges2-boulez100-2026-10-23",
-      "title": "Boulez-100",
-      "category": "music",
-      "date": "2026-10-23",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/en/projects/music-unbound",
       "shard": "2026-10.json"
     },
     {
@@ -6730,6 +6739,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-vienna-chamber-assemblies-2026-10-31",
+      "title": "«Камерные ассамблеи на Покровке» — Венский вечер",
+      "category": "music",
+      "date": "2026-10-31",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -6871,6 +6889,15 @@
       "date": "2026-11-01",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/travailler/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "pokrovskie-air-keys-strings-2026-11-01",
+      "title": "«Воздух, клавиши и струны» — Мендельсон, трио ре минор op. 49",
+      "category": "music",
+      "date": "2026-11-01",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-11.json"
     },
     {
@@ -8539,15 +8566,6 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "ges2-sysoev-potemkin-2026-11-19",
-      "title": "Music Unbound — Алексей Сысоев: «Броненосец Потёмкин, новый курс»",
-      "category": "music",
-      "date": "2026-11-19",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "shard": "2026-11.json"
-    },
-    {
       "id": "mmdm-6905",
       "title": "От барокко до наших дней. Шедевры для скрипки и альта",
       "category": "music",
@@ -9003,7 +9021,7 @@
       "category": "music",
       "date": "2026-11-23",
       "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/",
+      "source_url": "https://ges-2.org/fireworks",
       "shard": "2026-11.json"
     },
     {
@@ -9160,15 +9178,6 @@
       "shard": "2026-11.json"
     },
     {
-      "id": "ges2-ophelia-2026-11-25",
-      "title": "Music Unbound — «Песни Офелии»",
-      "category": "music",
-      "date": "2026-11-25",
-      "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/en/projects/music-unbound",
-      "shard": "2026-11.json"
-    },
-    {
       "id": "nations-master-margarita-2026-11-25",
       "title": "Булгаков — «Мастер и Маргарита»",
       "category": "theatre",
@@ -9282,7 +9291,7 @@
       "category": "music",
       "date": "2026-11-26",
       "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/",
+      "source_url": "https://ges-2.org/1881-1921",
       "shard": "2026-11.json"
     },
     {
@@ -10911,7 +10920,7 @@
       "category": "music",
       "date": "2026-12-16",
       "venue": "ГЭС-2",
-      "source_url": "https://ges-2.org/",
+      "source_url": "https://ges-2.org/projects/gala-five-years-of-music",
       "shard": "2026-12.json"
     },
     {

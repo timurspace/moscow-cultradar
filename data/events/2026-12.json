@@ -4293,11 +4293,14 @@
     "details_label": "Программа / детали",
     "details": "В программе заявлены Альбинони, Дюкре и Овсянико-Куликовский; точное время сверить.",
     "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/",
+    "source_url": "https://ges-2.org/projects/gala-five-years-of-music",
     "verified": true,
     "date_only": "2026-12-16",
     "discovery_source": "ClassicalMusicNews",
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "program_status": "анонсирована программа цикла; время не опубликовано",
+    "season": "2026/27",
+    "sales_status": "билеты позже"
   },
   {
     "id": "maly-night-tender-2026-12-16",

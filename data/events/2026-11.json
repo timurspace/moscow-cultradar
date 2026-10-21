@@ -550,6 +550,44 @@
     ]
   },
   {
+    "id": "pokrovskie-air-keys-strings-2026-11-01",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-01T19:00:00+03:00",
+    "title": "«Воздух, клавиши и струны» — Мендельсон, трио ре минор op. 49",
+    "tags": [],
+    "visible_tags": [
+      "Мендельсон",
+      "камерная музыка",
+      "флейта"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "состав уточнить по официальному анонсу",
+    "price": "проверить у организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальный анонс",
+    "details": "Трио Феликса Мендельсона ре минор op. 49 в авторской версии для флейты, виолончели и фортепиано.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://t.me/pokrovka27",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "composers": [
+      "Феликс Мендельсон"
+    ],
+    "works": [
+      "Трио ре минор op. 49, версия для флейты, виолончели и фортепиано"
+    ],
+    "venue_short": "Покровские ворота",
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "уточнить",
+    "card_schema_version": 2
+  },
+  {
     "id": "mmdm-7372",
     "category": "music",
     "horizon": "buy",
@@ -6880,36 +6918,6 @@
     ]
   },
   {
-    "id": "ges2-sysoev-potemkin-2026-11-19",
-    "category": "music",
-    "horizon": "far",
-    "featured": false,
-    "date_only": "2026-11-19",
-    "title": "Music Unbound — Алексей Сысоев: «Броненосец Потёмкин, новый курс»",
-    "tags": [
-      "modern",
-      "rare"
-    ],
-    "visible_tags": [
-      "Сысоев",
-      "Im SPIEGEL"
-    ],
-    "venue": "ГЭС-2",
-    "place": "Болотная наб., 15",
-    "location": "Дом культуры ГЭС-2, Москва",
-    "people": "Im SPIEGEL ensemble · Юрий Фаворин",
-    "price": "проверить актуально",
-    "why": "Современная музыка и кинематографический материал; сильная кураторская линия.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Источник",
-    "details": "Алексей Сысоев. Исполнители: Im SPIEGEL ensemble, Юрий Фаворин.",
-    "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/en/projects/music-unbound",
-    "verified": true,
-    "card_schema_version": 2
-  },
-  {
     "id": "mmdm-6905",
     "category": "music",
     "horizon": "far",
@@ -8596,22 +8604,29 @@
     "venue": "ГЭС-2",
     "place": "Москва",
     "location": "ГЭС-2, Москва",
-    "people": "Юрий Фаворин",
-    "price": "проверить актуально",
+    "people": "Юрий Фаворин, фортепиано · ведущий Ярослав Тимофеев",
+    "price": "1800 ₽ до 22 октября; затем тариф повышается",
     "why": "Продолжение музыкальной программы пятилетия ГЭС-2; Дебюсси в кураторском цикле.",
     "editorial_status": "attention",
     "ticket_urgency": "watch",
     "details_label": "Программа / детали",
-    "details": "",
+    "details": "Юрий Фаворин исполнит обе тетради фортепианных прелюдий Клода Дебюсси. 19:00–21:30.",
     "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/",
+    "source_url": "https://ges-2.org/fireworks",
     "verified": true,
-    "date_only": "2026-11-23",
     "discovery_source": "ClassicalMusicNews",
     "composers": [
-      "Дебюсси"
+      "Клод Дебюсси"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-11-23T19:00:00+03:00",
+    "end": "2026-11-23T21:30:00+03:00",
+    "works": [
+      "Прелюдии, тетради I и II (24 прелюдии)"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже"
   },
   {
     "id": "nations-master-margarita-2026-11-23",
@@ -9212,41 +9227,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "ges2-ophelia-2026-11-25",
-    "category": "music",
-    "horizon": "far",
-    "featured": false,
-    "date_only": "2026-11-25",
-    "title": "Music Unbound — «Песни Офелии»",
-    "tags": [
-      "modern",
-      "rare"
-    ],
-    "visible_tags": [
-      "Шимановский",
-      "Равель",
-      "Штраус"
-    ],
-    "venue": "ГЭС-2",
-    "place": "Болотная наб., 15",
-    "location": "Дом культуры ГЭС-2, Москва",
-    "people": "Элене Гвритишвили · ведущий Ярослав Тимофеев",
-    "price": "проверить актуально",
-    "why": "Камерная вокальная программа Шимановского, Равеля и Штрауса.",
-    "editorial_status": "candidate",
-    "ticket_urgency": "watch",
-    "details_label": "Программа",
-    "details": "Кароль Шимановский, Морис Равель, Рихард Штраус.",
-    "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/en/projects/music-unbound",
-    "verified": true,
-    "composers": [
-      "Р. Штраус",
-      "Равель"
-    ],
-    "card_schema_version": 2
-  },
-  {
     "id": "nations-master-margarita-2026-11-25",
     "category": "theatre",
     "horizon": "buy",
@@ -9674,22 +9654,29 @@
     "venue": "ГЭС-2",
     "place": "Москва",
     "location": "ГЭС-2, Москва",
-    "people": "Boulez Ensemble · Фёдор Леднёв",
-    "price": "проверить актуально",
+    "people": "Булез-ансамбль · Фёдор Леднёв, дирижёр",
+    "price": "1700 ₽ до 25 октября; затем тариф повышается",
     "why": "Исторический диалог эпох и профильный ансамбль новой музыки.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Программа / детали",
-    "details": "Брукнер и музыка, связанная с рубежом эпох; точное время сверить.",
+    "details": "Седьмая симфония Брукнера (1883) в камерном переложении 1921 года для ансамбля; дирижёр Фёдор Леднёв. 20:00–21:30.",
     "source_label": "ГЭС-2",
-    "source_url": "https://ges-2.org/",
+    "source_url": "https://ges-2.org/1881-1921",
     "verified": true,
-    "date_only": "2026-11-26",
     "discovery_source": "ClassicalMusicNews",
     "composers": [
-      "Булез"
+      "Антон Брукнер"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "start": "2026-11-26T20:00:00+03:00",
+    "end": "2026-11-26T21:30:00+03:00",
+    "works": [
+      "Симфония № 7 ми мажор, WAB 107, камерное переложение Ханса Эйслера, Эрвина Штайна и Карла Ранкла"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже"
   },
   {
     "id": "nations-master-margarita-2026-11-26",
