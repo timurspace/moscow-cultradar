@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1425,
+    "event_count": 1429,
     "source_schema_version": 2
   },
   "events": [
@@ -5848,6 +5848,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "ruf-merchants-philanthropy-2026-10-26",
+      "title": "Денис Коротыч — история купеческой благотворительности",
+      "category": "talks",
+      "date": "2026-10-26",
+      "venue": "Руфъ",
+      "source_url": "https://kulturnyy-tsentr-ru-event.timepad.ru/event/4208450/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "bolshoi-peter-wolf-giant-2026-10-27",
       "title": "Прокофьев — «Петя и волк. Великан»",
       "category": "opera",
@@ -7600,6 +7609,15 @@
       "date": "2026-11-09",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/immensa/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "ruf-arts-patrons-2026-11-09",
+      "title": "Денис Коротыч — «Меценаты искусства»",
+      "category": "talks",
+      "date": "2026-11-09",
+      "venue": "Руфъ",
+      "source_url": "https://kulturnyy-tsentr-ru-event.timepad.ru/event/4208450/",
       "shard": "2026-11.json"
     },
     {
@@ -9601,6 +9619,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "ruf-alexander-demidov-improvisations-2026-11-29",
+      "title": "Александр Демидов — «Музыка — зеркало души»",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Руфъ",
+      "source_url": "https://5ea95e1aa2440333d8255f2c.ticketscloud.org/e/6ad52a05c7798e79f5cc5e5c?partner_id=5ea95e1aa2440333d8255f2c",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-bzk-repin-chubachin-2026-11-30",
       "title": "Вадим Репин / Арсений Чубачин — Прокофьев / Шостакович",
       "category": "music",
@@ -9652,6 +9679,15 @@
       "date": "2026-11-30",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/gets/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "ruf-confectioners-tea-merchants-2026-11-30",
+      "title": "Денис Коротыч — «Сладкая история: кондитеры и чаеторговцы»",
+      "category": "talks",
+      "date": "2026-11-30",
+      "venue": "Руфъ",
+      "source_url": "https://kulturnyy-tsentr-ru-event.timepad.ru/event/4208450/",
       "shard": "2026-11.json"
     },
     {
