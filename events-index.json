@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1581,
+    "event_count": 1584,
     "source_schema_version": 2
   },
   "events": [
@@ -9408,7 +9408,7 @@
       "category": "music",
       "date": "2026-11-21",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dk-rassvet.timepad.ru/event/4038796/",
       "shard": "2026-11.json"
     },
     {
@@ -10777,6 +10777,33 @@
       "date": "2026-11-12",
       "venue": "Большой зал Московской консерватории",
       "source_url": "https://www.mosconsv.ru/ru/concert/204797",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-frauchi-dyens-2026-11-20",
+      "title": "«История Дьенса» — фестиваль имени Александра Фраучи",
+      "category": "music",
+      "date": "2026-11-20",
+      "venue": "ДК Рассвет",
+      "source_url": "https://alexanderfrauchi.com/festival-2026/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-sonata-peremen-2026-11-24",
+      "title": "«Соната перемен» — Екатерина Половцева",
+      "category": "theatre",
+      "date": "2026-11-24",
+      "venue": "ДК Рассвет",
+      "source_url": "https://theatre-district.ru/repertuar/sonata-peremen/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-khton-russian-baroque-2026-11-25",
+      "title": "«Хтонь» — хоровой концерт-действо",
+      "category": "music",
+      "date": "2026-11-25",
+      "venue": "ДК Рассвет",
+      "source_url": "https://www.ticketland.ru/doma-kultury/dk-rassvet/khton/",
       "shard": "2026-11.json"
     },
     {
