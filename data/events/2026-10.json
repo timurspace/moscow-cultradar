@@ -18180,6 +18180,47 @@
     "card_schema_version": 2
   },
   {
+    "id": "niko-karen-kornienko-tchaikovsky-royal-ballet-2026-10-23",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-23T19:00:00+03:00",
+    "title": "Карен Корниенко — «Tchaikovsky. Royal Ballet Gala»",
+    "tags": [],
+    "visible_tags": [
+      "Чайковский",
+      "балет",
+      "фортепиано"
+    ],
+    "venue": "Галерея Нико",
+    "place": "Большой Тишинский пер., 19, стр. 1",
+    "location": "Галерея Нико, Москва",
+    "people": "Карен Корниенко, фортепиано",
+    "price": "от 1500 ₽",
+    "why": "Авторские концертные аранжировки балетной музыки Чайковского для фортепиано.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Виртуозные фортепианные переложения фрагментов «Лебединого озера», «Спящей красавицы» и «Щелкунчика», преимущественно в аранжировках Карена Корниенко; также сюита М. Плетнёва по «Щелкунчику».",
+    "source_label": "Галерея Нико",
+    "source_url": "https://quicktickets.ru/tour/finalOrganisationId/4947/organisationId/4694/s5",
+    "verified": true,
+    "organizer": "Студия Карена Корниенко",
+    "venue_short": "Нико",
+    "composers": [
+      "Пётр Ильич Чайковский"
+    ],
+    "works": [
+      "Лебединое озеро — фрагменты",
+      "Спящая красавица — вальсы",
+      "Щелкунчик — концертные аранжировки"
+    ],
+    "program_status": "Программа опубликована",
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты",
+    "card_schema_version": 2
+  },
+  {
     "id": "mm-prokofiev-architects-2026-10-24",
     "category": "music",
     "horizon": "near",
@@ -21325,6 +21366,47 @@
       "Концерт № 2",
       "Симфония № 4."
     ],
+    "card_schema_version": 2
+  },
+  {
+    "id": "ile-koreneva-krotenko-2026-10-27",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-27T20:00:00+03:00",
+    "title": "Коренева / Кротенко — Пярт, де Фалья, Альбенис, Кассадо, Гласс",
+    "tags": [],
+    "visible_tags": [
+      "Пярт",
+      "Гласс",
+      "Кассадо",
+      "камерная музыка"
+    ],
+    "venue": "Île Thélème",
+    "place": "ул. Правды, 24/11",
+    "location": "Île Thélème, Москва",
+    "people": "Александра Коренева · Григорий Кротенко",
+    "price": "проверить актуально",
+    "why": "Камерная программа с пересечением старой, испанской и минималистской музыки.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "В опубликованном анонсе указаны Арво Пярт, Мануэль де Фалья, Исаак Альбенис, Гаспар Кассадо и Филип Гласс; перечень конкретных произведений не опубликован.",
+    "source_label": "Île Thélème",
+    "source_url": "https://ile-theleme.com/",
+    "verified": true,
+    "venue_short": "Île Thélème",
+    "composers": [
+      "Арво Пярт",
+      "Мануэль де Фалья",
+      "Исаак Альбенис",
+      "Гаспар Кассадо",
+      "Филип Гласс"
+    ],
+    "works": [],
+    "program_status": "Авторы опубликованы; конкретные произведения не указаны",
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты",
     "card_schema_version": 2
   },
   {

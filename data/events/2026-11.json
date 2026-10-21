@@ -8968,6 +8968,55 @@
     ]
   },
   {
+    "id": "niko-sergey-kasprov-piano-2026-11-24",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-24T19:30:00+03:00",
+    "title": "Сергей Каспров — Моцарт, Шуберт, Шуман, Скарлатти, Рахманинов",
+    "tags": [],
+    "visible_tags": [
+      "фортепиано",
+      "Рахманинов",
+      "Шуберт",
+      "Шуман"
+    ],
+    "venue": "Галерея Нико",
+    "place": "Большой Тишинский пер., 19, стр. 1",
+    "location": "Галерея Нико, Москва",
+    "people": "Сергей Каспров, фортепиано",
+    "price": "от 100 ₽ (льготная категория)",
+    "why": "Камерная сольная программа пианиста с точным репертуаром от классики до позднего романтизма.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Программа",
+    "details": "Моцарт — Фантазия K. 396; Шуберт — три музыкальных момента; Шуман — «Арабеска» и Три пьесы-фантазии, op. 111; Скарлатти — Соната K. 213; Рахманинов — Вариации на тему Корелли.",
+    "source_label": "Галерея Нико",
+    "source_url": "https://msk.kassir.ru/koncert/galereya-niko/sergey-kasprov-fortepiano-motsart-shubert-shuman-skarlatti-rahmaninov_2026-11-24",
+    "verified": true,
+    "organizer": "ООО «Галерея Нико»",
+    "venue_short": "Нико",
+    "composers": [
+      "Вольфганг Амадей Моцарт",
+      "Франц Шуберт",
+      "Роберт Шуман",
+      "Доменико Скарлатти",
+      "Сергей Рахманинов"
+    ],
+    "works": [
+      "Фантазия K. 396",
+      "Три музыкальных момента",
+      "Арабеска",
+      "Три пьесы-фантазии op. 111",
+      "Соната K. 213",
+      "Вариации на тему Корелли"
+    ],
+    "program_status": "Программа опубликована",
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты",
+    "card_schema_version": 2
+  },
+  {
     "id": "ges2-ophelia-2026-11-25",
     "category": "music",
     "horizon": "far",
@@ -11061,6 +11110,42 @@
       "Московская филармония"
     ],
     "venue_short": "Камерный · Филармония",
+    "card_schema_version": 2
+  },
+  {
+    "id": "niko-artush-zatikyan-touch-autumn-2026-11-29",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-29T19:00:00+03:00",
+    "title": "Артуш Затикян — «Прикосновение осени»",
+    "tags": [],
+    "visible_tags": [
+      "неоклассика",
+      "фортепиано",
+      "авторская музыка"
+    ],
+    "venue": "Галерея Нико",
+    "place": "Большой Тишинский пер., 19, стр. 1",
+    "location": "Галерея Нико, Москва",
+    "people": "Артуш Затикян, фортепиано · струнные инструменты",
+    "price": "от 700 ₽",
+    "why": "",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа",
+    "details": "Авторские неоклассические сочинения, фортепиано в ансамбле со струнными; программа связана с альбомом Between the Words.",
+    "source_label": "Галерея Нико",
+    "source_url": "https://www.ticketland.ru/vystavochnye-centry/galereya-niko/artush-zatikyan-prikosnovenie-oseni/",
+    "verified": true,
+    "venue_short": "Нико",
+    "composers": [
+      "Артуш Затикян"
+    ],
+    "works": [],
+    "program_status": "Авторская программа; точный перечень произведений не опубликован",
+    "season": "2026/27",
+    "sales_status": "есть отдельные билеты",
     "card_schema_version": 2
   },
   {
