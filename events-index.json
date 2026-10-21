@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1440,
+    "event_count": 1447,
     "source_schema_version": 2
   },
   "events": [
@@ -4480,6 +4480,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-dreyer-christianity-cinema-2026-10-19",
+      "title": "«Христианство и кинематограф»: Карл Теодор Дрейер — «День гнева» и «Слово»",
+      "category": "talks",
+      "date": "2026-10-19",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "praktika-beethoven-2026-10-20",
       "title": "«Бетховен»",
       "category": "theatre",
@@ -4657,6 +4666,15 @@
       "date": "2026-10-20",
       "venue": "Театр.doc — Док на Лесной",
       "source_url": "https://www.teatrdoc.ru/schedule/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-solovki-new-martyrs-2026-10-20",
+      "title": "«Соловецкий лагерь особого назначения: новомученики и исповедники Соловецкие»",
+      "category": "talks",
+      "date": "2026-10-20",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
@@ -4976,7 +4994,7 @@
     },
     {
       "id": "pokrovskie-meeting-festival-sedakova-2026-10-22",
-      "title": "«Место встречи»: Ольга Седакова — «Любовь, что движет солнце и светила»",
+      "title": "«Желание, воля и звезды» — Ольга Седакова о Данте",
       "category": "talks",
       "date": "2026-10-22",
       "venue": "КЦ «Покровские ворота»",
@@ -5134,6 +5152,15 @@
       "date": "2026-10-23",
       "venue": "Галерея Нико",
       "source_url": "https://quicktickets.ru/tour/finalOrganisationId/4947/organisationId/4694/s5",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-meeting-akhmatova-shostakovich-2026-10-23",
+      "title": "«Я была тогда с моим народом» — Шостакович и Ахматова",
+      "category": "music",
+      "date": "2026-10-23",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
@@ -5443,6 +5470,24 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "pokrovskie-meeting-claudel-satin-slipper-2026-10-24",
+      "title": "«Крючок Бога» — этюды по пьесе Поля Клоделя «Атласный башмачок»",
+      "category": "theatre",
+      "date": "2026-10-24",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-meeting-bersanelli-universe-2026-10-24",
+      "title": "«Взирая на небеса Твои» — Вселенная и человек от Данте до наших дней",
+      "category": "talks",
+      "date": "2026-10-24",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "gnesin-shpiller-gala-2026-10-25",
       "title": "XIII Международный конкурс вокалистов Наталии Шпиллер — гала-концерт",
       "category": "music",
@@ -5728,6 +5773,24 @@
       "date": "2026-10-25",
       "venue": "L’Appartement 83",
       "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-meeting-first-heart-2026-10-25",
+      "title": "«Первое дело — твое сердце»: свидетельства из Сирии и Святой Земли",
+      "category": "talks",
+      "date": "2026-10-25",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-meeting-sunny-side-singers-2026-10-25",
+      "title": "«And before I’ll be a slave…» — госпел-хор Sunny Side Singers",
+      "category": "music",
+      "date": "2026-10-25",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://t.me/pokrovka27",
       "shard": "2026-10.json"
     },
     {
