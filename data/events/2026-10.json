@@ -16895,23 +16895,25 @@
     "venue": "ДК Рассвет",
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
-    "people": "Камерный оркестр Prometheus",
-    "price": "проверить актуально",
+    "people": "Prometheus · Михаил Калицкий (дирижёр) · Николай Якушев (виолончель)",
+    "price": "1800 ₽",
     "why": "Редкий Буцко и камерный оркестр — один из самых очевидных кандидатов месяца.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Источник",
-    "details": "Камерный оркестр Prometheus.",
+    "details": "«Симфония-афоризм» (1965) и Концертная симфония № 3 «Безмолвие осени» (2009) для виолончели, фортепиано и оркестра.",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/butsko/",
     "verified": true,
     "composers": [
       "Буцко"
     ],
     "works": [
+      "«Симфония-афоризм»",
       "«Безмолвие осени»"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "sales_status": "в продаже"
   },
   {
     "id": "ges2-rosary-2026-10-22",
@@ -18115,21 +18117,31 @@
     "venue": "ДК Рассвет",
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
-    "people": "Exotique",
-    "price": "проверить актуально",
-    "why": "Ориентализм во французской музыке и современное продолжение линии.",
+    "people": "ClassicaPlus · Алиса Тен (вокал) · Валерия Прокушева (фортепиано) · Наталья Жукова (флейта)",
+    "price": "1800 ₽",
+    "why": "Российские премьеры сочинений Коннессона и Заваро в программе французского ориентализма.",
     "editorial_status": "attention",
     "ticket_urgency": "watch",
     "details_label": "Программа",
-    "details": "Дебюсси, Равель, Заваро, Коннессон.",
+    "details": "Ферру, Дебюсси, Коннессон («Песни Агарты», российская премьера), Заваро (Densha Otoko, российская премьера), Равель («Мадагаскарские песни»).",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/exotique/",
     "verified": true,
     "composers": [
-      "Дебюсси",
-      "Равель"
+      "Пьер-Октав Ферру",
+      "Клод Дебюсси",
+      "Гийом Коннессон",
+      "Паскаль Заваро",
+      "Морис Равель"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "sales_status": "в продаже",
+    "works": [
+      "«Пагоды»",
+      "«Песни Агарты»",
+      "Densha Otoko",
+      "«Мадагаскарские песни»"
+    ]
   },
   {
     "id": "mm-prokofiev-architects-2026-10-24",
@@ -20842,16 +20854,27 @@
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
     "people": "ARM Percussion",
-    "price": "проверить актуально",
+    "price": "1800 ₽",
     "why": "Новая музыка для перкуссии; профильная современная сцена.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Источник",
-    "details": "Новая музыка для перкуссии.",
+    "details": "Musique de Table, Dance of Drums, Khamsin, Extremes, Niflheim, Invierno Porteño, Afta Stuba и Bodix — программа для ансамбля ударных.",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/arm-percussion/",
     "verified": true,
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "sales_status": "в продаже",
+    "composers": [
+      "Тьерри де Мей",
+      "Джин Кошински",
+      "Эммануэль Сежурне",
+      "Джейсон Трёутинг",
+      "Чаба Золтан Марьян",
+      "Астор Пьяццолла",
+      "Марк Форд",
+      "Алексей Герасимец"
+    ]
   },
   {
     "id": "doc-cars-2026-10-26",
@@ -23308,6 +23331,40 @@
       "Галерея «Другое Дело»"
     ],
     "end": "2026-10-31T21:00:00+03:00"
+  },
+  {
+    "id": "rassvet-petr-valentinovich-molokans-2026-10-31",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-31T18:00:00+03:00",
+    "title": "«Песни русского богоискательства» — Петр Валентинович",
+    "tags": [],
+    "visible_tags": [
+      "фольклор",
+      "благотворительность"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Творческое объединение «Петр Валентинович»",
+    "price": "2000 ₽",
+    "why": "Духовные песенные традиции духоборов и молокан в исполнении профессионального фольклорного ансамбля.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Песни духоборов и молокан; баян, балалайка, гитара, кахон. Сбор средств в пользу детского хосписа «Дом с маяком».",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/molokans/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [],
+    "works": [],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
   },
   {
     "id": "bolshoi-pagliacci-2026-10-31-1900",

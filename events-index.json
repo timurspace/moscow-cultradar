@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1399,
+    "event_count": 1411,
     "source_schema_version": 2
   },
   "events": [
@@ -4773,7 +4773,7 @@
       "category": "music",
       "date": "2026-10-21",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/butsko/",
       "shard": "2026-10.json"
     },
     {
@@ -5097,7 +5097,7 @@
       "category": "music",
       "date": "2026-10-23",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/exotique/",
       "shard": "2026-10.json"
     },
     {
@@ -5817,7 +5817,7 @@
       "category": "music",
       "date": "2026-10-26",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/arm-percussion/",
       "shard": "2026-10.json"
     },
     {
@@ -6478,6 +6478,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "rassvet-petr-valentinovich-molokans-2026-10-31",
+      "title": "«Песни русского богоискательства» — Петр Валентинович",
+      "category": "music",
+      "date": "2026-10-31",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/molokans/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "bolshoi-pagliacci-2026-10-31-1900",
       "title": "Леонкавалло — «Паяцы»",
       "category": "opera",
@@ -6753,7 +6762,7 @@
       "category": "music",
       "date": "2026-11-01",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/travailler/",
       "shard": "2026-11.json"
     },
     {
@@ -6911,11 +6920,11 @@
     },
     {
       "id": "rassvet-hodila-izba-2026-11-03",
-      "title": "Hodíla Ízba × Хор Свешникова — «У бела моря»",
-      "category": "music",
+      "title": "Варвара Чуракова — «У бела моря» (хоровая опера)",
+      "category": "opera",
       "date": "2026-11-03",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/churakov%D0%B0/",
       "shard": "2026-11.json"
     },
     {
@@ -7441,6 +7450,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "rassvet-collegium-musicum-far-worlds-2026-11-08",
+      "title": "«Далекие миры» — Чюрленис, Шуман, Рубинштейн",
+      "category": "music",
+      "date": "2026-11-08",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/marchenbilder/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-mzk-vishnevsky-2026-11-09",
       "title": "Владимир Вишневский — фортепианный вечер",
       "category": "music",
@@ -7492,6 +7510,15 @@
       "date": "2026-11-09",
       "venue": "Ельцин Центр в Москве",
       "source_url": "https://yeltsin.ru/affair/ruslan-chervyakov-razvilka-6-mog-li-boris-elcin-ne-ujti-v-otstavku/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-immensa-zagni-kurlyandsky-2026-11-09",
+      "title": "«Магические звезды» — Загний и Курляндский",
+      "category": "music",
+      "date": "2026-11-09",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/immensa/",
       "shard": "2026-11.json"
     },
     {
@@ -7555,6 +7582,15 @@
       "date": "2026-11-10",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=pravda",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-petrova-volkov-2026-11-10",
+      "title": "Эвелина Петрова и Владимир Волков — «Воображаемый фольклор»",
+      "category": "music",
+      "date": "2026-11-10",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/petrova/",
       "shard": "2026-11.json"
     },
     {
@@ -7680,7 +7716,7 @@
       "category": "music",
       "date": "2026-11-11",
       "venue": "ДК Рассвет",
-      "source_url": "https://dkrassvet.space/",
+      "source_url": "https://dkrassvet.space/events/rudin/",
       "shard": "2026-11.json"
     },
     {
@@ -7744,6 +7780,15 @@
       "date": "2026-11-12",
       "venue": "Малый театр — Сцена на Б. Ордынке",
       "source_url": "https://www.maly.ru/spectacle/view?name=wolves",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-vivacello-light-shadow-bach-2026-11-12",
+      "title": "«Свет и тень» — танцевальный спектакль на музыку Баха",
+      "category": "opera",
+      "date": "2026-11-12",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/lumen/",
       "shard": "2026-11.json"
     },
     {
@@ -7870,6 +7915,15 @@
       "date": "2026-11-13",
       "venue": "Галерея Нико",
       "source_url": "https://nikoartgallery.com/afisha/aleksandr-kashpurin-fortepiano-iskushenie-krasotoy/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-hauntology-edition-francaise-2026-11-13",
+      "title": "Édition française — от Марена Маре до Air",
+      "category": "music",
+      "date": "2026-11-13",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/mare/",
       "shard": "2026-11.json"
     },
     {
@@ -8104,6 +8158,15 @@
       "date": "2026-11-15",
       "venue": "Большой зал «Зарядья»",
       "source_url": "https://zaryadyehall.ru/events/classics/8086/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-vivacello-new-cello-orchestra-2026-11-15",
+      "title": "Vivacello — новая музыка для виолончели и оркестра",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/cello2026/",
       "shard": "2026-11.json"
     },
     {
@@ -8782,6 +8845,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "rassvet-trio-lumiere-france-2026-11-23",
+      "title": "«Свет Франции» — Дебюсси, Равель, Сати, Пуленк",
+      "category": "music",
+      "date": "2026-11-23",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/lumiere/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "nations-master-margarita-2026-11-24",
       "title": "Булгаков — «Мастер и Маргарита»",
       "category": "theatre",
@@ -9070,6 +9142,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "rassvet-opensound-quartets-vol2-2026-11-26",
+      "title": "String quartets. Vol. 2 — OpensoundOrchestra × FancyMusic",
+      "category": "music",
+      "date": "2026-11-26",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/quartets/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mamt-romeo-juliette-premiere-2026-11-27",
       "title": "Гуно — «Ромео и Джульетта» · премьера",
       "category": "opera",
@@ -9175,6 +9256,15 @@
       "date": "2026-11-27",
       "venue": "Галерея Нико",
       "source_url": "https://nikoartgallery.com/afisha/studiya-novoy-muzyki-sotvorennaya-priroda-/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rassvet-memory-silent-time-2026-11-27",
+      "title": "«Память молчаливого времени» — Мясковский, Вайнберг, Шостакович",
+      "category": "music",
+      "date": "2026-11-27",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/memory/",
       "shard": "2026-11.json"
     },
     {
@@ -9430,6 +9520,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "rassvet-getz-bossa-nova-2026-11-30",
+      "title": "Стэн Гетц и босса-нова",
+      "category": "music",
+      "date": "2026-11-30",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/gets/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-mzk-andrianov-2026-12-01",
       "title": "Борис Андрианов — виолончельный вечер",
       "category": "music",
@@ -9481,6 +9580,15 @@
       "date": "2026-12-01",
       "venue": "Малый театр — Историческая сцена",
       "source_url": "https://www.maly.ru/spectacle/view?name=bezvinyvinovatye",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rassvet-modern-monsters-2026-12-01",
+      "title": "Modern monsters — Ноно, Лэнг, Денисов, Пярт",
+      "category": "music",
+      "date": "2026-12-01",
+      "venue": "ДК Рассвет",
+      "source_url": "https://dkrassvet.space/events/monsters/",
       "shard": "2026-12.json"
     },
     {

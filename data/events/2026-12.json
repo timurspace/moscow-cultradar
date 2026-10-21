@@ -194,6 +194,59 @@
     ]
   },
   {
+    "id": "rassvet-modern-monsters-2026-12-01",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-12-01T19:30:00+03:00",
+    "title": "Modern monsters — Ноно, Лэнг, Денисов, Пярт",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "XX–XXI век",
+      "виолончель",
+      "новая музыка"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Дарья Луценко (виолончель) · Мона Хаба (фортепиано)",
+    "price": "1800 ₽",
+    "why": "Нестандартная камерная программа от Ноно с магнитной лентой до Ланга, Денисова и Пярта.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Ланг — Modern monsters; Ноно — …sofferte onde serene…; Пендерецкий — Per Slava; Дэвид Лэнг — Undanceable; Денисов — Вариации на тему Шуберта; Ауэрбах — прелюдии; Пярт — Spiegel im Spiegel.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/monsters/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Бернхард Ланг",
+      "Луиджи Ноно",
+      "Кшиштоф Пендерецкий",
+      "Дэвид Лэнг",
+      "Эдисон Денисов",
+      "Лера Ауэрбах",
+      "Арво Пярт"
+    ],
+    "works": [
+      "Modern monsters",
+      "…sofferte onde serene…",
+      "Per Slava",
+      "Undanceable",
+      "«Вариации на тему Шуберта»",
+      "Spiegel im Spiegel"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
+  },
+  {
     "id": "mamt-lady-macbeth-2026-12-02",
     "category": "opera",
     "horizon": "far",

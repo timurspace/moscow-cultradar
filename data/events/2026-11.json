@@ -527,21 +527,26 @@
     "venue": "ДК Рассвет",
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
-    "people": "Trio Sonus Verus",
+    "people": "Sonus Verus: Мария Чугунова (фортепиано) · Анастасия Лебедева (скрипка) · Диана Серова (виолончель)",
     "price": "проверить актуально",
     "why": "Дебюсси и Равель в камерном трио.",
     "editorial_status": "attention",
     "ticket_urgency": "no_rush",
     "details_label": "Источник",
-    "details": "Дебюсси и Равель.",
+    "details": "Дебюсси — Фортепианное трио соль мажор и Соната для скрипки; Равель — Фортепианное трио ля минор.",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/travailler/",
     "verified": true,
     "composers": [
       "Дебюсси",
       "Равель"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "works": [
+      "Фортепианное трио соль мажор Дебюсси",
+      "Соната для скрипки Дебюсси",
+      "Фортепианное трио ля минор Равеля"
+    ]
   },
   {
     "id": "mmdm-7372",
@@ -1110,12 +1115,12 @@
   },
   {
     "id": "rassvet-hodila-izba-2026-11-03",
-    "category": "music",
+    "category": "opera",
     "horizon": "buy",
     "featured": true,
     "start": "2026-11-03T19:30:00+03:00",
     "end": "2026-11-03T21:30:00+03:00",
-    "title": "Hodíla Ízba × Хор Свешникова — «У бела моря»",
+    "title": "Варвара Чуракова — «У бела моря» (хоровая опера)",
     "tags": [
       "modern",
       "rare"
@@ -1127,17 +1132,24 @@
     "venue": "ДК Рассвет",
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
-    "people": "Hodíla Ízba · Хор Свешникова",
-    "price": "проверить актуально",
+    "people": "Хор имени А. В. Свешникова · Екатерина Антоненко · Hodíla Ízba · Юрий Посыпанов",
+    "price": "1500 ₽",
     "why": "Опера Варвары Чураковой и необычное соединение коллективов.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Источник",
-    "details": "Опера Варвары Чураковой.",
+    "details": "Первое исполнение хоровой оперы Варвары Чураковой «У бела моря» (2026) по мотивам северного фольклора и поморских распевов.",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/churakov%D0%B0/",
     "verified": true,
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "sales_status": "в продаже",
+    "composers": [
+      "Варвара Чуракова"
+    ],
+    "works": [
+      "У бела моря"
+    ]
   },
   {
     "id": "niko-parin-pelle-doca-2026-11-03",
@@ -3106,6 +3118,50 @@
     "card_schema_version": 2
   },
   {
+    "id": "rassvet-collegium-musicum-far-worlds-2026-11-08",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-08T19:30:00+03:00",
+    "title": "«Далекие миры» — Чюрленис, Шуман, Рубинштейн",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "Чюрленис",
+      "камерный оркестр"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Collegium Musicum · Александр Барклянский · Кирилл Волков (баритон)",
+    "price": "проверить актуальную стоимость",
+    "why": "Редкий квартет Чюрлениса и романсы Демона Рубинштейна в камерной программе.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Чюрленис — Струнный квартет до минор; Шуман — «Сказочные картинки»; Рубинштейн — романсы Демона.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/marchenbilder/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Микалоюс Чюрленис",
+      "Роберт Шуман",
+      "Антон Рубинштейн"
+    ],
+    "works": [
+      "Струнный квартет до минор",
+      "«Сказочные картинки»",
+      "Романсы Демона"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "проверить актуально",
+    "card_schema_version": 2
+  },
+  {
     "id": "consv-mzk-vishnevsky-2026-11-09",
     "category": "music",
     "horizon": "buy",
@@ -3291,6 +3347,52 @@
     "verified": true,
     "organizer": "Филиал Ельцин Центра в Москве",
     "start": "2026-11-09T19:00:00+03:00"
+  },
+  {
+    "id": "rassvet-immensa-zagni-kurlyandsky-2026-11-09",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-11-09T19:30:00+03:00",
+    "title": "«Магические звезды» — Загний и Курляндский",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "новая музыка",
+      "Загний",
+      "Курляндский"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Immensa musica · Андрей Серов (дирижёр) · Анна Кодинец (сопрано)",
+    "price": "1800 ₽",
+    "why": "Концептуальные открытые партитуры Сергея Загния и Дмитрия Курляндского.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Загний: «Магические звезды», «Бесконечное что-то еще», «Симфония». Курляндский: Liederkreis, «Воспоминание», «Резонансы», Commedia delle arti.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/immensa/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Сергей Загний",
+      "Дмитрий Курляндский"
+    ],
+    "works": [
+      "«Магические звезды»",
+      "Liederkreis",
+      "«Резонансы»",
+      "Commedia delle arti"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
   },
   {
     "id": "consv-rach-les-moscovites-2026-11-10",
@@ -3529,6 +3631,42 @@
     "monitor_entities": [
       "Малый театр"
     ]
+  },
+  {
+    "id": "rassvet-petrova-volkov-2026-11-10",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-10T19:30:00+03:00",
+    "title": "Эвелина Петрова и Владимир Волков — «Воображаемый фольклор»",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "импровизация",
+      "фольклор"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Эвелина Петрова (аккордеон) · Владимир Волков (контрабас)",
+    "price": "2000 ₽",
+    "why": "Редкие совместные выступления дуэта, соединяющего фольклорные интонации и свободную импровизацию.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Совместная программа для аккордеона и контрабаса с элементами фольклора и джазового андеграунда.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/petrova/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [],
+    "works": [],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
   },
   {
     "id": "nations-adult-daughter-2026-11-10",
@@ -3995,14 +4133,14 @@
     "place": "Столярный пер., 3к15",
     "location": "ДК Рассвет, Москва",
     "people": "Александр Рудин · Сергей Каспров · Musica Viva",
-    "price": "проверить актуально",
+    "price": "1800 ₽",
     "why": "Одна из самых сильных программ дальнего горизонта.",
     "editorial_status": "candidate",
     "ticket_urgency": "watch",
     "details_label": "Программа",
-    "details": "Пярт, Пелецис, Мансурян, Сильвестров.",
+    "details": "Пярт — Orient. Occident; Пелецис — Concertino bianco; Мансурян — Postludia; Сильвестров — Серенада для струнных.",
     "source_label": "ДК Рассвет",
-    "source_url": "https://dkrassvet.space/",
+    "source_url": "https://dkrassvet.space/events/rudin/",
     "verified": true,
     "composers": [
       "Пярт",
@@ -4010,7 +4148,14 @@
       "Мансурян",
       "Сильвестров"
     ],
-    "card_schema_version": 2
+    "card_schema_version": 2,
+    "sales_status": "в продаже",
+    "works": [
+      "Orient. Occident",
+      "Concertino bianco",
+      "Postludia",
+      "Серенада для струнных"
+    ]
   },
   {
     "id": "consv-bzk-tchaikovsky4-rachmaninov2-2026-11-12",
@@ -4251,6 +4396,47 @@
     "monitor_entities": [
       "Малый театр"
     ]
+  },
+  {
+    "id": "rassvet-vivacello-light-shadow-bach-2026-11-12",
+    "category": "opera",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-11-12T19:30:00+03:00",
+    "title": "«Свет и тень» — танцевальный спектакль на музыку Баха",
+    "tags": [
+      "bach"
+    ],
+    "visible_tags": [
+      "Бах",
+      "танцевальный спектакль",
+      "Vivacello"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Мириам Пранди (виолончель) · Елена Лисная и Максим Клочнев (musicAeterna Dance)",
+    "price": "1800 ₽",
+    "why": "Живое исполнение фрагментов всех шести сюит Баха в двухчастном танцевальном спектакле.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Хореография Алексея Слуцкого, Елены Лисной и Максима Клочнева. Две части — «Свет» и «Тень».",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/lumen/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Иоганн Себастьян Бах"
+    ],
+    "works": [
+      "Фрагменты шести сюит для виолончели соло"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
   },
   {
     "id": "gnesin-kultyshev-2026-11-12",
@@ -4728,6 +4914,50 @@
     "program_status": "точная программа не раскрыта в обзорной афише",
     "season": "2026/27",
     "sales_status": "есть отдельные билеты",
+    "card_schema_version": 2
+  },
+  {
+    "id": "rassvet-hauntology-edition-francaise-2026-11-13",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-13T19:30:00+03:00",
+    "title": "Édition française — от Марена Маре до Air",
+    "tags": [
+      "early",
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "барокко",
+      "электроника",
+      "Hauntology"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Ансамбль Hauntology · Рамазан Юнусов · Роман Викулов · Антон Изгагин · Катарина Мелик-О",
+    "price": "1800 ₽",
+    "why": "Сочетание французского барокко, новой академической музыки, трип-хопа и электроники.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Марен Маре, Жерар Пессон, Франк Бедроссян, Air, DJ Cam в исполнении Hauntology.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/mare/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Марен Маре",
+      "Франсуа Куперен",
+      "Жерар Пессон",
+      "Франк Бедроссян"
+    ],
+    "works": [],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
     "card_schema_version": 2
   },
   {
@@ -5601,6 +5831,55 @@
       "Зал Зарядье"
     ],
     "venue_short": "Зарядье · Большой",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
+  },
+  {
+    "id": "rassvet-vivacello-new-cello-orchestra-2026-11-15",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-11-15T19:30:00+03:00",
+    "title": "Vivacello — новая музыка для виолончели и оркестра",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "Vivacello",
+      "мировые премьеры"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Борис Андрианов · Георгий Гусев · Стюарт Пинкомб · OpensoundOrchestra · Станислав Малышев",
+    "price": "1800 ₽",
+    "why": "Две мировые премьеры сочинений для виолончели и оркестра.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Берлинер — «Авраам» и Ровнер — «Мерцающая свеча» (мировые премьеры); Гусев — GRABZ!; Пярт — Fratres; Хрущёва — «то же самое».",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/cello2026/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Барух Берлинер",
+      "Геннадий Ровнер",
+      "Георгий Гусев",
+      "Арво Пярт",
+      "Настасья Хрущёва"
+    ],
+    "works": [
+      "«Авраам»",
+      "«Мерцающая свеча»",
+      "GRABZ!",
+      "Fratres",
+      "«то же самое»"
+    ],
+    "program_status": "программа опубликована",
     "season": "2026/27",
     "sales_status": "в продаже",
     "card_schema_version": 2
@@ -8175,6 +8454,52 @@
     "card_schema_version": 2
   },
   {
+    "id": "rassvet-trio-lumiere-france-2026-11-23",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-23T19:30:00+03:00",
+    "title": "«Свет Франции» — Дебюсси, Равель, Сати, Пуленк",
+    "tags": [],
+    "visible_tags": [
+      "французская музыка",
+      "камерный концерт"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Trio Lumière: Алина Бакиева (гобой) · Дария Тагирова (фагот) · Дарья Полещук (фортепиано)",
+    "price": "1800 ₽",
+    "why": "Редкий камерный состав гобой–фагот–фортепиано со световыми и ароматическими элементами.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Пуленк, Девьен, Пьерне, Дебюсси, Равель, Сати, Превин; сопровождающие музыку световые картины.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/lumiere/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Франсис Пуленк",
+      "Клод Дебюсси",
+      "Морис Равель",
+      "Эрик Сати",
+      "Франсуа Девьен",
+      "Андре Превин"
+    ],
+    "works": [
+      "Трио FP 43",
+      "«Лунный свет»",
+      "«Гимнопедия»",
+      "Трио Андре Превина"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
+  },
+  {
     "id": "nations-master-margarita-2026-11-24",
     "category": "theatre",
     "horizon": "buy",
@@ -9266,6 +9591,57 @@
     ]
   },
   {
+    "id": "rassvet-opensound-quartets-vol2-2026-11-26",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-11-26T19:30:00+03:00",
+    "title": "String quartets. Vol. 2 — OpensoundOrchestra × FancyMusic",
+    "tags": [
+      "modern",
+      "rare"
+    ],
+    "visible_tags": [
+      "струнный квартет",
+      "современная музыка"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Станислав Малышев · Инна Зильберман · Ксения Жулева · Ольга Калинова",
+    "price": "1800 ₽",
+    "why": "Шесть современных российских струнных квартетов, включая сочинения для OpensoundOrchestra.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Презентация второго альбома квартетов: Карманов, Айги, Каспаров, Дружинина, Зятьков, Мургин.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/quartets/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Павел Карманов",
+      "Алексей Айги",
+      "Юрий Каспаров",
+      "Анастасия Дружинина",
+      "Сергей Зятьков",
+      "Дмитрий Мургин"
+    ],
+    "works": [
+      "String quaREtet",
+      "Fall",
+      "«Пурпурные облака»",
+      "«Эхо пяти желаний»",
+      "«Страна городов»",
+      "«Васюганское болото»"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
+  },
+  {
     "id": "mamt-romeo-juliette-premiere-2026-11-27",
     "category": "opera",
     "horizon": "far",
@@ -9673,6 +10049,50 @@
     "program_status": "Студия новой музыки — «Сотворенная природа»",
     "season": "2026/27",
     "sales_status": "есть отдельные билеты",
+    "card_schema_version": 2
+  },
+  {
+    "id": "rassvet-memory-silent-time-2026-11-27",
+    "category": "music",
+    "horizon": "near",
+    "featured": true,
+    "start": "2026-11-27T19:30:00+03:00",
+    "title": "«Память молчаливого времени» — Мясковский, Вайнберг, Шостакович",
+    "tags": [
+      "rare"
+    ],
+    "visible_tags": [
+      "камерная музыка",
+      "1940-е"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Анна Цагарелли · Петр Кондрашин · Ольга Жмаева · Светлана Микляева · Артем Руденко",
+    "price": "1800 ₽",
+    "why": "Три камерных произведения 1940-х годов, включая редко звучащие сонаты Мясковского и Вайнберга.",
+    "editorial_status": "candidate",
+    "ticket_urgency": "watch",
+    "details_label": "Программа и исполнители",
+    "details": "Мясковский — Соната № 2; Вайнберг — Соната соч. 28 для альта и фортепиано; Шостакович — Фортепианный квинтет.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/memory/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [
+      "Николай Мясковский",
+      "Моисей Вайнберг",
+      "Дмитрий Шостакович"
+    ],
+    "works": [
+      "Соната № 2 для виолончели и фортепиано",
+      "Соната соч. 28 Вайнберга",
+      "Фортепианный квинтет соч. 57"
+    ],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
     "card_schema_version": 2
   },
   {
@@ -10655,5 +11075,39 @@
       "Малый театр"
     ],
     "end": "2026-11-30T18:40:00.000Z"
+  },
+  {
+    "id": "rassvet-getz-bossa-nova-2026-11-30",
+    "category": "music",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-11-30T19:30:00+03:00",
+    "title": "Стэн Гетц и босса-нова",
+    "tags": [],
+    "visible_tags": [
+      "джаз",
+      "босса-нова"
+    ],
+    "venue": "ДК Рассвет",
+    "place": "Столярный пер., 3к15",
+    "location": "ДК Рассвет, Столярный пер., 3к15, Москва",
+    "people": "Иван Дыма (саксофон) · Элси Варандо (фортепиано) · Вадим Ким (контрабас) · Ян Алексеев (ударные)",
+    "price": "1800 ₽",
+    "why": "Камерный джазовый оммаж альбому Getz/Gilberto и бразильскому периоду Стэна Гетца.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Программа и исполнители",
+    "details": "Композиции альбома Getz/Gilberto, включая «Девушку из Ипанемы», и другие джазовые пьесы в ритме босса-новы.",
+    "source_label": "ДК Рассвет",
+    "source_url": "https://dkrassvet.space/events/gets/",
+    "verified": true,
+    "organizer": "ДК Рассвет",
+    "venue_short": "ДК Рассвет",
+    "composers": [],
+    "works": [],
+    "program_status": "программа опубликована",
+    "season": "2026/27",
+    "sales_status": "в продаже",
+    "card_schema_version": 2
   }
 ]
