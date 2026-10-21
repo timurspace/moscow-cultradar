@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1590,
+    "event_count": 1625,
     "source_schema_version": 2
   },
   "events": [
@@ -8103,7 +8103,7 @@
       "category": "theatre",
       "date": "2026-11-10",
       "venue": "Театр Наций — Малая сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/vzroslaya-doch-molodogo-cheloveka",
       "shard": "2026-11.json"
     },
     {
@@ -8652,7 +8652,7 @@
       "category": "theatre",
       "date": "2026-11-14",
       "venue": "Театр Наций — Малая сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/zhyuli",
       "shard": "2026-11.json"
     },
     {
@@ -8895,7 +8895,7 @@
       "category": "theatre",
       "date": "2026-11-16",
       "venue": "Театр Наций — Малая сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/makbet",
       "shard": "2026-11.json"
     },
     {
@@ -8994,7 +8994,7 @@
       "category": "theatre",
       "date": "2026-11-17",
       "venue": "Театр Наций — Малая сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/kanarejka",
       "shard": "2026-11.json"
     },
     {
@@ -9678,7 +9678,7 @@
       "category": "theatre",
       "date": "2026-11-23",
       "venue": "Театр Наций — Основная сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/master-i-margarita",
       "shard": "2026-11.json"
     },
     {
@@ -9768,7 +9768,7 @@
       "category": "theatre",
       "date": "2026-11-24",
       "venue": "Театр Наций — Основная сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/master-i-margarita",
       "shard": "2026-11.json"
     },
     {
@@ -9876,7 +9876,7 @@
       "category": "theatre",
       "date": "2026-11-25",
       "venue": "Театр Наций — Основная сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/master-i-margarita",
       "shard": "2026-11.json"
     },
     {
@@ -10002,7 +10002,7 @@
       "category": "theatre",
       "date": "2026-11-26",
       "venue": "Театр Наций — Основная сцена",
-      "source_url": "https://theatreofnations.ru/",
+      "source_url": "https://theatreofnations.ru/performances/master-i-margarita",
       "shard": "2026-11.json"
     },
     {
@@ -10858,6 +10858,321 @@
       "date": "2026-11-25",
       "venue": "ДК Рассвет",
       "source_url": "https://www.ticketland.ru/doma-kultury/dk-rassvet/khton/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-moj-brat-umer-2026-11-01-1900",
+      "title": "«Мой брат умер»",
+      "category": "theatre",
+      "date": "2026-11-01",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/moj-brat-umer",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-zhyuli-2026-11-01-2000",
+      "title": "«Жюли»",
+      "category": "theatre",
+      "date": "2026-11-01",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/zhyuli",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-moj-brat-umer-2026-11-02-1900",
+      "title": "«Мой брат умер»",
+      "category": "theatre",
+      "date": "2026-11-02",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/moj-brat-umer",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-skazka-pro-poslednego-angela-2026-11-02-1900",
+      "title": "«Сказка про последнего ангела»",
+      "category": "theatre",
+      "date": "2026-11-02",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/skazka-pro-poslednego-angela",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-zhyuli-2026-11-02-2000",
+      "title": "«Жюли»",
+      "category": "theatre",
+      "date": "2026-11-02",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/zhyuli",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-skazka-pro-poslednego-angela-2026-11-03-1900",
+      "title": "«Сказка про последнего ангела»",
+      "category": "theatre",
+      "date": "2026-11-03",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/skazka-pro-poslednego-angela",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-i-ya-tam-byil-skazki-afanaseva-2026-11-04-1900",
+      "title": "«И я там был. Сказки Афанасьева»",
+      "category": "theatre",
+      "date": "2026-11-04",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/i-ya-tam-byil-skazki-afanaseva",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-moimi-glazami-2026-11-04-2000",
+      "title": "«Моими глазами»",
+      "category": "theatre",
+      "date": "2026-11-04",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/moimi-glazami",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-i-ya-tam-byil-skazki-afanaseva-2026-11-05-1900",
+      "title": "«И я там был. Сказки Афанасьева»",
+      "category": "theatre",
+      "date": "2026-11-05",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/i-ya-tam-byil-skazki-afanaseva",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-vassa-2026-11-05-1900",
+      "title": "Горький — «Васса»",
+      "category": "theatre",
+      "date": "2026-11-05",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/vassa",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-kak-ya-stal-hudozhnikom-2026-11-06-1800",
+      "title": "«Как я стал художником»",
+      "category": "theatre",
+      "date": "2026-11-06",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/kak-ya-stal-hudozhnikom",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-vassa-2026-11-06-1900",
+      "title": "Горький — «Васса»",
+      "category": "theatre",
+      "date": "2026-11-06",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/vassa",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-kak-ya-stal-hudozhnikom-2026-11-07-1200",
+      "title": "«Как я стал художником»",
+      "category": "theatre",
+      "date": "2026-11-07",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/kak-ya-stal-hudozhnikom",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-den-zakryityih-dverej-2026-11-07-1900",
+      "title": "«День закрытых дверей»",
+      "category": "theatre",
+      "date": "2026-11-07",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/den-zakryityih-dverej",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-kak-ya-stal-hudozhnikom-2026-11-08-1200",
+      "title": "«Как я стал художником»",
+      "category": "theatre",
+      "date": "2026-11-08",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/kak-ya-stal-hudozhnikom",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-kak-ya-stal-hudozhnikom-2026-11-08-1800",
+      "title": "«Как я стал художником»",
+      "category": "theatre",
+      "date": "2026-11-08",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/kak-ya-stal-hudozhnikom",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-istoriya-odnoj-fotografii-2026-11-09-1900",
+      "title": "«История одной фотографии»",
+      "category": "theatre",
+      "date": "2026-11-09",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/istoriya-odnoj-fotografii",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-vzroslaya-doch-molodogo-cheloveka-2026-11-11-2000",
+      "title": "«Взрослая дочь молодого человека»",
+      "category": "theatre",
+      "date": "2026-11-11",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/vzroslaya-doch-molodogo-cheloveka",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-poslednee-leto-2026-11-13-1900",
+      "title": "Анна Козлова — «Последнее лето»",
+      "category": "theatre",
+      "date": "2026-11-13",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/poslednee-leto",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-molodost-2026-11-13-1900",
+      "title": "«Молодость»",
+      "category": "theatre",
+      "date": "2026-11-13",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/molodost",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-molodost-2026-11-14-1900",
+      "title": "«Молодость»",
+      "category": "theatre",
+      "date": "2026-11-14",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/molodost",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-zhyuli-2026-11-15-2000",
+      "title": "«Жюли»",
+      "category": "theatre",
+      "date": "2026-11-15",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/zhyuli",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-tihij-don-2026-11-16-1800",
+      "title": "Шолохов — «Тихий Дон»",
+      "category": "theatre",
+      "date": "2026-11-16",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/tihij-don",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-tihij-don-2026-11-17-1800",
+      "title": "Шолохов — «Тихий Дон»",
+      "category": "theatre",
+      "date": "2026-11-17",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/tihij-don",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-tihij-don-2026-11-18-1800",
+      "title": "Шолохов — «Тихий Дон»",
+      "category": "theatre",
+      "date": "2026-11-18",
+      "venue": "Театр Наций — Основная сцена",
+      "source_url": "https://theatreofnations.ru/performances/tihij-don",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-kanarejka-2026-11-18-2000",
+      "title": "«Канарейка»",
+      "category": "theatre",
+      "date": "2026-11-18",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/kanarejka",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-gorkij-lyubov-2026-11-23-2000",
+      "title": "«Горький. Любовь»",
+      "category": "theatre",
+      "date": "2026-11-23",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/gorkij-lyubov",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-karenina-protsess-2026-11-24-2000",
+      "title": "«Каренина. Процесс»",
+      "category": "theatre",
+      "date": "2026-11-24",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/karenina-protsess",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-nashe-vse-nodar-dumbadze-2026-11-25-2000",
+      "title": "«Наше всё…» Нодар Думбадзе",
+      "category": "theatre",
+      "date": "2026-11-25",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/nashe-vse-nodar-dumbadze",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-nashe-vsyo-voznesenskij-tsvetyot-mindal-2026-11-27-2000",
+      "title": "«Наше всё…» Вознесенский. Цветёт миндаль",
+      "category": "theatre",
+      "date": "2026-11-27",
+      "venue": "Театр Наций — Малая сцена",
+      "source_url": "https://theatreofnations.ru/performances/nashe-vsyo-voznesenskij-tsvetyot-mindal",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-tolstaya-tetrad-2026-11-28-1900",
+      "title": "Агота Кристоф — «Толстая тетрадь»",
+      "category": "theatre",
+      "date": "2026-11-28",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/tolstaya-tetrad",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-novaya-opera-perezhivanij-zhizn-2026-11-29-1800",
+      "title": "«Новая опера переживаний „Жизнь“»",
+      "category": "theatre",
+      "date": "2026-11-29",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/novaya-opera-perezhivanij-zhizn",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-novaya-opera-perezhivanij-zhizn-2026-11-29-2000",
+      "title": "«Новая опера переживаний „Жизнь“»",
+      "category": "theatre",
+      "date": "2026-11-29",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/novaya-opera-perezhivanij-zhizn",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-novaya-opera-perezhivanij-zhizn-2026-11-30-1800",
+      "title": "«Новая опера переживаний „Жизнь“»",
+      "category": "theatre",
+      "date": "2026-11-30",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/novaya-opera-perezhivanij-zhizn",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "nations-novaya-opera-perezhivanij-zhizn-2026-11-30-2000",
+      "title": "«Новая опера переживаний „Жизнь“»",
+      "category": "theatre",
+      "date": "2026-11-30",
+      "venue": "Театр Наций — Новое пространство",
+      "source_url": "https://theatreofnations.ru/performances/novaya-opera-perezhivanij-zhizn",
       "shard": "2026-11.json"
     },
     {
