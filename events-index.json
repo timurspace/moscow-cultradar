@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1575,
+    "event_count": 1581,
     "source_schema_version": 2
   },
   "events": [
@@ -13342,6 +13342,60 @@
       "date": "2026-12-06",
       "venue": "Большой зал Московской консерватории",
       "source_url": "https://www.ticketland.ru/koncertnye-zaly/moskovskaya-konservatoriya/mocart-malenkaya-nochnaya-serenada-chaykovskiy-koncert1-rimskiy-korsakov-snegurochka/",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-25-r-two-pianos",
+      "title": "Шедевры для двух роялей",
+      "category": "music",
+      "date": "2026-12-25",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204956",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-27-b-christmas-gala-vivaldi",
+      "title": "«Christmas гала». Вивальди — «Времена года»",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Большой зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204975",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-29-r-new-year-gala",
+      "title": "«Новогодний-гала»",
+      "category": "music",
+      "date": "2026-12-29",
+      "venue": "Рахманиновский зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204959",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-29-m-organ-voice",
+      "title": "«Орган и голос»",
+      "category": "music",
+      "date": "2026-12-29",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204943",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-31-m-new-year-concert-1500",
+      "title": "Новогодний концерт",
+      "category": "music",
+      "date": "2026-12-31",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204944",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "consv-2026-12-31-m-new-year-evening-1900",
+      "title": "Новогодний вечер в консерватории",
+      "category": "music",
+      "date": "2026-12-31",
+      "venue": "Малый зал Московской консерватории",
+      "source_url": "https://www.mosconsv.ru/ru/concert/204945",
       "shard": "2026-12.json"
     },
     {
