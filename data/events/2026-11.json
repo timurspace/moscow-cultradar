@@ -1219,6 +1219,34 @@
     ]
   },
   {
+    "id": "lapp83-jewelry-shook-world-2026-11-03",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Украшения, которые потрясли мир» — ювелирное искусство",
+    "tags": [],
+    "visible_tags": [
+      "ювелирное искусство",
+      "история дизайна",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Илектра Канестри",
+    "price": "4000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Исторические украшения Марии-Антуанетты, Романовых, Юсуповых и ювелирных домов Cartier, Tiffany и Chanel; их влияние на тенденции 2026 года.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/ukrashenija",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "start": "2026-11-03T20:00:00+03:00",
+    "end": "2026-11-03T22:00:00+03:00"
+  },
+  {
     "id": "mmdm-6945",
     "category": "music",
     "horizon": "buy",
@@ -1969,6 +1997,34 @@
     ],
     "season": "2026/27",
     "sales_status": "есть отдельные билеты"
+  },
+  {
+    "id": "pokrovskie-italy-saint-peter-2026-11-05",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Неизвестная Италия»: гробница апостола Петра",
+    "tags": [],
+    "visible_tags": [
+      "археология",
+      "Италия",
+      "история культуры"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Джованна Парравичини",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "История раскопок под собором Святого Петра и исследование Маргериты Гуардуччи.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4224822/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-11-05T19:00:00+03:00",
+    "end": "2026-11-05T21:00:00+03:00"
   },
   {
     "id": "consv-bzk-obsession-glavatskikh-2026-11-06",
@@ -3490,6 +3546,34 @@
     "organizer": "Благотворительный фонд «Образ жизни» / Культурное пространство «Руфъ»"
   },
   {
+    "id": "pokrovskie-pastors-freud-2026-11-09",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Русские пастыри Серебряного века и Зигмунд Фрейд»",
+    "tags": [],
+    "visible_tags": [
+      "философия",
+      "история идей",
+      "Серебряный век"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Вячеслав Ячменик",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Богословие Анатолия Жураковского, русский религиозный ренессанс и пересечение теологии с ранним психоанализом.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4200135/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-11-09T19:00:00+03:00",
+    "end": "2026-11-09T21:00:00+03:00"
+  },
+  {
     "id": "consv-rach-les-moscovites-2026-11-10",
     "category": "music",
     "horizon": "buy",
@@ -3792,6 +3876,33 @@
     "verified": true,
     "organizer": "Театр Наций",
     "monitor_entities": []
+  },
+  {
+    "id": "lapp83-war-and-peace-mitrofanova-2026-11-10",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Большой роман»: Лев Толстой — «Война и мир»",
+    "tags": [],
+    "visible_tags": [
+      "литература",
+      "Лев Толстой",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Алла Митрофанова",
+    "price": "4000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Литературная встреча цикла «Большой роман», посвящённая роману «Война и мир»; точное время на доступной официальной афише не указано.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/events",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "date_only": "2026-11-10"
   },
   {
     "id": "consv-mzk-zenaishvili-2026-11-10",
@@ -6483,6 +6594,34 @@
     "monitor_entities": []
   },
   {
+    "id": "pokrovskie-transcendental-film-2026-11-17",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Увидеть незримое»: трансцендентальный стиль в кинематографе",
+    "tags": [],
+    "visible_tags": [
+      "кино",
+      "философия",
+      "лекция"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Алексей Савинов · Александр Костричкин",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Идея трансцендентального стиля Пола Шрейдера на примере фильмов Одзу, Брессона и Дрейера.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4224644/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-11-17T19:00:00+03:00",
+    "end": "2026-11-17T21:00:00+03:00"
+  },
+  {
     "id": "consv-rach-vivaldi-contemporaries-2026-11-18",
     "category": "music",
     "horizon": "buy",
@@ -8659,6 +8798,34 @@
     "season": "2026/27",
     "sales_status": "в продаже",
     "card_schema_version": 2
+  },
+  {
+    "id": "pokrovskie-christmas-apocrypha-2026-11-23",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Рождественские апокрифы: тексты и предания» — первая встреча",
+    "tags": [],
+    "visible_tags": [
+      "история религии",
+      "источниковедение",
+      "лекция"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Анастасия Медведева",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Первая встреча цикла: происхождение рождественских апокрифов, их сюжеты и место в христианской традиции.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4200257/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-11-23T18:30:00+03:00",
+    "end": "2026-11-23T21:30:00+03:00"
   },
   {
     "id": "nations-master-margarita-2026-11-24",

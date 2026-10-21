@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1429,
+    "event_count": 1439,
     "source_schema_version": 2
   },
   "events": [
@@ -1546,15 +1546,6 @@
       "shard": "2026-10.json"
     },
     {
-      "id": "lapp83-opera-carmen-2026-10-06",
-      "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
-      "category": "talks",
-      "date": "2026-10-06",
-      "venue": "L’Appartement 83",
-      "source_url": "https://lappartement83.com/shop",
-      "shard": "2026-10.json"
-    },
-    {
       "id": "maly-cranes-oct26",
       "title": "Розов — «Летят журавли»",
       "category": "theatre",
@@ -1678,6 +1669,15 @@
       "date": "2026-10-06",
       "venue": "Практика",
       "source_url": "https://praktikatheatre.ru/posts/X9JIri9Hr",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "lapp83-opera-carmen-2026-10-06",
+      "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
+      "category": "talks",
+      "date": "2026-10-07",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/karmen",
       "shard": "2026-10.json"
     },
     {
@@ -4777,6 +4777,24 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "drugoe-house-memory-2026-10-22",
+      "title": "«Дом, который помнит»",
+      "category": "talks",
+      "date": "2026-10-21",
+      "venue": "Другое Дело",
+      "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-medieval-bestiaries-2026-10-21",
+      "title": "«От слона до муравья» — животные средневековых бестиариев",
+      "category": "talks",
+      "date": "2026-10-21",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4201984/",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "ges2-rosary-2026-10-22",
       "title": "«Розарий»",
       "category": "music",
@@ -4828,15 +4846,6 @@
       "date": "2026-10-22",
       "venue": "Рахманиновский зал Московской консерватории",
       "source_url": "https://www.mosconsv.ru/ru/concert/204108",
-      "shard": "2026-10.json"
-    },
-    {
-      "id": "drugoe-house-memory-2026-10-22",
-      "title": "«Дом, который помнит»",
-      "category": "talks",
-      "date": "2026-10-21",
-      "venue": "Другое Дело",
-      "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
       "shard": "2026-10.json"
     },
     {
@@ -5704,6 +5713,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "lapp83-esenin-anna-snegina-2026-10-25",
+      "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
+      "category": "talks",
+      "date": "2026-10-25",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "consv-rach-evening-2026-10-26",
       "title": "Кафедра скрипки",
       "category": "music",
@@ -6088,6 +6106,15 @@
       "date": "2026-10-28",
       "venue": "Усадьба Прове–Калиш",
       "source_url": "https://prove-kalish.ru/afisha",
+      "shard": "2026-10.json"
+    },
+    {
+      "id": "pokrovskie-italy-santangelo-2026-10-28",
+      "title": "«Неизвестная Италия»: аббатство Сант-Анджело-ин-Формис",
+      "category": "talks",
+      "date": "2026-10-28",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4216584/",
       "shard": "2026-10.json"
     },
     {
@@ -6694,6 +6721,15 @@
       "shard": "2026-10.json"
     },
     {
+      "id": "lapp83-hats-fashion-history-2026-10-31",
+      "title": "«Снимите шляпку, мадам» — история женского головного убора",
+      "category": "talks",
+      "date": "2026-10-31",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/shljapka",
+      "shard": "2026-10.json"
+    },
+    {
       "id": "maly-buratino-nov26",
       "title": "«Буратино»",
       "category": "theatre",
@@ -7018,6 +7054,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "lapp83-jewelry-shook-world-2026-11-03",
+      "title": "«Украшения, которые потрясли мир» — ювелирное искусство",
+      "category": "talks",
+      "date": "2026-11-03",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/ukrashenija",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "mmdm-6945",
       "title": "Клоун-дирижер и оркестр народных инструментов",
       "category": "music",
@@ -7213,6 +7258,15 @@
       "date": "2026-11-05",
       "venue": "Дом музыки — Театральный зал",
       "source_url": "https://www.mmdm.ru/event/lyubovnye-pisma-virtualnyj-roman?event_pk=7279",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "pokrovskie-italy-saint-peter-2026-11-05",
+      "title": "«Неизвестная Италия»: гробница апостола Петра",
+      "category": "talks",
+      "date": "2026-11-05",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4224822/",
       "shard": "2026-11.json"
     },
     {
@@ -7621,6 +7675,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "pokrovskie-pastors-freud-2026-11-09",
+      "title": "«Русские пастыри Серебряного века и Зигмунд Фрейд»",
+      "category": "talks",
+      "date": "2026-11-09",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200135/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-rach-les-moscovites-2026-11-10",
       "title": "Les moscovites / L’esprit du vent",
       "category": "music",
@@ -7699,6 +7762,15 @@
       "date": "2026-11-10",
       "venue": "Театр Наций — Малая сцена",
       "source_url": "https://theatreofnations.ru/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "lapp83-war-and-peace-mitrofanova-2026-11-10",
+      "title": "«Большой роман»: Лев Толстой — «Война и мир»",
+      "category": "talks",
+      "date": "2026-11-10",
+      "venue": "L’Appartement 83",
+      "source_url": "https://lappartement83.com/shop/events",
       "shard": "2026-11.json"
     },
     {
@@ -8395,6 +8467,15 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "pokrovskie-transcendental-film-2026-11-17",
+      "title": "«Увидеть незримое»: трансцендентальный стиль в кинематографе",
+      "category": "talks",
+      "date": "2026-11-17",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4224644/",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-rach-vivaldi-contemporaries-2026-11-18",
       "title": "«Вивальди и его современники»",
       "category": "music",
@@ -8968,6 +9049,15 @@
       "date": "2026-11-23",
       "venue": "ДК Рассвет",
       "source_url": "https://dkrassvet.space/events/lumiere/",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "pokrovskie-christmas-apocrypha-2026-11-23",
+      "title": "«Рождественские апокрифы: тексты и предания» — первая встреча",
+      "category": "talks",
+      "date": "2026-11-23",
+      "venue": "КЦ «Покровские ворота»",
+      "source_url": "https://kts-pokrovsk.timepad.ru/event/4200257/",
       "shard": "2026-11.json"
     },
     {

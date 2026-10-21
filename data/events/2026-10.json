@@ -4737,33 +4737,6 @@
     "card_schema_version": 2
   },
   {
-    "id": "lapp83-opera-carmen-2026-10-06",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-06T19:00:00+03:00",
-    "end": "2026-10-06T21:00:00+03:00",
-    "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
-    "tags": [],
-    "visible_tags": [
-      "опера",
-      "лекция"
-    ],
-    "venue": "L’Appartement 83",
-    "place": "Москва",
-    "location": "L’Appartement 83, Москва",
-    "people": "Даниил Топилин",
-    "price": "4000 ₽",
-    "why": "Содержательный разговор об опере в камерном формате; дорогой, но релевантный talks-кандидат.",
-    "editorial_status": "attention",
-    "ticket_urgency": "no_rush",
-    "details_label": "Источник",
-    "details": "Цикл «Оперы мира».",
-    "source_label": "L’Appartement 83",
-    "source_url": "https://lappartement83.com/shop",
-    "verified": true
-  },
-  {
     "id": "maly-cranes-oct26",
     "category": "theatre",
     "horizon": "near",
@@ -5221,6 +5194,33 @@
     "verified": true,
     "start": "2026-10-06T20:00:00+03:00",
     "end": "2026-10-06T18:00:00.000Z"
+  },
+  {
+    "id": "lapp83-opera-carmen-2026-10-06",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-07T20:00:00+03:00",
+    "end": "2026-10-07T22:00:00+03:00",
+    "title": "«Оперы мира»: Бизе — «Кармен» с Даниилом Топилиным",
+    "tags": [],
+    "visible_tags": [
+      "опера",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Даниил Топилин",
+    "price": "4000 ₽",
+    "why": "Содержательный разговор об опере в камерном формате; дорогой, но релевантный talks-кандидат.",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Источник",
+    "details": "Цикл «Оперы мира». Разговор о партитуре и либретто «Кармен» Бизе, истории создания и постановок.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/karmen",
+    "verified": true
   },
   {
     "id": "praktika-junk-2026-10-07",
@@ -16916,6 +16916,65 @@
     "sales_status": "в продаже"
   },
   {
+    "id": "drugoe-house-memory-2026-10-22",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "start": "2026-10-21T19:00:00+03:00",
+    "end": "2026-10-21T21:00:00+03:00",
+    "title": "«Дом, который помнит»",
+    "tags": [],
+    "visible_tags": [
+      "лекция",
+      "предметная культура"
+    ],
+    "venue": "Другое Дело",
+    "place": "Старая Басманная, 15Ас4 · сад Баумана",
+    "location": "Галерея Другое Дело, Москва",
+    "people": "Владислава и Полина Марковы",
+    "price": "проверить актуально",
+    "why": "Камерная лекция о вещах с историей и памяти пространства — не массовый edutainment.",
+    "editorial_status": "attention",
+    "ticket_urgency": "watch",
+    "details_label": "Описание",
+    "details": "Актуальная дата — 21 октября, 19:00–21:00. Лекция-беседа с основателями галереи Владиславой и Полиной Марковыми; ранее событие было опубликовано на 22 октября.",
+    "source_label": "Другое Дело",
+    "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
+    "verified": true,
+    "monitor_entities": [
+      "Другое дело",
+      "Галерея «Другое Дело»"
+    ]
+  },
+  {
+    "id": "pokrovskie-medieval-bestiaries-2026-10-21",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«От слона до муравья» — животные средневековых бестиариев",
+    "tags": [],
+    "visible_tags": [
+      "средневековье",
+      "история культуры",
+      "лекция"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Елена Калмыкова",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "История средневековых бестиариев, зверинцев и миниатюр с реальными и воображаемыми животными.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4201984/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-10-21T19:00:00+03:00",
+    "end": "2026-10-21T21:00:00+03:00"
+  },
+  {
     "id": "ges2-rosary-2026-10-22",
     "category": "music",
     "horizon": "buy",
@@ -17107,37 +17166,6 @@
     "season": "2026/27",
     "sales_status": "событие подтверждено",
     "card_schema_version": 2
-  },
-  {
-    "id": "drugoe-house-memory-2026-10-22",
-    "category": "talks",
-    "horizon": "near",
-    "featured": false,
-    "start": "2026-10-21T19:00:00+03:00",
-    "end": "2026-10-21T21:00:00+03:00",
-    "title": "«Дом, который помнит»",
-    "tags": [],
-    "visible_tags": [
-      "лекция",
-      "предметная культура"
-    ],
-    "venue": "Другое Дело",
-    "place": "Старая Басманная, 15Ас4 · сад Баумана",
-    "location": "Галерея Другое Дело, Москва",
-    "people": "Владислава и Полина Марковы",
-    "price": "проверить актуально",
-    "why": "Камерная лекция о вещах с историей и памяти пространства — не массовый edutainment.",
-    "editorial_status": "attention",
-    "ticket_urgency": "watch",
-    "details_label": "Описание",
-    "details": "Актуальная дата — 21 октября, 19:00–21:00. Лекция-беседа с основателями галереи Владиславой и Полиной Марковыми; ранее событие было опубликовано на 22 октября.",
-    "source_label": "Другое Дело",
-    "source_url": "https://galereya-drugoe.timepad.ru/event/4214413/",
-    "verified": true,
-    "monitor_entities": [
-      "Другое дело",
-      "Галерея «Другое Дело»"
-    ]
   },
   {
     "id": "maly-cherry-orchard-oct26",
@@ -20423,6 +20451,33 @@
     "card_schema_version": 2
   },
   {
+    "id": "lapp83-esenin-anna-snegina-2026-10-25",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Анна Снегина» Сергея Есенина — чтения Любови Толкалиной",
+    "tags": [],
+    "visible_tags": [
+      "литература",
+      "Есенин",
+      "художественное чтение"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Любовь Толкалина",
+    "price": "5000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Литературные чтения по поэме Сергея Есенина; точное время на доступной официальной афише не указано.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/events",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "date_only": "2026-10-25"
+  },
+  {
     "id": "consv-rach-evening-2026-10-26",
     "category": "music",
     "horizon": "far",
@@ -21937,6 +21992,34 @@
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
     "card_schema_version": 2
+  },
+  {
+    "id": "pokrovskie-italy-santangelo-2026-10-28",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Неизвестная Италия»: аббатство Сант-Анджело-ин-Формис",
+    "tags": [],
+    "visible_tags": [
+      "история искусства",
+      "Италия",
+      "средневековье"
+    ],
+    "venue": "КЦ «Покровские ворота»",
+    "place": "ул. Покровка, 27, стр. 1",
+    "location": "КЦ «Покровские ворота», Москва",
+    "people": "Джованна Парравичини",
+    "price": "регистрация на странице организатора",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "Фрески XI века аббатства Сант-Анджело-ин-Формис в Капуе, программа аббата Дезидерия и христианские образы.",
+    "source_label": "КЦ «Покровские ворота»",
+    "source_url": "https://kts-pokrovsk.timepad.ru/event/4216584/",
+    "verified": true,
+    "organizer": "КЦ «Покровские ворота»",
+    "start": "2026-10-28T19:00:00+03:00",
+    "end": "2026-10-28T21:00:00+03:00"
   },
   {
     "id": "bolshoi-peter-wolf-giant-2026-10-29",
@@ -24172,5 +24255,33 @@
     "program_status": "Программа опубликована частично",
     "season": "2026/27",
     "card_schema_version": 2
+  },
+  {
+    "id": "lapp83-hats-fashion-history-2026-10-31",
+    "category": "talks",
+    "horizon": "near",
+    "featured": false,
+    "title": "«Снимите шляпку, мадам» — история женского головного убора",
+    "tags": [],
+    "visible_tags": [
+      "история моды",
+      "история культуры",
+      "лекция"
+    ],
+    "venue": "L’Appartement 83",
+    "place": "Большая Садовая, 10, Москва",
+    "location": "L’Appartement 83, Москва",
+    "people": "Элина Мухаметшина",
+    "price": "4000 ₽",
+    "editorial_status": "attention",
+    "ticket_urgency": "no_rush",
+    "details_label": "Официальная страница",
+    "details": "История женской шляпки от капора и клоша до тюрбана и вуалетки; мода как социальный язык.",
+    "source_label": "L’Appartement 83",
+    "source_url": "https://lappartement83.com/shop/shljapka",
+    "verified": true,
+    "organizer": "L’Appartement 83",
+    "start": "2026-10-31T15:00:00+03:00",
+    "end": "2026-10-31T17:00:00+03:00"
   }
 ]
