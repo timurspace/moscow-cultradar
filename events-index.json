@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": 1,
     "generated_from": "data/events/*.json",
-    "event_count": 1530,
+    "event_count": 1555,
     "source_schema_version": 2
   },
   "events": [
@@ -10600,6 +10600,186 @@
       "shard": "2026-11.json"
     },
     {
+      "id": "rmm-2026-11-03-golos-rossii--edinstvo-pokolenij",
+      "title": "Голос России. Единство поколений",
+      "category": "music",
+      "date": "2026-11-03",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/golos-rossii.-edinstvo-pokolenij.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-03-kultbyit--kak-zhila-tvorcheskaya-elita-v-sssr",
+      "title": "Культбыт. Как жила творческая элита в СССР",
+      "category": "talks",
+      "date": "2026-11-03",
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "source_url": "https://music-museum.ru/events/serious-lecture/kultbyit.-kak-zhila-tvorcheskaya-elita-v-sssr.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-04-zvezda-po-imeni-kostomarov-muzyika-universalnyij-yazyik",
+      "title": "«Звезда по имени Костомаров»: музыка — универсальный язык",
+      "category": "talks",
+      "date": "2026-11-04",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/kontserty/zvezda-po-imeni-kostomarov-muzyika-universalnyij-yazyik.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-06-uroki-muzyiki-i-zhizni",
+      "title": "Уроки музыки и жизни",
+      "category": "music",
+      "date": "2026-11-06",
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "source_url": "https://music-museum.ru/events/kontserty/uroki-muzyiki-i-zhizni.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-07-shostakovichi-otecz-i-syin",
+      "title": "Шостаковичи: отец и сын",
+      "category": "music",
+      "date": "2026-11-07",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/shostakovichi-otecz-i-syin.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-12-dunaevskie-gala",
+      "title": "Дунаевские — гала",
+      "category": "music",
+      "date": "2026-11-12",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/dunaevskie-gala.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-13-i-smex-i-slyozyi-musorgskij-i-shostakovich",
+      "title": "И смех, и слёзы: Мусоргский и Шостакович",
+      "category": "music",
+      "date": "2026-11-13",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/kontserty/i-smex-i-slyozyi-musorgskij-i-shostakovich.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-14-sverxzvuk--mir-organa-i-trubyi",
+      "title": "Сверхзвук. Мир органа и трубы",
+      "category": "music",
+      "date": "2026-11-14",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/sverxzvuk.-mir-organa-i-trubyi.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-15-malenkij-princz",
+      "title": "Маленький принц",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/malenkij-princz.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-15-morskaya-skazka",
+      "title": "Морская сказка",
+      "category": "music",
+      "date": "2026-11-15",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/morskaya-skazka.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-15-speczialist-podoben-flyusu",
+      "title": "Специалист подобен флюсу…",
+      "category": "talks",
+      "date": "2026-11-15",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/serious-lecture/speczialist-podoben-flyusu.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-19-zvuki-royalya--igra-voobrazheniya",
+      "title": "Звуки рояля. Игра воображения",
+      "category": "music",
+      "date": "2026-11-19",
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "source_url": "https://music-museum.ru/events/kontserty/zvuki-royalya.-igra-voobrazheniya.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-19-tanczyi-na-konchikax-palczev--syuityi-dlya-fortepiannogo-dueta",
+      "title": "Танцы на кончиках пальцев. Сюиты для фортепианного дуэта",
+      "category": "music",
+      "date": "2026-11-19",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/tanczyi-na-konchikax-palczev.-syuityi-dlya-fortepiannogo-dueta.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-21-sergej-prokofev--derevyannaya-kniga",
+      "title": "Сергей Прокофьев. «Деревянная книга»",
+      "category": "music",
+      "date": "2026-11-21",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/sergej-prokofev.-derevyannaya-kniga.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-26-organika",
+      "title": "Органика",
+      "category": "music",
+      "date": "2026-11-26",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/organika.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-27-klassika-tango-dzhaz-puteshestvie-skvoz-ritmyi",
+      "title": "Классика, танго, джаз: путешествие сквозь ритмы",
+      "category": "music",
+      "date": "2026-11-27",
+      "venue": "Музей-квартира А.Б. Гольденвейзера",
+      "source_url": "https://music-museum.ru/events/kontserty/klassika-tango-dzhaz-puteshestvie-skvoz-ritmyi.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-28-romanticheskaya-progulka",
+      "title": "Романтическая прогулка",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/romanticheskaya-progulka.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-28-osen-pora-lyubvi",
+      "title": "Осень — пора любви",
+      "category": "music",
+      "date": "2026-11-28",
+      "venue": "Музей-квартира Н.С. Голованова",
+      "source_url": "https://music-museum.ru/events/kontserty/osen-pora-lyubvi.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-29-zvukovyie-mutaczii",
+      "title": "Звуковые мутации",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/zvukovyie-mutaczii.html",
+      "shard": "2026-11.json"
+    },
+    {
+      "id": "rmm-2026-11-29-za-granyu-klavish-raxmaninov-i-debyussi",
+      "title": "За гранью клавиш: Рахманинов и Дебюсси",
+      "category": "music",
+      "date": "2026-11-29",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/kontserty/za-granyu-klavish-raxmaninov-i-debyussi.html",
+      "shard": "2026-11.json"
+    },
+    {
       "id": "consv-mzk-andrianov-2026-12-01",
       "title": "Борис Андрианов — виолончельный вечер",
       "category": "music",
@@ -12937,6 +13117,51 @@
       "date": "2026-12-31",
       "venue": "Дом музыки — Театральный зал",
       "source_url": "https://www.mmdm.ru/event/novogodnee-puteshestvie-s-ansamblem-solistov-ermitazh?event_pk=7366",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-06-petya-i-volk",
+      "title": "Петя и волк",
+      "category": "music",
+      "date": "2026-12-06",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/petya-i-volk.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-06-i-pervaya-stala-chetvyortoj",
+      "title": "И Первая стала Четвёртой…",
+      "category": "talks",
+      "date": "2026-12-06",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/serious-lecture/i-pervaya-stala-chetvyortoj.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-12-dzhaz-v-lunnuyu-noch",
+      "title": "Джаз в лунную ночь",
+      "category": "music",
+      "date": "2026-12-12",
+      "venue": "Музей С.С. Прокофьева",
+      "source_url": "https://music-museum.ru/events/kontserty/dzhaz-v-lunnuyu-noch.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-27-skazka-o-shhelkunchike",
+      "title": "Сказка о Щелкунчике",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Музей П.И. Чайковского в Москве",
+      "source_url": "https://music-museum.ru/events/kontserty/skazka-o-shhelkunchike.html",
+      "shard": "2026-12.json"
+    },
+    {
+      "id": "rmm-2026-12-27-dvenadczat-mesyaczev",
+      "title": "Двенадцать месяцев",
+      "category": "music",
+      "date": "2026-12-27",
+      "venue": "Музей Музыки",
+      "source_url": "https://music-museum.ru/events/kontserty/dvenadczat-mesyaczev.html",
       "shard": "2026-12.json"
     },
     {
