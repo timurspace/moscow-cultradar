@@ -1,0 +1,10 @@
+{
+  "model": "gpt-6-luna",
+  "max_sources_per_run": 3,
+  "tiers": {
+    "heavy": { "min_event_count": 40, "cadence_days": 1 },
+    "regular": { "min_event_count": 10, "cadence_days": 3 },
+    "light": { "min_event_count": 0, "cadence_days": 7 }
+  },
+  "overrides": {}
+}

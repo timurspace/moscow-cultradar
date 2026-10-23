@@ -1,0 +1,31 @@
+name: Культрадар — pilot sweep
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: gpt-6-luna
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build workload-aware sweep plan
+        run: node scripts/sweep-plan.js
+      - name: Extract pilot events
+        run: node scripts/sweep-extract.js
+      - name: Upload pilot output
+        uses: actions/upload-artifact@v4
+        with:
+          name: cultradar-sweep-pilot
+          path: sweep-output/
